@@ -1,0 +1,70 @@
+<?xml version="1.0" standalone="yes" ?>
+
+<!-- TO USE, RENAME THIS FILE TO ATSProviders.xml -->
+
+<ATSProviders version="1.0">
+
+	<!-- First Provider Entry -->
+	<Provider>
+
+		<!-- Name of Provider. This case insensitive string needs to only appear within the provider`s name.  Meaning, using `VAULT` or `AutoDESK` would match with `Autodesk Vault`. -->
+		<Name>Sample Provider Name Example</Name>
+
+		<!-- Optional. Defaults to true. Determines if a provider is enabled or not. If this is set to false, the provider will not show up in the Asset Tracking dialog. -->
+		<Enabled>true</Enabled>
+
+		<!-- Optional.  The project root is typically defined by the path in which the current 3ds max scene is opened. This may or may not be within a Provider`s workspace. For instance, if it is known that content coming from a particular provider will also reside under a known folder regardless of where the 3ds max scene is opened, you might want to set a FixedProjectRoot which will replace the 3ds max scene path -->
+		<FixedProjectRoot>C:\myFixedProjectRoot</FixedProjectRoot>
+
+		<!-- Optional. This allows you to provide an optional executable to launch when `Launch Provider` is chosen by the user. Instead of allowing the provider launch an executable, the specified executable will be launched instead. -->
+		<AltProviderExecutable>C:\Tools\MySpecialProviderLauncher.bat</AltProviderExecutable>
+
+		<!-- Optional.  For ATS Providers that are integrated through the MS SCC interface, you can specify an optional filename that will contain provider specific project information.  This file will be created in the same location as the scene file.  In many cases, specifying a MSSCC project file will reduce the provider interaction required to connect. -->
+		<MSSCCProjectFile>SampleProvider.scc</MSSCCProjectFile>
+
+		<!-- Optional.  For ATS Providers that are integrated through the MS SCC interface, you can specify an optional full path to the MS SCC dll. This can be useful if there are PATH conflicts with side-by-side installation. -->
+		<MSSCCDllFullPath>C:\MSSCC\SCC.dll</MSSCCDllFullPath>
+
+		<!-- Optional.  For ATS Providers that are integrated through the MS SCC interface, you can specify an optional search path to the MS SCC dll. This can be useful if there are PATH conflicts with side-by-side installation. -->
+		<MSSCCDllSearchPath>C:\MSSCC</MSSCCDllSearchPath>
+
+    <Filters>
+			<!-- Start of a new filter group -->
+			<Filter>
+				<!-- Name of filter.  This will be displayed in the UI if a file is excluded by this filter group -->
+				<Name>Texture Server</Name>
+
+				<!-- Either `exclude` or `include`. This determines how the following Folder or FileType matches are treated. If `exclude`, any files that match the criteria will be excluded. If `include`, any files that do not match the criteria will be excluded. -->
+				<Type>exclude</Type>
+
+				<!-- Specifies a case insensitive folder root. Any files that begin the with following Folder root will be matched. -->
+				<Folder>\\MapServer1\\maps</Folder>
+
+				<!-- Multiple Folder or FileType entries can be added -->
+				<Folder>\\MapServer2\\maps</Folder>
+
+				<Folder>Z:\maps</Folder>
+			</Filter>
+			<Filter>
+				<Name>No FX Files</Name>
+				<Type>exclude</Type>
+
+				<!-- FileType is used to match case insensitive file extensions -->
+				<FileType>fx</FileType>
+			</Filter>
+		</Filters>
+	</Provider>
+
+	<!-- Next Provider Entry -->
+	<Provider>
+		<Name>Some Other Provider Name Example</Name>
+		<Filters>
+			<Filter>
+				<!-- In this example, any file path that does not begin with `C:\OurWorkSpace` (case insensitive), will be excluded. -->
+				<Name>Only our Workspace</Name>
+				<Type>include</Type>
+				<Folder>C:\OurWorkspace</Folder>
+			</Filter>
+		</Filters>
+	</Provider>
+</ATSProviders>

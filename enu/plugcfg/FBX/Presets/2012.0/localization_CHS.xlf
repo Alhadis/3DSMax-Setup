@@ -1,0 +1,928 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="CHS" datatype="FBX">
+    <body>
+      <trans-unit>
+        <source>OK</source>
+        <target>确定</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Cancel</source>
+        <target>取消</target>
+      </trans-unit>
+      <trans-unit>
+        <source>File Name</source>
+        <target>文件名</target>
+      </trans-unit>
+      <trans-unit>
+        <source>File Directory</source>
+        <target>文件目录</target>
+      </trans-unit>
+      <trans-unit>
+        <source>File Version</source>
+        <target>文件版本</target>
+      </trans-unit>
+      <trans-unit>
+        <source>File Creator</source>
+        <target>文件创建者</target>
+      </trans-unit>
+      <trans-unit>
+        <source>File Creation Time</source>
+        <target>文件创建时间</target>
+      </trans-unit>
+      <trans-unit>
+        <source>File Axis Direction</source>
+        <target>文件轴方向</target>
+      </trans-unit>
+      <trans-unit>
+        <source>File Units</source>
+        <target>文件单位</target>
+      </trans-unit>
+      <trans-unit>
+        <source>File Custom Writer</source>
+        <target>文件自定义书写器</target>
+      </trans-unit>
+      <trans-unit>
+        <source>X-up</source>
+        <target>X 向上</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Y-up</source>
+        <target>Y 向上</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Z-up</source>
+        <target>Z 向上</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Yes</source>
+        <target>是</target>
+      </trans-unit>
+      <trans-unit>
+        <source>No</source>
+        <target>否</target>
+      </trans-unit>
+      <trans-unit>
+        <source>System Axis Direction</source>
+        <target>系统轴方向</target>
+      </trans-unit>
+      <trans-unit>
+        <source>System Units</source>
+        <target>系统单位</target>
+      </trans-unit>
+      <trans-unit>
+        <source>File content</source>
+        <target>文件内容</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Minimum</source>
+        <target>最小值</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Maximum</source>
+        <target>最大值</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Expand all</source>
+        <target>全部展开</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Collapse all</source>
+        <target>全部收拢</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Warning</source>
+        <target>警告</target>
+      </trans-unit>
+      <trans-unit>
+        <source>A preset file with this name already exists.</source>
+        <target>预设名称的文件已经存在。</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Overwrite?</source>
+        <target>是否覆盖？</target>
+      </trans-unit>
+      <trans-unit>
+        <source>This action will hide the FBX UI for future operations.</source>
+        <target>这一行动将为未来的操作隐藏 FBX 用户界面。</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Are you sure?</source>
+        <target>您确定吗？</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Right click on a tree view item to edit a property parameter</source>
+        <target>在树状图上单击鼠标右键以编辑一个特性参数</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Edit preset mode</source>
+        <target>编辑预设模式</target>
+      </trans-unit>
+      <trans-unit>
+        <source>The FBX help directory was not found :</source>
+        <target>FBX 帮助目录未找到：</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Help called</source>
+        <target>调用的帮助</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Cannot connect to the web update server.</source>
+        <target>无法连接到 Web 更新服务器。</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Please visit http://www.autodesk.com/fbx for more information on the latest FBX Plug-ins.</source>
+        <target>请访问 http://www.autodesk.com/fbx 以获取最新 FBX 插件的详细信息。</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Web updates error</source>
+        <target>Web 更新错误</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Edit label ...</source>
+        <target>编辑 标签 ...</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Edit min max ...</source>
+        <target>编辑 最小值 最大值 ...</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Show</source>
+        <target>显示</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Hide</source>
+        <target>隐藏</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Enable</source>
+        <target>启动</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Disable</source>
+        <target>禁用</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Enter new property label</source>
+        <target>编辑新特性标签</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Enter new minimum and maximum value</source>
+        <target>编辑新的最小值和最大值</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Enter preset name</source>
+        <target>输入预设名称</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>View as expanded panel</source>
+        <target>以面板展开观察</target>
+      </trans-unit>
+      <trans-unit>
+        <source>View as expandable group</source>
+        <target>以可展开组观察</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Import</source>
+        <target>导入</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Export</source>
+        <target>导出</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Version</source>
+        <target>版本</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Scale Factor</source>
+        <target>比例因子</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Note: If [ Show UI ] option is unchecked, this UI will NOT be visible for future import operation. Hold down the SHIFT key during import to restore UI visibility.</source>
+        <target>注意:如果没有选中[ 显示用户界面 ]，这个界面在将来的输入操作不可见。输入到恢复界面可见性时请按住 SHIFT 键</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Note: If [ Show UI ] option is unchecked, this UI will NOT be visible for future export operation. Hold down the SHIFT key during export to restore UI visibility.</source>
+        <target>注意:如果没有选中[ 显示用户界面 ]，这个界面在将来的输出操作不可见。输出到恢复界面可见性时请按住 SHIFT 键</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Your FBX Plug-in is up to date!</source>
+        <target>你的 FBX 插件是最新的！</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Be sure to check for updates regularly.</source>
+        <target>请确保经常检查更新。</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Build Number</source>
+        <target>内部版本号</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Your FBX Plug-in is up to date!</source>
+        <target>FBX 插件是最新的</target>
+      </trans-unit>
+      <trans-unit>
+        <source>You are currently using:</source>
+        <target>你正在使用：</target>
+      </trans-unit>
+      <trans-unit>
+        <source>A new version of the FBX Plug-in is available:</source>
+        <target>有一个新版本的 FBX 插件可用：</target>
+      </trans-unit>
+      <trans-unit>
+        <source>New versions of the FBX Plug-in are available:</source>
+        <target>有新版本的 FBX 插件可用：</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Would you like to visit the download site now?</source>
+        <target>是否访问下载网站？</target>
+      </trans-unit>
+      <trans-unit>
+        <source>New FBX Plug-in Version Available</source>
+        <target>有新版本的 FBX 插件可用</target>
+      </trans-unit>
+      <trans-unit>
+        <source>New FBX Plug-in Versions Available</source>
+        <target>有新版本的 FBX 插件可用</target>
+      </trans-unit>
+      <trans-unit>
+        <source>If you download the newer version, make sure to close any occurrence of 3ds Max or 3ds Max Design before you install.</source>
+        <target>如果下载新版本，请确保安装时关闭所有 3ds Max 以及 3ds Max Design。</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Install Warning</source>
+        <target>安装警告</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Please visit http://www.autodesk.com/fbx</source>
+        <target>请访问 http://www.autodesk.com/fbx</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Character Definitions</source>
+        <target>角色定义</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>Elements</source>
+        <target>元素</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>Caches</source>
+        <target>缓存</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>Constraints</source>
+        <target>约束</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>Materials</source>
+        <target>材质</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>Textures</source>
+        <target>纹理</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Add</source>
+        <target>添加</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Add and update</source>
+        <target>添加并更新</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>Add and update animation</source>
+        <target>添加并更新动画</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>Update animation</source>
+        <target>更新动画</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>Adds content to the scene.</source>
+        <target>将内容添加到场景</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>Adds new content and updates matching objects in the scene.</source>
+        <target>在场景中添加新内容并更新匹配对象</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>Adds new content and updates only animation on matching objects in the scene.</source>
+        <target>在场景中添加新内容并仅更新匹配对象的动画</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>Updates only animation on matching objects in the scene.</source>
+        <target>在场景中仅更新匹配对象的动画</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>Advanced Options</source>
+        <target>高级选项</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Animation</source>
+        <target>动画</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Animation Take</source>
+        <target>动画录制</target>
+      </trans-unit>
+      <trans-unit>
+        <source>ASCII</source>
+        <target>ASCII</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Auto tangents only</source>
+        <target>仅自动切线</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Axis Conversion</source>
+        <target>轴转化</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Bake Animation Layers</source>
+        <target>烘培动画层</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Bake Animation</source>
+        <target>烘培动画</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Binary</source>
+        <target>二进制</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Bind Pose</source>
+        <target>绑定姿势</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Bip2Fbx</source>
+        <target>Bip2Fbx</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Bone Conversion</source>
+        <target>骨骼转换</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Bone Creation</source>
+        <target>骨骼创建</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Cameras</source>
+        <target>摄影机</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Cancel</source>
+        <target>取消</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Centimeters</source>
+        <target>厘米</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Constant Key Reducer</source>
+        <target>固定关键点减少器</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Convert as dummy</source>
+        <target>以虚拟对象转换</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Convert Geometry used as Bones</source>
+        <target>转化用作骨骼的几何体</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Convert images to portable format (TIFF)</source>
+        <target>将图像转化为可移植格式(TIFF)</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Current Preset</source>
+        <target>当前的预设</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Curve Filters</source>
+        <target>曲线过滤器</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Decimeters</source>
+        <target>分米</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Deformations</source>
+        <target>变形</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Deformed Models</source>
+        <target>变形模型</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Edit preset</source>
+        <target>编辑预设</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Edit...</source>
+        <target>编辑...</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Embed Media</source>
+        <target>嵌入的媒体</target>
+      </trans-unit>
+      <trans-unit>
+        <source>End</source>
+        <target>结束</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Export</source>
+        <target>导出</target>
+      </trans-unit>
+      <trans-unit>
+        <source>FBX File Format</source>
+        <target>FBX 文件格式</target>
+      </trans-unit>
+      <trans-unit>
+        <source>FBX Version</source>
+        <target>FBX 版本</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Feet</source>
+        <target>英尺</target>
+      </trans-unit>
+      <trans-unit>
+        <source>File units converted to</source>
+        <target>文件单位转化为</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Fill Timeline</source>
+        <target>填充时间表</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Filter Intensity</source>
+        <target>过滤器强度</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Follow Y-Up</source>
+        <target>跟随 Y-上</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Frame Rate</source>
+        <target>帧速率</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Generate Log File</source>
+        <target>生成日志文件</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Geometry</source>
+        <target>几何体</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Height</source>
+        <target>高度</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Import</source>
+        <target>导入</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Inches</source>
+        <target>英寸</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Include</source>
+        <target>包含</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Key Reducer</source>
+        <target>关键点减少器</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Kilometers</source>
+        <target>千米</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Leave as bones</source>
+        <target>设为骨骼</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Lights</source>
+        <target>灯光</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Lock width and height</source>
+        <target>锁定宽度和高度</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Mesh Poly</source>
+        <target>网格多边形</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Mesh Primitive</source>
+        <target>网格基本体</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Mesh Triangle</source>
+        <target>网格三角形</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Meters</source>
+        <target>米</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Miles</source>
+        <target>英里</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Millimeters</source>
+        <target>毫米</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Morphs</source>
+        <target>变形</target>
+      </trans-unit>
+      <trans-unit>
+        <source>MR Custom Attributes</source>
+        <target>MR 自定义属性</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Use scene name</source>
+        <target>使用场景名</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Nurbs</source>
+        <target>Nurbs</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Object Derivation</source>
+        <target>对象导数</target>
+      </trans-unit>
+      <trans-unit>
+        <source>OK</source>
+        <target>确定</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Optical Markers</source>
+        <target>视觉标记</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Other Precision</source>
+        <target>其他精度</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Patch</source>
+        <target>面片</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Performance</source>
+        <target>性能</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Pivot To Null</source>
+        <target>轴为空</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Plugin Build Number</source>
+        <target>插件版本号</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Plugin Information</source>
+        <target>插件信息</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Plugin product family</source>
+        <target>产品家族插件</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Plugin UI Height</source>
+        <target>插件 UI 高度</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Plugin UI Width</source>
+        <target>插件 UI 宽度</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Plugin Version</source>
+        <target>插件版本</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Plugin Versions URL</source>
+        <target>插件版本 URL</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Point Cache File(s)</source>
+        <target>点缓存文件</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Precision</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit>
+        <source>Preset Selected</source>
+        <target>选定插件</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Presets</source>
+        <target>预设</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Re-evaluate Normals</source>
+        <target>重新评估法线</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Re-evaluate Smoothing Groups</source>
+        <target>重新计算平滑组</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Smoothing Groups</source>
+        <target>平滑组</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Reference Node</source>
+        <target>参考节点</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Rotation Precision</source>
+        <target>旋转精度</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Save preset</source>
+        <target>保存预设</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Scaling Precision</source>
+        <target>缩放精度</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Scene units converted to</source>
+        <target>场景单位转化为</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Set</source>
+        <target>集</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Show UI</source>
+        <target>显示 UI</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Show UI Warning</source>
+        <target>显示 UI 警告</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Show Warning Manager</source>
+        <target>显示警告管理器</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Single Matrix</source>
+        <target>单一矩阵</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Skins</source>
+        <target>蒙皮</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Split per-vertex Normals</source>
+        <target>按顶点分割法线</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Start</source>
+        <target>开始</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Statistics</source>
+        <target>统计信息</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Step</source>
+        <target>步长</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Taper %</source>
+        <target>锥化 %</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Test meshes for bad polygons</source>
+        <target>为错误的多边形测试网格</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Total Units Scale</source>
+        <target>总单位比例</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Translation Precision</source>
+        <target>变换精度</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Triangulate</source>
+        <target>三角算法</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Type</source>
+        <target>类型</target>
+      </trans-unit>
+      <trans-unit>
+        <source>UI</source>
+        <target>UI</target>
+      </trans-unit>
+      <trans-unit>
+        <source>UI language</source>
+        <target>UI 语言</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Units</source>
+        <target>单位</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Unroll Rotations</source>
+        <target>展开旋转</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Up Axis</source>
+        <target>向上轴</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Update scene elements</source>
+        <target>更新场景元素</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Use scene name</source>
+        <target>使用场景名</target>
+      </trans-unit>
+      <trans-unit>
+        <source>User defined</source>
+        <target>用户定义</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Web updates</source>
+        <target>Web 更新</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Weld Vertices</source>
+        <target>焊接顶点</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Width</source>
+        <target>宽度</target>
+      </trans-unit>
+      <trans-unit>
+        <source>XYZ Curve Synchronisation</source>
+        <target>XYZ 曲线同步</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Yards</source>
+        <target>码</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Precision</source>
+        <target>精度</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Bone creation</source>
+        <target>骨骼创建</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Bone conversion</source>
+        <target>骨骼转换</target>
+      </trans-unit>
+      <trans-unit>
+        <source>No animation</source>
+        <target>无动画</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Convert Deforming Dummies to Bones</source>
+        <target>将变形虚拟转化为骨骼</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Generate Log Data</source>
+        <target>生成日志数据</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Plugin UI X Position</source>
+        <target>插件 UI X 位置</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Plugin UI Y Position</source>
+        <target>插件 UI Y 位置</target>
+      </trans-unit>
+      <trans-unit>
+        <source>???</source>
+        <target>???</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Tangents and Binormals</source>
+        <target>切线和 Binormal</target>
+      </trans-unit>
+      <trans-unit>
+        <source>FBX Extentions SDK</source>
+        <target>FBX Extentions SDK</target>
+      </trans-unit>
+      <trans-unit>
+        <source>FBX Extentions SDK Warning</source>
+        <target>FBX Extentions SDK 警告</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Add your custom properties here.</source>
+        <target>在此处添加自定义属性。</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Hold - Shift - to activate FBX UI</source>
+        <target>按住 - Shift - 以激活FBX的用户界面</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Welcome!</source>
+        <target>欢迎</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Welcome! You are running this FBX plug-in for the first time and there may be a newer version available. Use the Web updates button to verify if you are using the most recent version of this FBX plug-in.</source>
+        <target>欢迎！您正在首次运行此 FBX 插件，有可能有更新的版本可用。使用 Web 更新按钮以确认您是否正在使用最新版本的 FBX 插件。</target>
+      </trans-unit>
+      <trans-unit>
+        <source>TurboSmooth</source>
+        <target>涡轮平滑</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Selection Sets</source>
+        <target>选择集</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Extra Options</source>
+        <target>附加选项</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Compatible with Autodesk 2012 applications and 2012 FBX plug-ins</source>
+        <target>与 Autodesk 2012 应用程序和 2012 FBX 插件兼容</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>Compatible with Autodesk 2011 applications and 2011 FBX plug-ins</source>
+        <target>与 Autodesk 2011 应用程序和 2011 FBX 插件兼容</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Compatible with Autodesk 2010 applications, 2010 FBX plug-ins and MotionBuilder 2009</source>
+        <target>与 Autodesk 2010 应用程序，2010 FBX 插件和 MotionBuilder 2009 兼容</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Compatible with Autodesk 2009 applications and 2009 FBX plug-ins</source>
+        <target>与 Autodesk 2009 应用程序和 2009 FBX 插件兼容</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Compatible with Autodesk 2006 FBX plug-ins and MotionBuilder 7.5, 7.0, 6.0</source>
+        <target>与 Autodesk 2006 FBX 插件和 MotionBuilder 7.5, 7.0, 6.0 兼容</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Sun and Sky</source>
+        <target>天空和太阳</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Automatic</source>
+        <target>自动</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Information</source>
+        <target>信息</target>
+      </trans-unit>
+      <trans-unit>
+        <source>FBX Plug-in version</source>
+        <target>FBX 插件版本</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Remove single key</source>
+        <target>移除单一关键点</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Preserve Instances</source>
+        <target>保留实例</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Resample All</source>
+        <target>全部重采样</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Help on FBX</source>
+        <target>有关 FBX 的帮助</target>
+      </trans-unit>
+      <trans-unit>
+        <source>About</source>
+        <target>关于</target>
+      </trans-unit>
+      <trans-unit>
+        <source>System frame rate</source>
+        <target>系统帧速率</target>
+      </trans-unit>
+      <trans-unit>
+        <source>File frame rate</source>
+        <target>文件帧速率</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Warning: Frame rates do not match</source>
+        <target>警告：帧速率不匹配</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Global Ambient Color</source>
+        <target>全局环境光颜色</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
+
+
+
+
+

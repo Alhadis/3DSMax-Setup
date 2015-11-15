@@ -1,0 +1,1665 @@
+# CAT Motion Preset exported from 3dsmax on Mon Oct 03 18:29:53 2005
+Branch "Globals" {
+  Value "MaxStepLength" 120
+  Value "MaxStepTime" 35
+  Value "KALifting" 0
+  Value "PathFacing" 0
+}
+Branch "LimbPhases" {
+  Value "LLeg" -0.25
+  Value "RLeg" 0.25
+  Value "LArm" 0.256614
+  Value "RArm" -0.240741
+}
+Branch "PelvisGroup" {
+  Branch "Pelvis" {
+    Branch "Twist" {
+      Value "Key1Val" 7
+      Value "Key1Time" 0
+      Value "Key1Tangent" 0
+      Value "Key1InTanLen" 0.333
+      Value "Key1OutTanLen" 0.333
+      Value "Key2Val" 0
+      Value "Key2Time" 25
+      Value "Key2Tangent" -0.1
+      Value "Key2InTanLen" 0.333
+      Value "Key2OutTanLen" 0.333
+      Value "Key3Val" -7
+      Value "Key3Time" 50
+      Value "Key3Tangent" 0
+      Value "Key3InTanLen" 0.333
+      Value "Key3OutTanLen" 0.333
+      Value "Key4Val" 0
+      Value "Key4Time" 75
+      Value "Key4Tangent" 0.100877
+      Value "Key4InTanLen" 0.202247
+      Value "Key4OutTanLen" 0.333
+    }
+    Branch "Roll" {
+      Value "Key1Val" 0
+      Value "Key1Time" 0
+      Value "Key1Tangent" -0.1
+      Value "Key1InTanLen" 0.2
+      Value "Key1OutTanLen" 0.2
+      Value "Key2Val" -4
+      Value "Key2Time" 25.8427
+      Value "Key2Tangent" 0
+      Value "Key2InTanLen" 0.333
+      Value "Key2OutTanLen" 0.333
+      Value "Key3Val" 0
+      Value "Key3Time" 50
+      Value "Key3Tangent" 0.1
+      Value "Key3InTanLen" 0.2
+      Value "Key3OutTanLen" 0.2
+      Value "Key4Val" 4
+      Value "Key4Time" 74.1573
+      Value "Key4Tangent" 0
+      Value "Key4InTanLen" 0.333
+      Value "Key4OutTanLen" 0.333
+    }
+    Branch "Pitch" {
+      Value "Key1Val" 0
+      Value "Key1Time" 0
+      Value "Key1Tangent" 0
+      Value "Key1InTanLen" 0.333
+      Value "Key1OutTanLen" 0.333
+      Value "Key2Val" 0
+      Value "Key2Time" 25
+      Value "Key2Tangent" 0
+      Value "Key2InTanLen" 0.333
+      Value "Key2OutTanLen" 0.333
+      Value "Key3Val" 0
+      Value "Key3Time" 50
+      Value "Key3Tangent" 0
+      Value "Key3InTanLen" 0.333
+      Value "Key3OutTanLen" 0.333
+      Value "Key4Val" 0
+      Value "Key4Time" 75
+      Value "Key4Tangent" 0
+      Value "Key4InTanLen" 0.333
+      Value "Key4OutTanLen" 0.333
+    }
+    Branch "Lift" {
+      Value "Key1Val" -5
+      Value "Key1Time" 0.561798
+      Value "Key1Tangent" 0
+      Value "Key1InTanLen" 0.333
+      Value "Key1OutTanLen" 0.333
+      Value "Key2Val" 2
+      Value "Key2Time" 24.7191
+      Value "Key2Tangent" 0
+      Value "Key2InTanLen" 0.333
+      Value "Key2OutTanLen" 0.333
+      Value "Key3Val" -5
+      Value "Key3Time" 48.8764
+      Value "Key3Tangent" 0
+      Value "Key3InTanLen" 0.333
+      Value "Key3OutTanLen" 0.333
+      Value "Key4Val" 2
+      Value "Key4Time" 75
+      Value "Key4Tangent" 0
+      Value "Key4InTanLen" 0.333
+      Value "Key4OutTanLen" 0.333
+    }
+    Branch "Push" {
+      Value "Key1Val" 5
+      Value "Key1Time" 0
+      Value "Key1Tangent" 0
+      Value "Key1InTanLen" 0.333
+      Value "Key1OutTanLen" 0.333
+      Value "Key2Val" 5
+      Value "Key2Time" 25
+      Value "Key2Tangent" 0
+      Value "Key2InTanLen" 0.333
+      Value "Key2OutTanLen" 0.333
+      Value "Key3Val" 5
+      Value "Key3Time" 50
+      Value "Key3Tangent" 0
+      Value "Key3InTanLen" 0.333
+      Value "Key3OutTanLen" 0.333
+      Value "Key4Val" 5
+      Value "Key4Time" 75
+      Value "Key4Tangent" 0
+      Value "Key4InTanLen" 0.333
+      Value "Key4OutTanLen" 0.333
+    }
+    Branch "WeightShift" {
+      Value "Key1Val" 0
+      Value "Key1Time" 0
+      Value "Key1Tangent" 0.1
+      Value "Key1InTanLen" 0.2
+      Value "Key1OutTanLen" 0.2
+      Value "Key2Val" 3
+      Value "Key2Time" 24.7191
+      Value "Key2Tangent" 0
+      Value "Key2InTanLen" 0.333
+      Value "Key2OutTanLen" 0.333
+      Value "Key3Val" 0
+      Value "Key3Time" 50
+      Value "Key3Tangent" -0.1
+      Value "Key3InTanLen" 0.2
+      Value "Key3OutTanLen" 0.2
+      Value "Key4Val" -3
+      Value "Key4Time" 74.4382
+      Value "Key4Tangent" 0
+      Value "Key4InTanLen" 0.333
+      Value "Key4OutTanLen" 0.333
+    }
+    Branch "OffsetPos" {
+      Value "X" 0
+      Value "Y" 0
+      Value "Z" 0
+    }
+    Branch "OffsetRot" {
+      Value "X" 0
+      Value "Y" 0
+      Value "Z" 0
+    }
+  }
+  Branch "Legs" {
+    Branch "KneeAngle" {
+      Branch "LiftValue" {
+        Value "Limbs" 37.2253
+      }
+      Branch "LiftTangent" {
+        Value "Limbs" 0.0649824
+      }
+      Branch "LiftInTanLen" {
+        Value "Limbs" 0.390805
+      }
+      Branch "LiftOutTanLen" {
+        Value "Limbs" 0.348837
+      }
+      Branch "MidLiftTime" {
+        Value "Limbs" 49.1573
+      }
+      Branch "MidLiftValue" {
+        Value "Limbs" 55.4916
+      }
+      Branch "MidLiftTangent" {
+        Value "Limbs" 0.0608384
+      }
+      Branch "MidLiftInTanLen" {
+        Value "Limbs" 0.228261
+      }
+      Branch "MidLiftOutTanLen" {
+        Value "Limbs" 0.34466
+      }
+      Branch "PlantValue" {
+        Value "Limbs" 47.0832
+      }
+      Branch "PlantTangent" {
+        Value "Limbs" -0.0938653
+      }
+      Branch "PlantInTanLen" {
+        Value "Limbs" 0.424528
+      }
+      Branch "PlantOutTanLen" {
+        Value "Limbs" 0.42356
+      }
+      Branch "MidPlantTime" {
+        Value "Limbs" 1.1236
+      }
+      Branch "MidPlantValue" {
+        Value "Limbs" 34.677
+      }
+      Branch "MidPlantTangent" {
+        Value "Limbs" -0.0661277
+      }
+      Branch "MidPlantInTanLen" {
+        Value "Limbs" 0.318681
+      }
+      Branch "MidPlantOutTanLen" {
+        Value "Limbs" 0.258824
+      }
+    }
+    Branch "Twist" {
+      Branch "Key1Val" {
+        Value "Limbs" -10
+      }
+      Branch "Key1Time" {
+        Value "Limbs" 0
+      }
+      Branch "Key1Tangent" {
+        Value "Limbs" 0
+      }
+      Branch "Key1InTanLen" {
+        Value "Limbs" 0.333
+      }
+      Branch "Key1OutTanLen" {
+        Value "Limbs" 0.333
+      }
+      Branch "Key2Val" {
+        Value "Limbs" 10
+      }
+      Branch "Key2Time" {
+        Value "Limbs" 50
+      }
+      Branch "Key2Tangent" {
+        Value "Limbs" 0
+      }
+      Branch "Key2InTanLen" {
+        Value "Limbs" 0.333
+      }
+      Branch "Key2OutTanLen" {
+        Value "Limbs" 0.333
+      }
+    }
+    Branch "CrossSwing" {
+      Branch "Key1Val" {
+        Value "Limbs" 0
+      }
+      Branch "Key1Time" {
+        Value "Limbs" 0
+      }
+      Branch "Key1Tangent" {
+        Value "Limbs" 0
+      }
+      Branch "Key1InTanLen" {
+        Value "Limbs" 0.333
+      }
+      Branch "Key1OutTanLen" {
+        Value "Limbs" 0.333
+      }
+      Branch "Key2Val" {
+        Value "Limbs" 0
+      }
+      Branch "Key2Time" {
+        Value "Limbs" 25
+      }
+      Branch "Key2Tangent" {
+        Value "Limbs" 0
+      }
+      Branch "Key2InTanLen" {
+        Value "Limbs" 0.333
+      }
+      Branch "Key2OutTanLen" {
+        Value "Limbs" 0.333
+      }
+      Branch "Key3Val" {
+        Value "Limbs" 0
+      }
+      Branch "Key3Time" {
+        Value "Limbs" 50
+      }
+      Branch "Key3Tangent" {
+        Value "Limbs" 0
+      }
+      Branch "Key3InTanLen" {
+        Value "Limbs" 0.333
+      }
+      Branch "Key3OutTanLen" {
+        Value "Limbs" 0.333
+      }
+      Branch "Key4Val" {
+        Value "Limbs" 0
+      }
+      Branch "Key4Time" {
+        Value "Limbs" 75
+      }
+      Branch "Key4Tangent" {
+        Value "Limbs" 0
+      }
+      Branch "Key4InTanLen" {
+        Value "Limbs" 0.333
+      }
+      Branch "Key4OutTanLen" {
+        Value "Limbs" 0.333
+      }
+    }
+    Branch "Swing" {
+      Branch "Key1Val" {
+        Value "Limbs" 10
+      }
+      Branch "Key1Time" {
+        Value "Limbs" 0
+      }
+      Branch "Key1Tangent" {
+        Value "Limbs" 0
+      }
+      Branch "Key1InTanLen" {
+        Value "Limbs" 0.333
+      }
+      Branch "Key1OutTanLen" {
+        Value "Limbs" 0.333
+      }
+      Branch "Key2Val" {
+        Value "Limbs" -10
+      }
+      Branch "Key2Time" {
+        Value "Limbs" 50
+      }
+      Branch "Key2Tangent" {
+        Value "Limbs" 0
+      }
+      Branch "Key2InTanLen" {
+        Value "Limbs" 0.333
+      }
+      Branch "Key2OutTanLen" {
+        Value "Limbs" 0.333
+      }
+    }
+    Branch "OffsetRot" {
+      Branch "X" {
+        Value "Limbs" 0
+      }
+      Branch "Y" {
+        Value "Limbs" 0
+      }
+      Branch "Z" {
+        Value "Limbs" 0
+      }
+    }
+    Branch "LegWeight" {
+      Branch "LiftStartTime" {
+        Value "Limbs" 5.33708
+      }
+      Branch "LiftEndTime" {
+        Value "Limbs" 43.8202
+      }
+      Branch "PlantStartTime" {
+        Value "Limbs" 61.6876
+      }
+      Branch "PlantEndTime" {
+        Value "Limbs" 86.3775
+      }
+    }
+    Branch "LiftPlantMod" {
+      Branch "LiftPlantRatio" {
+        Value "Limbs" 0.402299
+      }
+    }
+    Branch "Palm" {
+      Branch "DigitRollAngle" {
+        Branch "StartTime" {
+          Value "Limbs" 7
+        }
+        Branch "StartTangent" {
+          Value "Limbs" 0
+        }
+        Branch "StartTanLen" {
+          Value "Limbs" 0.2
+        }
+        Branch "Key1Val" {
+          Value "Limbs" 0
+        }
+        Branch "Key1Time" {
+          Value "Limbs" 30
+        }
+        Branch "Key1Tangent" {
+          Value "Limbs" 0
+        }
+        Branch "Key1InTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key1OutTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key2Val" {
+          Value "Limbs" 0
+        }
+        Branch "Key2Time" {
+          Value "Limbs" 70
+        }
+        Branch "Key2Tangent" {
+          Value "Limbs" 0
+        }
+        Branch "Key2InTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key2OutTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "EndTime" {
+          Value "Limbs" 80
+        }
+        Branch "EndTangent" {
+          Value "Limbs" 0
+        }
+        Branch "EndTanLength" {
+          Value "Limbs" 0.333
+        }
+      }
+      Branch "DigitSpreadAngle" {
+        Branch "StartTime" {
+          Value "Limbs" 7
+        }
+        Branch "StartTangent" {
+          Value "Limbs" 0
+        }
+        Branch "StartTanLen" {
+          Value "Limbs" 0.2
+        }
+        Branch "Key1Val" {
+          Value "Limbs" 0
+        }
+        Branch "Key1Time" {
+          Value "Limbs" 30
+        }
+        Branch "Key1Tangent" {
+          Value "Limbs" 0
+        }
+        Branch "Key1InTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key1OutTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key2Val" {
+          Value "Limbs" 0
+        }
+        Branch "Key2Time" {
+          Value "Limbs" 70
+        }
+        Branch "Key2Tangent" {
+          Value "Limbs" 0
+        }
+        Branch "Key2InTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key2OutTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "EndTime" {
+          Value "Limbs" 80
+        }
+        Branch "EndTangent" {
+          Value "Limbs" 0
+        }
+        Branch "EndTanLength" {
+          Value "Limbs" 0.333
+        }
+      }
+      Branch "DigitCurlAngle" {
+        Branch "StartTime" {
+          Value "Limbs" 7
+        }
+        Branch "StartTangent" {
+          Value "Limbs" 0
+        }
+        Branch "StartTanLen" {
+          Value "Limbs" 0.2
+        }
+        Branch "Key1Val" {
+          Value "Limbs" 0
+        }
+        Branch "Key1Time" {
+          Value "Limbs" 30
+        }
+        Branch "Key1Tangent" {
+          Value "Limbs" 0
+        }
+        Branch "Key1InTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key1OutTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key2Val" {
+          Value "Limbs" 0
+        }
+        Branch "Key2Time" {
+          Value "Limbs" 70
+        }
+        Branch "Key2Tangent" {
+          Value "Limbs" 0
+        }
+        Branch "Key2InTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key2OutTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "EndTime" {
+          Value "Limbs" 80
+        }
+        Branch "EndTangent" {
+          Value "Limbs" 0
+        }
+        Branch "EndTanLength" {
+          Value "Limbs" 0.333
+        }
+      }
+      Branch "OffsetRot" {
+        Branch "X" {
+          Value "Limbs" 0
+        }
+        Branch "Y" {
+          Value "Limbs" 0
+        }
+        Branch "Z" {
+          Value "Limbs" 0
+        }
+      }
+      Branch "TargetAlign" {
+        Branch "Key1Time" {
+          Value "Limbs" 20
+        }
+        Branch "Key1Val" {
+          Value "Limbs" 0
+        }
+        Branch "Key2Time" {
+          Value "Limbs" 80
+        }
+        Branch "Key2Val" {
+          Value "Limbs" 1
+        }
+      }
+      Branch "FootBend" {
+        Branch "Key1Val" {
+          Value "Limbs" 0
+        }
+        Branch "Key1Time" {
+          Value "Limbs" 0
+        }
+        Branch "Key1Tangent" {
+          Value "Limbs" 0
+        }
+        Branch "Key1InTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key1OutTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key2Val" {
+          Value "Limbs" 0
+        }
+        Branch "Key2Time" {
+          Value "Limbs" 25
+        }
+        Branch "Key2Tangent" {
+          Value "Limbs" 0
+        }
+        Branch "Key2InTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key2OutTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key3Val" {
+          Value "Limbs" 0
+        }
+        Branch "Key3Time" {
+          Value "Limbs" 50
+        }
+        Branch "Key3Tangent" {
+          Value "Limbs" 0
+        }
+        Branch "Key3InTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key3OutTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key4Val" {
+          Value "Limbs" 0
+        }
+        Branch "Key4Time" {
+          Value "Limbs" 75
+        }
+        Branch "Key4Tangent" {
+          Value "Limbs" 0
+        }
+        Branch "Key4InTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key4OutTanLen" {
+          Value "Limbs" 0.333
+        }
+      }
+    }
+    Branch "FootPlatform" {
+      Branch "Twist" {
+        Branch "StartTime" {
+          Value "Limbs" 7
+        }
+        Branch "StartTangent" {
+          Value "Limbs" 0
+        }
+        Branch "StartTanLen" {
+          Value "Limbs" 0.2
+        }
+        Branch "Key1Val" {
+          Value "Limbs" 0
+        }
+        Branch "Key1Time" {
+          Value "Limbs" 30
+        }
+        Branch "Key1Tangent" {
+          Value "Limbs" 0
+        }
+        Branch "Key1InTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key1OutTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key2Val" {
+          Value "Limbs" 0
+        }
+        Branch "Key2Time" {
+          Value "Limbs" 70
+        }
+        Branch "Key2Tangent" {
+          Value "Limbs" 0
+        }
+        Branch "Key2InTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key2OutTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "EndTime" {
+          Value "Limbs" 80
+        }
+        Branch "EndTangent" {
+          Value "Limbs" 0
+        }
+        Branch "EndTanLength" {
+          Value "Limbs" 0.333
+        }
+      }
+      Branch "RollPivotPos" {
+        Branch "Key1Time" {
+          Value "Limbs" 15
+        }
+        Branch "Key1Val" {
+          Value "Limbs" 0
+        }
+        Branch "Key2Time" {
+          Value "Limbs" 85
+        }
+        Branch "Key2Val" {
+          Value "Limbs" 0
+        }
+      }
+      Branch "Roll" {
+        Branch "StartTime" {
+          Value "Limbs" 7
+        }
+        Branch "StartTangent" {
+          Value "Limbs" 0
+        }
+        Branch "StartTanLen" {
+          Value "Limbs" 0.2
+        }
+        Branch "Key1Val" {
+          Value "Limbs" 13
+        }
+        Branch "Key1Time" {
+          Value "Limbs" 45
+        }
+        Branch "Key1Tangent" {
+          Value "Limbs" 0
+        }
+        Branch "Key1InTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key1OutTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key2Val" {
+          Value "Limbs" 13
+        }
+        Branch "Key2Time" {
+          Value "Limbs" 57
+        }
+        Branch "Key2Tangent" {
+          Value "Limbs" 0
+        }
+        Branch "Key2InTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key2OutTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "EndTime" {
+          Value "Limbs" 87
+        }
+        Branch "EndTangent" {
+          Value "Limbs" 0
+        }
+        Branch "EndTanLength" {
+          Value "Limbs" 0.333
+        }
+      }
+      Branch "PitchPivotPos" {
+        Branch "Key1Time" {
+          Value "Limbs" 15
+        }
+        Branch "Key1Val" {
+          Value "Limbs" 1
+        }
+        Branch "Key2Time" {
+          Value "Limbs" 85
+        }
+        Branch "Key2Val" {
+          Value "Limbs" 0
+        }
+      }
+      Branch "Pitch" {
+        Branch "StartTime" {
+          Value "Limbs" 12
+        }
+        Branch "StartTangent" {
+          Value "Limbs" 0
+        }
+        Branch "StartTanLen" {
+          Value "Limbs" 0.34
+        }
+        Branch "Key1Val" {
+          Value "Limbs" 20.2371
+        }
+        Branch "Key1Time" {
+          Value "Limbs" 43.5393
+        }
+        Branch "Key1Tangent" {
+          Value "Limbs" 0.00618619
+        }
+        Branch "Key1InTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key1OutTanLen" {
+          Value "Limbs" 0.504484
+        }
+        Branch "Key2Val" {
+          Value "Limbs" -15
+        }
+        Branch "Key2Time" {
+          Value "Limbs" 73
+        }
+        Branch "Key2Tangent" {
+          Value "Limbs" 0
+        }
+        Branch "Key2InTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key2OutTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "EndTime" {
+          Value "Limbs" 84
+        }
+        Branch "EndTangent" {
+          Value "Limbs" 0
+        }
+        Branch "EndTanLength" {
+          Value "Limbs" 0.333
+        }
+      }
+      Branch "Lift" {
+        Branch "LiftTangent" {
+          Value "Limbs" 0.00957702
+        }
+        Branch "LiftTanLen" {
+          Value "Limbs" 0.252632
+        }
+        Branch "PeakTime" {
+          Value "Limbs" 50
+        }
+        Branch "PeakTangent" {
+          Value "Limbs" 0
+        }
+        Branch "PeakInTanLen" {
+          Value "Limbs" 0.595506
+        }
+        Branch "PeakOutTanLen" {
+          Value "Limbs" 0.47191
+        }
+        Branch "PlantTangent" {
+          Value "Limbs" -0.000475879
+        }
+        Branch "PlantTanLen" {
+          Value "Limbs" 0.277108
+        }
+        Branch "Amount" {
+          Value "Limbs" 8.02345
+        }
+      }
+      Branch "FootPush" {
+        Branch "LiftTangent" {
+          Value "Limbs" 0
+        }
+        Branch "LiftTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "PeakTime" {
+          Value "Limbs" 50
+        }
+        Branch "PeakTangent" {
+          Value "Limbs" 0
+        }
+        Branch "PeakInTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "PeakOutTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "PlantTangent" {
+          Value "Limbs" 0
+        }
+        Branch "PlantTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Amount" {
+          Value "Limbs" 0
+        }
+      }
+      Branch "Swerve" {
+        Branch "LiftTangent" {
+          Value "Limbs" 0
+        }
+        Branch "LiftTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "PeakTime" {
+          Value "Limbs" 50
+        }
+        Branch "PeakTangent" {
+          Value "Limbs" 0
+        }
+        Branch "PeakInTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "PeakOutTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "PlantTangent" {
+          Value "Limbs" 0
+        }
+        Branch "PlantTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Amount" {
+          Value "Limbs" 8.6
+        }
+      }
+      Branch "OffsetRot" {
+        Branch "X" {
+          Value "Limbs" 0
+        }
+        Branch "Y" {
+          Value "Limbs" 0
+        }
+        Branch "Z" {
+          Value "Limbs" 0
+        }
+      }
+      Branch "OffsetPos" {
+        Branch "X" {
+          Value "Limbs" 0
+        }
+        Branch "Y" {
+          Value "Limbs" 0
+        }
+        Branch "Z" {
+          Value "Limbs" -11.6
+        }
+      }
+      Branch "StepShape" {
+        Branch "LiftTangent" {
+          Value "Limbs" 0
+        }
+        Branch "LiftTanLen" {
+          Value "Limbs" 0.15
+        }
+        Branch "PlantTangent" {
+          Value "Limbs" 0
+        }
+        Branch "PlantTanLen" {
+          Value "Limbs" 0.15
+        }
+      }
+    }
+  }
+}
+Branch "RibcageGroup" {
+  Branch "Ribcage" {
+    Branch "Twist" {
+      Value "Key1Val" -6
+      Value "Key1Time" 0
+      Value "Key1Tangent" 0
+      Value "Key1InTanLen" 0.333
+      Value "Key1OutTanLen" 0.333
+      Value "Key2Val" 0
+      Value "Key2Time" 25
+      Value "Key2Tangent" 0.1
+      Value "Key2InTanLen" 0.333
+      Value "Key2OutTanLen" 0.333
+      Value "Key3Val" 6
+      Value "Key3Time" 48.5955
+      Value "Key3Tangent" 0
+      Value "Key3InTanLen" 0.333
+      Value "Key3OutTanLen" 0.333
+      Value "Key4Val" 0
+      Value "Key4Time" 75
+      Value "Key4Tangent" -0.090102
+      Value "Key4InTanLen" 0.325843
+      Value "Key4OutTanLen" 0.333
+    }
+    Branch "Roll" {
+      Value "Key1Val" 0
+      Value "Key1Time" 0
+      Value "Key1Tangent" 0.1
+      Value "Key1InTanLen" 0.333
+      Value "Key1OutTanLen" 0.333
+      Value "Key2Val" 6
+      Value "Key2Time" 23.8764
+      Value "Key2Tangent" 0
+      Value "Key2InTanLen" 0.333
+      Value "Key2OutTanLen" 0.333
+      Value "Key3Val" 0
+      Value "Key3Time" 50
+      Value "Key3Tangent" -0.1
+      Value "Key3InTanLen" 0.333
+      Value "Key3OutTanLen" 0.333
+      Value "Key4Val" -6
+      Value "Key4Time" 76.6854
+      Value "Key4Tangent" 0
+      Value "Key4InTanLen" 0.333
+      Value "Key4OutTanLen" 0.333
+    }
+    Branch "Pitch" {
+      Value "Key1Val" 0
+      Value "Key1Time" 0
+      Value "Key1Tangent" 0
+      Value "Key1InTanLen" 0.333
+      Value "Key1OutTanLen" 0.333
+      Value "Key2Val" 0
+      Value "Key2Time" 25
+      Value "Key2Tangent" 0
+      Value "Key2InTanLen" 0.333
+      Value "Key2OutTanLen" 0.333
+      Value "Key3Val" 0
+      Value "Key3Time" 50
+      Value "Key3Tangent" 0
+      Value "Key3InTanLen" 0.333
+      Value "Key3OutTanLen" 0.333
+      Value "Key4Val" 0
+      Value "Key4Time" 75
+      Value "Key4Tangent" 0
+      Value "Key4InTanLen" 0.333
+      Value "Key4OutTanLen" 0.333
+    }
+    Branch "Lift" {
+      Value "Key1Val" 0
+      Value "Key1Time" 2.24719
+      Value "Key1Tangent" 0
+      Value "Key1InTanLen" 0.333
+      Value "Key1OutTanLen" 0.333
+      Value "Key2Val" -3
+      Value "Key2Time" 25
+      Value "Key2Tangent" 0
+      Value "Key2InTanLen" 0.333
+      Value "Key2OutTanLen" 0.333
+      Value "Key3Val" 0
+      Value "Key3Time" 50
+      Value "Key3Tangent" 0
+      Value "Key3InTanLen" 0.333
+      Value "Key3OutTanLen" 0.333
+      Value "Key4Val" -3
+      Value "Key4Time" 75
+      Value "Key4Tangent" 0
+      Value "Key4InTanLen" 0.333
+      Value "Key4OutTanLen" 0.333
+    }
+    Branch "Push" {
+      Value "Key1Val" 0
+      Value "Key1Time" 0
+      Value "Key1Tangent" 0
+      Value "Key1InTanLen" 0.333
+      Value "Key1OutTanLen" 0.333
+      Value "Key2Val" 0
+      Value "Key2Time" 25
+      Value "Key2Tangent" 0
+      Value "Key2InTanLen" 0.333
+      Value "Key2OutTanLen" 0.333
+      Value "Key3Val" 0
+      Value "Key3Time" 50
+      Value "Key3Tangent" 0
+      Value "Key3InTanLen" 0.333
+      Value "Key3OutTanLen" 0.333
+      Value "Key4Val" 0
+      Value "Key4Time" 75
+      Value "Key4Tangent" 0
+      Value "Key4InTanLen" 0.333
+      Value "Key4OutTanLen" 0.333
+    }
+    Branch "WeightShift" {
+      Value "Key1Val" 0
+      Value "Key1Time" 0
+      Value "Key1Tangent" 0
+      Value "Key1InTanLen" 0.333
+      Value "Key1OutTanLen" 0.333
+      Value "Key2Val" 0
+      Value "Key2Time" 25
+      Value "Key2Tangent" 0
+      Value "Key2InTanLen" 0.333
+      Value "Key2OutTanLen" 0.333
+      Value "Key3Val" 0
+      Value "Key3Time" 50
+      Value "Key3Tangent" 0
+      Value "Key3InTanLen" 0.333
+      Value "Key3OutTanLen" 0.333
+      Value "Key4Val" 0
+      Value "Key4Time" 75
+      Value "Key4Tangent" 0
+      Value "Key4InTanLen" 0.333
+      Value "Key4OutTanLen" 0.333
+    }
+    Branch "OffsetPos" {
+      Value "X" 0
+      Value "Y" 0
+      Value "Z" 0
+    }
+    Branch "OffsetRot" {
+      Value "X" 0
+      Value "Y" 0
+      Value "Z" 0
+    }
+  }
+  Branch "Arms" {
+    Branch "Bend" {
+      Branch "Key1Val" {
+        Value "Limbs" 25.2271
+      }
+      Branch "Key1Time" {
+        Value "Limbs" 12.9213
+      }
+      Branch "Key1Tangent" {
+        Value "Limbs" 0
+      }
+      Branch "Key1InTanLen" {
+        Value "Limbs" 0.333
+      }
+      Branch "Key1OutTanLen" {
+        Value "Limbs" 0.333
+      }
+      Branch "Key2Val" {
+        Value "Limbs" -22.9527
+      }
+      Branch "Key2Time" {
+        Value "Limbs" 65.1685
+      }
+      Branch "Key2Tangent" {
+        Value "Limbs" 0
+      }
+      Branch "Key2InTanLen" {
+        Value "Limbs" 0.333
+      }
+      Branch "Key2OutTanLen" {
+        Value "Limbs" 0.333
+      }
+    }
+    Branch "Twist" {
+      Branch "Key1Val" {
+        Value "Limbs" 3
+      }
+      Branch "Key1Time" {
+        Value "Limbs" 0
+      }
+      Branch "Key1Tangent" {
+        Value "Limbs" 0
+      }
+      Branch "Key1InTanLen" {
+        Value "Limbs" 0.333
+      }
+      Branch "Key1OutTanLen" {
+        Value "Limbs" 0.333
+      }
+      Branch "Key2Val" {
+        Value "Limbs" -39.3278
+      }
+      Branch "Key2Time" {
+        Value "Limbs" 50
+      }
+      Branch "Key2Tangent" {
+        Value "Limbs" 0
+      }
+      Branch "Key2InTanLen" {
+        Value "Limbs" 0.333
+      }
+      Branch "Key2OutTanLen" {
+        Value "Limbs" 0.333
+      }
+    }
+    Branch "CrossSwing" {
+      Branch "Key1Val" {
+        Value "Limbs" 0
+      }
+      Branch "Key1Time" {
+        Value "Limbs" 0
+      }
+      Branch "Key1Tangent" {
+        Value "Limbs" 0
+      }
+      Branch "Key1InTanLen" {
+        Value "Limbs" 0.333
+      }
+      Branch "Key1OutTanLen" {
+        Value "Limbs" 0.333
+      }
+      Branch "Key2Val" {
+        Value "Limbs" 0
+      }
+      Branch "Key2Time" {
+        Value "Limbs" 25
+      }
+      Branch "Key2Tangent" {
+        Value "Limbs" 0
+      }
+      Branch "Key2InTanLen" {
+        Value "Limbs" 0.333
+      }
+      Branch "Key2OutTanLen" {
+        Value "Limbs" 0.333
+      }
+      Branch "Key3Val" {
+        Value "Limbs" 0
+      }
+      Branch "Key3Time" {
+        Value "Limbs" 50
+      }
+      Branch "Key3Tangent" {
+        Value "Limbs" 0
+      }
+      Branch "Key3InTanLen" {
+        Value "Limbs" 0.333
+      }
+      Branch "Key3OutTanLen" {
+        Value "Limbs" 0.333
+      }
+      Branch "Key4Val" {
+        Value "Limbs" 0
+      }
+      Branch "Key4Time" {
+        Value "Limbs" 75
+      }
+      Branch "Key4Tangent" {
+        Value "Limbs" 0
+      }
+      Branch "Key4InTanLen" {
+        Value "Limbs" 0.333
+      }
+      Branch "Key4OutTanLen" {
+        Value "Limbs" 0.333
+      }
+    }
+    Branch "Swing" {
+      Branch "Key1Val" {
+        Value "Limbs" 20
+      }
+      Branch "Key1Time" {
+        Value "Limbs" 1.1236
+      }
+      Branch "Key1Tangent" {
+        Value "Limbs" 0
+      }
+      Branch "Key1InTanLen" {
+        Value "Limbs" 0.333
+      }
+      Branch "Key1OutTanLen" {
+        Value "Limbs" 0.333
+      }
+      Branch "Key2Val" {
+        Value "Limbs" -20
+      }
+      Branch "Key2Time" {
+        Value "Limbs" 50.2809
+      }
+      Branch "Key2Tangent" {
+        Value "Limbs" 0
+      }
+      Branch "Key2InTanLen" {
+        Value "Limbs" 0.333
+      }
+      Branch "Key2OutTanLen" {
+        Value "Limbs" 0.333
+      }
+    }
+    Branch "OffsetRot" {
+      Branch "X" {
+        Value "Limbs" 0
+      }
+      Branch "Y" {
+        Value "Limbs" 4.5
+      }
+      Branch "Z" {
+        Value "Limbs" 0
+      }
+    }
+    Branch "LiftPlantMod" {
+      Branch "LiftPlantRatio" {
+        Value "Limbs" 0.5
+      }
+    }
+    Branch "Collarbone" {
+      Branch "MotionZ" {
+        Branch "Key1Val" {
+          Value "Limbs" 0
+        }
+        Branch "Key1Time" {
+          Value "Limbs" 0
+        }
+        Branch "Key1Tangent" {
+          Value "Limbs" 0
+        }
+        Branch "Key1InTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key1OutTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key2Val" {
+          Value "Limbs" 1
+        }
+        Branch "Key2Time" {
+          Value "Limbs" 50
+        }
+        Branch "Key2Tangent" {
+          Value "Limbs" 0
+        }
+        Branch "Key2InTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key2OutTanLen" {
+          Value "Limbs" 0.333
+        }
+      }
+      Branch "MotionY" {
+        Branch "Key1Val" {
+          Value "Limbs" 0
+        }
+        Branch "Key1Time" {
+          Value "Limbs" 0
+        }
+        Branch "Key1Tangent" {
+          Value "Limbs" 0
+        }
+        Branch "Key1InTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key1OutTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key2Val" {
+          Value "Limbs" 1
+        }
+        Branch "Key2Time" {
+          Value "Limbs" 50
+        }
+        Branch "Key2Tangent" {
+          Value "Limbs" 0
+        }
+        Branch "Key2InTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key2OutTanLen" {
+          Value "Limbs" 0.333
+        }
+      }
+      Branch "MotionX" {
+        Branch "Key1Val" {
+          Value "Limbs" 0
+        }
+        Branch "Key1Time" {
+          Value "Limbs" 0
+        }
+        Branch "Key1Tangent" {
+          Value "Limbs" 0
+        }
+        Branch "Key1InTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key1OutTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key2Val" {
+          Value "Limbs" 1
+        }
+        Branch "Key2Time" {
+          Value "Limbs" 50
+        }
+        Branch "Key2Tangent" {
+          Value "Limbs" 0
+        }
+        Branch "Key2InTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key2OutTanLen" {
+          Value "Limbs" 0.333
+        }
+      }
+      Branch "Offset" {
+        Branch "X" {
+          Value "Limbs" 0
+        }
+        Branch "Y" {
+          Value "Limbs" 0
+        }
+        Branch "Z" {
+          Value "Limbs" 0
+        }
+      }
+    }
+    Branch "Palm" {
+      Branch "DigitRollAngle" {
+        Branch "Key1Val" {
+          Value "Limbs" 3
+        }
+        Branch "Key1Time" {
+          Value "Limbs" 0
+        }
+        Branch "Key1Tangent" {
+          Value "Limbs" 0
+        }
+        Branch "Key1InTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key1OutTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key2Val" {
+          Value "Limbs" 3.62972
+        }
+        Branch "Key2Time" {
+          Value "Limbs" 49.4382
+        }
+        Branch "Key2Tangent" {
+          Value "Limbs" 0
+        }
+        Branch "Key2InTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key2OutTanLen" {
+          Value "Limbs" 0.333
+        }
+      }
+      Branch "DigitSpreadAngle" {
+        Branch "Key1Val" {
+          Value "Limbs" 0
+        }
+        Branch "Key1Time" {
+          Value "Limbs" 0
+        }
+        Branch "Key1Tangent" {
+          Value "Limbs" 0
+        }
+        Branch "Key1InTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key1OutTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key2Val" {
+          Value "Limbs" 0.117925
+        }
+        Branch "Key2Time" {
+          Value "Limbs" 52.809
+        }
+        Branch "Key2Tangent" {
+          Value "Limbs" 0
+        }
+        Branch "Key2InTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key2OutTanLen" {
+          Value "Limbs" 0.333
+        }
+      }
+      Branch "DigitCurlAngle" {
+        Branch "Key1Val" {
+          Value "Limbs" 0
+        }
+        Branch "Key1Time" {
+          Value "Limbs" 0
+        }
+        Branch "Key1Tangent" {
+          Value "Limbs" 0
+        }
+        Branch "Key1InTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key1OutTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key2Val" {
+          Value "Limbs" 0.196541
+        }
+        Branch "Key2Time" {
+          Value "Limbs" 50.5618
+        }
+        Branch "Key2Tangent" {
+          Value "Limbs" 0
+        }
+        Branch "Key2InTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key2OutTanLen" {
+          Value "Limbs" 0.333
+        }
+      }
+      Branch "OffsetRot" {
+        Branch "X" {
+          Value "Limbs" 0
+        }
+        Branch "Y" {
+          Value "Limbs" 7.3
+        }
+        Branch "Z" {
+          Value "Limbs" 0
+        }
+      }
+      Branch "HandFlopY" {
+        Branch "Key1Val" {
+          Value "Limbs" 0
+        }
+        Branch "Key1Time" {
+          Value "Limbs" 0
+        }
+        Branch "Key1Tangent" {
+          Value "Limbs" 0
+        }
+        Branch "Key1InTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key1OutTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key2Val" {
+          Value "Limbs" 0
+        }
+        Branch "Key2Time" {
+          Value "Limbs" 50
+        }
+        Branch "Key2Tangent" {
+          Value "Limbs" 0
+        }
+        Branch "Key2InTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key2OutTanLen" {
+          Value "Limbs" 0.333
+        }
+      }
+      Branch "HandFlopX" {
+        Branch "Key1Val" {
+          Value "Limbs" 0
+        }
+        Branch "Key1Time" {
+          Value "Limbs" 0
+        }
+        Branch "Key1Tangent" {
+          Value "Limbs" 0
+        }
+        Branch "Key1InTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key1OutTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key2Val" {
+          Value "Limbs" 0
+        }
+        Branch "Key2Time" {
+          Value "Limbs" 50
+        }
+        Branch "Key2Tangent" {
+          Value "Limbs" 0
+        }
+        Branch "Key2InTanLen" {
+          Value "Limbs" 0.333
+        }
+        Branch "Key2OutTanLen" {
+          Value "Limbs" 0.333
+        }
+      }
+    }
+  }
+}
+Branch "HeadGroup" {
+  Branch "Head" {
+    Branch "Twist" {
+      Value "Key1Val" 5
+      Value "Key1Time" 0.561798
+      Value "Key1Tangent" 0
+      Value "Key1InTanLen" 0.333
+      Value "Key1OutTanLen" 0.333
+      Value "Key2Val" 0
+      Value "Key2Time" 25
+      Value "Key2Tangent" -0.05
+      Value "Key2InTanLen" 0.2
+      Value "Key2OutTanLen" 0.2
+      Value "Key3Val" -5
+      Value "Key3Time" 49.7191
+      Value "Key3Tangent" 0
+      Value "Key3InTanLen" 0.333
+      Value "Key3OutTanLen" 0.333
+      Value "Key4Val" 0
+      Value "Key4Time" 75
+      Value "Key4Tangent" 0.05
+      Value "Key4InTanLen" 0.247191
+      Value "Key4OutTanLen" 0.2
+    }
+    Branch "Roll" {
+      Value "Key1Val" 0
+      Value "Key1Time" 0.561798
+      Value "Key1Tangent" 0
+      Value "Key1InTanLen" 0.333
+      Value "Key1OutTanLen" 0.333
+      Value "Key2Val" 0
+      Value "Key2Time" 23.8764
+      Value "Key2Tangent" 0
+      Value "Key2InTanLen" 0.333
+      Value "Key2OutTanLen" 0.333
+      Value "Key3Val" 0
+      Value "Key3Time" 48.8764
+      Value "Key3Tangent" 0
+      Value "Key3InTanLen" 0.333
+      Value "Key3OutTanLen" 0.333
+      Value "Key4Val" 0
+      Value "Key4Time" 75.2809
+      Value "Key4Tangent" 0
+      Value "Key4InTanLen" 0.333
+      Value "Key4OutTanLen" 0.333
+    }
+    Branch "Pitch" {
+      Value "Key1Val" 0
+      Value "Key1Time" 0
+      Value "Key1Tangent" 0
+      Value "Key1InTanLen" 0.333
+      Value "Key1OutTanLen" 0.333
+      Value "Key2Val" 0
+      Value "Key2Time" 25
+      Value "Key2Tangent" 0
+      Value "Key2InTanLen" 0.333
+      Value "Key2OutTanLen" 0.333
+      Value "Key3Val" 0
+      Value "Key3Time" 50
+      Value "Key3Tangent" 0
+      Value "Key3InTanLen" 0.333
+      Value "Key3OutTanLen" 0.333
+      Value "Key4Val" 0
+      Value "Key4Time" 75
+      Value "Key4Tangent" 0
+      Value "Key4InTanLen" 0.333
+      Value "Key4OutTanLen" 0.333
+    }
+    Branch "Lift" {
+      Value "Key1Val" -3
+      Value "Key1Time" 0
+      Value "Key1Tangent" 0
+      Value "Key1InTanLen" 0.333
+      Value "Key1OutTanLen" 0.333
+      Value "Key2Val" 3
+      Value "Key2Time" 25
+      Value "Key2Tangent" 0
+      Value "Key2InTanLen" 0.333
+      Value "Key2OutTanLen" 0.333
+      Value "Key3Val" -3
+      Value "Key3Time" 50
+      Value "Key3Tangent" 0
+      Value "Key3InTanLen" 0.333
+      Value "Key3OutTanLen" 0.333
+      Value "Key4Val" 3
+      Value "Key4Time" 75
+      Value "Key4Tangent" 0
+      Value "Key4InTanLen" 0.333
+      Value "Key4OutTanLen" 0.333
+    }
+    Branch "Push" {
+      Value "Key1Val" 0
+      Value "Key1Time" 0
+      Value "Key1Tangent" 0
+      Value "Key1InTanLen" 0.333
+      Value "Key1OutTanLen" 0.333
+      Value "Key2Val" 0
+      Value "Key2Time" 25
+      Value "Key2Tangent" 0
+      Value "Key2InTanLen" 0.333
+      Value "Key2OutTanLen" 0.333
+      Value "Key3Val" 0
+      Value "Key3Time" 50
+      Value "Key3Tangent" 0
+      Value "Key3InTanLen" 0.333
+      Value "Key3OutTanLen" 0.333
+      Value "Key4Val" 0
+      Value "Key4Time" 75
+      Value "Key4Tangent" 0
+      Value "Key4InTanLen" 0.333
+      Value "Key4OutTanLen" 0.333
+    }
+    Branch "WeightShift" {
+      Value "Key1Val" 0
+      Value "Key1Time" 0
+      Value "Key1Tangent" 0
+      Value "Key1InTanLen" 0.333
+      Value "Key1OutTanLen" 0.333
+      Value "Key2Val" 0
+      Value "Key2Time" 25
+      Value "Key2Tangent" 0
+      Value "Key2InTanLen" 0.333
+      Value "Key2OutTanLen" 0.333
+      Value "Key3Val" 0
+      Value "Key3Time" 50
+      Value "Key3Tangent" 0
+      Value "Key3InTanLen" 0.333
+      Value "Key3OutTanLen" 0.333
+      Value "Key4Val" 0
+      Value "Key4Time" 75
+      Value "Key4Tangent" 0
+      Value "Key4InTanLen" 0.333
+      Value "Key4OutTanLen" 0.333
+    }
+    Branch "OffsetPos" {
+      Value "X" 0
+      Value "Y" 0
+      Value "Z" 0
+    }
+    Branch "OffsetRot" {
+      Value "X" 0
+      Value "Y" 0
+      Value "Z" 0
+    }
+  }
+}

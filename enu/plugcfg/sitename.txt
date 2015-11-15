@@ -1,0 +1,1532 @@
+;
+;   Format of the site name database:
+;
+;   Column      Meaning
+;
+;      1        Sign of latitude, "+" if North, "-" if South
+;               ";" is for comment lines
+;     2-8       Latitude in decimal degrees.
+;     9-11      Blank
+;     12        Sign of longitude, "+" if East, "-" if West
+;    13-20      Longitude in decimal degrees.
+;    21-29      Blank
+;    30-End     Place name.  If the first character of the place
+;               name is "+", this is a "major site" which is a
+;               candidate place for the "Nearest city" search.
+;               Otherwise the place simply appears in the list
+;               of site names available for explicit selection.
+;
+;   Note that the latitudes and longitudes in this database
+;   are given in *decimal degrees*.  If you're adding new
+;   locations from a source that gives degrees, minutes, and
+;   seconds, be sure to convert to decimal degrees!
+;
++39.5117   -076.1725         Aberdeen, MD
++05.3167   -004.0167         +Abidjan, Ivory Coast
++32.4872   -099.8225         Abilene, TX
++17.0000   -100.0000         +Acapulco, Mexico
++05.5500   -000.2000         +Accra, Ghana
++09.0500   +038.7000         +Addis Ababa, Ethiopia
+-34.9333   +138.5833         +Adelaide, Australia
++12.4500   +045.0000         +Aden, Yemen
++23.0333   +072.5833         Ahmadabad, India
++40.9166   -081.4333         Akron, OH
++29.3333   +048.0000         +Al Kuwait, Kuwait
++37.7527   -122.2758         Alameda, CA
++32.9000   -105.9567         Alamogordo, NM
++31.5778   -084.1756         Albany, GA
++42.6503   -073.7503         +Albany, NY
++44.6170   -123.0913         Albany, OR
++35.1172   -106.6246         +Albuquerque, NM
++31.1980   +029.9191         Alexandria, Egypt
++31.2920   -092.4633         Alexandria, LA
++38.8210   -077.0862         Alexandria, VA
++36.7630   +003.0505         +Algiers, Algeria
++34.0840   -118.1345         Alhambra, CA
+-23.8000   +133.8833         Alice Springs, Australia
++33.0066   -081.4031         Allendale, SC
++40.5963   -075.4777         Allentown, PA
++47.1666   +002.2333         Allouis, France
++31.5434   -082.4762         Alma, GA
++43.2500   +076.9500         Alma-Ata, Kazakhstan
++40.5079   -078.4013         Altoona, PA
++35.2200   -101.7170         Amarillo, TX
++42.0317   -093.6167         +Ames, IA
++31.9500   +035.9500         +Amman, Jordan
++52.3833   +004.9167         +Amsterdam, Netherlands
++46.1283   -112.9533         Anaconda, MT
++33.8350   -117.9133         Anaheim, CA
++61.1667   -149.9833         +Anchorage, AK
++40.1000   -085.6160         Anderson, IN
++34.5100   -082.6550         Anderson, SC
++42.5000   +001.5000         Andorra, Andorra
+-12.1500   +044.2500         +Anjouan Island
++39.9500   +032.8833         +Ankara, Turkey
++42.2754   -083.3708         Ann Arbor, MI
++38.9733   -076.4950         Annapolis, MD
+-18.9160   +047.5166         +Antananarivo, Madagascar
++17.0500   -061.8000         +Antigua Island
++51.1300   +004.2400         Antwerp, Belgium
++44.2500   -088.3833         Appleton, WI
++42.0880   -087.9810         Arlington Heights, IL
++42.4150   -071.1570         Arlington, MA
++32.6945   -097.1275         Arlington, TX
++39.8211   -105.1067         Arvada, CO
+-07.5700   -014.2200         +Ascension Island
++35.4333   -082.5333         +Asheville, NC
++38.4767   -082.6397         Ashland, KY
++46.1500   -123.8833         Astoria, OR
+-25.2833   -057.5000         +Asuncion, Paraguay
++33.9500   -083.3167         Athens, GA
++37.9667   +023.7167         +Athens, Greece
++33.6500   -084.4333         +Atlanta, GA
++39.3833   -074.4333         Atlantic City, NJ
++44.4110   -083.3320         Au Sable, MI
++32.6000   -085.5000         Auburn, AL
++44.0842   -070.2495         Auburn, ME
+-36.8500   +174.7667         +Auckland, New Zealand
++33.3667   -081.9667         Augusta, GA
++44.3167   -069.8000         +Augusta, ME
++39.7400   -104.8683         Aurora, CO
++41.7500   -088.3333         Aurora, IL
++43.6700   -092.9333         Austin, MN
++30.3000   -097.7000         +Austin, TX
++43.8020   -083.0010         Bad Axe, MI
++33.3333   +044.4000         +Baghdad, Iraq
++44.8400   -117.8067         Baker, OR
++35.3750   -119.0217         Bakersfield, CA
++34.0828   -117.9708         Baldwin Park, CA
+-37.5667   +143.8500         Ballarat, Australia
++39.1833   -076.6667         +Baltimore, MD
++12.6500   -008.0000         +Bamako, Mali
++12.9833   +077.5833         Bangalore, India
++13.7333   +100.5000         +Bangkok, Thailand
++44.8036   -068.7717         +Bangor, ME
++04.0000   +018.0000         +Bangui, Central African Rep.
++13.0000   -017.0000         +Banjul, Gambia
++41.4000   +002.1700         +Barcelona, Spain
++44.2000   -072.5167         Barre, VT
++44.2400   -079.4000         Barrie, ON Canada
++36.7450   -095.9767         Bartlesville, OK
++30.5333   -091.1500         +Baton Rouge, LA
++42.3161   -085.1800         Battle Creek, MI
++52.1600   -055.3500         Battle Harbour, NF Canada
++43.6011   -083.8875         Bay City, MI
++40.6649   -074.1105         Bayonne, NJ
++29.7183   -094.9767         Baytown, TX
++30.0509   -094.0606         Beaumont, TX
++45.2913   -122.4813         Beaverton, OR
++37.7833   -081.1167         Beckley, WV
++39.9167   +116.4333         +Beijing, China
++33.9000   +035.4667         +Beirut, Lebanon
++54.6000   -005.9167         +Belfast, N. Ireland
++44.8000   +020.4667         +Belgrade, Yugoslavia
++17.5000   -088.0000         +Belize City, Belize
++47.6034   -122.1550         Bellevue, WA
++33.8881   -118.1266         Bellflower, CA
++48.7505   -122.4767         Bellingham, WA
+-19.9166   -043.9333         Belo Horizonte, Brazil
++47.5167   -094.9333         Bemidji, MN
++42.8728   -073.1851         Bennington, VT
++34.5692   -092.5773         Benton, AR
++42.3333   -086.4333         Benton Harbor, MI
++37.8673   -122.2973         Berkeley, CA
++52.5166   +013.4000         +Berlin, Germany
++46.9166   +007.4666         +Bern, Switzerland
++60.7917   -161.7500         Bethel, AK
++40.6267   -075.3680         Bethlehem, PA
++43.4655   -070.4434         Biddeford, ME
++45.7914   -108.5385         +Billings, MT
++30.3967   -088.8833         Biloxi, MS
++42.1008   -075.9131         Binghamton, NY
++33.5169   -086.8100         +Birmingham, AL
++52.4666   -001.9166         Birmingham, UK
++25.3357   -080.1259         Biscayne Bay, FL
++37.3677   -118.3968         Bishop, CA
++46.8064   -100.7881         +Bismarck, ND
++12.0000   -016.0000         +Bissau, Guinea-Bissau
++40.8106   -074.1869         Bloomfield, NJ
++40.4817   -088.9933         Bloomington, IL
++39.1333   -086.6167         Bloomington, IN
++44.8295   -093.3151         Bloomington, MN
++33.2984   -096.3999         Blue Ridge, TX
++37.3000   -081.2167         Bluefield, WV
++33.5967   -114.7433         Blythe, CA
++26.3727   -080.1066         +Boca Raton, FL
++04.6000   -074.0000         +Bogota, Colombia
++43.5667   -116.2167         +Boise, ID
++50.7333   +007.1000         +Bonn, Germany
++40.4759   -113.4757         Bonneville, UT
++44.5550   -000.2480         Bordeaux, France
++35.6593   -101.4002         Borger, TX
++42.2130   -071.0335         +Boston, MA
++40.0000   -105.2667         +Boulder, CO
++40.8850   -111.8800         Bountiful, UT
++38.9595   -076.7377         Bowie, MD
++36.9883   -086.4508         Bowling Green, KY
++38.2300   -085.6650         Bowman, KY
++45.7833   -111.1500         +Bozeman, MT
++46.4000   -094.1333         Brainerd, MN
++49.8333   -099.9500         Brandon, MB Canada
++43.1333   -080.2660         +Brantford, ON Canada
+-15.8667   -047.9167         +Brasilia, Brazil
++48.1500   +017.1167         +Bratislava, Slovakia
+-04.2500   +015.2500         +Brazzaville, Congo
++33.2076   -097.7572         Bridgeport, TX
++41.1833   -073.1833         +Bridgeport, CT
++13.1000   -059.6160         +Bridgetown, Barbados
+-27.5000   +153.0160         +Brisbane, Australia
++41.6733   -072.9500         Bristol, CT
++36.5950   -082.1890         Bristol, TN
++42.0811   -071.0255         Brockton, MA
++36.0530   -095.7910         Broken Arrow, OK
++44.3000   -096.8000         Brookings, SD
++42.3231   -071.1424         Brookline, MA
++45.1096   -093.3521         Brooklyn Park, MN
++39.6733   -075.7200         Brookside Park, DE
++33.2472   -087.3239         Brookwood, AL
+-17.9660   +122.2330         Broome, Australia
++25.9000   -097.4333         Brownsville, TX
++43.9067   -069.9633         Brunswick, ME
++50.8000   +004.3500         +Brussels, Belgium
++37.6280   -112.1670         Bryce Canyon, UT
++44.4000   +026.1000         +Bucharest, Romania
++39.9369   -082.4792         Buckeye, OH
++47.5000   +019.0833         +Budapest, Hungary
++33.8717   -117.9967         Buena Park, CA
+-34.5833   -058.4833         +Buenos Aires, Argentina
++42.8811   -078.8725         +Buffalo, NY
+-03.0000   +029.5000         +Bujumbura, Burundi
++34.2000   -118.3500         Burbank, CA
++42.6900   -088.3017         Burbun, WI
++42.5800   -113.8650         Burley, ID
++43.3166   -079.8000         +Burlington, ON Canada
++40.7833   -091.1167         Burlington, IA
++36.0960   -079.4380         Burlington, NC
++44.4786   -073.2128         Burlington, VT
++38.2593   -094.3394         Butler, MO
++45.9500   -112.5000         Butte, MT
++22.8830   -109.9000         +Cabo San Lucas, Mexico
++39.2166   +009.1166         +Cagliari, Italy
++33.4596   -086.7282         Cahaba Heights, AL
++31.2683   -085.7267         Cairns, AL
+-16.9167   +145.7667         Cairns, Australia
++29.8667   +031.3333         +Cairo, Egypt
++43.6203   -116.6390         Caldwell, ID
++51.0833   -114.0800         +Calgary, AB Canada
++03.4167   -076.5000         +Cali, Colombia
++34.2160   -119.0370         Camarillo, CA
++42.3758   -071.1187         Cambridge, MA
++38.5618   -076.0778         Cambridge, MD
++69.1166   -105.0300         Cambridge Bay, NT Canada
++39.9360   -075.1084         Camden, NJ
++28.0000   -015.5000         +Canary Islands
+-35.2830   +149.2160         +Canberra, Australia
++40.4756   -081.2242         Canton, OH
++49.0830   -066.6830         Cap Chat, QB Canada
++37.2333   -089.5833         Cape Girardeau, MO
++10.5000   -066.9160         +Caracas, Venezuela
++32.2514   -104.1323         Carlsbad, NM
+-24.8833   +113.6667         Carnarvon, Australia
++33.8362   -118.2579         Carson, CA
++39.1667   -119.7667         Carson City, NV
++10.3000   -075.4000         +Cartagena, Colombia
++32.8800   -111.7483         Casa Grande, AZ
++33.5833   -007.6500         +Casablanca, Morocco
++42.8467   -106.3133         Casper, WY
++04.9333   -052.4500         +Cayenne, French Guiana
++30.2133   -081.8917         Cecil, FL
++37.7000   -113.1000         Cedar City, UT
++42.5206   -092.4528         Cedar Falls, IA
++41.9730   -091.6696         Cedar Rapids, IA
++29.9042   -098.9960         Center Point, TX
++37.2955   -087.1287         Central City, KY
++40.7854   -073.1969         Central Islip, NY
++33.8676   -118.0684         Cerritos, CA
++42.4946   -103.0000         Chadron, NE
++40.0659   -088.1436         Champaign, IL
++43.8800   +125.3220         +Changchun, China
++37.6667   -095.4833         Chanute, KS
++35.9276   -079.0406         Chapel Hill, NC
++41.5791   -081.2085         Chardon, OH
++32.7764   -079.9314         +Charleston, SC
++38.3506   -081.6304         +Charleston, WV
++35.2289   -080.8458         +Charlotte, NC
++46.2333   -063.1330         Charlottetown, PE Canada
++35.0244   -085.1834         +Chattanooga, TN
++30.3000   +104.1000         +Chengdu, China
++13.0800   +080.1500         +Chennai, India
++41.7550   -107.5817         Cherokee, WY
++36.6788   -076.3089         Chesapeake, VA
++34.7347   -080.0847         Chesterfield, SC
++63.3330   -090.7000         Chesterfield Inlet, NT Canada
++41.1500   -104.8167         +Cheyenne, WY
++41.8744   -087.6394         +Chicago, IL
++39.7833   -121.8500         Chico, CA
++42.1759   -072.5731         Chicopee, MA
++34.4245   -100.2483         Childress, TX
++53.4000   -078.5800         Chisasibi, PQ Canada
++29.5500   +106.5500         +Chongzing, China
+-43.5330   +172.6330         +Christchurch, New Zealand
++32.6285   -117.0447         Chula Vista, CA
++58.7666   -094.1660         +Churchill, MB Canada
++41.8500   -087.7450         Cicero, IL
++39.1500   -084.5767         +Cincinnati, OH
++43.3781   -072.3391         Claremont, NH
++39.1650   -080.2040         Clarksburg, WV
++34.2004   -090.5767         Clarksdale, MS
++36.5611   -087.3473         Clarksville, TN
++39.8050   -075.4533         Claymont, DE
++27.9667   -082.7983         Clearwater, FL
++41.4975   -081.6972         +Cleveland, OH
++35.1776   -084.8675         Cleveland, TN
++40.8833   -074.1467         Clifton, NJ
++41.8432   -090.2330         Clinton, IA
++34.3888   -103.3167         Clovis, NM
++32.0649   -109.5518         Cochise, AZ
++44.6200   -108.9633         +Cody, WY
++47.7733   -116.8200         Coeur D'Alene, ID
++38.9867   -076.9350         College Park, MD
++30.6005   -096.3124         College Station, TX
++26.0829   -081.4007         Collier County, FL
++50.9333   +006.9500         +Cologne, Germany
++06.9319   +079.8477         +Colombo, Sri Lanka
++38.8632   -104.7599         Colorado Springs, CO
++38.9508   -092.3294         Columbia, MO
++34.0002   -081.0205         Columbia, SC
++35.6225   -087.0490         Columbia, TN
++31.8183   -107.5733         Columbus, NM
++32.5107   -084.8450         Columbus, GA
++33.5050   -088.4042         Columbus, MS
++41.4347   -097.3556         Columbus, NE
++39.9630   -083.0047         +Columbus, OH
+-12.1000   +044.1500         +Comoros Islands
++33.8926   -118.2265         Compton, CA
++09.5000   -013.5000         +Conakry, Guinea
++37.9733   -121.9999         Concord, CA
++43.2316   -071.5601         +Concord, NH
++55.6833   +012.5500         +Copenhagen, Denmark
++46.0333   -112.7467         Coppertown, MT
++48.9500   -057.9330         Corner Brook, NF Canada
++27.7975   -097.3958         +Corpus Christi, TX
++44.5710   -123.2760         Corvallis, OR
++33.6400   -117.9183         Costa Mesa, CA
++28.4361   -099.2364         Cotulla, TX
++41.2400   -095.8595         +Council Bluffs, IA
++39.0368   -084.5143         Covington, KY
++41.7833   -071.4383         Cranston, RI
++44.2858   -106.0754         Crazy Woman, WY
++41.7541   -124.1978         +Crescent City, CA
++30.7620   -086.5710         Crestview, FL
++29.6383   -083.1249         Cross City, FL
++39.6500   -078.7633         Cumberland, MD
++41.3939   -099.7267         Custer County, NE
++48.6348   -112.3302         Cut Bank, MT
++30.0394   -094.5783         Daisetta, TX
++14.6708   -017.4380         +Dakar, Senegal
++32.7858   -096.7936         +Dallas, TX
++37.6870   -122.4674         Daly City, CA
++33.5000   +036.3000         +Damascus, Syria
++41.4021   -073.4715         Danbury, CT
++36.5832   -079.4083         Danville, VA
+-06.8333   +039.3000         +Dar Es Salaam, Tanzania
++45.0970   -094.4041         Darwin, MN
+-12.4660   +130.8330         +Darwin, Australia
++41.5219   -090.5758         Davenport, IA
++34.4809   -097.1305         Davis, OK
++32.1600   -110.8800         Davis-Monthan AFB, AZ
++64.0000   -139.0000         +Dawson, YT Canada
++39.7791   -084.1974         Dayton, OH
++29.2122   -081.0194         Daytona Beach, FL
++42.3272   -083.2730         Dearborn Heights, MI
++42.3220   -083.1760         Dearborn, MI
++39.8450   -088.9464         Decataur, IL
++34.6483   -086.9400         Decatur, AL
++29.3600   -100.8200         Del Rio, TX
++43.5517   -089.7633         Dells, WI
++39.3436   -112.5523         Delta, UT
++32.2617   -107.7504         Deming, NM
++33.2142   -097.1309         Denton, TX
++39.7494   -104.9894         +Denver, CO
++42.8952   -071.2878         Derry, NH
++41.5767   -093.6174         +Des Moines, IA
++42.0346   -087.9009         Des Plaines, IL
++61.2500   -138.8000         Destruction Bay, YT Canada
++46.8250   -095.8817         Detroit Lakes, MN
++42.3831   -083.1022         +Detroit, MI
++48.1100   -098.8633         Devils Lake, ND
++23.7230   +090.4090         +Dhaka, Bangladesh
++46.8800   -102.7883         Dickinson, ND
++29.4537   -095.0663         Dickinson, TX
++45.2161   -112.6345         Dillon, MT
++11.5000   +043.0000         +Djibouti, Djibouti
++37.7587   -100.0154         +Dodge City, KS
++37.0380   -092.8310         Dogwood, MO
++42.4534   -105.2255         Douglas, WY
++37.8083   -108.9300         Dove Creek, CO
++39.1587   -075.5174         +Dover, DE
++43.1898   -070.8834         Dover, NH
++33.9382   -118.1299         Downey, CA
++32.5400   -093.7417         Downtown, LA
++36.0114   -093.5135         Drake, AR
++34.7033   -112.4800         Drake Prescott, AZ
++46.6667   -113.1454         Drummond, MT
++32.5600   -082.8333         Dublin, GA
++53.3330   -006.2488         +Dublin, Ireland
++44.1034   -112.1350         Dubois, ID
++42.5045   -090.6900         Dubuque, IA
++46.7810   -092.1180         +Duluth, MN
+-66.8000   +140.0000         Dumont d'Urville
++34.3850   -097.9167         Duncan, OK
+-45.8833   +170.5000         Dunedin, New Zealand
++43.8283   -110.3350         Dunoir, WY
++45.0491   -101.6006         Dupree, SD
++36.0000   -078.9125         Durham, NC
++29.5890   -096.3330         Eagle Lake, TX
++61.3210   -149.5680         Eagle River, AK
++42.7360   -084.4843         East Lansing, MI
++40.7660   -074.2121         East Orange, NJ
++33.6707   -084.4693         East Point, GA
++38.6217   -090.1550         East St. Louis, IL
++31.2450   -089.1945         Eatonville, MS
++44.8133   -091.4950         +Eau Claire, WI
++44.8833   -093.3500         Edina, MN
++55.9500   -003.2000         +Edinburgh, Scotland
++33.4567   -080.8600         Edisto, SC
++35.6720   -097.4132         Edmond, OK
++53.5500   -113.4833         +Edmonton, AB Canada
++39.1196   -088.5509         Effingham, IL
++30.4604   -086.5499         Eglin AFB, FL
++32.7950   -116.9600         El Cajon, CA
++33.2190   -092.6628         El Dorado, AR
++34.0748   -118.0278         El Monte, CA
++31.7600   -106.4864         +El Paso, TX
++33.6833   -117.7333         El Toro, CA
++34.4183   -082.7850         Electric City, SC
++42.0396   -088.2880         Elgin, IL
++40.6664   -074.1942         Elizabeth, NJ
++40.8300   -115.7600         +Elko, NV
++47.0250   -120.4567         Ellensburg, WA
++29.6067   -095.1600         Ellington, TX
++32.3480   -093.5530         Elm Grove, LA
++42.1117   -092.9100         Elmwood, IA
++39.7400   -075.5900         Elsmere, DE
++47.8217   -091.8300         Ely, MN
++41.3799   -082.1056         Elyria, OH
++38.2414   -096.1053         Emporia, KS
++39.6533   -104.9850         Englewood, CO
++36.3950   -097.8750         Enid, OK
++31.2967   -085.9033         Enterprise, AL
++47.3123   -119.5369         Ephrata, WA
++42.1259   -080.0866         Erie, PA
++45.7462   -087.0808         Escanaba, MI
++33.1364   -117.0713         Escondido, CA
++61.1170   -094.0500         +Eskimo Point, NT Canada
++31.4467   -092.3217         Esler, LA
++44.4904   -073.1124         Essex Junction, VT
++43.3994   -094.8332         Estherville, IA
++41.5923   -081.5194         Euclid, OH
++31.9093   -085.1504         Eufaula, AL
++44.0530   -123.1122         +Eugene, OR
++42.0464   -087.6945         Evanston, IL
++37.9722   -087.5725         Evansville, IN
++47.4637   -092.5429         Eveleth, MN
++47.9633   -122.1986         Everett, WA
++21.3162   -158.0118         Ewa, HI
++64.8000   -147.8500         +Fairbanks, AK
++38.2525   -122.0417         Fairfield, CA
++41.1757   -073.2724         Fairfield, CT
++43.6424   -094.4578         Fairmont, MN
++39.4808   -080.1461         Fairmont, WV
++41.7146   -071.1051         Fall River, MA
++43.7683   -087.8483         Falls, WI
++46.8750   -096.7883         +Fargo, ND
++44.6572   -093.1783         Farmington, MN
++37.4651   -090.2518         Farmington, MO
++36.7547   -108.1856         Farmington, NM
++36.0718   -094.1557         Fayetteville, AR
++35.0717   -078.8992         Fayetteville, NC
++46.2821   -096.0677         Fergus Falls, MN
++35.1890   -111.6198         Flagstaff, AZ
++54.7666   -101.8800         Flin Flon, MB Canada
++43.0229   -083.6928         Flint, MI
++36.2790   -092.5970         Flippin, AR
++34.0238   -079.7073         Florence, SC
++38.7974   -090.3243         Florissant, MO
++44.8250   -093.4567         Flying Cloud, MN
++38.6950   -090.9717         Foristell, MO
++37.7417   -092.1383         Forney, MO
++41.3170   -110.3840         Fort Bridger, WY
++40.5556   -105.0685         Fort Collins, CO
++14.5400   -061.0000         +Fort-de-France, Martinique
++42.5079   -094.1768         Fort Dodge, IA
++41.6071   -122.8398         Fort Jones, CA
++37.9067   -085.9733         +Fort Knox, KY
++26.1426   -080.1395         +Fort Lauderdale, FL
++35.0061   -080.9436         Fort Mill, SC
++26.5883   -081.8667         Fort Myers, FL
++38.9700   -096.8600         Fort Riley, KS
++55.9833   -087.6500         Fort Severn, ON Canada
++35.3679   -094.3847         Fort Smith, AR
++30.8100   -102.8600         Fort Stockton, TX
++41.0738   -085.1390         +Fort Wayne, IN
++32.7539   -097.3362         +Fort Worth, TX
++40.5858   -124.1397         Fortuna, CA
++33.7000   -117.9600         Fountain Valley, CA
++42.3059   -071.4379         Framingham, MA
++38.1908   -084.8652         Frankfort, KY
++50.1166   +008.6833         +Frankfurt, Germany
++32.0551   -095.5036         Frankston, TX
++39.4289   -077.4169         Frederick, MD
++08.4900   -013.2340         +Freetown, Sierra Leone
++37.5285   -121.9971         Fremont, CA
++41.4408   -096.4921         Fremont, NE
++36.7806   -119.7929         +Fresno, CA
++37.1000   -119.6000         Friant, CA
++33.8750   -117.9250         Fullerton, CA
+-24.7500   +025.9500         +Gaborone, Botswana
++34.0100   -086.0144         Gadsden, AL
++36.3181   -099.7567         Gage, OK
++29.6742   -082.3363         Gainesville, FL
++39.1413   -077.2166         Gaithersburg, MD
++35.5204   -108.7354         Gallup, NM
++29.2293   -094.8921         +Galveston, TX
++37.9183   -100.7250         Garden City, KS
++33.7740   -117.9410         Garden Grove, CA
++42.5467   -072.0583         Gardner, MA
++32.9083   -096.6367         Garland, TX
++41.5958   -087.3441         Gary, IN
++35.2620   -081.1880         Gastonia, NC
++34.4720   -120.2140         Gaviota, CA
++45.0235   -084.6781         Gaylord, MI
+-38.1667   +144.3500         Geelong, Australia
++06.8000   -058.1660         +Georgetown, Guyana
+-28.7667   +114.6167         Geraldton, Australia
++44.2818   -105.5179         Gillette, WY
++48.1985   -106.6319         Glasgow, MT
++55.5100   -004.1200         +Glasgow, UK
++33.5841   -112.2016         Glendale, AZ
++34.1767   -118.2533         Glendale, CA
++35.9577   -096.0010         Glenpool, OK
++64.1000   -051.3500         +Godthab, Greenland
++39.3486   -101.7093         Goodland, KS
++53.2000   -060.3500         Goose Bay, NF Canada
++45.1450   -093.3733         Gopher, MN
++43.6808   -070.4465         Gorham, ME
++35.9517   -089.9400         Gosnell, AR
++35.8333   -087.4517         Graham, TN
++34.2650   -118.5220         Granada Hills, CA
++26.6333   -078.4160         +Grand Bahama Island
++35.9600   -112.1450         Grand Canyon, AZ
++47.9169   -097.0720         +Grand Forks, ND
++40.9218   -098.3659         Grand Island, NE
++39.0873   -108.5529         Grand Junction, CO
++32.7483   -096.9950         Grand Prairie, TX
++47.2288   -093.5245         Grand Rapids, MN
++42.9675   -085.6703         +Grand Rapids, MI
++33.8133   -078.7250         Grand Strand, SC
++21.4833   -071.1160         +Grand Turk Island
+-11.8000   +043.2000         +Grande Comore Island
++45.7700   -092.6750         Grantsburg, WI
++32.4715   -094.0424         Gray, TX
++47.4558   -111.4521         Great Falls, MT
++40.4213   -104.7439         Greeley, CO
++44.5216   -087.9898         +Green Bay, WI
++41.5159   -109.4679         Green River, WY
++31.1159   -088.3942         Greene County, MS
++36.0789   -079.8269         Greensboro, NC
++30.4670   -083.6352         Greenville, FL
++33.3854   -091.0519         Greenville, MS
++34.8387   -082.3716         Greenville, SC
++41.0390   -073.6142         Greenwich, CT
++34.1902   -082.1528         Greenwood, SC
++33.5178   -090.1916         Greenwood, MS
++34.1902   -082.1528         Greenwood, SC
++32.4847   -094.8105         Gregg County, TX
++45.5039   -122.4382         Gresham, OR
++40.6450   -086.1517         Grissom, IN
++41.3273   -072.0717         Groton, CT
++35.9533   -120.5200         Guadalupe, CA
++20.6667   -103.3333         +Guadalajara, Mexico
++14.6333   -090.5167         +Guatemala, Guatemala
++43.5500   -080.2500         +Guelph, ON Canada
++30.3861   -089.0677         Gulfport, MS
++38.5460   -106.9250         Gunnison County, CO
++33.6141   -100.2518         Guthrie, TX
++39.6450   -077.7200         Hagerstown, MD
++44.2050   -093.3700         Halfway, MN
++44.6500   -063.5666         +Halifax, NS Canada
++39.0701   -092.1314         Hallsville, MO
++41.3850   -072.9033         Hamden, CT
++34.1403   -087.9828         Hamilton, AL
++32.2941   -064.7830         +Hamilton, Bermuda
++43.2500   -079.8330         +Hamilton, ON Canada
+-37.7830   +175.2830         Hamilton, New Zealand
++39.3908   -084.5641         Hamilton, OH
++30.5077   -090.4601         Hammond, LA
++41.6210   -087.4904         Hammond, IN
++37.0499   -076.2950         Hampton, VA
++31.3733   -085.6533         Hanchey, AL
++38.7167   -120.7500         Hangtown, CA
++38.3352   -110.6924         Hanksville, UT
++21.0333   +105.8667         +Hanoi, Vietnam
+-17.8170   +031.0447         +Harare, Zimbabwe
++26.1953   -097.6863         Harlingen, TX
++32.8257   -082.7263         Harrison, GA
++40.2761   -076.8845         Harrisburg, PA
++36.2499   -093.1044         Harrison, AR
++41.7700   -072.6803         Hartford, CT
++29.8860   -090.0673         Harvey, LA
++40.5893   -098.3901         Hastings, NE
++31.3128   -089.3069         Hattiesburg, MS
++23.1333   -082.3500         +Havana, Cuba
++48.5438   -109.6791         Havre, MT
++33.9167   -118.3517         Hawthorne, CA
++40.4853   -101.0087         Hayes Center, NE
++38.8782   -099.3188         Hays, KS
++46.0100   -091.4803         Hayward, WI
++37.6277   -122.1046         Hayward, CA
++46.5965   -112.0204         +Helena, MT
++60.1755   +024.9341         +Helsinki, Finland
++37.8367   -087.5867         Henderson, KY
++36.0337   -115.0024         Henderson, NV
++36.2940   -086.6035         Hendersonville, TN
++25.8618   -080.2968         Hialeah, FL
++47.3017   -092.7033         Hibbing, MN
++39.0648   -093.7265         Higginsville, MO
++35.9560   -080.0060         High Point, NC
++39.3663   -099.8465         Hill City, KS
++45.5200   -122.9867         Hillsboro, OR
++19.6962   -155.0875         Hilo, HI
++35.7817   -084.9783         Hinch Mountain, TN
+-42.9160   +147.3333         +Hobart, Australia
++35.0146   -099.0535         Hobart, OK
++32.7343   -103.1628         Hobbs, NM
++10.7833   +106.7000         +Ho-Chi-Minh (Saigon), Vietnam
++32.8617   -106.1083         Holloman AFB, NM
++34.0879   -118.3712         Hollywood, CA
++26.0298   -080.1648         Hollywood, FL
++42.2135   -072.6424         Holyoke, MA
++33.7485   -117.1086         Homeland, CA
++22.2833   +114.1500         +Hong Kong, China
++21.3173   -157.8042         +Honolulu, HI
++45.7098   -121.5219         Hood River, OR
++36.8617   -087.4717         Hopkinsville, KY
++46.9467   -124.1483         Hoquiam, WA
++34.4937   -093.0520         Hot Springs, AR
++47.1136   -088.5618         +Houghton, MI
++44.3134   -084.7641         Houghton Lake, MI
++29.7687   -095.3867         Houston, TX
++31.4521   -105.3722         Hudspeth, TX
++29.9567   -095.3450         Humble, TX
++34.5560   -099.2370         Humphreys, OK
++32.0117   -081.1417         Hunter, GA
++38.2500   -086.9567         Huntingburg, IN
++33.6683   -118.0833         Huntington Beach, CA
++38.4200   -082.4425         Huntington, WV
++34.7317   -086.5867         Huntsville, AL
++44.3600   -098.2183         Huron, SD
++38.0655   -097.9142         Hutchinson, KS
++32.1380   -101.1350         Hyman, TX
++43.4929   -112.0350         +Idaho Falls, ID
+-20.1000   +057.7000         +Ile Maurice Island
++39.0893   -094.3534         Independence, MO
++39.7764   -086.1462         +Indianapolis, IN
++29.9567   -096.5617         Industry, TX
++33.9600   -118.3500         Inglewood, CA
++48.5876   -093.4062         +International Falls, MN
++68.4000   -134.1000         Inuvik, NT Canada
++41.6583   -091.5351         Iowa City, IA
++45.8277   -088.0615         Iron Mountain, MI
++46.4545   -090.1526         Ironwood, MI
++33.6750   -117.7600         Irvine, CA
++32.8133   -096.9367         Irving, TX
++40.7245   -074.2325         Irvington, NJ
++34.0000   +073.0000         +Islamabad, Pakistan
++41.0186   +028.9647         Istanbul, Turkey
++35.4690   -088.5210         Jacks Creek, TN
++43.7200   -110.5022         +Jackson, WY
++42.1445   -084.2404         Jackson, MI
++32.1755   -090.1105         +Jackson, MS
++35.6167   -088.8133         Jackson, TN
++34.8660   -092.1100         Jacksonville, AR
++30.3346   -081.6577         +Jacksonville, FL
+-06.1833   +106.8333         +Jakarta, Indonesia
++46.9101   -098.6982         Jamestown, ND
++42.6847   -089.0156         Janesville, WI
++41.7600   -080.7483         Jefferson, OH
++38.5719   -092.1905         Jefferson City, MO
++40.7113   -074.0650         Jersey City, NJ
++31.7833   +035.2167         +Jerusalem, Israel
+-26.2000   +028.0833         +Johannesburg, South Africa
++36.3314   -082.3687         Johnson City, TN
++38.8400   -094.7367         Johnson County, KS
++40.3254   -078.9195         Johnstown, PA
++41.5267   -088.1224         Joliet, IL
++35.8367   -090.7067         Jonesboro, AR
++37.0818   -094.5030         Joplin, MO
++30.5983   -099.8167         Junction, TX
++58.1806   -134.2510         +Juneau, AK
++46.3447   -087.3825         K.I. Sawyer AFB, MI
++34.5166   +069.1833         +Kabul, Afganistan
++42.2747   -085.5883         Kalamazoo, MI
++48.1994   -114.3170         Kalispell, MT
++00.3333   +032.5000         +Kampala, Uganda
++20.0123   -155.4018         Kamuela, HI
++41.1155   -087.8612         Kankakee, IL
++26.2800   +080.2000         +Kanpur, India
++39.1184   -094.7270         Kansas City, KS
++39.1223   -094.5520         +Kansas City, MO
++48.5830   +045.7372         +Kapustin Yar, Russia
++24.8666   +067.0500         +Karachi, Pakistan
++27.7166   +085.3166         +Katmandu, Nepal
++19.4351   -156.0353         Keahole, HI
++40.7008   -099.0846         Kearney, NE
++42.9333   -071.2800         Keene, NH
++33.3630   -096.6190         Kelly, TX
++60.5537   -151.2074         +Kenai, AK
++43.3544   -070.4615         Kennebunkport, ME
++28.6100   -080.6920         Kennedy Space Center, FL
++29.9833   -090.2417         Kenner, LA
++42.5953   -087.8364         Kenosha, WI
+-49.5833   +069.5000         +Kerguelen Islands
++55.3525   -131.6596         +Ketchikan, AK
++39.6959   -084.1501         Kettering, OH
++32.4240   -088.4380         Kewanee, MS
++24.5850   -081.8000         +Key West, FL
++15.5880   +032.5341         +Khartoum, Sudan
++50.4333   +030.5166         +Kiev, Ukraine
+-02.0000   +030.2000         +Kigali, Rwanda
++44.6483   -119.7100         Kimberly, OR
++35.8050   -098.0033         Kingfisher, OK
++36.5296   -082.5569         Kingsport, TN
++18.0000   -077.0000         +Kingston, Jamaica
++44.1500   -076.3000         Kingston, ON Canada
+-04.3333   +015.3000         +Kinshasa, Congo
++40.1951   -092.5784         Kirksville, MO
++43.2500   -080.3500         Kitchener, ON Canada
++42.2210   -121.7724         Klamath Falls, OR
++35.7967   -078.4392         Knightdale, NC
++35.9608   -083.9186         Knoxville, TN
++57.7985   -152.4025         +Kodiak, AK
++21.2683   -157.7050         Koko Head, HI
++40.4756   -086.1331         Kokomo, IN
++22.5333   +088.3333         +Kolkata, India
++03.1167   +101.7000         +Kuala Lumpur, Malaysia
++35.0000   +135.7500         +Kyoto, Japan
++43.8270   -091.2340         La Crosse, WI
++33.0414   -085.0346         La Grange, GA
++32.7696   -117.0189         La Mesa, CA
+-16.5000   -068.1500         +La Paz, Bolivia
++26.7572   -081.4380         La Belle, FL
++43.5695   -071.4803         Laconia, NH
++40.4197   -086.8942         Lafayette, IN
++30.2153   -092.0295         Lafayette, LA
++06.4500   +003.4000         +Lagos, Nigeria
++31.5833   +074.3333         +Lahore, Pakistan
++30.2109   -093.2029         Lake Charles, LA
++28.0415   -081.9600         Lakeland, FL
++42.1892   -120.3454         Lakeview, OR
++33.8488   -118.1220         Lakewood, CA
++39.6952   -105.1136         Lakewood, CO
++41.4867   -081.8033         Lakewood, OH
++40.5967   -093.9667         Lamoni, IA
++31.0634   -098.1809         Lampasas, TX
++20.7683   -156.9717         Lanai, HI
++40.0419   -076.3012         Lancaster, PA
++42.8350   -108.7333         Lander, WY
++42.7091   -084.5540         Lansing, MI
++41.3109   -105.5830         Laramie, WY
++27.5343   -099.4870         Laredo, TX
++27.9183   -082.7900         Largo, FL
++32.3361   -106.7558         Las Cruces, NM
++28.1000   -015.4000         +Las Palmas, Spain
++36.2058   -115.2228         +Las Vegas, NV
++29.3557   -100.7838         Laughlin, TX
++31.6937   -089.1447         Laurel, MS
++38.9629   -095.2554         Lawrence, KS
++42.7000   -071.1620         Lawrence, MA
++34.6004   -098.4228         Lawton, OK
++41.0780   -111.9545         Layton, UT
++39.3117   -094.9133         Leavenworth, KS
++43.6353   -072.2542         Lebanon, NH
++29.1452   -090.1227         Leeville, LA
++31.1546   -095.9755         Leona, TX
++49.4200   -112.5000         Lethbridge, AB Canada
++49.1500   -055.0300         Lewisporte, NF Canada
++46.3929   -116.9922         Lewiston, ID
++44.0893   -070.1725         Lewiston, ME
++47.0636   -109.4277         Lewistown, MT
++38.0472   -084.4961         Lexington, KY
++37.0447   -100.9355         Liberal, KS
++00.5000   +009.5000         +Libreville, Gabon
++21.9800   -159.3750         Lihue, HI
+-14.0000   +033.8000         +Lilongwe, Malawi
++40.7433   -084.1114         Lima, OH
+-12.0830   -077.0500         +Lima, Peru
++40.8164   -096.7042         Lincoln, NE
++38.7167   -009.1333         +Lisbon, Portugal
++34.7224   -092.3541         +Little Rock, AR
++53.2600   -003.0000         +Liverpool, UK
++36.3887   -085.3275         Livingston, TN
++45.6630   -110.5637         Livingston, MT
++42.3982   -083.3725         Livonia, MI
++46.0500   +014.5167         Ljubljana, Slovenia
++30.7967   -098.7867         Llano, TX
++41.7400   -111.8283         Logan, UT
++06.1333   +001.2167         +Lome, Togo
++37.0744   -084.0459         London, KY
++51.5000   -000.1166         +London, UK
++43.1845   -090.2017         Lone Rock, WI
++33.7889   -118.1598         Long Beach, CA
++32.4917   -094.7333         Longview, TX
++41.4416   -082.1834         Lorain, OH
++34.0308   -118.1437         +Los Angeles, CA
++41.6833   -081.3950         Lost Nation, OH
++38.2248   -085.7412         Louisville, KY
++32.8483   -096.8617         Love, TX
++34.7033   -112.4800         Love Field, AZ
++42.6387   -071.3221         Lowell, MA
+-08.8383   +013.2344         +Luanda, Angola
++33.5847   -101.8425         +Lubbock, TX
++41.3633   -113.8400         Lucin, UT
++31.3335   -094.7261         Lufkin, TX
+-15.0000   +029.0000         +Lusaka, Zambia
++49.6000   +006.2000         +Luxembourg, Luxembourg
++37.4012   -079.1914         Lynchburg, VA
++42.4633   -070.9483         Lynn, MA
++45.4500   +004.4000         Lyon, France
++39.7387   -092.4705         Macon, MO
++32.8367   -083.6267         Macon, GA
++44.0084   -097.1074         Madison, SD
++43.0798   -089.3875         +Madison, WI
++40.4000   -003.6833         +Madrid, Spain
++03.7500   +008.7833         +Malabo, Equatorial Guinea
++42.1895   -112.2491         Malad City, ID
++36.5550   -089.9117         Malden, MO
++42.4304   -071.0584         Malden, MA
++04.1000   +073.3100         +Male, Maldive Islands
++12.1000   -086.3000         +Managua, Nicaragua
++26.2360   +050.5830         +Manama, Bahrain
++41.7833   -072.5233         Manchester, CT
++42.9911   -071.4614         Manchester, NH
++53.2800   -002.1400         +Manchester, UK
++46.8267   -100.8950         Mandan, ND
++39.1901   -096.6000         Manhattan, KS
++14.5833   +120.9833         +Manila, Philippines
++44.2446   -086.3264         Manistee, MI
++44.0986   -087.6774         Manitowoc, WI
++39.7874   -098.2076         Mankato, KS
++44.1667   -093.9911         Mankato, MN
++49.4883   +008.4647         +Mannheim, Germany
++40.7567   -082.5167         Mansfield, OH
++37.8023   -121.2235         Manteca, CA
++37.5900   -091.7883         Maples, MO
+-25.9667   +032.5833         +Maputo, Mozambique
++39.1450   -084.0060         Marathon, OH
++30.3104   -104.0249         Marfa, TX
++30.7750   -085.2397         Marianna, FL
++33.9500   -084.5467         Marietta, GA
++40.5491   -085.6670         Marion, IN
++46.5508   -087.3957         +Marquette, MI
++43.3000   +005.4000         +Marseille, France
++44.4483   -095.8250         Marshall, MN
++32.5360   -094.3508         Marshall, TX
++41.3933   -070.6167         Martha's Vineyard, MA
++14.6000   -061.0830         Martinique
++39.1516   -121.5823         Marysville, CA
++43.1513   -093.1985         Mason City, IA
++20.9017   -156.4350         Maui, HI
+-26.0000   +031.0000         +Mbabane, Swaziland
++34.8500   -095.7817         McAlester, OK
++26.2155   -098.2393         Mcallen, TX
++44.9134   -116.1075         McCall, ID
++47.1483   -122.4733         McChord, WA
++40.2041   -100.6203         McCook, NE
++39.5950   -084.2233         McGuire, OH
++35.6033   -088.9100         McKellar, TN
+-77.8000   +167.0000         +McMurdo Station, Antarctica
++35.4850   -119.0967         Meadows Field, CA
++21.2700   +039.4500         +Mecca, Saudi Arabia
++03.5833   +098.6666         +Medan, Indonesia
++06.2167   -075.6000         +Medellin, Colombia
++42.4225   -071.1087         Medford, MA
++42.3398   -122.8531         Medford, OR
++41.8999   -106.2010         Medicine Bow, WY
++50.0333   -110.6800         Medicine Hat, AB Canada
++28.1150   -080.6401         Melbourne, FL
+-37.8167   +144.9667         +Melbourne, Australia
++35.1056   -090.0070         +Memphis, TN
++39.1827   -123.4758         Mendocino, CA
++45.1211   -087.6235         Menominee, MI
++37.1807   -120.2858         Merced, CA
++41.5350   -072.7917         Meriden, CT
++32.3809   -088.7125         Meridian, MS
++42.8183   -070.8117         Merrimack, NH
++28.3670   -080.6878         Merritt Island, FL
++33.4177   -111.7403         Mesa, AZ
++32.7650   -096.5967         Mesquite, TX
++19.4341   -099.1380         +Mexico City, Mexico
+-26.5670   +028.0170         Meyerton, South Africa
++25.8529   -080.1125         Miami Beach, FL
++25.7769   -080.1922         +Miami, FL
++32.0265   -102.1002         Midland, TX
++39.4300   -083.8017         Midwest, OH
++35.4626   -097.3694         Midwest City, OK
++45.4666   +009.2000         +Milan, Italy
++46.3817   -105.9533         Miles City, MT
++38.3945   -113.0111         Milford, UT
++41.2242   -073.0602         Milford, CT
++32.7500   -098.0086         Millsap, TX
++43.0634   -087.9666         +Milwaukee, WI
++44.9619   -093.2668         +Minneapolis, MN
++44.9400   -093.4433         Minnetonka, MN
++48.2337   -101.2961         Minot, ND
++53.5400   +027.3500         +Minsk, Belarus
++43.1500   -079.5000         Mississauga, ON Canada
++46.8617   -114.0083         Missoula, MT
++43.4233   -098.0147         Mitchell, SD
++38.5725   -109.5471         Moab, UT
++30.6775   -088.0890         Mobile, AL
++37.6433   -121.0017         Modesto, CA
++02.0000   +045.0000         +Mogadishu, Somalia
++41.4851   -090.4888         Moline, IL
++21.1612   -157.1867         Molokai, HI
++32.3033   -092.0709         Monroe, LA
++31.5167   -087.3278         Monroeville, AL
++06.3105   -010.8040         +Monrovia, Liberia
++43.4600   +007.2300         Monte Carlo, Monaco
++34.0034   -118.0619         Montebello, CA
++34.0468   -118.1306         Monterey Park, CA
++44.9733   -095.7117         Montevideo, MN
+-34.8833   -056.1833         +Montevideo, Uruguay
++32.3544   -086.2843         Montgomery, AL
++33.5617   -091.7150         Monticello, AR
++44.2665   -072.5719         Montpelier, VT
++43.6100   +003.8800         Montpellier, France
++45.5000   -073.5830         +Montreal, QB Canada
++35.3295   -097.4747         Moore, OK
++50.5000   -106.0000         Moose Jaw, SK Canada
++29.7017   -091.1919         Morgan City, LA
++39.6317   -079.9533         Morgantown, WV
+-11.4100   +043.1600         +Moroni, Comoros Islands
++45.5667   -095.9683         Morris, MN
++35.2517   -120.7583         Morro Bay, CA
++46.7298   -116.9968         Moscow, ID
++55.7500   +037.7000         +Moscow, Russia
++47.1157   -119.2862         Moses Lake, WA
++31.1668   -083.7702         Moultrie, GA
++43.5833   -084.7667         Mount Pleasant, MI
++40.9100   -073.8250         Mount Vernon, NY
++33.4869   -086.7405         Mountain Brook, AL
++43.1383   -115.6887         Mountain Home, ID
++37.4020   -122.0776         Mountain View, CA
++47.4567   -115.6450         Mullan Pass, ID
++18.9000   +072.8167         +Mumbai, India
++40.1975   -085.3906         Muncie, IN
++48.1333   +011.5833         +Munich, Germany
++35.8483   -086.3917         Murfreesboro, TN
++68.9666   +033.0833         +Murmansk, Russia
++40.6600   -111.8867         Murray, UT
++34.7067   -087.4917         Muscle Shoals, AL
++43.1403   -086.1454         Muskegon, MI
++35.7485   -095.3519         Muskogee, OK
++33.7166   -078.9000         Myrtle Beach, SC
++37.8933   -086.2450         Mystic, KY
++40.1935   -110.0618         Myton, UT
++12.0000   +015.0000         N'Djamena, Chad
++56.3400   -061.4000         Nain, NF Canada
+-01.2833   +036.8166         +Nairobi, Kenya
++43.5800   -116.5640         Nampa, ID
++32.0616   +118.7770         +Nanjing, China
++47.2200   -001.5500         Nantes, France
++38.2979   -122.2999         Napa, CA
++40.8500   +014.2833         +Naples, Italy
++39.1323   -094.0884         Napoleon, MO
++36.1716   -086.7848         +Nashville, TN
++31.5479   -091.3886         Natchez, MS
++30.2316   -096.0515         Navasota, TX
++34.7667   -114.4667         Needles, CA
++36.8447   -094.3752         Neosho, MO
++47.0000   +007.0000         Neuchatel, Switzerland
++41.6369   -070.9281         New Bedford, MA
++41.6689   -072.7831         New Britain, CT
++39.6633   -075.5617         New Castle, DE
++28.6000   +077.2000         +New Delhi, India
++41.3101   -072.9241         New Haven, CT
++37.6320   -085.5080         New Hope, KY
++30.0051   -091.8172         New Iberia, LA
++29.9480   -090.0694         +New Orleans, LA
++40.9083   -073.7817         New Rochelle, NY
++40.6698   -073.9438         +New York, NY
++39.6833   -075.7583         Newark, DE
++40.7241   -074.1732         Newark, NJ
++45.3533   -122.9767         Newberg, OR
++46.3533   -085.5090         Newberry, MI
+-32.9160   +151.7500         Newcastle, Australia
++54.9890   -001.6194         +Newcastle, UK
++43.8490   -104.2101         Newcastle, WY
++38.0840   -083.0540         Newcombe, KY
++40.2745   -081.5988         Newcomerstown, OH
++31.9517   -106.2717         Newman, TX
++44.6167   -124.0539         Newport, OR
++33.6200   -117.9267         Newport Beach, CA
++39.0850   -084.4866         Newport, KY
++36.9767   -076.4183         Newport News, VA
++41.5160   -071.2883         Newport, RI
++41.7336   -093.0610         Newton, IA
++42.2013   -071.1233         Newton, MA
++43.0912   -079.0162         Niagara Falls, NY
++14.0000   +003.0000         +Niamey, Niger
++43.7000   +007.2500         +Nice, France
++35.0000   +033.2000         +Nicosia, Cyprus
++43.9117   -091.4667         Nodine, MN
++31.4150   -110.8483         Nogales (Tucson), AZ
++64.5092   -165.4152         +Nome, AK
++42.0343   -097.4184         Norfolk, NE
++36.9232   -076.2449         +Norfolk, VA
++35.2255   -097.3440         Norman, OK
++52.5000   -108.1700         North Battleford, SK Canada
++46.2000   -079.3000         North Bay, ON Canada
++43.4061   -124.2362         North Bend, OR
++32.8850   -080.0000         North Charleston, SC
++34.1720   -118.3780         North Hollywood, CA
++36.2678   -115.1442         North Las Vegas, NV
++34.7884   -092.2554         North Little Rock, AR
++77.0000   -102.5000         +North Magnetic Pole
++90.0000   +000.0000         +North Pole
++41.1330   -100.7718         North Platte, NE
++33.9069   -118.0825         Norwalk, CA
++41.0940   -073.4202         Norwalk, CT
++18.0000   -016.0000         +Nouakchott, Mauritania
+-21.8000   +166.9000         +Noumea, New Caledonia
++55.0333   +082.9166         +Novosibirsk, Russia
++42.2728   -098.3850         O'Neill, NE
++41.8817   -087.7750         Oak Park, IL
++35.9627   -084.2962         Oak Ridge, TN
++37.7715   -122.2246         Oakland, CA
++29.1875   -082.1308         Ocala, FL
++33.2251   -117.3103         Oceanside, CA
++31.8744   -102.3483         Odessa, TX
++46.4666   +030.7333         +Odessa, Ukraine
++41.2279   -111.9658         Ogden, UT
++35.4671   -097.5135         +Oklahoma City, OK
++35.6933   -095.8650         Okmulgee, OK
++38.8850   -094.8217         Olathe, KS
++47.0658   -122.8493         +Olympia, WA
++41.2617   -095.9372         Omaha, NE
++34.0544   -117.6058         Ontario, CA
++32.6542   -085.3788         Opelika, AL
++33.7867   -117.8500         Orange, CA
++40.2982   -111.6981         Orem, UT
++28.5047   -081.3742         Orlando, FL
++29.2942   -081.0946         Ormond Beach, FL
++34.4000   +135.2700         +Osaka, Japan
++43.9000   -078.8660         Oshawa, ON Canada
++44.0178   -088.5540         Oshkosh, WI
++59.9167   +010.7500         +Oslo, Norway
++37.1676   -095.1118         Oswego, KS
++45.4000   -075.7500         +Ottawa, ON Canada
++41.0112   -092.2440         Ottumwa, IA
++12.5000   -002.0000         +Ouagadougou, Burkina Faso
++38.9700   -094.6667         Overland Park, KS
++37.7594   -087.1193         Owensboro, KY
++49.1400   -102.1000         Oxbow, SK Canada
++34.1974   -119.2137         Oxnard, CA
++32.7980   -117.2390         Pacific Beach, CA
++37.0726   -088.6360         Paducah, KY
+-14.1600   -170.4200         +Pago Pago, American Samoa
++26.7817   -080.6917         Pahokee, FL
++47.9033   -122.2867         Paine, WA
++28.7136   -096.2358         Palacios, TX
++26.6929   -080.0381         Palm Beach, FL
++37.3992   -122.1394         Palo Alto, CA
++30.1738   -085.6738         Panama City, FL
++08.9667   -079.5333         +Panama City, Panama
+-17.5330   -149.5600         Papeete, French Polynesia
++36.0808   -115.1336         Paradise, NV
++05.8167   -055.1500         +Paramaribo, Suriname
++33.6600   -095.5235         Paris, TX
++48.8667   +002.3333         +Paris, France
++46.9175   -095.0601         Park Rapids, MN
++39.2640   -081.5430         Parkersburg, WV
++41.3836   -081.7294         Parma, OH
++34.1607   -118.1387         Pasadena, CA
++29.6606   -095.1520         Pasadena, TX
++30.3661   -088.5473         Pascagoula, MS
++46.2521   -119.1278         Pasco, WA
++35.6733   -120.6267         Paso Robles, CA
++40.9145   -074.1634         Paterson, NJ
++40.1106   -096.1520         Pawnee City, NE
++41.8733   -071.3743         Pawtucket, RI
++35.5274   -113.4298         Peach Springs, AZ
++43.2591   -082.8165         Peck, MI
++31.4025   -103.5056         Pecos, TX
++45.6300   -084.6633         Pellston, MI
++48.9680   -097.2457         Pembina, ND
++45.6983   -118.9383         Pendleton, OR
++30.4447   -087.1895         Pensacola, FL
++40.6950   -089.5925         Peoria, IL
+-31.9500   +115.8500         +Perth, Australia
++44.2000   -078.2000         Peterborough, ON Canada
++32.4655   -085.0146         Phenix City, AL
++40.0068   -075.1347         +Philadelphia, PA
++44.0405   -101.6638         Philip, SD
++11.5500   +104.9160         +Phnom Penh, Cambodia
++33.5426   -112.0714         Phoenix, AZ
++30.5287   -089.6783         Picayune, MS
++33.9898   -118.0883         Pico Rivera, CA
++44.3730   -100.3225         +Pierre, SD
++34.2134   -092.0186         Pine Bluff, AR
++32.6180   -105.3940         Pinon, NM
++36.7467   -097.1600         Pioneer, OK
++40.4386   -080.0000         +Pittsburgh, PA
++42.4518   -073.2609         Pittsfield, MA
++34.1909   -101.7246         Plainview, TX
++33.0462   -096.7467         Plano, TX
++62.7166   +040.2833         +Plesetsk, Russia
++42.8733   -112.4500         Pocatello, ID
++37.9283   -087.7617         Pocket City, IN
++32.6167   -116.9833         Poggi, CA
++34.0590   -117.7614         Pomona, CA
++26.2369   -080.1329         Pompano Beach, FL
++42.6491   -083.2872         Pontiac, MI
++29.8750   -093.9375         Port Arthur, TX
++18.5333   -072.3333         +Port Au Prince, Haiti
++41.5568   -090.6042         Port City, IA
+-20.1660   +057.5000         +Port Louis, Mauritius
+-09.4833   +147.1500         +Port Moresby, Papua New Guinea
++66.0500   -117.8800         +Port Radium, NT Canada
++36.0354   -119.0100         Porterville, CA
++43.6671   -070.2072         Portland, ME
++45.5383   -122.6565         +Portland, OR
+-30.0330   -051.2000         +Porto Alegre, Brazil
++06.4833   +002.6167         +Porto Novo, Benin
++43.0569   -070.7820         Portsmouth, NH
++36.8353   -076.3039         Portsmouth, VA
++50.1000   +014.5000         +Prague, Czech Republic
++34.5760   -112.4491         Prescott, AZ
+-25.7060   +028.2294         Pretoria, South Africa
++39.6033   -110.7533         Price, UT
++53.2000   -105.7500         Prince Albert, SK Canada
++54.0000   -130.5000         Prince Rupert, BC Canada
++49.2700   -120.3000         Princeton, BC Canada
++41.8255   -071.4114         +Providence, RI
++40.2472   -111.6427         Provo, UT
++38.2736   -104.6210         Pueblo, CO
++20.6667   -105.2667         Puerto Vallarta, Mexico
++46.7333   -117.1620         Pullman, WA
++26.8975   -082.0570         Punta Gorda, FL
++35.0833   +129.0000         +Pusan, South Korea
++39.0194   +125.7540         +Pyongyang, Korea
++46.8000   -071.2500         +Quebec, QB Canada
++14.6438   +121.0370         +Quezon, Philippines
++42.2613   -071.0070         Quincy, MA
++32.7959   -095.4443         Quitman, TX
+-00.2167   -078.5333         +Quito, Ecuador
++34.0252   -006.8361         +Rabat, Morocco
++42.7303   -087.7867         Racine, WI
++37.9750   -080.8067         Rainelle, WV
++35.7772   -078.6392         +Raleigh, NC
++33.7582   -118.3630         Rancho Palos Verdes, CA
++44.0800   -103.2283         +Rapid City, SD
++61.1170   -112.5830         Rat River, NT Canada
++41.7845   -107.2279         Rawlins, WY
++36.2467   -094.1217         Razorback, AR
++39.4400   -106.8950         Red Table, Eagle, CO
++40.3358   -075.9278         Reading, PA
++40.1738   -122.2404         Red Bluff, CA
++52.2666   -113.8000         Red Deer, AB Canada
++40.5724   -122.3649         +Redding, CA
++44.2595   -121.1712         Redmond, OR
++33.8565   -118.3762         Redondo Beach, CA
++37.5164   -122.2059         Redwood City, CA
++44.5416   -095.1137         Redwood Falls, MN
++50.4500   -104.6100         Regina, SK Canada
++68.5000   -134.0000         +Reindeer Depot, NT Canada
++39.5242   -119.8111         +Reno, NV
++34.2010   -118.5360         Reseda, CA
+-22.0000   +056.0000         +Reunion Island
++43.8233   -111.7850         Rexburg, ID
++64.1333   -021.9333         +Reykjavik, Iceland
++45.6396   -089.4120         Rhinelander, WI
++34.6975   -094.3724         Rich Mountain, AR
++32.9533   -096.7250         Richardson, TX
++39.7550   -084.8383         Richmond, IN
++37.9367   -122.3467         Richmond, CA
++37.5311   -077.4746         Richmond, VA
+-22.9000   -043.2333         +Rio de Janeiro, Brazil
++39.1673   -094.6337         Riverside, MO
++33.9800   -117.3650         Riverside, CA
++43.0356   -108.4148         Riverton, WY
++24.6408   +046.7727         +Riyadh, Saudi Arabia
++37.2703   -079.9455         Roanoke, VA
++39.0079   -087.7405         Robinson, IL
++44.0137   -092.4757         Rochester, MN
++43.3033   -070.9750         Rochester, NH
++43.1687   -077.6158         Rochester, NY
++34.9086   -081.0292         Rock Hill, SC
++41.5981   -109.2215         Rock Springs, WY
++34.7967   -086.6333         Rocket, AL
++42.2703   -089.0631         Rockford, IL
+-23.3667   +150.5333         Rockhampton, Australia
++30.0168   -100.2118         Rocksprings, TX
++39.0812   -077.1539         Rockville, MD
++34.1525   -085.0952         Rome, GA
++42.5900   -117.8667         Rome, OR
++41.8000   +012.6000         +Rome, Italy
++48.8550   -095.6950         Roseau, MN
++43.2197   -123.3576         Roseburg, OR
++42.5033   -082.9367         Roseville, MI
++33.3711   -104.5294         Roswell, NM
++51.5500   +004.2700         +Rotterdam, Netherlands
++42.5086   -083.1546         Royal Oak, MI
++32.5318   -092.6396         Ruston, LA
++43.6083   -072.9717         Rutland, VT
++29.6867   -094.0383         Sabine Pass, TX
++45.8833   -064.3500         Sackville, PE Canada
++43.5371   -070.4547         Saco, ME
++38.5669   -121.4674         +Sacramento, CA
++43.4311   -083.9347         Saginaw, MI
++43.1666   -079.2330         Saint Catharine's, ON Canada
++37.0785   -113.5786         Saint George, UT
++45.2666   -066.0660         Saint John, NB Canada
++47.3400   -052.4300         Saint John's, NF Canada
++42.3901   -083.6031         Salem, MI
++42.7907   -071.2220         Salem, NH
++44.9245   -123.0221         Salem, OR
++38.8350   -097.6083         Salina, KS
++36.6700   -121.6517         Salinas, CA
++45.1779   -113.8985         Salmon, ID
++31.4437   -105.0532         Salt Flat, TX
++40.7564   -111.8905         +Salt Lake City, UT
+-12.9830   -038.5160         +Salvador, Brazil
++38.4900   -088.0580         Samsville, IL
++31.4461   -100.4524         San Angelo, TX
++29.4577   -098.5054         +San Antonio, TX
++34.1398   -117.2923         San Bernardino, CA
++32.8150   -117.1358         San Diego, CA
++37.7950   -122.3940         +San Francisco, CA
++37.3040   -121.8498         San Jose, CA
++10.0000   -084.4000         +San Jose, Costa Rica
++18.4667   -066.1167         +San Juan, Puerto Rico
++37.7047   -122.1608         San Leandro, CA
++37.5613   -122.3120         San Mateo, CA
++33.7360   -118.2910         San Pedro, CA
++13.7000   -089.2167         +San Salvador, El Salvador
++15.4000   +044.2333         Sana'a, Yemen
++30.1526   -102.4077         Sanderson, TX
++41.4559   -082.7145         Sandusky, OH
++43.4410   -070.7813         Sanford, ME
++35.2729   -120.6648         San Luis Obispo, CA
++33.7633   -117.8650         Santa Ana, CA
++34.4285   -119.7219         Santa Barbara, CA
++37.3450   -121.9467         Santa Clara, CA
++35.6864   -105.9361         +Santa Fe, NM
++34.0134   -118.4932         Santa Monica, CA
++38.4486   -122.7008         Santa Rosa, CA
+-33.4500   -070.6660         +Santiago, Chile
++18.4666   -069.9000         +Santo Domingo, Dominican Republic
+-23.5333   -046.6167         +Sao Paulo, Brazil
++43.5000   +018.2600         +Sarajevo, Bosnia
++27.3361   -082.5466         Sarasota, FL
++52.1333   -106.6600         Saskatoon, SK Canada
++30.4717   -087.3367         Saufley, FL
++46.5000   -084.3330         +Sault Sainte Marie, ON Canada
++32.0500   -081.0559         +Savannah, GA
++35.2973   -099.6348         Sayre, OK
++43.7500   -079.2000         Scarborough, ON Canada
++42.0330   -088.0834         Schaumburg, IL
++42.8117   -073.9283         Schenectady, NY
++29.2683   -094.8683         Scholes, TX
++45.9767   -086.1733         Schoolcraft Co, MI
++41.8950   -103.4817         Scottsbluff, NE
++33.4883   -111.9267         Scottsdale, AZ
++41.4041   -075.6661         Scranton, PA
++32.5190   -096.3810         Scurry, TX
++38.6417   -075.6117         Seaford, DE
++41.1200   -101.7767         Searle, NE
++47.6218   -122.3503         +Seattle, WA
++32.4161   -087.0330         Selma, AL
++37.5667   +126.9667         +Seoul, South Korea
++31.1667   +121.4667         +Shanghai, China
++39.0152   -094.8045         Shawnee, KS
++43.7600   -087.7483         Sheboygan, WI
++40.8817   -082.6617         Shelby, OH
++35.4904   -086.4467         Shelbyville, TN
+-36.3830   +145.4000         Shepparton, Australia
++45.4000   -071.9000         Sherbrooke, QB Canada
++44.7967   -106.9617         Sheridan, WY
++32.5128   -093.7494         Shreveport, LA
++41.1337   -102.9700         Sidney, NE
++32.4612   -108.1649         Silver City, NM
++34.2631   -118.7513         Simi Valley, CA
++01.3000   +103.8333         +Singapore, Singapore
++42.5002   -096.3940         Sioux City, IA
++43.5430   -096.7264         Sioux Falls, SD
++41.5892   -122.5331         Siskiyou County, CA
++42.0371   -087.7399         Skokie, IL
++30.2810   -089.7777         Slidell, LA
++39.2954   -075.6077         Smyrna, DE
++35.7900   -083.0533         Snowbird, TN
++34.0552   -106.9042         Socorro, NM
++42.7000   +023.3333         +Sofia, Bulgaria
++42.3903   -071.1018         Somerville, MA
++41.6753   -086.2657         South Bend, IN
++33.9440   -118.1919         South Gate, CA
++21.9033   -159.5317         South Kauai, HI
+-69.0000   +143.0000         +South Magnetic Pole
+-90.0000   +000.0000         +South Pole
++43.6329   -070.2855         South Portland, ME
++42.4756   -083.2592         Southfield, MI
++49.5000   +069.5000         +Soyuz Landing Zone, Kazakhstan
++39.5383   -119.7533         Sparks, NV
++34.9508   -081.9350         Spartanburg, SC
++61.1890   -149.9060         Spenard, AK
++43.1459   -095.1511         Spencer, IA
++47.6723   -117.4140         +Spokane, WA
++39.8917   -089.6250         Springfield, IL
++42.1150   -072.5390         Springfield, MA
++37.1962   -093.2861         Springfield, MO
++39.9272   -083.8080         Springfield, OH
++44.0529   -122.9771         Springfield, OR
++43.2884   -072.4762         Springfield, VT
++44.9477   -093.1037         St. Paul, MN
++38.7867   -090.4800         St. Charles, MO
++42.4967   -082.8867         St. Clair Shores, MI
++45.5540   -094.1704         St. Cloud, MN
++39.7658   -094.8506         St. Joseph, MO
++38.6292   -090.2061         St. Louis, MO
++44.9433   -093.3500         St. Louis Park, MN
++44.9477   -093.1037         St. Paul, MN
++27.7717   -082.6386         +St. Petersburg, FL
++59.8944   +030.2641         +Saint Petersburg, Russia
++29.8919   -081.3108         +St. Augustine, FL
++41.0967   -073.5527         Stamford, CT
+-52.0000   -058.0000         +Stanley, Falkland Islands
++40.5622   -074.1404         Staten Island, NY
++42.5833   -083.0167         Sterling Heights, MI
++40.3670   -080.6466         Steubenville, OH
++44.5277   -089.5605         Stevens Point, WI
++36.1310   -097.0717         Stillwater, OK
++29.2583   -098.4433         Stinson, TX
++59.0000   +018.0000         +Stockholm, Sweden
++37.9583   -121.2878         Stockton, CA
++33.1779   -100.2523         Stonewall, TX
++48.5850   +007.7600         Strasbourg, France
++41.2043   -073.1302         Stratford, CT
++37.1700   -097.0400         Strother, KS
++48.7666   +009.1833         +Stuttgart, Germany
++36.7283   -076.5800         Suffolk, VA
++46.2500   -081.0000         Sudbury, ON Canada
++33.1439   -095.6101         Sulphur Springs, TX
++33.9183   -080.3467         Sumter, SC
++37.3858   -122.0255         Sunnyvale, CA
++38.0400   -092.6033         Sunshine, MO
++46.6969   -092.0596         Superior, WI
+-18.0000   +178.0000         +Suva, Fiji
++32.5901   -082.3361         Swainsboro, GA
++50.5000   -108.0000         Swift Current, SK Canada
+-33.8830   +151.2160         +Sydney, Australia
++46.1500   -060.1660         Sydney, NS Canada
++43.0411   -076.1441         Syracuse, NY
++47.2520   -122.4598         Tacoma, WA
+-17.5000   -149.5000         +Tahiti
++25.0166   +121.4500         +Taipei, Taiwan
++33.5750   -086.0433         Talladega, AL
++30.4570   -084.2814         +Tallahassee, FL
++27.9494   -082.4569         Tampa, FL
++36.3862   -105.5772         Taos, NM
++48.3000   -124.6250         Tatoosh, WA
++30.0167   -083.6167         Taylor, FL
++42.2253   -083.2684         Taylor, MI
++14.1000   -087.2167         +Tegucigalpa, Honduras
++35.6667   +051.4333         +Tehran, Iran
++41.7774   -096.2227         Tekamah, NE
++32.0300   +034.4600         +Tel Aviv-Yafo, Israel
++33.4150   -111.9283         Tempe, AZ
++31.0977   -097.3635         Temple, TX
++28.4000   -016.6000         +Teneriffe Island
+-54.8667   -068.4833         +Tierra Del Fuego, S. America
++39.4704   -087.3835         Terre Haute, IN
++33.4502   -094.0158         Texarkana, AR
++33.4411   -094.0724         Texarkana, TX
++34.3894   -103.0517         Texico, NM
++45.5992   -121.1750         The Dalles, OR
++41.9817   -100.7183         Thedford, NE
++33.6283   -116.1600         Thermal, CA
++40.6167   +022.9500         +Thessaloniki, Greece
++29.7950   -090.8067         Thibodaux, LA
++48.1135   -096.1754         Thief River Falls, MN
++27.4667   +089.6500         +Thimphu, Bhutan
++55.7500   -097.8660         Thompson, MB Canada
++39.8633   -104.9650         Thornton, CO
++34.1927   -118.8676         Thousand Oaks, CA
++28.5244   -098.1767         Three Rivers, TX
++77.5000   -065.5000         +Thule, Greenland
++48.2000   -089.1500         Thunder Bay, ON Canada
++29.6633   -090.8283         Tibby, LA
++39.8883   -091.9013         Tiger, MO
++48.2500   -081.2200         Timmins, ON Canada
++35.4000   -097.3783         Tinker, OK
++41.3275   +019.8188         +Tirane, Albania
++34.5799   -083.3247         Toccoa, GA
++35.6850   +139.7510         +Tokyo, Japan
++41.6539   -083.5442         Toledo, OH
++38.0401   -117.1348         Tonopah, NV
++39.0379   -095.6920         +Topeka, KS
++43.6666   -079.4160         +Toronto, ON Canada
++33.8348   -118.3404         Torrance, CA
++43.6000   +001.4500         Toulouse, France
+-19.2500   +146.8000         Townsville, Australia
++44.6683   -085.5500         Traverse City, MI
++38.3500   -121.8167         Travis, CA
++40.2234   -074.7642         Trenton, NJ
++29.5467   -094.7467         Trinity, TX
++32.9000   +013.1833         +Tripoli, Libya
++46.2100   -072.3500         Trois-Rivieres, PQ Canada
++31.8633   -086.0117         Troy, AL
++42.5802   -083.1431         Troy, MI
++42.7292   -073.6828         Troy, NY
++33.1356   -107.2481         +Truth or Consequences, NM
++36.1250   -111.2425         Tuba City, AZ
++32.1958   -110.8917         Tucson, AZ
++35.1018   -103.4329         Tucumcari, NM
++36.1278   -095.9164         +Tulsa, OK
++36.8027   +010.1797         +Tunis, Tunisia
++34.2635   -088.7320         Tupelo, MS
++45.0500   +007.6666         +Turin, Italy
++33.2377   -087.5410         Tuscaloosa, AL
++32.2107   -099.7989         Tuscola, TX
++32.4377   -085.7111         Tuskegee, AL
++34.0808   -116.0315         Twentynine Palms, CA
++42.5615   -114.4628         Twin Falls, ID
++32.3284   -095.3036         Tyler, TX
++45.6666   +063.3333         Tyuratam (Proton), Kazakhstan
++46.0160   +063.5730         +Tyuratam (Soyuz), Kazakhstan
++38.9206   -077.0657         U.S. Naval Observatory, USA
++47.9000   +106.8667         +Ulaanbaatar, Mongolia
++40.7671   -074.0325         Union City, NJ
++38.6662   -090.3311         University City, MO
++20.1616   -155.5112         Upolu Point, HI
++40.1085   -088.2052         Urbana, IL
++43.0969   -075.2284         Utica, NY
++61.0750   -146.2053         +Valdez, AK
++30.8494   -083.2784         Valdosta, GA
++38.1075   -122.2642         Vallejo, CA
++35.9000   +014.5000         +Valletta, Malta
++34.1870   -118.4480         Van Nuys, CA
++33.4370   -080.4713         Vance, SC
++49.2167   -123.1000         +Vancouver, BC Canada
++45.6250   -122.6700         Vancouver, WA
++33.9000   -118.4417         Venice, CA
++45.2500   +012.1800         +Venice, Italy
++34.3083   -119.3079         Ventura, CA
++42.7800   -096.9283         Vermillion, SD
++40.4520   -109.5355         Vernal, UT
++27.6158   -080.4134         Vero Beach, FL
++38.1110   -091.7600         Vichy, MO
++32.3291   -090.8708         Vicksburg, MS
++48.4167   -123.3500         +Victoria, BC Canada
+-04.8300   +055.2700         +Victoria, Seychelles
++28.8242   -096.9829         Victoria, TX
++32.0529   -083.4743         Vienna, GA
++48.2000   +016.3666         +Vienna, Austria
++19.0000   +103.0000         +Vientiane, Laos
++39.4648   -074.9974         Vineland, NJ
++36.8467   -075.9750         Virginia Beach, VA
++36.3254   -119.3206         Visalia, CA
++43.1167   +131.9167         +Vladivostok, Russia
++33.6700   -086.9000         Vulcan, AL
++31.5248   -097.1556         +Waco, TX
++21.5029   -158.0221         Wahiawa, HI
++46.0669   -118.3412         +Walla Walla, WA
++37.5111   -075.2828         Wallops Island, VA
++37.9020   -122.0408         Walnut Creek, CA
++42.3878   -071.2422         Waltham, MA
++32.6167   -083.6017         Warner Robins, GA
++42.4930   -083.0282         Warren, MI
++41.2381   -080.8169         Warren, OH
++52.2500   +021.0000         +Warsaw, Poland
++41.7022   -071.4219         Warwick, RI
++38.9051   -077.0162         Washington, DC
++41.5584   -073.0374         Waterbury, CT
++42.4917   -092.3511         Waterloo, IA
++44.9126   -097.1666         Watertown, SD
++42.3583   -087.8333         Waukegan, IL
++43.0125   -088.2382         Waukesha, WI
++43.2698   -091.4764         Waukon, IA
++44.8467   -089.5867         Wausau, WI
++43.0258   -088.0027         Wauwatosa, WI
++31.2119   -082.3577         Waycross, GA
++40.4009   -080.5641         Weirton, WV
+-41.2833   +174.7667         +Wellington, New Zealand
++47.4257   -120.3249         Wenatchee, WA
++43.0073   -088.0300         West Allis, WI
++43.4228   -088.1842         West Bend, WI
++34.0717   -117.9094         West Corina, CA
++46.8717   -096.9033         West Fargo, ND
++41.7500   -072.7400         West Hartford, CT
++41.2833   -072.9533         West Haven, CT
++35.1497   -090.1822         West Memphis, AR
++26.7477   -080.1262         West Palm Beach, FL
++41.6976   -071.5183         West Warwick, RI
++43.6939   -070.3540         Westbrook, ME
++42.3240   -083.4000         Westland, MI
++33.7514   -117.9931         Westminster, CA
++39.8815   -105.0509         Westminster, CO
++42.2063   -070.9451         Weymouth, MA
++40.0751   -080.6970         Wheeling, WV
++43.5750   -085.7167         White Cloud, MI
++29.4428   -092.3013         White Lake, LA
++41.0209   -073.7574         White Plains, NY
++45.8714   -112.0959         Whitehall, MT
++60.7166   -135.0500         +Whitehorse, YT Canada
++37.7988   -080.2973         White Sulphur Springs, WV
++33.9666   -118.0217         Whittier, CA
++33.9094   -098.4911         Wichita Falls, TX
++37.6874   -097.3427         +Wichita, KS
++43.5933   -118.9533         Wildhorse, OR
++35.5333   -097.6467         Wiley Post, OK
++41.2464   -075.8758         Wilkes-Barre, PA
++35.3583   -097.6083         Will Rogers, OK
++39.0916   -122.0857         Williams, CA
++37.7550   -089.0117         Williamson-Marion, IL
++48.1623   -103.6309         Williston, ND
++45.1246   -095.0496         Willmar, MN
++42.2570   -083.5740         Willow Run, MI
++39.7356   -075.5300         +Wilmington, DE
++34.2125   -077.9113         Wilmington, NC
+-22.5667   +017.1000         +Windhoek, Namibia
++31.7552   -103.1544         Wink, TX
++43.3739   -099.8588         Winner, SD
++49.8833   -097.1660         +Winnipeg, MB Canada
++44.0478   -091.6571         Winona, MN
++35.0127   -110.4148         Winslow Prescott, AZ
++36.1021   -080.2629         +Winston-Salem, NC
++31.2850   -085.4317         Wiregrass, AL
++41.4008   -098.3917         Wolbach, NE
++41.2467   -085.4967         Wolf Lake, IN
++36.3733   -097.7883         Woodring, OK
++42.2696   -071.8089         Worcester, MA
++44.0054   -107.9580         Worland, WY
++43.6272   -095.5984         Worthington, MN
++30.3000   +114.1500         +Wuhan, China
++42.8967   -085.7067         Wyoming, MI
++34.2622   +108.9370         Xi'an, China
++46.5926   -120.5289         +Yakima, WA
++16.7833   +096.1500         +Yangon, Myanmar
++42.8750   -097.3900         Yankton, SD
++39.3015   -083.0035         Yellowbud, OH
++62.2900   -114.3800         +Yellowknife, NT Canada
++35.3700   +139.4000         +Yokohama, Japan
++40.9319   -073.8983         Yonkers, NY
++38.5660   -083.0460         York, KY
++39.9597   -076.7267         York, PA
++41.0991   -080.6464         Youngstown, OH
++32.6775   -114.6202         +Yuma, AZ
++45.8167   +015.9667         Zagreb, Croatia 
++39.9524   -082.0120         Zanesville, OH
++34.4600   +113.4200         +Zhengzhou, China
++35.0725   -108.8500         Zuni, NM
++47.3666   +008.5500         +Zurich, Switzerland

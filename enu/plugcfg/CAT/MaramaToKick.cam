@@ -1,0 +1,26 @@
+[Header]
+Version:2300
+RigName:Marama
+StartTime:50
+EndTime:150
+Frequency:3
+[Data]
+SceneRootNode.Hub="LowerTorso" (matrix3 [0,0,1] [0,1,0] [-1,0,0] [0,2.4,-2.7])
+SceneRootNode.Hub.Limb[0].Platform="LToe" (matrix3 [0,1,0] [0,0,1] [1,0,0] [0,-1,0])
+SceneRootNode.Hub.Limb[0].LimbBone[0].BoneSeg[0]="LThigh" (matrix3 [0,0,1] [0,1,0] [-1,0,0] [0,0,0])
+SceneRootNode.Hub.Limb[0].LimbBone[1].BoneSeg[0]="LLowLeg" (matrix3 [0,0,1] [0,1,0] [-1,0,0] [0,0,0])
+SceneRootNode.Hub.Limb[0].Palm="LFoot" (matrix3 [0,0.422618,0.906308] [0,0.906308,-0.422618] [-1,0,0] [0,0,0])
+SceneRootNode.Hub.Limb[1].Platform="RToe" (matrix3 [0,1,0] [0,0,1] [1,0,0] [0,-1,0])
+SceneRootNode.Hub.Limb[1].LimbBone[0].BoneSeg[0]="RThigh" (matrix3 [0,0,1] [0,1,0] [-1,0,0] [0,0,0])
+SceneRootNode.Hub.Limb[1].LimbBone[1].BoneSeg[0]="RLowLeg" (matrix3 [0,0,1] [0,1,0] [-1,0,0] [0,0,0])
+SceneRootNode.Hub.Limb[1].Palm="RFoot" (matrix3 [0,0.422618,0.906308] [0,0.906308,-0.422618] [-1,0,0] [0,0,0])
+SceneRootNode.Hub.Spine[0].Hub="Neck" (matrix3 [0,0,1] [0,1,0] [-1,0,0] [0,0,0])
+SceneRootNode.Hub.Spine[0].Hub.Limb[0].IKTargetValues="LHand" (matrix3 [0,0,-1] [1,0,0] [0,-1,0] [0,0,5])
+SceneRootNode.Hub.Spine[0].Hub.Limb[0].LimbBone[0].BoneSeg[0]="LUpArm" (matrix3 [0,0,1] [0,1,0] [-1,0,0] [0,0,0])
+SceneRootNode.Hub.Spine[0].Hub.Limb[0].LimbBone[1].BoneSeg[0]="LLowArm" (matrix3 [0,0,1] [0,1,0] [-1,0,0] [0,0,0])
+SceneRootNode.Hub.Spine[0].Hub.Limb[0].Palm="LHand" (matrix3 [0,0,1] [1,0,0] [0,1,0] [0,0,0])
+SceneRootNode.Hub.Spine[0].Hub.Limb[1].IKTargetValues="RHand" (matrix3 [0,0,-1] [-1,0,0] [0,1,0] [0,0,5])
+SceneRootNode.Hub.Spine[0].Hub.Limb[1].LimbBone[0].BoneSeg[0]="RUpArm" (matrix3 [0,0,1] [0,1,0] [-1,0,0] [0,0,0])
+SceneRootNode.Hub.Spine[0].Hub.Limb[1].LimbBone[1].BoneSeg[0]="RLowArm" (matrix3 [0,0,1] [0,1,0] [-1,0,0] [0,0,0])
+SceneRootNode.Hub.Spine[0].Hub.Limb[1].Palm="RHand" (matrix3 [0,0,1] [-1,0,0] [0,-1,0] [0,0,0])
+SceneRootNode.Hub.Spine[0].Hub.Spine[0].Hub="Head" (matrix3 [0.0408595,-0.995629,0.0839838] [-0.0337637,0.0826302,0.996008] [-0.998594,-0.043532,-0.0302399] [0,0,2.1])

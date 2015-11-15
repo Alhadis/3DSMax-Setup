@@ -1,0 +1,2523 @@
+# CAT Character Rig exported from 3dsmax on Tue Sep 12 02:09:47 2006
+
+CATParent {
+  CharacterName = "GothGirl"
+  Units = 1
+  Version = 2447
+  LengthAxis = 2
+  Hub {
+    BoneName = "Pelvis"
+    Flags = 262144
+    BoneColour = 212
+    Controller {
+      SetupTM = matrix 1 0 0 0 0.955645 -0.294521 0 0.294521 0.955645 -1.48125e-006 -10.5613 124.856
+      Flags = 7538176
+    }
+    DangleRatioVal = 1
+    ParentNode = INode "SceneRootNode"
+    ObjectParams {
+      Width = 23.2466
+      Length = 18.0894
+      Height = 10.1463
+      PivotPosZ = 0
+      PivotPosY = -0.1735
+    }
+    Spine {
+      BoneName = "Spine"
+      Flags = 0
+      AbsRelSpine = 1
+      SpineBase = matrix 1 0 0 0 1 0 0 0 1 -3.37863e-007 -3.31871 7.11581
+      WeightOutTan = 0.333
+      WeightInTan = 0.333
+      WeightOutVal = 0
+      WeightInVal = 1
+      NumLinks = 3
+      SpineLink {
+        BoneName = ""
+        Flags = 0
+        ParentNode = INode "SceneRootNode.Hub"
+        ObjectParams {
+          Flags = 0
+          Width = 7.7
+          Height = 7.7
+          Length = 12.8213
+          ObjectOffsetPos = point 0 0 0
+          ObjectOffsetRot = quat 0 0 0 1
+          ObjectOffsetScl = point 1 1 1
+        }
+        SetupTM = matrix 1 2.51542e-009 -1.42004e-010 -2.51105e-009 0.990502 -0.137495 -2.05203e-010 0.137495 0.990502 0 0 0
+      }
+      SpineLink {
+        BoneName = ""
+        Flags = 0
+        ParentNode = INode "SceneRootNode.Hub.Spine[0].SpineLink[0]"
+        ObjectParams {
+          Flags = 0
+          Width = 7.7
+          Height = 7.7
+          Length = 12.8213
+          ObjectOffsetPos = point 0 0 0
+          ObjectOffsetRot = quat 0 0 0 1
+          ObjectOffsetScl = point 1 1 1
+        }
+        SetupTM = matrix 1 2.0466e-012 -4.21764e-015 -2.02774e-012 0.990502 -0.137495 -2.7722e-013 0.137495 0.990502 0 0 0
+      }
+      SpineLink {
+        BoneName = ""
+        Flags = 0
+        ParentNode = INode "SceneRootNode.Hub.Spine[0].SpineLink[1]"
+        ObjectParams {
+          Flags = 0
+          Width = 7.7
+          Height = 7.7
+          Length = 12.8213
+          ObjectOffsetPos = point 0 0 0
+          ObjectOffsetRot = quat 0 0 0 1
+          ObjectOffsetScl = point 1 1 1
+        }
+        SetupTM = matrix 1 -3.77345e-009 1.95438e-010 3.76448e-009 0.990502 -0.137495 3.25249e-010 0.137495 0.990502 0 0 0
+      }
+      Hub {
+        BoneName = "Ribcage"
+        Flags = 262144
+        BoneColour = 16728320
+        Controller {
+          SetupTM = matrix 1 0 0 0 0.991162 0.132658 0 -0.132658 0.991162 1.28338e-006 -5.16878 0
+          Flags = 7472128
+        }
+        DangleRatioVal = 1
+        ParentNode = INode "SceneRootNode.Hub.Spine[0].SpineLink[2]"
+        ObjectParams {
+          Width = 21.972
+          Length = 19.51
+          Height = 26.364
+          PivotPosZ = 0.268817
+          PivotPosY = -0.44086
+        }
+        ArbBones {
+          ArbBone {
+            BoneName = "RibcageBone0"
+            Flags = 0
+            ParentNode = INode "SceneRootNode"
+            BoneColour = 16728320
+            ObjectParams {
+              Flags = 6
+              Width = 5
+              Height = 5
+              Length = 10
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+              MeshParams {
+                NumVerticies = 223
+                Vert = point 2.47828 0.342071 -1.16182
+                Vert = point 2.69038 0.288397 -0.706968
+                Vert = point 1.66323 -0.762654 0.295648
+                Vert = point 2.74607 0.166693 -0.564188
+                Vert = point 1.07023 3.40263 -1.46402
+                Vert = point 1.65765 2.11865 0.374596
+                Vert = point 2.74487 2.13475 -0.554519
+                Vert = point 1.90714 4.15846 -1.00452
+                Vert = point 1.81143 4.18556 0.120369
+                Vert = point 0.676231 3.35569 0.553783
+                Vert = point 0.915274 6.93816 -0.976957
+                Vert = point 0.637713 8.60246 -1.29397
+                Vert = point 1.4668 6.29622 0.286023
+                Vert = point 0.503518 6.52968 0.706738
+                Vert = point 0.530237 7.8025 0.51849
+                Vert = point -0.0141088 2.12212 -0.538301
+                Vert = point -0.0259645 3.39797 -1.46363
+                Vert = point -0.00892909 2.11105 0.375181
+                Vert = point -0.031333 6.29125 0.275554
+                Vert = point -0.0417354 6.94919 -0.966498
+                Vert = point -0.0521963 8.59983 -1.29373
+                Vert = point -0.0209282 4.14203 0.128098
+                Vert = point -0.0143506 3.33859 0.552366
+                Vert = point -0.00387859 0.154103 -0.548023
+                Vert = point -0.0053511 0.276137 -0.696907
+                Vert = point -2.77324 2.10591 -0.552585
+                Vert = point -1.96176 4.13824 -1.00316
+                Vert = point -0.0272672 4.15012 -0.994925
+                Vert = point -2.49474 0.316087 -1.16008
+                Vert = point -0.00823559 0.330214 -1.16095
+                Vert = point -1.12215 3.39118 -1.46325
+                Vert = point -1.65185 -0.779981 0.29681
+                Vert = point -2.75398 0.137949 -0.56226
+                Vert = point -1.6755 2.10124 0.375765
+                Vert = point -2.70117 0.260215 -0.705078
+                Vert = point -1.85372 4.16641 0.121654
+                Vert = point -0.705055 3.34847 0.554267
+                Vert = point -0.742095 8.59524 -1.29349
+                Vert = point -0.998691 6.92815 -0.976286
+                Vert = point -1.52931 6.28056 0.287074
+                Vert = point -0.56381 6.52411 0.707112
+                Vert = point -0.605941 7.79657 0.518888
+                Vert = point -0.0378879 7.79897 0.511744
+                Vert = point 0.00568552 -0.770225 0.29623
+                Vert = point -0.0302166 6.52688 0.694293
+                Vert = point 2.80729 1.19627 0.289139
+                Vert = point 2.81267 1.66 0.0626986
+                Vert = point 2.81771 1.50276 -0.188639
+                Vert = point 2.82047 0.784612 -0.368871
+                Vert = point 2.81991 -0.220136 -0.409155
+                Vert = point 2.81623 -1.1277 -0.294103
+                Vert = point 2.81085 -1.59142 -0.0676624
+                Vert = point 2.80581 -1.43419 0.183676
+                Vert = point 2.80305 -0.716034 0.363907
+                Vert = point 2.80361 0.288702 0.404191
+                Vert = point -2.79351 1.2041 0.281821
+                Vert = point -2.78813 1.66783 0.0553803
+                Vert = point -2.78309 1.51059 -0.195957
+                Vert = point -2.78033 0.792447 -0.376189
+                Vert = point -2.78089 -0.212307 -0.416473
+                Vert = point -2.78457 -1.11986 -0.301421
+                Vert = point -2.78995 -1.5836 -0.0749808
+                Vert = point -2.79499 -1.42636 0.176357
+                Vert = point -2.79775 -0.708206 0.356589
+                Vert = point -2.79719 0.296542 0.396873
+                Vert = point 3.0365 1.39545 0.052397
+                Vert = point 3.03199 1.00709 0.242032
+                Vert = point 3.02891 0.247039 0.338384
+                Vert = point 3.02844 -0.594391 0.304648
+                Vert = point 3.03075 -1.19582 0.15371
+                Vert = point 3.03497 -1.3275 -0.0567752
+                Vert = point 3.03948 -0.939141 -0.246411
+                Vert = point 3.04256 -0.179095 -0.342762
+                Vert = point 3.04303 0.662341 -0.309026
+                Vert = point 3.04071 1.26376 -0.158089
+                Vert = point -3.01676 1.01555 0.234129
+                Vert = point -3.01225 1.4039 0.0444935
+                Vert = point -3.00803 1.27222 -0.165992
+                Vert = point -3.00572 0.670804 -0.31693
+                Vert = point -3.00619 -0.170632 -0.350666
+                Vert = point -3.00927 -0.930691 -0.254315
+                Vert = point -3.01378 -1.31905 -0.0646789
+                Vert = point -3.01799 -1.18736 0.145807
+                Vert = point -3.02031 -0.58594 0.296744
+                Vert = point -3.01984 0.255502 0.33048
+                Vert = point 2.74487 2.13475 -0.554519
+                Vert = point 2.74487 2.13475 -0.554519
+                Vert = point 1.90714 4.15846 -1.00452
+                Vert = point 1.90714 4.15846 -1.00452
+                Vert = point 2.74487 2.13475 -0.554519
+                Vert = point 1.90714 4.15846 -1.00452
+                Vert = point -0.00823559 0.330214 -1.16095
+                Vert = point 2.74487 2.13475 -0.554519
+                Vert = point 1.81143 4.18556 0.120369
+                Vert = point 1.81143 4.18556 0.120369
+                Vert = point 1.90714 4.15846 -1.00452
+                Vert = point 1.90714 4.15846 -1.00452
+                Vert = point 1.4668 6.29622 0.286023
+                Vert = point -0.031333 6.29125 0.275554
+                Vert = point 1.4668 6.29622 0.286023
+                Vert = point 1.81143 4.18556 0.120369
+                Vert = point 1.81143 4.18556 0.120369
+                Vert = point -0.0521963 8.59983 -1.29373
+                Vert = point 0.00568552 -0.770225 0.29623
+                Vert = point 0.915274 6.93816 -0.976957
+                Vert = point 0.915274 6.93816 -0.976957
+                Vert = point -0.0417354 6.94919 -0.966498
+                Vert = point -0.0378879 7.79897 0.511744
+                Vert = point -0.00823559 0.330214 -1.16095
+                Vert = point -0.0259645 3.39797 -1.46363
+                Vert = point -0.00823559 0.330214 -1.16095
+                Vert = point -2.77324 2.10591 -0.552585
+                Vert = point -2.77324 2.10591 -0.552585
+                Vert = point -2.77324 2.10591 -0.552585
+                Vert = point -1.96176 4.13824 -1.00316
+                Vert = point -1.96176 4.13824 -1.00316
+                Vert = point -1.96176 4.13824 -1.00316
+                Vert = point -0.00823559 0.330214 -1.16095
+                Vert = point -0.0053511 0.276137 -0.696907
+                Vert = point -0.0053511 0.276137 -0.696907
+                Vert = point -1.85372 4.16641 0.121654
+                Vert = point -1.85372 4.16641 0.121654
+                Vert = point -2.77324 2.10591 -0.552585
+                Vert = point -1.96176 4.13824 -1.00316
+                Vert = point -1.96176 4.13824 -1.00316
+                Vert = point -0.0259645 3.39797 -1.46363
+                Vert = point -0.0521963 8.59983 -1.29373
+                Vert = point -0.0259645 3.39797 -1.46363
+                Vert = point -0.031333 6.29125 0.275554
+                Vert = point -0.0417354 6.94919 -0.966498
+                Vert = point -0.031333 6.29125 0.275554
+                Vert = point -1.52931 6.28056 0.287074
+                Vert = point -0.031333 6.29125 0.275554
+                Vert = point -1.52931 6.28056 0.287074
+                Vert = point -1.85372 4.16641 0.121654
+                Vert = point -1.85372 4.16641 0.121654
+                Vert = point -0.0378879 7.79897 0.511744
+                Vert = point -0.0378879 7.79897 0.511744
+                Vert = point -0.0521963 8.59983 -1.29373
+                Vert = point -0.00387859 0.154103 -0.548023
+                Vert = point -0.00387859 0.154103 -0.548023
+                Vert = point 0.00568552 -0.770225 0.29623
+                Vert = point -0.0053511 0.276137 -0.696907
+                Vert = point -0.00387859 0.154103 -0.548023
+                Vert = point -0.00387859 0.154103 -0.548023
+                Vert = point 0.00568552 -0.770225 0.29623
+                Vert = point -0.00892909 2.11105 0.375181
+                Vert = point -0.00892909 2.11105 0.375181
+                Vert = point -0.00892909 2.11105 0.375181
+                Vert = point -0.0143506 3.33859 0.552366
+                Vert = point -0.00892909 2.11105 0.375181
+                Vert = point -0.0417354 6.94919 -0.966498
+                Vert = point -0.998691 6.92815 -0.976286
+                Vert = point -0.998691 6.92815 -0.976286
+                Vert = point -0.0302166 6.52688 0.694293
+                Vert = point -0.0378879 7.79897 0.511744
+                Vert = point -0.0302166 6.52688 0.694293
+                Vert = point -0.0143506 3.33859 0.552366
+                Vert = point -0.0302166 6.52688 0.694293
+                Vert = point -0.0302166 6.52688 0.694293
+                Vert = point 2.82047 0.784612 -0.368871
+                Vert = point -2.78033 0.792447 -0.376189
+                Vert = point 2.82047 0.784612 -0.368871
+                Vert = point 2.81267 1.66 0.0626986
+                Vert = point 2.80729 1.19627 0.289139
+                Vert = point 2.81267 1.66 0.0626986
+                Vert = point 2.80729 1.19627 0.289139
+                Vert = point 2.80361 0.288702 0.404191
+                Vert = point 2.80729 1.19627 0.289139
+                Vert = point 2.80361 0.288702 0.404191
+                Vert = point 2.80305 -0.716034 0.363907
+                Vert = point 2.80361 0.288702 0.404191
+                Vert = point 2.80305 -0.716034 0.363907
+                Vert = point 2.80581 -1.43419 0.183676
+                Vert = point 2.80305 -0.716034 0.363907
+                Vert = point 2.80581 -1.43419 0.183676
+                Vert = point 2.81085 -1.59142 -0.0676624
+                Vert = point 2.80581 -1.43419 0.183676
+                Vert = point 2.81085 -1.59142 -0.0676624
+                Vert = point 2.81623 -1.1277 -0.294103
+                Vert = point 2.81085 -1.59142 -0.0676624
+                Vert = point 2.81623 -1.1277 -0.294103
+                Vert = point 2.81991 -0.220136 -0.409155
+                Vert = point 2.81623 -1.1277 -0.294103
+                Vert = point 2.81991 -0.220136 -0.409155
+                Vert = point 2.82047 0.784612 -0.368871
+                Vert = point 2.81991 -0.220136 -0.409155
+                Vert = point 2.82047 0.784612 -0.368871
+                Vert = point 2.81771 1.50276 -0.188639
+                Vert = point 2.82047 0.784612 -0.368871
+                Vert = point 2.81771 1.50276 -0.188639
+                Vert = point 2.81267 1.66 0.0626986
+                Vert = point 2.81771 1.50276 -0.188639
+                Vert = point -2.79351 1.2041 0.281821
+                Vert = point -2.78813 1.66783 0.0553803
+                Vert = point -2.79351 1.2041 0.281821
+                Vert = point -2.78813 1.66783 0.0553803
+                Vert = point -2.78309 1.51059 -0.195957
+                Vert = point -2.78813 1.66783 0.0553803
+                Vert = point -2.78309 1.51059 -0.195957
+                Vert = point -2.78033 0.792447 -0.376189
+                Vert = point -2.78309 1.51059 -0.195957
+                Vert = point -2.78033 0.792447 -0.376189
+                Vert = point -2.78089 -0.212307 -0.416473
+                Vert = point -2.78033 0.792447 -0.376189
+                Vert = point -2.78089 -0.212307 -0.416473
+                Vert = point -2.78457 -1.11986 -0.301421
+                Vert = point -2.78089 -0.212307 -0.416473
+                Vert = point -2.78457 -1.11986 -0.301421
+                Vert = point -2.78995 -1.5836 -0.0749808
+                Vert = point -2.78457 -1.11986 -0.301421
+                Vert = point -2.78995 -1.5836 -0.0749808
+                Vert = point -2.79499 -1.42636 0.176357
+                Vert = point -2.78995 -1.5836 -0.0749808
+                Vert = point -2.79499 -1.42636 0.176357
+                Vert = point -2.79775 -0.708206 0.356589
+                Vert = point -2.79499 -1.42636 0.176357
+                Vert = point -2.79775 -0.708206 0.356589
+                Vert = point -2.79719 0.296542 0.396873
+                Vert = point -2.79775 -0.708206 0.356589
+                Vert = point -2.79719 0.296542 0.396873
+                Vert = point -2.79351 1.2041 0.281821
+                Vert = point -2.79719 0.296542 0.396873
+                NumFaces = 166
+                ValFace = Face 7 27 15 1 67
+                ValFace = Face 15 6 7 1 67
+                ValFace = Face 29 16 4 16 67
+                ValFace = Face 4 0 29 16 67
+                ValFace = Face 2 3 85 1 67
+                ValFace = Face 86 5 2 1 67
+                ValFace = Face 3 1 87 1 67
+                ValFace = Face 88 89 3 1 67
+                ValFace = Face 1 0 4 1 67
+                ValFace = Face 4 90 1 1 67
+                ValFace = Face 0 1 24 32 67
+                ValFace = Face 24 91 0 32 67
+                ValFace = Face 15 21 8 2 67
+                ValFace = Face 8 6 15 2 67
+                ValFace = Face 5 92 93 1 67
+                ValFace = Face 94 9 5 1 67
+                ValFace = Face 95 4 11 1 67
+                ValFace = Face 11 10 96 1 67
+                ValFace = Face 16 20 11 16 67
+                ValFace = Face 11 4 16 16 67
+                ValFace = Face 18 19 10 2 67
+                ValFace = Face 10 12 18 2 67
+                ValFace = Face 13 12 14 1 71
+                ValFace = Face 97 8 21 2 67
+                ValFace = Face 21 98 99 2 67
+                ValFace = Face 13 9 100 1 67
+                ValFace = Face 101 12 13 1 67
+                ValFace = Face 10 11 14 1 67
+                ValFace = Face 14 12 10 1 67
+                ValFace = Face 11 102 42 8 67
+                ValFace = Face 42 14 11 8 67
+                ValFace = Face 2 43 23 32 67
+                ValFace = Face 23 3 2 32 67
+                ValFace = Face 1 3 23 32 67
+                ValFace = Face 23 24 1 32 67
+                ValFace = Face 2 5 17 2 67
+                ValFace = Face 17 103 2 2 67
+                ValFace = Face 17 5 9 2 67
+                ValFace = Face 9 22 17 2 67
+                ValFace = Face 27 7 104 1 67
+                ValFace = Face 105 106 27 1 67
+                ValFace = Face 44 13 14 4 67
+                ValFace = Face 14 107 44 4 67
+                ValFace = Face 9 13 44 4 67
+                ValFace = Face 44 22 9 4 67
+                ValFace = Face 26 25 15 1 67
+                ValFace = Face 15 27 26 1 67
+                ValFace = Face 108 28 30 16 67
+                ValFace = Face 30 109 110 16 67
+                ValFace = Face 31 33 111 1 67
+                ValFace = Face 112 32 31 1 67
+                ValFace = Face 32 113 114 1 67
+                ValFace = Face 115 34 32 1 67
+                ValFace = Face 34 116 30 1 67
+                ValFace = Face 30 28 34 1 67
+                ValFace = Face 28 117 118 32 67
+                ValFace = Face 119 34 28 32 67
+                ValFace = Face 15 25 35 2 67
+                ValFace = Face 35 21 15 2 67
+                ValFace = Face 33 36 120 1 67
+                ValFace = Face 121 122 33 1 67
+                ValFace = Face 123 38 37 1 67
+                ValFace = Face 37 30 124 1 67
+                ValFace = Face 125 30 37 16 67
+                ValFace = Face 37 126 127 16 67
+                ValFace = Face 128 39 38 2 67
+                ValFace = Face 38 129 130 2 67
+                ValFace = Face 40 41 39 1 71
+                ValFace = Face 131 132 21 2 67
+                ValFace = Face 21 35 133 2 67
+                ValFace = Face 40 39 134 1 67
+                ValFace = Face 135 36 40 1 67
+                ValFace = Face 38 39 41 1 67
+                ValFace = Face 41 37 38 1 67
+                ValFace = Face 37 41 136 8 67
+                ValFace = Face 137 138 37 8 67
+                ValFace = Face 31 32 139 32 67
+                ValFace = Face 140 141 31 32 67
+                ValFace = Face 34 142 143 32 67
+                ValFace = Face 144 32 34 32 67
+                ValFace = Face 31 145 146 2 67
+                ValFace = Face 147 33 31 2 67
+                ValFace = Face 148 149 36 2 67
+                ValFace = Face 36 33 150 2 67
+                ValFace = Face 27 151 152 1 67
+                ValFace = Face 153 26 27 1 67
+                ValFace = Face 154 155 41 4 67
+                ValFace = Face 41 40 156 4 67
+                ValFace = Face 36 157 158 4 67
+                ValFace = Face 159 40 36 4 67
+                ValFace = Face 45 46 56 1 67
+                ValFace = Face 56 55 45 1 67
+                ValFace = Face 46 47 57 1 67
+                ValFace = Face 57 56 46 1 67
+                ValFace = Face 47 48 58 1 67
+                ValFace = Face 58 57 47 1 67
+                ValFace = Face 160 49 59 1 67
+                ValFace = Face 59 161 162 1 67
+                ValFace = Face 49 50 60 1 67
+                ValFace = Face 60 59 49 1 67
+                ValFace = Face 50 51 61 1 67
+                ValFace = Face 61 60 50 1 67
+                ValFace = Face 51 52 62 1 67
+                ValFace = Face 62 61 51 1 67
+                ValFace = Face 52 53 63 1 67
+                ValFace = Face 63 62 52 1 67
+                ValFace = Face 53 54 64 1 67
+                ValFace = Face 64 63 53 1 67
+                ValFace = Face 54 45 55 1 67
+                ValFace = Face 55 64 54 1 67
+                ValFace = Face 68 69 70 2 67
+                ValFace = Face 70 71 72 2 67
+                ValFace = Face 72 73 74 2 67
+                ValFace = Face 74 65 66 2 67
+                ValFace = Face 72 74 66 2 64
+                ValFace = Face 70 72 66 2 64
+                ValFace = Face 68 70 66 2 64
+                ValFace = Face 67 68 66 2 69
+                ValFace = Face 76 77 78 2 67
+                ValFace = Face 78 79 80 2 67
+                ValFace = Face 80 81 82 2 67
+                ValFace = Face 82 83 84 2 67
+                ValFace = Face 80 82 84 2 64
+                ValFace = Face 78 80 84 2 64
+                ValFace = Face 76 78 84 2 64
+                ValFace = Face 75 76 84 2 69
+                ValFace = Face 163 164 66 4 67
+                ValFace = Face 66 65 165 4 67
+                ValFace = Face 166 167 67 4 67
+                ValFace = Face 67 66 168 4 67
+                ValFace = Face 169 170 68 4 67
+                ValFace = Face 68 67 171 4 67
+                ValFace = Face 172 173 69 4 67
+                ValFace = Face 69 68 174 4 67
+                ValFace = Face 175 176 70 4 67
+                ValFace = Face 70 69 177 4 67
+                ValFace = Face 178 179 71 4 67
+                ValFace = Face 71 70 180 4 67
+                ValFace = Face 181 182 72 4 67
+                ValFace = Face 72 71 183 4 67
+                ValFace = Face 184 185 73 4 67
+                ValFace = Face 73 72 186 4 67
+                ValFace = Face 187 188 74 4 67
+                ValFace = Face 74 73 189 4 67
+                ValFace = Face 190 191 65 4 67
+                ValFace = Face 65 74 192 4 67
+                ValFace = Face 193 194 76 4 67
+                ValFace = Face 76 75 195 4 67
+                ValFace = Face 196 197 77 4 67
+                ValFace = Face 77 76 198 4 67
+                ValFace = Face 199 200 78 4 67
+                ValFace = Face 78 77 201 4 67
+                ValFace = Face 202 203 79 4 67
+                ValFace = Face 79 78 204 4 67
+                ValFace = Face 205 206 80 4 67
+                ValFace = Face 80 79 207 4 67
+                ValFace = Face 208 209 81 4 67
+                ValFace = Face 81 80 210 4 67
+                ValFace = Face 211 212 82 4 67
+                ValFace = Face 82 81 213 4 67
+                ValFace = Face 214 215 83 4 67
+                ValFace = Face 83 82 216 4 67
+                ValFace = Face 217 218 84 4 67
+                ValFace = Face 84 83 219 4 67
+                ValFace = Face 220 221 75 4 67
+                ValFace = Face 75 84 222 4 67
+              }
+            }
+            Controller {
+              SetupTM = matrix -0.996736 -0.0639159 -0.0493191 -0.0776393 0.926356 0.36856 0.0221302 0.371186 -0.928295 35.3737 41.8816 127.626
+              Flags = 7537152
+            }
+            ArbBones {
+              ArbBone {
+                BoneName = "RibcageBone0Bone0"
+                Flags = 0
+                ParentNode = INode "SceneRootNode.Hub.Spine[0].Hub.ArbBone[0]"
+                BoneColour = 16728320
+                ObjectParams {
+                  Flags = 6
+                  Width = 5
+                  Height = 5
+                  Length = 10
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                  MeshParams {
+                    NumVerticies = 362
+                    Vert = point 2.12477 -8.39845 2.56888
+                    Vert = point 2.10161 -6.17521 0.510489
+                    Vert = point 1.53294 -1.13934 3.05933
+                    Vert = point 1.50978 1.0839 1.00093
+                    Vert = point 2.85765 -6.0569 2.72644
+                    Vert = point 2.83186 -3.58195 0.434998
+                    Vert = point 0.718405 -6.09391 2.72544
+                    Vert = point 0.566713 -2.09414 2.99555
+                    Vert = point 1.00073 -3.86909 2.87543
+                    Vert = point 1.70173 -3.96506 2.86846
+                    Vert = point 1.77381 -5.06154 2.79439
+                    Vert = point 2.883 -5.30724 2.77702
+                    Vert = point 2.88028 -2.89726 0.481184
+                    Vert = point 0.69711 -4.04979 0.832877
+                    Vert = point 1.75251 -3.01741 0.901826
+                    Vert = point 1.68043 -1.92092 0.975895
+                    Vert = point 0.979436 -1.82496 0.982867
+                    Vert = point 0.545419 -0.0500095 1.10299
+                    Vert = point 2.10223 -5.36065 0.603429
+                    Vert = point 2.28001 -3.68729 0.716921
+                    Vert = point 1.34044 -0.117477 0.959308
+                    Vert = point 2.32582 -3.19714 0.750117
+                    Vert = point 2.18114 -4.29349 -0.398578
+                    Vert = point 1.32932 0.728818 0.210994
+                    Vert = point 2.43381 -2.01627 -0.212551
+                    Vert = point 2.38191 -2.53671 -0.278951
+                    Vert = point 1.39199 -9.90197 2.39397
+                    Vert = point 1.08331 -8.06363 0.159066
+                    Vert = point 1.96135 -8.09449 2.51648
+                    Vert = point 2.33046 -3.11392 0.686926
+                    Vert = point 1.61813 -6.29252 -0.691876
+                    Vert = point 1.70644 -1.94678 -0.398708
+                    Vert = point 1.1592 -10.5757 1.76878
+                    Vert = point 1.98889 -5.99837 1.01596
+                    Vert = point 0.901745 -5.73704 -0.654036
+                    Vert = point 0.974683 -2.52755 -0.437672
+                    Vert = point 0.900225 -5.59188 -0.49608
+                    Vert = point 0.974591 -2.67713 -0.299614
+                    Vert = point 0.786339 -3.02882 -0.274315
+                    Vert = point 0.702694 -4.02936 -0.341357
+                    Vert = point 0.866383 -0.00260817 -3.07085
+                    Vert = point 0.782739 -1.00317 -3.13789
+                    Vert = point 0.53681 4.71826 -7.61875
+                    Vert = point 0.673901 2.51661 -5.58463
+                    Vert = point 0.932453 -3.11184 0.896028
+                    Vert = point 1.04391 -5.1129 2.79144
+                    Vert = point 1.12003 -9.88404 0.914417
+                    Vert = point 0.836636 2.67372 -5.7096
+                    Vert = point 0.752204 1.83576 -5.76566
+                    Vert = point 0.756592 -0.352474 -2.91306
+                    Vert = point 0.67216 -1.19044 -2.96913
+                    Vert = point 0.021017 -3.55046 0.439101
+                    Vert = point 0.0500159 -6.6889 2.68575
+                    Vert = point 0.0265792 -1.85396 3.01215
+                    Vert = point 0.0115881 -2.51373 -0.276219
+                    Vert = point 0.00602994 -0.124205 0.959543
+                    Vert = point 0.00912925 -1.97027 -0.208229
+                    Vert = point 0.056774 -8.16773 2.51274
+                    Vert = point 0.0201344 -3.11359 0.688851
+                    Vert = point 0.0293138 -6.3572 -0.697088
+                    Vert = point 0.0104011 -2.45376 -0.432015
+                    Vert = point -0.00334485 -2.88134 -3.26731
+                    Vert = point 0.0089603 -4.0791 -2.18911
+                    Vert = point -0.0587791 2.5574 -7.76662
+                    Vert = point -0.0350977 0.20889 -5.87811
+                    Vert = point -0.0228113 -0.984982 -4.79964
+                    Vert = point -2.00806 -8.42005 2.57033
+                    Vert = point -2.03122 -6.19681 0.511937
+                    Vert = point -2.78938 -3.61133 0.436969
+                    Vert = point -2.7636 -6.08628 2.72841
+                    Vert = point 0.0351945 -6.18602 0.511213
+                    Vert = point -2.84444 -2.92717 0.483191
+                    Vert = point -1.50979 1.06812 1.00199
+                    Vert = point -1.48663 -1.15513 3.06039
+                    Vert = point -2.79622 -5.33693 2.77901
+                    Vert = point -1.68947 -5.07965 2.7956
+                    Vert = point -1.62802 -3.98246 2.86963
+                    Vert = point -0.511199 -2.09978 2.99593
+                    Vert = point -0.927988 -3.87917 2.87611
+                    Vert = point 0.0231534 -1.14723 3.05986
+                    Vert = point 0.0277571 -2.09696 2.99574
+                    Vert = point -0.624107 -6.10094 2.72591
+                    Vert = point -0.959104 -5.12336 2.79214
+                    Vert = point 0.0175503 -2.8353 0.487381
+                    Vert = point 0.0258541 -4.05329 0.833112
+                    Vert = point -0.645402 -4.05681 0.833347
+                    Vert = point -0.889825 -3.12136 0.896667
+                    Vert = point -1.71076 -3.03551 0.90304
+                    Vert = point -1.64931 -1.93832 0.977062
+                    Vert = point -0.949282 -1.83503 0.983543
+                    Vert = point -0.532494 -0.0556385 1.10337
+                    Vert = point 0.00646236 -0.0528301 1.10318
+                    Vert = point 0.0471488 -6.09743 2.72568
+                    Vert = point -2.14061 -4.31608 -0.397063
+                    Vert = point 0.020263 -4.30449 -0.398093
+                    Vert = point -2.35839 -2.56147 -0.277289
+                    Vert = point -2.41498 -2.0416 -0.210851
+                    Vert = point -2.03931 -5.3823 0.604881
+                    Vert = point 0.0314562 -5.37121 0.60391
+                    Vert = point -1.32838 -0.131421 0.960244
+                    Vert = point -2.28386 -3.22123 0.751733
+                    Vert = point -1.3345 0.714898 0.211928
+                    Vert = point -2.2333 -3.71088 0.718504
+                    Vert = point -1.26157 -9.91584 2.3949
+                    Vert = point -1.02876 -10.5871 1.76954
+                    Vert = point -1.91468 -6.01877 1.01733
+                    Vert = point -1.84841 -8.1144 2.51781
+                    Vert = point -0.997186 -8.07451 0.159796
+                    Vert = point 0.0432918 -8.11402 0.158404
+                    Vert = point -1.56003 -6.30914 -0.690761
+                    Vert = point -2.29008 -3.13806 0.688546
+                    Vert = point -1.69046 -1.96454 -0.397517
+                    Vert = point -1.0064 -9.89515 0.915163
+                    Vert = point 0.0267684 -5.83211 -0.661645
+                    Vert = point 0.0264994 -5.77658 -0.65787
+                    Vert = point -0.849066 -5.7462 -0.653422
+                    Vert = point -0.953117 -2.53762 -0.436997
+                    Vert = point 0.0266264 -5.6314 -0.499915
+                    Vert = point -0.847291 -5.60101 -0.495467
+                    Vert = point 0.0106639 -2.50796 -0.435659
+                    Vert = point -0.949913 -2.68719 -0.298939
+                    Vert = point 0.0122197 -2.65753 -0.297601
+                    Vert = point 0.0136773 -2.91858 -0.266306
+                    Vert = point -0.757876 -3.03689 -0.273773
+                    Vert = point -0.900906 -0.0118514 -3.07023
+                    Vert = point -0.0177612 0.0959133 -3.06355
+                    Vert = point -0.664531 -4.03652 -0.340877
+                    Vert = point -0.807561 -1.01147 -3.13733
+                    Vert = point 0.0282881 -5.93601 -0.472825
+                    Vert = point -0.0464289 2.53747 -5.5827
+                    Vert = point -0.766521 2.50909 -5.58413
+                    Vert = point -0.675259 4.71192 -7.61833
+                    Vert = point -0.0693276 4.73636 -7.61709
+                    Vert = point -0.0357543 0.332474 -5.73402
+                    Vert = point -0.0530434 1.99404 -7.26877
+                    Vert = point -0.0772071 5.32022 -8.47815
+                    Vert = point 0.0655462 -10.6494 1.76425
+                    Vert = point 0.0571652 -9.95365 0.918054
+                    Vert = point -0.0160692 -0.242233 -2.90506
+                    Vert = point -0.787623 -0.360545 -2.91252
+                    Vert = point -0.930652 2.66448 -5.70897
+                    Vert = point -0.0475078 2.77225 -5.7023
+                    Vert = point -0.695066 -1.19758 -2.96865
+                    Vert = point -0.838096 1.82745 -5.7651
+                    Vert = point -0.00348359 -2.84188 -3.08337
+                    Vert = point 0.0583551 -8.40926 2.56961
+                    Vert = point -7.20438e-006 1.07601 1.00146
+                    Vert = point -0.00258914 0.722139 0.211204
+                    Vert = point 0.065339 -9.93477 2.39335
+                    Vert = point 0.00779646 -1.91655 -0.395853
+                    Vert = point -2.13053 -5.57369 1.88217
+                    Vert = point 2.13562 -5.49345 1.89196
+                    Vert = point 0.827387 -7.32089 3.01197
+                    Vert = point -0.468844 -7.28748 3.01446
+                    Vert = point -0.526179 -9.1355 2.66347
+                    Vert = point 0.827459 -9.20143 2.64497
+                    Vert = point 0.182952 -8.64747 3.62628
+                    Vert = point -1.11138 -12.5462 3.16671
+                    Vert = point 1.51806 -12.6986 3.15046
+                    Vert = point 0.194706 -9.54404 4.03514
+                    Vert = point -1.53628 -13.2448 3.80861
+                    Vert = point 1.71615 -13.3937 3.7919
+                    Vert = point 0.160806 -10.9193 5.86206
+                    Vert = point -1.43581 -12.6644 4.6544
+                    Vert = point 1.43102 -12.8512 4.67107
+                    Vert = point 0.191182 -10.0847 4.49476
+                    Vert = point -1.19815 -8.69217 2.18367
+                    Vert = point 1.28959 -8.767 2.17489
+                    Vert = point 0.95528 -10.2358 1.53823
+                    Vert = point 1.19245 -9.3693 2.22676
+                    Vert = point -0.93213 -9.3725 2.23073
+                    Vert = point -0.857321 -10.2324 1.53005
+                    Vert = point 0.863413 -8.71159 0.551121
+                    Vert = point 1.03398 -10.0853 1.26677
+                    Vert = point -0.853655 -10.0905 1.26828
+                    Vert = point -0.898331 -8.69499 0.547759
+                    Vert = point -0.950387 -8.10654 0.275301
+                    Vert = point -1.12804 -6.04625 -0.295795
+                    Vert = point 0.952571 -6.00744 -0.298485
+                    Vert = point 0.845544 -8.09854 0.27635
+                    Vert = point -0.072643 -14.2327 0.399506
+                    Vert = point 0.0650203 -10.0406 -0.738615
+                    Vert = point 0.0957242 -13.8162 2.31382
+                    Vert = point 1.53294 -1.13934 3.05933
+                    Vert = point 1.53294 -1.13934 3.05933
+                    Vert = point 1.53294 -1.13934 3.05933
+                    Vert = point 1.53294 -1.13934 3.05933
+                    Vert = point 2.12477 -8.39845 2.56888
+                    Vert = point 2.12477 -8.39845 2.56888
+                    Vert = point 2.12477 -8.39845 2.56888
+                    Vert = point 0.718405 -6.09391 2.72544
+                    Vert = point 0.69711 -4.04979 0.832877
+                    Vert = point 0.69711 -4.04979 0.832877
+                    Vert = point 0.0258541 -4.05329 0.833112
+                    Vert = point 1.77381 -5.06154 2.79439
+                    Vert = point 1.75251 -3.01741 0.901826
+                    Vert = point 0.932453 -3.11184 0.896028
+                    Vert = point 0.932453 -3.11184 0.896028
+                    Vert = point 1.04391 -5.1129 2.79144
+                    Vert = point 1.77381 -5.06154 2.79439
+                    Vert = point 1.77381 -5.06154 2.79439
+                    Vert = point 1.70173 -3.96506 2.86846
+                    Vert = point 1.68043 -1.92092 0.975895
+                    Vert = point 1.68043 -1.92092 0.975895
+                    Vert = point 1.75251 -3.01741 0.901826
+                    Vert = point 1.77381 -5.06154 2.79439
+                    Vert = point 1.70173 -3.96506 2.86846
+                    Vert = point 1.00073 -3.86909 2.87543
+                    Vert = point 0.979436 -1.82496 0.982867
+                    Vert = point 0.979436 -1.82496 0.982867
+                    Vert = point 1.68043 -1.92092 0.975895
+                    Vert = point 1.70173 -3.96506 2.86846
+                    Vert = point 1.00073 -3.86909 2.87543
+                    Vert = point 0.566713 -2.09414 2.99555
+                    Vert = point 0.545419 -0.0500095 1.10299
+                    Vert = point 0.545419 -0.0500095 1.10299
+                    Vert = point 0.979436 -1.82496 0.982867
+                    Vert = point 1.00073 -3.86909 2.87543
+                    Vert = point 0.566713 -2.09414 2.99555
+                    Vert = point 0.0277571 -2.09696 2.99574
+                    Vert = point 0.00646236 -0.0528301 1.10318
+                    Vert = point 0.00646236 -0.0528301 1.10318
+                    Vert = point 0.545419 -0.0500095 1.10299
+                    Vert = point 0.566713 -2.09414 2.99555
+                    Vert = point 0.020263 -4.30449 -0.398093
+                    Vert = point 0.020263 -4.30449 -0.398093
+                    Vert = point 0.0293138 -6.3572 -0.697088
+                    Vert = point 0.0293138 -6.3572 -0.697088
+                    Vert = point 0.69711 -4.04979 0.832877
+                    Vert = point 0.718405 -6.09391 2.72544
+                    Vert = point 1.04391 -5.1129 2.79144
+                    Vert = point 1.04391 -5.1129 2.79144
+                    Vert = point 0.932453 -3.11184 0.896028
+                    Vert = point 0.69711 -4.04979 0.832877
+                    Vert = point 0.0351945 -6.18602 0.511213
+                    Vert = point 0.0231534 -1.14723 3.05986
+                    Vert = point -7.20438e-006 1.07601 1.00146
+                    Vert = point 0.0471488 -6.09743 2.72568
+                    Vert = point 2.12477 -8.39845 2.56888
+                    Vert = point 0.0583551 -8.40926 2.56961
+                    Vert = point 2.12477 -8.39845 2.56888
+                    Vert = point -0.00258914 0.722139 0.211204
+                    Vert = point -0.00258914 0.722139 0.211204
+                    Vert = point 0.00779646 -1.91655 -0.395853
+                    Vert = point -0.0177612 0.0959133 -3.06355
+                    Vert = point -0.0177612 0.0959133 -3.06355
+                    Vert = point -0.0475078 2.77225 -5.7023
+                    Vert = point -0.0475078 2.77225 -5.7023
+                    Vert = point -1.48663 -1.15513 3.06039
+                    Vert = point -1.48663 -1.15513 3.06039
+                    Vert = point -1.48663 -1.15513 3.06039
+                    Vert = point -1.48663 -1.15513 3.06039
+                    Vert = point -2.00806 -8.42005 2.57033
+                    Vert = point -2.00806 -8.42005 2.57033
+                    Vert = point -2.00806 -8.42005 2.57033
+                    Vert = point 0.0258541 -4.05329 0.833112
+                    Vert = point -0.645402 -4.05681 0.833347
+                    Vert = point -0.645402 -4.05681 0.833347
+                    Vert = point -0.624107 -6.10094 2.72591
+                    Vert = point -1.68947 -5.07965 2.7956
+                    Vert = point -0.959104 -5.12336 2.79214
+                    Vert = point -0.889825 -3.12136 0.896667
+                    Vert = point -0.889825 -3.12136 0.896667
+                    Vert = point -1.71076 -3.03551 0.90304
+                    Vert = point -1.68947 -5.07965 2.7956
+                    Vert = point -1.68947 -5.07965 2.7956
+                    Vert = point -1.71076 -3.03551 0.90304
+                    Vert = point -1.64931 -1.93832 0.977062
+                    Vert = point -1.64931 -1.93832 0.977062
+                    Vert = point -1.62802 -3.98246 2.86963
+                    Vert = point -1.68947 -5.07965 2.7956
+                    Vert = point -1.62802 -3.98246 2.86963
+                    Vert = point -1.64931 -1.93832 0.977062
+                    Vert = point -0.949282 -1.83503 0.983543
+                    Vert = point -0.949282 -1.83503 0.983543
+                    Vert = point -0.927988 -3.87917 2.87611
+                    Vert = point -1.62802 -3.98246 2.86963
+                    Vert = point -0.927988 -3.87917 2.87611
+                    Vert = point -0.949282 -1.83503 0.983543
+                    Vert = point -0.532494 -0.0556385 1.10337
+                    Vert = point -0.532494 -0.0556385 1.10337
+                    Vert = point -0.511199 -2.09978 2.99593
+                    Vert = point -0.927988 -3.87917 2.87611
+                    Vert = point -0.511199 -2.09978 2.99593
+                    Vert = point -0.532494 -0.0556385 1.10337
+                    Vert = point 0.00646236 -0.0528301 1.10318
+                    Vert = point 0.00646236 -0.0528301 1.10318
+                    Vert = point 0.0277571 -2.09696 2.99574
+                    Vert = point -0.511199 -2.09978 2.99593
+                    Vert = point 0.020263 -4.30449 -0.398093
+                    Vert = point 0.020263 -4.30449 -0.398093
+                    Vert = point 0.0293138 -6.3572 -0.697088
+                    Vert = point 0.0293138 -6.3572 -0.697088
+                    Vert = point -0.645402 -4.05681 0.833347
+                    Vert = point -0.889825 -3.12136 0.896667
+                    Vert = point -0.959104 -5.12336 2.79214
+                    Vert = point -0.959104 -5.12336 2.79214
+                    Vert = point -0.624107 -6.10094 2.72591
+                    Vert = point -0.645402 -4.05681 0.833347
+                    Vert = point 0.0351945 -6.18602 0.511213
+                    Vert = point 0.0231534 -1.14723 3.05986
+                    Vert = point -7.20438e-006 1.07601 1.00146
+                    Vert = point 0.0471488 -6.09743 2.72568
+                    Vert = point -2.00806 -8.42005 2.57033
+                    Vert = point 0.0583551 -8.40926 2.56961
+                    Vert = point -2.00806 -8.42005 2.57033
+                    Vert = point -0.00258914 0.722139 0.211204
+                    Vert = point -0.00258914 0.722139 0.211204
+                    Vert = point 0.00779646 -1.91655 -0.395853
+                    Vert = point -0.0177612 0.0959133 -3.06355
+                    Vert = point -0.0177612 0.0959133 -3.06355
+                    Vert = point -0.0475078 2.77225 -5.7023
+                    Vert = point -0.0475078 2.77225 -5.7023
+                    Vert = point 0.827387 -7.32089 3.01197
+                    Vert = point 0.827459 -9.20143 2.64497
+                    Vert = point 1.28959 -8.767 2.17489
+                    Vert = point 1.28959 -8.767 2.17489
+                    Vert = point 2.13562 -5.49345 1.89196
+                    Vert = point 0.827387 -7.32089 3.01197
+                    Vert = point 0.182952 -8.64747 3.62628
+                    Vert = point -0.468844 -7.28748 3.01446
+                    Vert = point -0.468844 -7.28748 3.01446
+                    Vert = point -0.526179 -9.1355 2.66347
+                    Vert = point -1.11138 -12.5462 3.16671
+                    Vert = point -0.526179 -9.1355 2.66347
+                    Vert = point -0.526179 -9.1355 2.66347
+                    Vert = point 0.827459 -9.20143 2.64497
+                    Vert = point 0.182952 -8.64747 3.62628
+                    Vert = point 1.51806 -12.6986 3.15046
+                    Vert = point 0.827459 -9.20143 2.64497
+                    Vert = point 0.827459 -9.20143 2.64497
+                    Vert = point 0.827387 -7.32089 3.01197
+                    Vert = point 0.182952 -8.64747 3.62628
+                    Vert = point 0.182952 -8.64747 3.62628
+                    Vert = point 0.182952 -8.64747 3.62628
+                    Vert = point -1.53628 -13.2448 3.80861
+                    Vert = point -1.11138 -12.5462 3.16671
+                    Vert = point -1.11138 -12.5462 3.16671
+                    Vert = point 0.194706 -9.54404 4.03514
+                    Vert = point 1.71615 -13.3937 3.7919
+                    Vert = point 1.51806 -12.6986 3.15046
+                    Vert = point 1.51806 -12.6986 3.15046
+                    Vert = point 0.182952 -8.64747 3.62628
+                    Vert = point 0.194706 -9.54404 4.03514
+                    Vert = point -1.43581 -12.6644 4.6544
+                    Vert = point -1.43581 -12.6644 4.6544
+                    Vert = point -1.53628 -13.2448 3.80861
+                    Vert = point -1.53628 -13.2448 3.80861
+                    Vert = point 1.43102 -12.8512 4.67107
+                    Vert = point 1.71615 -13.3937 3.7919
+                    Vert = point 0.194706 -9.54404 4.03514
+                    Vert = point 0.194706 -9.54404 4.03514
+                    Vert = point 0.191182 -10.0847 4.49476
+                    Vert = point 1.43102 -12.8512 4.67107
+                    Vert = point -1.43581 -12.6644 4.6544
+                    Vert = point 0.160806 -10.9193 5.86206
+                    Vert = point 0.191182 -10.0847 4.49476
+                    Vert = point 0.160806 -10.9193 5.86206
+                    Vert = point 1.43102 -12.8512 4.67107
+                    Vert = point 0.863413 -8.71159 0.551121
+                    Vert = point -0.950387 -8.10654 0.275301
+                    Vert = point 0.95528 -10.2358 1.53823
+                    NumFaces = 294
+                    ValFace = Face 1 5 4 1 3
+                    ValFace = Face 4 0 1 1 3
+                    ValFace = Face 1 70 51 0 3
+                    ValFace = Face 51 5 1 0 3
+                    ValFace = Face 3 2 11 1 3
+                    ValFace = Face 11 12 3 1 3
+                    ValFace = Face 4 11 9 16 3
+                    ValFace = Face 9 10 4 16 3
+                    ValFace = Face 9 183 7 16 3
+                    ValFace = Face 7 8 9 16 3
+                    ValFace = Face 79 53 80 16 3
+                    ValFace = Face 184 79 80 16 1
+                    ValFace = Face 185 80 7 16 6
+                    ValFace = Face 11 186 9 16 7
+                    ValFace = Face 187 4 10 16 7
+                    ValFace = Face 45 6 188 16 3
+                    ValFace = Face 189 10 45 16 3
+                    ValFace = Face 4 5 12 1 3
+                    ValFace = Face 12 11 4 1 3
+                    ValFace = Face 5 51 83 0 3
+                    ValFace = Face 83 12 5 0 3
+                    ValFace = Face 84 13 44 0 3
+                    ValFace = Face 44 14 15 0 3
+                    ValFace = Face 84 44 15 0 0
+                    ValFace = Face 84 15 16 0 2
+                    ValFace = Face 84 16 17 0 2
+                    ValFace = Face 84 17 91 0 6
+                    ValFace = Face 92 190 191 0 3
+                    ValFace = Face 192 193 92 0 3
+                    ValFace = Face 194 195 196 2 3
+                    ValFace = Face 197 198 199 2 3
+                    ValFace = Face 200 201 202 0 3
+                    ValFace = Face 203 204 205 0 3
+                    ValFace = Face 206 207 208 2 3
+                    ValFace = Face 209 210 211 2 3
+                    ValFace = Face 212 213 214 2 3
+                    ValFace = Face 215 216 217 2 3
+                    ValFace = Face 218 219 220 0 3
+                    ValFace = Face 221 222 223 0 3
+                    ValFace = Face 22 94 54 2 3
+                    ValFace = Face 54 25 22 2 3
+                    ValFace = Face 25 54 56 4 3
+                    ValFace = Face 56 24 25 4 3
+                    ValFace = Face 18 98 224 8 3
+                    ValFace = Face 225 22 18 8 3
+                    ValFace = Face 20 21 24 2 3
+                    ValFace = Face 24 23 20 2 3
+                    ValFace = Face 21 19 25 2 3
+                    ValFace = Face 25 24 21 2 3
+                    ValFace = Face 19 18 22 2 3
+                    ValFace = Face 22 25 19 2 3
+                    ValFace = Face 32 33 28 1 3
+                    ValFace = Face 28 26 32 1 3
+                    ValFace = Face 27 108 59 2 3
+                    ValFace = Face 59 30 27 2 3
+                    ValFace = Face 29 27 30 1 3
+                    ValFace = Face 30 31 29 1 3
+                    ValFace = Face 27 29 33 1 3
+                    ValFace = Face 33 46 27 1 3
+                    ValFace = Face 226 113 114 2 3
+                    ValFace = Face 30 227 114 2 1
+                    ValFace = Face 30 114 34 2 6
+                    ValFace = Face 31 30 34 2 3
+                    ValFace = Face 34 35 31 2 3
+                    ValFace = Face 34 114 117 0 3
+                    ValFace = Face 117 36 34 0 3
+                    ValFace = Face 119 35 37 0 3
+                    ValFace = Face 37 121 119 0 3
+                    ValFace = Face 35 34 36 0 3
+                    ValFace = Face 36 37 35 0 3
+                    ValFace = Face 121 37 36 0 3
+                    ValFace = Face 36 117 121 0 3
+                    ValFace = Face 122 38 40 4 3
+                    ValFace = Face 40 125 122 4 3
+                    ValFace = Face 38 39 41 1 3
+                    ValFace = Face 41 40 38 1 3
+                    ValFace = Face 62 61 41 1 3
+                    ValFace = Face 128 62 41 1 1
+                    ValFace = Face 39 128 41 1 5
+                    ValFace = Face 129 43 42 4 3
+                    ValFace = Face 42 132 129 4 3
+                    ValFace = Face 134 63 42 1 3
+                    ValFace = Face 133 134 42 1 1
+                    ValFace = Face 43 133 42 1 5
+                    ValFace = Face 42 63 135 1 7
+                    ValFace = Face 228 229 230 2 3
+                    ValFace = Face 231 232 233 2 3
+                    ValFace = Face 33 32 46 1 7
+                    ValFace = Face 32 136 137 2 3
+                    ValFace = Face 137 46 32 2 3
+                    ValFace = Face 138 49 47 4 3
+                    ValFace = Face 47 141 138 4 3
+                    ValFace = Face 49 50 48 1 3
+                    ValFace = Face 48 47 49 1 3
+                    ValFace = Face 65 64 48 1 3
+                    ValFace = Face 144 65 48 1 1
+                    ValFace = Face 50 144 48 1 5
+                    ValFace = Face 1 0 145 0 3
+                    ValFace = Face 145 234 1 0 3
+                    ValFace = Face 2 3 146 2 3
+                    ValFace = Face 146 235 2 2 3
+                    ValFace = Face 3 12 83 0 3
+                    ValFace = Face 83 236 3 0 3
+                    ValFace = Face 6 237 52 16 3
+                    ValFace = Face 238 6 52 16 1
+                    ValFace = Face 239 240 52 16 5
+                    ValFace = Face 23 24 56 4 3
+                    ValFace = Face 56 147 23 4 3
+                    ValFace = Face 20 23 241 1 3
+                    ValFace = Face 242 55 20 1 3
+                    ValFace = Face 32 26 148 2 3
+                    ValFace = Face 148 136 32 2 3
+                    ValFace = Face 26 28 57 0 3
+                    ValFace = Face 57 148 26 0 3
+                    ValFace = Face 58 29 31 0 3
+                    ValFace = Face 31 149 58 0 3
+                    ValFace = Face 108 27 46 2 3
+                    ValFace = Face 46 137 108 2 3
+                    ValFace = Face 35 119 60 2 3
+                    ValFace = Face 31 35 60 2 1
+                    ValFace = Face 243 31 60 2 5
+                    ValFace = Face 244 40 41 3 3
+                    ValFace = Face 41 61 245 3 3
+                    ValFace = Face 132 42 135 4 7
+                    ValFace = Face 246 47 48 3 3
+                    ValFace = Face 48 64 247 3 3
+                    ValFace = Face 67 66 69 1 3
+                    ValFace = Face 69 68 67 1 3
+                    ValFace = Face 67 68 51 0 3
+                    ValFace = Face 51 70 67 0 3
+                    ValFace = Face 72 71 74 1 3
+                    ValFace = Face 74 73 72 1 3
+                    ValFace = Face 69 75 76 16 3
+                    ValFace = Face 76 74 69 16 3
+                    ValFace = Face 76 78 77 16 3
+                    ValFace = Face 77 248 76 16 3
+                    ValFace = Face 249 77 80 16 3
+                    ValFace = Face 80 53 79 16 3
+                    ValFace = Face 250 80 79 16 4
+                    ValFace = Face 74 76 251 16 7
+                    ValFace = Face 252 75 69 16 7
+                    ValFace = Face 82 75 253 16 3
+                    ValFace = Face 254 81 82 16 3
+                    ValFace = Face 69 74 71 1 3
+                    ValFace = Face 71 68 69 1 3
+                    ValFace = Face 68 71 83 0 3
+                    ValFace = Face 83 51 68 0 3
+                    ValFace = Face 84 91 90 0 3
+                    ValFace = Face 84 90 89 0 2
+                    ValFace = Face 84 89 88 0 2
+                    ValFace = Face 88 87 86 0 3
+                    ValFace = Face 84 88 86 0 0
+                    ValFace = Face 84 86 85 0 6
+                    ValFace = Face 92 255 256 0 3
+                    ValFace = Face 257 258 92 0 3
+                    ValFace = Face 259 260 261 2 3
+                    ValFace = Face 262 263 264 2 3
+                    ValFace = Face 265 266 267 0 3
+                    ValFace = Face 268 269 270 0 3
+                    ValFace = Face 271 272 273 2 3
+                    ValFace = Face 274 275 276 2 3
+                    ValFace = Face 277 278 279 2 3
+                    ValFace = Face 280 281 282 2 3
+                    ValFace = Face 283 284 285 0 3
+                    ValFace = Face 286 287 288 0 3
+                    ValFace = Face 93 95 54 2 3
+                    ValFace = Face 54 94 93 2 3
+                    ValFace = Face 95 96 56 4 3
+                    ValFace = Face 56 54 95 4 3
+                    ValFace = Face 97 93 289 0 3
+                    ValFace = Face 290 98 97 0 3
+                    ValFace = Face 99 101 96 2 3
+                    ValFace = Face 96 100 99 2 3
+                    ValFace = Face 100 96 95 2 3
+                    ValFace = Face 95 102 100 2 3
+                    ValFace = Face 102 95 93 2 3
+                    ValFace = Face 93 97 102 2 3
+                    ValFace = Face 104 103 106 1 3
+                    ValFace = Face 106 105 104 1 3
+                    ValFace = Face 107 109 59 2 3
+                    ValFace = Face 59 108 107 2 3
+                    ValFace = Face 110 111 109 1 3
+                    ValFace = Face 109 107 110 1 3
+                    ValFace = Face 107 112 105 1 3
+                    ValFace = Face 105 110 107 1 3
+                    ValFace = Face 109 115 114 2 3
+                    ValFace = Face 114 113 291 2 3
+                    ValFace = Face 109 114 292 2 4
+                    ValFace = Face 111 116 115 2 3
+                    ValFace = Face 115 109 111 2 3
+                    ValFace = Face 115 118 117 0 3
+                    ValFace = Face 117 114 115 0 3
+                    ValFace = Face 119 121 120 0 3
+                    ValFace = Face 120 116 119 0 3
+                    ValFace = Face 116 120 118 0 3
+                    ValFace = Face 118 115 116 0 3
+                    ValFace = Face 121 117 118 0 3
+                    ValFace = Face 118 120 121 0 3
+                    ValFace = Face 122 125 124 4 3
+                    ValFace = Face 124 123 122 4 3
+                    ValFace = Face 123 124 127 1 3
+                    ValFace = Face 127 126 123 1 3
+                    ValFace = Face 127 61 62 1 3
+                    ValFace = Face 127 62 128 1 2
+                    ValFace = Face 126 127 128 1 5
+                    ValFace = Face 129 132 131 4 3
+                    ValFace = Face 131 130 129 4 3
+                    ValFace = Face 131 63 134 1 3
+                    ValFace = Face 131 134 133 1 2
+                    ValFace = Face 130 131 133 1 5
+                    ValFace = Face 131 135 63 1 7
+                    ValFace = Face 293 294 295 2 3
+                    ValFace = Face 296 297 298 2 3
+                    ValFace = Face 105 112 104 1 7
+                    ValFace = Face 104 112 137 2 3
+                    ValFace = Face 137 136 104 2 3
+                    ValFace = Face 138 141 140 4 3
+                    ValFace = Face 140 139 138 4 3
+                    ValFace = Face 139 140 143 1 3
+                    ValFace = Face 143 142 139 1 3
+                    ValFace = Face 143 64 65 1 3
+                    ValFace = Face 143 65 144 1 2
+                    ValFace = Face 142 143 144 1 5
+                    ValFace = Face 67 299 145 0 3
+                    ValFace = Face 145 66 67 0 3
+                    ValFace = Face 73 300 146 2 3
+                    ValFace = Face 146 72 73 2 3
+                    ValFace = Face 72 301 83 0 3
+                    ValFace = Face 83 71 72 0 3
+                    ValFace = Face 52 302 81 16 3
+                    ValFace = Face 52 81 303 16 2
+                    ValFace = Face 304 52 305 16 5
+                    ValFace = Face 101 147 56 4 3
+                    ValFace = Face 56 96 101 4 3
+                    ValFace = Face 99 55 306 1 3
+                    ValFace = Face 307 101 99 1 3
+                    ValFace = Face 104 136 148 2 3
+                    ValFace = Face 148 103 104 2 3
+                    ValFace = Face 103 148 57 0 3
+                    ValFace = Face 57 106 103 0 3
+                    ValFace = Face 58 149 111 0 3
+                    ValFace = Face 111 110 58 0 3
+                    ValFace = Face 108 137 112 2 3
+                    ValFace = Face 112 107 108 2 3
+                    ValFace = Face 60 119 116 2 3
+                    ValFace = Face 60 116 111 2 2
+                    ValFace = Face 308 60 111 2 5
+                    ValFace = Face 309 61 127 3 3
+                    ValFace = Face 127 124 310 3 3
+                    ValFace = Face 132 135 131 4 7
+                    ValFace = Face 311 64 143 3 3
+                    ValFace = Face 143 140 312 3 3
+                    ValFace = Face 164 162 163 2 7
+                    ValFace = Face 153 152 151 2 3
+                    ValFace = Face 151 150 153 2 3
+                    ValFace = Face 153 150 166 1 3
+                    ValFace = Face 166 154 153 1 3
+                    ValFace = Face 155 154 166 2 3
+                    ValFace = Face 166 167 155 2 3
+                    ValFace = Face 313 314 315 1 3
+                    ValFace = Face 316 317 318 1 3
+                    ValFace = Face 152 153 156 2 7
+                    ValFace = Face 157 319 320 1 3
+                    ValFace = Face 321 322 157 1 3
+                    ValFace = Face 158 323 324 2 3
+                    ValFace = Face 325 326 158 2 3
+                    ValFace = Face 327 328 329 1 3
+                    ValFace = Face 330 331 332 1 3
+                    ValFace = Face 160 159 333 1 3
+                    ValFace = Face 334 157 160 1 3
+                    ValFace = Face 161 335 336 2 3
+                    ValFace = Face 337 158 161 2 3
+                    ValFace = Face 338 339 340 1 3
+                    ValFace = Face 341 342 343 1 3
+                    ValFace = Face 344 165 159 1 3
+                    ValFace = Face 159 160 345 1 3
+                    ValFace = Face 164 163 346 2 3
+                    ValFace = Face 347 161 164 2 3
+                    ValFace = Face 348 349 350 1 3
+                    ValFace = Face 351 352 353 1 3
+                    ValFace = Face 354 355 165 1 7
+                    ValFace = Face 356 357 358 1 7
+                    ValFace = Face 172 173 180 0 7
+                    ValFace = Face 173 174 180 0 7
+                    ValFace = Face 174 175 180 0 7
+                    ValFace = Face 175 359 180 0 7
+                    ValFace = Face 176 177 181 0 7
+                    ValFace = Face 177 178 181 0 7
+                    ValFace = Face 178 179 181 0 7
+                    ValFace = Face 179 360 181 0 7
+                    ValFace = Face 168 169 182 0 7
+                    ValFace = Face 169 170 182 0 7
+                    ValFace = Face 170 171 182 0 7
+                    ValFace = Face 171 361 182 0 7
+                  }
+                }
+                Controller {
+                  SetupTM = matrix 1 0 0 0 1 0 0 0 1 1.91393e-006 0.312664 -9.92831
+                  Flags = 7340032
+                }
+              }
+            }
+          }
+        }
+        Spine {
+          BoneName = "Neck"
+          Flags = 0
+          AbsRelSpine = 1
+          SpineBase = matrix 1 0 0 0 1 0 0 0 1 2.8603e-007 1.89429 8.24898
+          WeightOutTan = 0.333
+          WeightInTan = 0.333
+          WeightOutVal = 0
+          WeightInVal = 1
+          NumLinks = 3
+          SpineLink {
+            BoneName = ""
+            Flags = 0
+            ParentNode = INode "SceneRootNode.Hub.Spine[0].Hub"
+            ObjectParams {
+              Flags = 0
+              Width = 3
+              Height = 3
+              Length = 3.8833
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+            SetupTM = matrix 1 0 0 0 1 0 0 0 1 0 0 0
+          }
+          SpineLink {
+            BoneName = ""
+            Flags = 0
+            ParentNode = INode "SceneRootNode.Hub.Spine[0].Hub.Spine[0].SpineLink[0]"
+            ObjectParams {
+              Flags = 0
+              Width = 3
+              Height = 3
+              Length = 3.8833
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+            SetupTM = matrix 1 0 0 0 1 0 0 0 1 0 0 0
+          }
+          SpineLink {
+            BoneName = ""
+            Flags = 0
+            ParentNode = INode "SceneRootNode.Hub.Spine[0].Hub.Spine[0].SpineLink[1]"
+            ObjectParams {
+              Flags = 0
+              Width = 3
+              Height = 3
+              Length = 3.8833
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+            SetupTM = matrix 1 0 0 0 1 0 0 0 1 0 0 0
+          }
+          Hub {
+            BoneName = "Head"
+            Flags = 262144
+            BoneColour = 8760831
+            Controller {
+              SetupTM = matrix 1 -1.9281e-009 2.40532e-008 4.29994e-009 0.995088 -0.0990021 -2.37441e-008 0.0990021 0.995088 -7.87844e-007 1.13104 0
+              Flags = 7472128
+            }
+            DangleRatioVal = 1
+            ParentNode = INode "SceneRootNode.Hub.Spine[0].Hub.Spine[0].SpineLink[2]"
+            ObjectParams {
+              Width = 12.3098
+              Length = 17.6841
+              Height = 23.2787
+              PivotPosZ = -0.784946
+              PivotPosY = -0.44086
+            }
+            Tail {
+              BoneName = "Hair"
+              Width = 4.27
+              Height = 2.11
+              Taper = 0
+              WeightOutTan = 0.333
+              WeightInTan = 0.333
+              WeightOutVal = 0
+              WeightInVal = 1
+              NumLinks = 5
+              TailBone {
+                BoneName = ""
+                Flags = 40
+                ParentNode = INode "SceneRootNode.Hub.Spine[0].Hub.Spine[0].Hub"
+                BoneColour = 255
+                ObjectParams {
+                  Flags = 0
+                  Width = 4.27
+                  Height = 2.11
+                  Length = 4.8
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+                Controller {
+                  SetupTM = matrix 0.899083 -0.437757 -0.0043646 -0.130195 -0.257855 -0.957372 0.417971 0.861324 -0.288827 0.80933 8.77802 19.4637
+                  Flags = 7340032
+                }
+              }
+              TailBone {
+                BoneName = ""
+                Flags = 40
+                ParentNode = INode "SceneRootNode.Hub.Spine[0].Hub.Spine[0].Hub.Tail[0].TailBone[0]"
+                BoneColour = 255
+                ObjectParams {
+                  Flags = 0
+                  Width = 4.27
+                  Height = 2.11
+                  Length = 4.8
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+                Controller {
+                  SetupTM = matrix 0.879287 -0.464295 0.106226 -0.416214 -0.857453 -0.302557 0.231559 0.221821 -0.947194 0 0 0
+                  Flags = 7340032
+                }
+              }
+              TailBone {
+                BoneName = ""
+                Flags = 40
+                ParentNode = INode "SceneRootNode.Hub.Spine[0].Hub.Spine[0].Hub.Tail[0].TailBone[1]"
+                BoneColour = 255
+                ObjectParams {
+                  Flags = 0
+                  Width = 4.27
+                  Height = 2.11
+                  Length = 4.8
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+                Controller {
+                  SetupTM = matrix 0.867017 -0.455251 0.202555 -0.463801 -0.88592 -0.00588703 0.182127 -0.0888409 -0.979253 0 0 0
+                  Flags = 7340032
+                }
+              }
+              TailBone {
+                BoneName = ""
+                Flags = 40
+                ParentNode = INode "SceneRootNode.Hub.Spine[0].Hub.Spine[0].Hub.Tail[0].TailBone[2]"
+                BoneColour = 255
+                ObjectParams {
+                  Flags = 0
+                  Width = 4.27
+                  Height = 2.11
+                  Length = 4.8
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+                Controller {
+                  SetupTM = matrix 0.867017 -0.449369 0.215289 -0.48028 -0.868747 0.120875 0.132714 -0.208199 -0.969041 0 0 0
+                  Flags = 7340032
+                }
+              }
+              TailBone {
+                BoneName = ""
+                Flags = 40
+                ParentNode = INode "SceneRootNode.Hub.Spine[0].Hub.Spine[0].Hub.Tail[0].TailBone[3]"
+                BoneColour = 255
+                ObjectParams {
+                  Flags = 0
+                  Width = 4.27
+                  Height = 2.11
+                  Length = 4.8
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+                Controller {
+                  SetupTM = matrix 0.867017 -0.445276 0.223632 -0.477721 -0.87041 0.119035 0.141648 -0.210039 -0.967378 0 0 0
+                  Flags = 7340032
+                }
+              }
+            }
+          }
+        }
+        Tail {
+          BoneName = "LBreast"
+          Width = 11.77
+          Height = 12.01
+          Taper = 0
+          WeightOutTan = 0.333
+          WeightInTan = 0.333
+          WeightOutVal = 0
+          WeightInVal = 1
+          NumLinks = 1
+          TailBone {
+            BoneName = ""
+            Flags = 40
+            ParentNode = INode "SceneRootNode.Hub.Spine[0].Hub"
+            BoneColour = 255
+            ObjectParams {
+              Flags = 0
+              Width = 11.77
+              Height = 12.01
+              Length = 11.2167
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+            Controller {
+              SetupTM = matrix 0.970447 0.235101 -0.054412 -0.00997256 -0.186217 -0.982458 -0.241109 0.953966 -0.178369 -6.59302 8.97948 -3.86216
+              Flags = 7340032
+            }
+          }
+        }
+        Tail {
+          BoneName = "RBreast"
+          Width = 11.77
+          Height = 12.01
+          Taper = 0
+          WeightOutTan = 0.333
+          WeightInTan = 0.333
+          WeightOutVal = 0
+          WeightInVal = 1
+          NumLinks = 1
+          TailBone {
+            BoneName = ""
+            Flags = 40
+            ParentNode = INode "SceneRootNode.Hub.Spine[0].Hub"
+            BoneColour = 255
+            ObjectParams {
+              Flags = 0
+              Width = 11.77
+              Height = 12.01
+              Length = 11.2167
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+            Controller {
+              SetupTM = matrix 0.970447 -0.235101 0.054412 -0.00997256 -0.186217 -0.982458 0.241109 0.953966 -0.178369 6.59302 8.97948 -3.86216
+              Flags = 7340032
+            }
+          }
+        }
+        Limb {
+          Flags = 3146
+          BoneName = "LArm"
+          IKFKValue = 1
+          BoneColour = 10140671
+          CollarBone {
+            BoneName = "Collarbone"
+            Flags = 40
+            ParentNode = INode "SceneRootNode.Hub.Spine[0].Hub"
+            BoneColour = 10140671
+            ObjectParams {
+              Flags = 0
+              Width = 3.06
+              Height = 3.06
+              Length = 15.9195
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+            Controller {
+              SetupTM = matrix 0.972988 0.111234 -0.202288 -0.0346109 0.936644 0.348568 0.228244 -0.332151 0.915194 6.61678 9.09317 3.58905
+              Flags = 7340032
+            }
+          }
+          NumBones = 2
+          LimbBone {
+            BoneName = "1"
+            Flags = 56
+            Controller {
+              SetupTM = matrix 0.561974 0.126348 -0.817448 -0.0737904 0.991982 0.102596 0.823857 0.00266368 0.566792 0 0 0
+              Flags = 8257536
+            }
+            NumBoneSegs = 1
+            Width = 6.9
+            Length = 30.3749
+            Height = 7.8
+            WeightOutTan = 0.333
+            WeightInTan = 0.333
+            WeightOutVal = 0
+            WeightInVal = 1
+            ParentNode = INode "SceneRootNode.Hub.Spine[0].Hub.Limb[0].CollarBone"
+            BoneSeg {
+              BoneName = ""
+              Flags = 0
+              ObjectParams {
+                Flags = 0
+                Width = 6.9
+                Height = 7.8
+                Length = 30.3749
+                ObjectOffsetPos = point 0 0 0
+                ObjectOffsetRot = quat 0 0 0 1
+                ObjectOffsetScl = point 1 1 1
+              }
+            }
+          }
+          LimbBone {
+            BoneName = "2"
+            Flags = 312
+            Controller {
+              SetupTM = matrix 0.998466 -0.00632665 0.0550089 0.00746161 0.999763 -0.0204514 -0.0548665 0.0208305 0.998276 0 0 0
+              Flags = 7340032
+            }
+            NumBoneSegs = 1
+            Width = 14.0415
+            Length = 28.6351
+            Height = 15.276
+            WeightOutTan = 0.333
+            WeightInTan = 0.333
+            WeightOutVal = 0
+            WeightInVal = 1
+            ParentNode = INode "SceneRootNode.Hub.Spine[0].Hub.Limb[0].LimbBone[0].BoneSeg[0]"
+            BoneSeg {
+              BoneName = ""
+              Flags = 0
+              ObjectParams {
+                Flags = 0
+                Width = 14.0415
+                Height = 15.276
+                Length = 28.6351
+                ObjectOffsetPos = point 0 0 0
+                ObjectOffsetRot = quat 0 0 0 1
+                ObjectOffsetScl = point 1 1 1
+              }
+            }
+          }
+          Palm {
+            BoneName = "Palm"
+            Flags = 48
+            Controller {
+              SetupTM = matrix -0.0815971 -0.994614 0.0639104 0.994242 -0.0857002 -0.064331 0.0694615 0.0582931 0.99588 0.285491 3.35316 -28.9149
+              Flags = 7340032
+            }
+            ObjectParams {
+              Flags = 0
+              Width = 8.96
+              Height = 3.51
+              Length = 8.821
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+            TargetAlign = 1
+            NumBones = 5
+            Digit {
+              BoneName = "Digit0"
+              SetupPos = point -0.803385 0.51986 0.205913
+              Flags = 0
+              CATMotionWeight = 1
+              Width = 3.157
+              Height = 2
+              NumBones = 3
+              DigitSegParams {
+                BoneName = ""
+                Flags = 312
+                Length = 4.96844
+                Controller {
+                  SetupTM = matrix 0.0383383 0.640893 0.766673 -0.470218 0.688554 -0.552076 -0.881717 -0.339338 0.327757 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 0
+                  Width = 3.157
+                  Height = 2
+                  Length = 4.96844
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = ""
+                Flags = 312
+                Length = 4.33827
+                Controller {
+                  SetupTM = matrix 0.998642 -0.0134833 0.0503202 -0.0235411 0.744881 0.666781 -0.0464729 -0.667061 0.743553 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 0
+                  Width = 3.157
+                  Height = 2
+                  Length = 4.33827
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = ""
+                Flags = 312
+                Length = 3.70844
+                Controller {
+                  SetupTM = matrix 0.9796 0.0845905 0.182284 1.49012e-008 0.907087 -0.420943 -0.200955 0.412356 0.888583 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 0
+                  Width = 3.157
+                  Height = 2
+                  Length = 3.70844
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+            }
+            Digit {
+              BoneName = "Digit1"
+              SetupPos = point -0.789827 -0.104977 0.937371
+              Flags = 0
+              CATMotionWeight = 1
+              Width = 2
+              Height = 2
+              NumBones = 3
+              DigitSegParams {
+                BoneName = ""
+                Flags = 312
+                Length = 4.62257
+                Controller {
+                  SetupTM = matrix 0.977652 0.144106 0.15307 -0.176136 0.958967 0.222169 -0.114774 -0.244165 0.962918 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 0
+                  Width = 2
+                  Height = 2
+                  Length = 4.62257
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = ""
+                Flags = 312
+                Length = 4.42536
+                Controller {
+                  SetupTM = matrix 1 -9.72637e-009 -5.32898e-009 1.10324e-008 0.921543 0.388276 1.13436e-009 -0.388276 0.921543 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 0
+                  Width = 2
+                  Height = 2
+                  Length = 4.42536
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = ""
+                Flags = 312
+                Length = 4.19632
+                Controller {
+                  SetupTM = matrix 1 -1.54672e-008 3.29782e-009 1.24987e-008 0.900703 0.434436 -9.68987e-009 -0.434436 0.900703 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 0
+                  Width = 2
+                  Height = 2
+                  Length = 4.19632
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+            }
+            Digit {
+              BoneName = "Digit2"
+              SetupPos = point -0.18965 0.572893 1.00415
+              Flags = 0
+              CATMotionWeight = 1
+              Width = 2
+              Height = 2
+              NumBones = 3
+              DigitSegParams {
+                BoneName = ""
+                Flags = 312
+                Length = 6.06766
+                Controller {
+                  SetupTM = matrix 1 -2.28823e-008 -1.13187e-008 2.55172e-008 0.909227 0.4163 7.65339e-010 -0.4163 0.909227 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 0
+                  Width = 2
+                  Height = 2
+                  Length = 6.06766
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = ""
+                Flags = 312
+                Length = 4.50844
+                Controller {
+                  SetupTM = matrix 1 -7.51575e-009 -1.75037e-009 7.65274e-009 0.936658 0.350246 -9.9286e-010 -0.350246 0.936658 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 0
+                  Width = 2
+                  Height = 2
+                  Length = 4.50844
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = ""
+                Flags = 312
+                Length = 4.75075
+                Controller {
+                  SetupTM = matrix 1 -1.27184e-008 1.18931e-009 1.11038e-008 0.91151 0.411277 -6.31487e-009 -0.411277 0.91151 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 0
+                  Width = 2
+                  Height = 2
+                  Length = 4.75075
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+            }
+            Digit {
+              BoneName = "Digit3"
+              SetupPos = point 0.33202 0.629039 1.00326
+              Flags = 0
+              CATMotionWeight = 1
+              Width = 2
+              Height = 2
+              NumBones = 3
+              DigitSegParams {
+                BoneName = ""
+                Flags = 312
+                Length = 5.44641
+                Controller {
+                  SetupTM = matrix 0.99707 0.02782 -0.0712586 -0.00548271 0.955119 0.296171 0.0763 -0.294912 0.952473 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 0
+                  Width = 2
+                  Height = 2
+                  Length = 5.44641
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = ""
+                Flags = 312
+                Length = 4.77519
+                Controller {
+                  SetupTM = matrix 1 -1.45402e-008 -7.50715e-009 1.63612e-008 0.88026 0.474492 -2.90965e-010 -0.474492 0.88026 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 0
+                  Width = 2
+                  Height = 2
+                  Length = 4.77519
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = ""
+                Flags = 312
+                Length = 4.47815
+                Controller {
+                  SetupTM = matrix 1 -5.888e-009 5.60711e-010 5.34965e-009 0.940838 0.338858 -2.52273e-009 -0.338858 0.940838 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 0
+                  Width = 2
+                  Height = 2
+                  Length = 4.47815
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+            }
+            Digit {
+              BoneName = "Digit4"
+              SetupPos = point 0.91123 0.624639 0.964628
+              Flags = 0
+              CATMotionWeight = 1
+              Width = 2
+              Height = 2
+              NumBones = 3
+              DigitSegParams {
+                BoneName = ""
+                Flags = 312
+                Length = 4.23641
+                Controller {
+                  SetupTM = matrix 0.995198 -0.00724808 -0.0976121 0.0540934 0.871855 0.486767 0.0815755 -0.48971 0.868061 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 0
+                  Width = 2
+                  Height = 2
+                  Length = 4.23641
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = ""
+                Flags = 312
+                Length = 3.77519
+                Controller {
+                  SetupTM = matrix 1 -4.11491e-009 -1.46376e-009 4.36748e-009 0.943279 0.332001 1.45806e-011 -0.332001 0.943279 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 0
+                  Width = 2
+                  Height = 2
+                  Length = 3.77519
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = ""
+                Flags = 312
+                Length = 3.36815
+                Controller {
+                  SetupTM = matrix 1 0 0 0 0.965926 0.258819 0 -0.258819 0.965926 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 0
+                  Width = 2
+                  Height = 2
+                  Length = 3.36815
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+            }
+          }
+        }
+        Limb {
+          Flags = 3170
+          BoneName = "RArm"
+          IKFKValue = 1
+          BoneColour = 9548031
+          CollarBone {
+            BoneName = "Collarbone"
+            Flags = 40
+            ParentNode = INode "SceneRootNode.Hub.Spine[0].Hub"
+            BoneColour = 9548031
+            ObjectParams {
+              Flags = 0
+              Width = 3.06
+              Height = 3.06
+              Length = 15.9195
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+            Controller {
+              SetupTM = matrix 0.972988 -0.111234 0.202288 0.0346109 0.936644 0.348568 -0.228244 -0.332151 0.915194 -6.61678 9.09317 3.58905
+              Flags = 7340032
+            }
+          }
+          NumBones = 2
+          LimbBone {
+            BoneName = "1"
+            Flags = 56
+            Controller {
+              SetupTM = matrix 0.561974 -0.126348 0.817448 0.0737904 0.991982 0.102596 -0.823857 0.00266369 0.566792 0 0 0
+              Flags = 8257536
+            }
+            NumBoneSegs = 1
+            Width = 6.9
+            Length = 30.3749
+            Height = 7.8
+            WeightOutTan = 0.333
+            WeightInTan = 0.333
+            WeightOutVal = 0
+            WeightInVal = 1
+            ParentNode = INode "SceneRootNode.Hub.Spine[0].Hub.Limb[1].CollarBone"
+            BoneSeg {
+              BoneName = ""
+              Flags = 0
+              ObjectParams {
+                Flags = 0
+                Width = 6.9
+                Height = 7.8
+                Length = 30.3749
+                ObjectOffsetPos = point 0 0 0
+                ObjectOffsetRot = quat 0 0 0 1
+                ObjectOffsetScl = point 1 1 1
+              }
+            }
+          }
+          LimbBone {
+            BoneName = "2"
+            Flags = 312
+            Controller {
+              SetupTM = matrix 0.998466 0.00632665 -0.0550089 -0.00746161 0.999763 -0.0204514 0.0548665 0.0208305 0.998276 0 0 0
+              Flags = 7340032
+            }
+            NumBoneSegs = 1
+            Width = 14.0415
+            Length = 28.6351
+            Height = 15.276
+            WeightOutTan = 0.333
+            WeightInTan = 0.333
+            WeightOutVal = 0
+            WeightInVal = 1
+            ParentNode = INode "SceneRootNode.Hub.Spine[0].Hub.Limb[1].LimbBone[0].BoneSeg[0]"
+            BoneSeg {
+              BoneName = ""
+              Flags = 0
+              ObjectParams {
+                Flags = 0
+                Width = 14.0415
+                Height = 15.276
+                Length = 28.6351
+                ObjectOffsetPos = point 0 0 0
+                ObjectOffsetRot = quat 0 0 0 1
+                ObjectOffsetScl = point 1 1 1
+              }
+            }
+          }
+          Palm {
+            BoneName = "Palm"
+            Flags = 48
+            Controller {
+              SetupTM = matrix -0.0815972 0.994614 -0.0639104 -0.994242 -0.0857003 -0.0643309 -0.0694616 0.0582932 0.99588 -0.285497 3.35316 -28.9149
+              Flags = 7340032
+            }
+            ObjectParams {
+              Flags = 0
+              Width = 8.96
+              Height = 3.51
+              Length = 8.821
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+            TargetAlign = 1
+            NumBones = 5
+            Digit {
+              BoneName = "Digit0"
+              SetupPos = point 0.803385 0.51986 0.205913
+              Flags = 0
+              CATMotionWeight = 1
+              Width = 3.157
+              Height = 2
+              NumBones = 3
+              DigitSegParams {
+                BoneName = ""
+                Flags = 312
+                Length = 4.96844
+                Controller {
+                  SetupTM = matrix 0.0383383 -0.640893 -0.766673 0.470218 0.688554 -0.552076 0.881717 -0.339338 0.327757 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 0
+                  Width = 3.157
+                  Height = 2
+                  Length = 4.96844
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = ""
+                Flags = 312
+                Length = 4.33827
+                Controller {
+                  SetupTM = matrix 0.998642 0.0134833 -0.0503202 0.0235411 0.744881 0.666781 0.0464729 -0.667061 0.743553 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 0
+                  Width = 3.157
+                  Height = 2
+                  Length = 4.33827
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = ""
+                Flags = 312
+                Length = 3.70844
+                Controller {
+                  SetupTM = matrix 0.9796 -0.0845905 -0.182284 -1.49012e-008 0.907087 -0.420943 0.200955 0.412356 0.888583 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 0
+                  Width = 3.157
+                  Height = 2
+                  Length = 3.70844
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+            }
+            Digit {
+              BoneName = "Digit1"
+              SetupPos = point 0.789827 -0.104977 0.937371
+              Flags = 0
+              CATMotionWeight = 1
+              Width = 2
+              Height = 2
+              NumBones = 3
+              DigitSegParams {
+                BoneName = ""
+                Flags = 312
+                Length = 4.62257
+                Controller {
+                  SetupTM = matrix 0.977652 -0.144106 -0.15307 0.176136 0.958967 0.222169 0.114774 -0.244165 0.962918 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 0
+                  Width = 2
+                  Height = 2
+                  Length = 4.62257
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = ""
+                Flags = 312
+                Length = 4.42536
+                Controller {
+                  SetupTM = matrix 1 9.72637e-009 5.32898e-009 -1.10324e-008 0.921543 0.388276 -1.13436e-009 -0.388276 0.921543 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 0
+                  Width = 2
+                  Height = 2
+                  Length = 4.42536
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = ""
+                Flags = 312
+                Length = 4.19632
+                Controller {
+                  SetupTM = matrix 1 1.54672e-008 -3.29782e-009 -1.24987e-008 0.900703 0.434436 9.68987e-009 -0.434436 0.900703 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 0
+                  Width = 2
+                  Height = 2
+                  Length = 4.19632
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+            }
+            Digit {
+              BoneName = "Digit2"
+              SetupPos = point 0.18965 0.572893 1.00415
+              Flags = 0
+              CATMotionWeight = 1
+              Width = 2
+              Height = 2
+              NumBones = 3
+              DigitSegParams {
+                BoneName = ""
+                Flags = 312
+                Length = 6.06766
+                Controller {
+                  SetupTM = matrix 1 2.28823e-008 1.13187e-008 -2.55172e-008 0.909227 0.4163 -7.65339e-010 -0.4163 0.909227 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 0
+                  Width = 2
+                  Height = 2
+                  Length = 6.06766
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = ""
+                Flags = 312
+                Length = 4.50844
+                Controller {
+                  SetupTM = matrix 1 7.51575e-009 1.75037e-009 -7.65274e-009 0.936658 0.350246 9.9286e-010 -0.350246 0.936658 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 0
+                  Width = 2
+                  Height = 2
+                  Length = 4.50844
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = ""
+                Flags = 312
+                Length = 4.75075
+                Controller {
+                  SetupTM = matrix 1 1.27184e-008 -1.18931e-009 -1.11038e-008 0.91151 0.411277 6.31487e-009 -0.411277 0.91151 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 0
+                  Width = 2
+                  Height = 2
+                  Length = 4.75075
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+            }
+            Digit {
+              BoneName = "Digit3"
+              SetupPos = point -0.33202 0.629039 1.00326
+              Flags = 0
+              CATMotionWeight = 1
+              Width = 2
+              Height = 2
+              NumBones = 3
+              DigitSegParams {
+                BoneName = ""
+                Flags = 312
+                Length = 5.44641
+                Controller {
+                  SetupTM = matrix 0.99707 -0.02782 0.0712586 0.00548271 0.955119 0.296171 -0.0763 -0.294912 0.952473 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 0
+                  Width = 2
+                  Height = 2
+                  Length = 5.44641
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = ""
+                Flags = 312
+                Length = 4.77519
+                Controller {
+                  SetupTM = matrix 1 1.45402e-008 7.50715e-009 -1.63612e-008 0.88026 0.474492 2.90965e-010 -0.474492 0.88026 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 0
+                  Width = 2
+                  Height = 2
+                  Length = 4.77519
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = ""
+                Flags = 312
+                Length = 4.47815
+                Controller {
+                  SetupTM = matrix 1 5.888e-009 -5.60711e-010 -5.34965e-009 0.940838 0.338858 2.52273e-009 -0.338858 0.940838 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 0
+                  Width = 2
+                  Height = 2
+                  Length = 4.47815
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+            }
+            Digit {
+              BoneName = "Digit4"
+              SetupPos = point -0.91123 0.624639 0.964628
+              Flags = 0
+              CATMotionWeight = 1
+              Width = 2
+              Height = 2
+              NumBones = 3
+              DigitSegParams {
+                BoneName = ""
+                Flags = 312
+                Length = 4.23641
+                Controller {
+                  SetupTM = matrix 0.995198 0.00724808 0.0976121 -0.0540934 0.871855 0.486767 -0.0815755 -0.48971 0.868061 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 0
+                  Width = 2
+                  Height = 2
+                  Length = 4.23641
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = ""
+                Flags = 312
+                Length = 3.77519
+                Controller {
+                  SetupTM = matrix 1 4.11491e-009 1.46376e-009 -4.36748e-009 0.943279 0.332001 -1.45806e-011 -0.332001 0.943279 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 0
+                  Width = 2
+                  Height = 2
+                  Length = 3.77519
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = ""
+                Flags = 312
+                Length = 3.36815
+                Controller {
+                  SetupTM = matrix 1 0 0 0 0.965926 0.258819 0 -0.258819 0.965926 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 0
+                  Width = 2
+                  Height = 2
+                  Length = 3.36815
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    Limb {
+      Flags = 2124
+      BoneName = "LLeg"
+      IKFKValue = 0
+      BoneColour = 250
+      Platform {
+        Flags = 0
+        Controller {
+          SetupTM = matrix 0.998086 0.0618469 0 -0.0618469 0.998086 0 0 0 1 -20.5517 -5.54052 0
+          Flags = 7538176
+        }
+        ObjectParams {
+          Width = 14.53
+          Length = 46.67
+        }
+      }
+      NumBones = 2
+      LimbBone {
+        BoneName = "1"
+        Flags = 312
+        Controller {
+          SetupTM = matrix 0.996203 0.00456258 -0.0869418 -0.00555783 0.999922 -0.0112087 0.0868839 0.0116494 0.99615 9.83566 3.25093 -0.530832
+          Flags = 8257536
+        }
+        NumBoneSegs = 1
+        Width = 15.8
+        Length = 56.8942
+        Height = 15.5
+        WeightOutTan = 0.333
+        WeightInTan = 0.333
+        WeightOutVal = 0
+        WeightInVal = 1
+        ParentNode = INode "SceneRootNode.Hub"
+        BoneSeg {
+          BoneName = ""
+          Flags = 0
+          ObjectParams {
+            Flags = 0
+            Width = 15.8
+            Height = 15.5
+            Length = 56.8942
+            ObjectOffsetPos = point 0 0 0
+            ObjectOffsetRot = quat 0 0 0 1
+            ObjectOffsetScl = point 1 1 1
+          }
+        }
+      }
+      LimbBone {
+        BoneName = "2"
+        Flags = 312
+        Controller {
+          SetupTM = matrix 0.999993 0.000786562 0.00356356 -0.0033484 0.586064 0.810258 -0.00145115 -0.810264 0.586062 -4.65383e-007 -2.03153e-007 1.81389e-006
+          Flags = 7340032
+        }
+        NumBoneSegs = 1
+        Width = 17.15
+        Length = 51.7316
+        Height = 19.3
+        WeightOutTan = 0.333
+        WeightInTan = 0.333
+        WeightOutVal = 0
+        WeightInVal = 1
+        ParentNode = INode "SceneRootNode.Hub.Limb[0].LimbBone[0].BoneSeg[0]"
+        BoneSeg {
+          BoneName = ""
+          Flags = 0
+          ObjectParams {
+            Flags = 0
+            Width = 17.15
+            Height = 19.3
+            Length = 51.7316
+            ObjectOffsetPos = point 0 0 0
+            ObjectOffsetRot = quat 0 0 0 1
+            ObjectOffsetScl = point 1 1 1
+          }
+        }
+      }
+      Palm {
+        BoneName = "Palm"
+        Flags = 48
+        Controller {
+          SetupTM = matrix 1 -5.15537e-009 -9.12523e-009 -3.22182e-009 0.677296 -0.735711 9.97334e-009 0.735711 0.677296 0.11433 0.862164 -5.94358
+          Flags = 7340032
+        }
+        ObjectParams {
+          Flags = 0
+          Width = 14.66
+          Height = 9
+          Length = 16
+          ObjectOffsetPos = point 0 0 0
+          ObjectOffsetRot = quat 0 0 0 1
+          ObjectOffsetScl = point 1 1 1
+        }
+        TargetAlign = 1
+        NumBones = 1
+        Digit {
+          BoneName = "Digit0"
+          SetupPos = point 0 0 1
+          Flags = 0
+          CATMotionWeight = 1
+          Width = 15.2137
+          Height = 12.5732
+          NumBones = 1
+          DigitSegParams {
+            BoneName = ""
+            Flags = 312
+            Length = 20.56
+            Controller {
+              SetupTM = matrix 0.999986 0.00511826 0.00108341 -0.0051771 0.997937 0.0639877 -0.000753669 -0.0639924 0.99795 0 0 0
+              Flags = 7340032
+            }
+            ObjectParams {
+              Flags = 0
+              Width = 15.2137
+              Height = 12.5732
+              Length = 20.56
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+          }
+        }
+      }
+    }
+    Limb {
+      Flags = 100
+      BoneName = "RLeg"
+      IKFKValue = 0
+      BoneColour = 255
+      Platform {
+        Flags = 0
+        Controller {
+          SetupTM = matrix 0.998086 -0.0618469 0 0.0618469 0.998086 0 0 0 1 20.5517 -5.54052 0
+          Flags = 7538176
+        }
+        ObjectParams {
+          Width = 14.53
+          Length = 46.67
+        }
+      }
+      NumBones = 2
+      LimbBone {
+        BoneName = "1"
+        Flags = 312
+        Controller {
+          SetupTM = matrix 0.996203 -0.00456258 0.0869418 0.00555783 0.999922 -0.0112087 -0.0868839 0.0116494 0.99615 -9.83566 3.25093 -0.53083
+          Flags = 8257536
+        }
+        NumBoneSegs = 1
+        Width = 15.8
+        Length = 56.8942
+        Height = 15.5
+        WeightOutTan = 0.333
+        WeightInTan = 0.333
+        WeightOutVal = 0
+        WeightInVal = 1
+        ParentNode = INode "SceneRootNode.Hub"
+        BoneSeg {
+          BoneName = ""
+          Flags = 0
+          ObjectParams {
+            Flags = 0
+            Width = 15.8
+            Height = 15.5
+            Length = 56.8942
+            ObjectOffsetPos = point 0 0 0
+            ObjectOffsetRot = quat 0 0 0 1
+            ObjectOffsetScl = point 1 1 1
+          }
+        }
+      }
+      LimbBone {
+        BoneName = "2"
+        Flags = 312
+        Controller {
+          SetupTM = matrix 0.999993 -0.000786562 -0.00356355 0.0033484 0.586064 0.810258 0.00145115 -0.810264 0.586062 4.65383e-007 -2.03153e-007 1.81389e-006
+          Flags = 7340032
+        }
+        NumBoneSegs = 1
+        Width = 17.15
+        Length = 51.7316
+        Height = 19.3
+        WeightOutTan = 0.333
+        WeightInTan = 0.333
+        WeightOutVal = 0
+        WeightInVal = 1
+        ParentNode = INode "SceneRootNode.Hub.Limb[1].LimbBone[0].BoneSeg[0]"
+        BoneSeg {
+          BoneName = ""
+          Flags = 0
+          ObjectParams {
+            Flags = 0
+            Width = 17.15
+            Height = 19.3
+            Length = 51.7316
+            ObjectOffsetPos = point 0 0 0
+            ObjectOffsetRot = quat 0 0 0 1
+            ObjectOffsetScl = point 1 1 1
+          }
+        }
+      }
+      Palm {
+        BoneName = "Palm"
+        Flags = 48
+        Controller {
+          SetupTM = matrix 1 5.15537e-009 9.12523e-009 3.22182e-009 0.677296 -0.735711 -9.97334e-009 0.735711 0.677296 -0.114332 0.862164 -5.94358
+          Flags = 7340032
+        }
+        ObjectParams {
+          Flags = 0
+          Width = 14.66
+          Height = 9
+          Length = 16
+          ObjectOffsetPos = point 0 0 0
+          ObjectOffsetRot = quat 0 0 0 1
+          ObjectOffsetScl = point 1 1 1
+        }
+        TargetAlign = 1
+        NumBones = 1
+        Digit {
+          BoneName = "Digit0"
+          SetupPos = point 0 0 1
+          Flags = 0
+          CATMotionWeight = 1
+          Width = 15.2137
+          Height = 12.5732
+          NumBones = 1
+          DigitSegParams {
+            BoneName = ""
+            Flags = 312
+            Length = 20.56
+            Controller {
+              SetupTM = matrix 0.999986 -0.00511826 -0.00108341 0.0051771 0.997937 0.0639877 0.000753669 -0.0639924 0.99795 0 0 0
+              Flags = 7340032
+            }
+            ObjectParams {
+              Flags = 0
+              Width = 15.2137
+              Height = 12.5732
+              Length = 20.56
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+          }
+        }
+      }
+    }
+  }
+}
