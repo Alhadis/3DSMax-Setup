@@ -1,0 +1,26 @@
+# Tell Git to use its default newline-handling behaviour
+* text=auto
+
+# Force Windows-style line endings for obvious text files
+*.cui   text eol=crlf
+*.htm   text eol=crlf
+*.html  text eol=crlf
+*.ini   text eol=crlf
+*.log   text eol=crlf
+*.mcr   text eol=crlf
+*.ms    text eol=crlf
+*.txt   text eol=crlf
+*.xml   text eol=crlf
+
+# Force some files to always be interpreted as binary
+*.bmp   binary
+*.gif   binary
+*.jpg   binary
+*.mat   binary
+*.mce   binary
+*.png   binary
+*.tga   binary
+*.tiff  binary
+*.tmp   binary
+*.vms   binary
+*.xaml  binary
