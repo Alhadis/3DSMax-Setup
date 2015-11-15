@@ -1,3 +1,0 @@
-The Arch & Design mr material has a templates drop down that is populated by the mrArchmaterial.ini file
-
-The ini keys contain a path to a script to be executed.  Each script is responsible to populate the material currently used with settings corresponding to glass, wood etc..

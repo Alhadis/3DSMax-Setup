@@ -1,1 +1,0 @@
-clp files are our own animation format. These files store all the keyframe data for an entire catrig
