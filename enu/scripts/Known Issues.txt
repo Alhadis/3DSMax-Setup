@@ -1,6 +1,0 @@
-Overrides_Detach.mcr
--	Editable Mesh is broken off at wrong offset (tested with Palm Tree foliage)
--	Detached elements are also broken off without a material applied.
-
-
-To do:

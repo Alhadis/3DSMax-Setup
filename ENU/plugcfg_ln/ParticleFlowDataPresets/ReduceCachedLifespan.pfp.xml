@@ -1,1 +1,0 @@
-<Box3Preset name="Reduce Cached Lifespan*" description="Operator decreases particle lifespan as defined by parameter &apos;Reduce By&apos;. It can be used only as Post Cache operator in Cache Disk or Cache Selective. Cache operators should have Delete operator to define original lifespan." />

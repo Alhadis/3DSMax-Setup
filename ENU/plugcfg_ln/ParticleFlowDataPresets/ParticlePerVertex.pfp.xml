@@ -1,1 +1,0 @@
-<Box3Preset name="Particle Per Vertex*" description="Particle Per Vertex spawns particles to match number of vertices in reference object, and places particles on vertices of reference object. The operator should be preceded by Birth operator that creates a single particle as a seed for spawning." />
