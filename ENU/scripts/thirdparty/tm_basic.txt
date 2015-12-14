@@ -1,0 +1,28 @@
+Tree Maker Data File
+5.
+g_RandomSeed = 25545
+g_Thickness = 15
+g_TrunkLength = 100
+g_BranchMinLen = 20
+g_BranchDistance = 2.0
+g_CatchValue = 2
+g_StartPosition = [0,0,0]
+g_BranchAngle = 22.0
+g_Randomness = 32.8
+g_BranchScaleA = 0.9
+g_BranchScaleB = 0.7
+g_bTreeRoots = true
+g_LeafSize = 6
+g_LeafSizeRandom = 50
+g_LeafViewPercent = 100
+g_LeafNum = 500
+g_LeafNumRandom = 50
+g_LeafSpread = 35
+g_LeafType = 5
+g_AngleIndex = 4
+g_TreeName = "Tree"
+g_BranchLenSegs = 2
+g_RadiusChange = 1.2
+g_LeafExtName = "_leaf_"
+g_BranchExtName = "_brnch_"
+g_ConnectExtName = "_cnnct_"

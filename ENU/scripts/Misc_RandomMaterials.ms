@@ -1,0 +1,1 @@
+for i in selection do i.material	=	meditMaterials[(round (random 1.0 3.0)) as Integer];

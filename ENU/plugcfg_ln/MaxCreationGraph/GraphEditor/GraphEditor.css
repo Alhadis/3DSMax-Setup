@@ -1,0 +1,364 @@
+GroupNode 
+{ 
+background-color: rgba( 100, 100, 100, 255 );
+border: 2px solid black;
+}
+
+GroupNode:selected 
+{ 
+border-color: white;
+}
+
+GroupNode:navigator
+{ 
+border: 1px solid black;
+}
+
+AddNodesOverlay
+{
+background-color: rgba( 255, 255, 0, 51 );
+}
+
+RemoveNodesOverlay
+{
+background-color:  rgba( 255, 0, 0, 100);
+}
+
+/* for normal nodes or use [nodetype=groupnode] for group nodes*/
+RemoveNodesOverlay[nodetype=node]
+{
+margin: 7px;
+border-style: none;
+border-width: 1px;
+border-radius: 6px; border-top-left-radius: 0px;
+border-bottom-right-is-flattened: 1;
+}
+
+
+GroupNode > Header 
+{ 
+color: black;
+background-color: rgba( 150, 150, 150, 255 );
+border-bottom: 1px solid black;
+text-align: center;
+margin: 2px;
+min-height: 24px;
+}
+
+GroupNode > Header > Label
+{ 
+font-weight: bold;
+font-size: 16px;
+min-height: 24px;
+max-height: 24px;
+}
+
+GroupNodeContentArea
+{
+margin-left: 9px;
+margin-right: 9px;
+margin-bottom: 9px;
+}
+
+GroupNodeGrip
+{
+/*background-color: rgba( 100, 100, 255, 150 );
+margin: 1px;*/
+background-color: none;
+}
+
+
+GroupNodeGrip[gripside=top_left],
+GroupNodeGrip[gripside=top_right],
+GroupNodeGrip[gripside=bottom_left],
+GroupNodeGrip[gripside=bottom_right]
+{
+max-width: 18px;
+max-height: 18px;
+}
+
+GroupNodeGrip[gripside=top],
+GroupNodeGrip[gripside=bottom]
+{
+max-height: 8px;
+}
+
+GroupNodeGrip[gripside=left],
+GroupNodeGrip[gripside=right]
+{
+max-width: 8px;
+}
+
+Node 
+{ 
+background-color: rgb( 177, 187, 196 );
+margin: 7px;
+border-style: solid;
+border-width: 1px;
+border-color: rgb( 74, 87, 102 );
+border-radius: 6px; border-top-left-radius: 0px; 
+border-bottom-right-is-flattened: 1; 
+}
+
+Node[deprecated=true] 
+{
+	outline: 2px solid orange;
+} 
+
+Node[valid=false] 
+{
+	outline: 2px solid red;
+} 
+
+Node:selected 
+{ 
+border-color: rgb( 255, 255, 255 ); 
+color: white;
+}
+
+Node:hover 
+{ 
+background-color: rgb(193, 204, 214); 
+}
+
+Node > Header 
+{ 
+color: black;
+background-color: rgb(77, 132, 173); 
+border-bottom-style:solid; 
+border-bottom-width:1px; 
+border-color: rgb( 74, 87, 102 ); 
+border-top-right-radius: 4px; 
+}
+
+Node:selected > Header  
+{ 
+color: white; 
+}
+
+Socket 
+{ 
+width: 12px; 
+height: 12px; 
+min-width: 12px; 
+min-height: 12px; 
+max-width: 12px; 
+max-height: 12px; 
+background-color: rgb( 167, 182, 199 ); 
+border-shape: circle; 
+border-style:solid; 
+border-width:1px; 
+border-color: rgb( 74, 87, 102 ); 
+}
+
+/* http://www.w3schools.com/cssref/css_colornames.asp */
+
+/*OBJECTS*/
+Socket[datatype="IArray"], Edge[datatype="IArray"]  { background-color: darkblue; } 
+Socket[datatype="INode"], Edge[datatype="INode"]  { background-color:rgb(45, 127, 45); } 
+Socket[datatype="TriMesh"], Edge[datatype="TriMesh"]  { background-color: darkcyan; } 
+Socket[datatype="Plane"], Edge[datatype="Plane"]  { background-color: rgb(45, 127, 45); }
+Socket[datatype="QuadMesh"], Edge[datatype="QuadMesh"]  { background-color: darkcyan; }
+Socket[datatype="Rectangle"], Edge[datatype="Rectangle"]  { background-color: rgb(45, 160, 45); }
+Socket[datatype="Line"], Edge[datatype="Line"]  { background-color: rgb(45, 160, 45); }
+/*SUB-OBJECTS*/
+Socket[datatype="Edge"], Edge[datatype="Edge"]  { background-color: rgb(255, 73, 16); }
+Socket[datatype="Face3"], Edge[datatype="Face3"]  { background-color: rgb(255, 73, 16); }
+Socket[datatype="Face4"], Edge[datatype="Face4"]  { background-color: rgb(255, 73, 16); }
+/*TRANSFORMS*/
+Socket[datatype="Vector3"], Edge[datatype="Vector3"]  { background-color: rgb(255, 181, 50); } 
+Socket[datatype="Matrix"], Edge[datatype="Matrix"]  { background-color: rgb(255, 221, 50); }
+Socket[datatype="Quaternion"], Edge[datatype="Quaternion"]  { background-color: rgb(255, 181, 50); } 
+/*BOUNDING BOX*/
+Socket[datatype="BoundingBox"], Edge[datatype="BoundingBox"]  { background-color:darksalmon; } 
+Socket[datatype="BoundingFrustum"], Edge[datatype="BoundingFrustum"]  { background-color:darksalmon; } 
+Socket[datatype="BoundingSphere"], Edge[datatype="BoundingSphere"]  { background-color:darksalmon; } 
+/*VALUES*/
+Socket[datatype="Int32"], Edge[datatype="Int32"]  { background-color: rgb(100, 149, 237); } 
+Socket[datatype="Single"], Edge[datatype="Single"]  { background-color: blanchedalmond; } 
+Socket[datatype="Double"], Edge[datatype="Double"]  { background-color: burlywood; } 
+Socket[datatype="Boolean"], Edge[datatype="Boolean"]  { background-color: rgb(240, 128, 128); }
+Socket[datatype="String"], Edge[datatype="String"]  { background-color: rgb(209, 105, 173); }
+Socket[datatype="MapChannel"], Edge[datatype="MapChannel"]  { background-color: rgb(255, 148, 255); } 
+/*FUNCTIONS*/
+Socket[datatype="Func"]  { background-color: rgb(103, 103, 103); }
+Edge[datatype="Func"]  { background-color: rgb(0, 0, 0); }
+Socket[datatype="Func"] { border-shape: square; }
+/*RAYS*/
+Socket[datatype="Ray"], Edge[datatype="Ray"]  { background-color: rgb(212, 15, 162); }
+Socket[datatype="RayTraceIntersection"], Edge[datatype="RayTraceIntersection"]  { background-color: rgb(121, 0, 0); } 
+Socket[datatype="RayTraceScene"], Edge[datatype="RayTraceScene"]  { background-color: rgb(121, 0, 0); } 
+Socket[datatype="any"], Edge[datatype="any"]  { background-color:rgb(160, 255, 0); } 
+/*BITMAPS*/
+Socket[datatype="Texmap"], Edge[datatype="Texmap"]  { background-color: rgb(113, 85, 255); }
+Socket[datatype="Bitmap"], Edge[datatype="Bitmap"]  { background-color: rgb(113, 85, 255); }
+
+Socket:state-valid { background-color: rgb(160, 255, 0); }
+Socket:state-invalid { background-color: rgb(255, 50, 30); }
+
+Edge { background-color: rgb(255, 0, 0); }
+
+Edge:selected { background-color: rgb(255, 255, 255); }
+
+Edge[insertNode="true"] { border: 3px dashed yellow; }
+
+SocketProxy
+{ 
+background-color: rgb(203, 255, 0);
+border-style:solid; 
+border-width:1px; 
+border-color: rgb( 74, 87, 102 ); 
+width: 6px; 
+height: 12px; 
+min-width: 6px; 
+min-height: 12px; 
+max-width: 6px; 
+max-height: 12px; 
+}
+SocketProxy[direction=in]
+{
+	border-bottom-left-radius: 6px;  border-top-left-radius: 6px;
+}
+SocketProxy[direction=out]
+{
+	border-bottom-right-radius: 6px;  border-top-right-radius: 6px;
+}
+
+ParamGroup SocketProxy[direction=in]
+{
+	width: 6px; height: 11px; min-width: 6px; min-height: 11px; max-width: 6px; max-height: 11px; 
+	border-right-style: none;
+	border-bottom-left-radius: 6px;  border-top-left-radius: 6px;
+	padding-right: -1px;
+}
+
+Slot 
+{
+color: black;
+border-bottom-style:solid ; 
+border-bottom-width:1px; 
+border-bottom-color: rgb( 74, 87, 102 ); 
+border-top-style:solid ; 
+border-top-width:1px; 
+border-top-color: rgb( 197, 208, 218 ); 
+margin-left: 5px;  
+margin-right: 10px; 
+padding-left: 5px; 
+} 
+
+Slot:first
+{ 
+border-top-style: none; 
+} 
+
+Slot:last
+{ 
+border-bottom-style: none; 
+} 
+
+Slot[direction=out] { text-align: right; }
+
+ParamGroup 
+{ 
+background-color: rgba( 161, 170, 179,140 ); 
+color: rgb( 255, 0, 0 ); 
+border-bottom-style: solid; 
+border-bottom-width: 1px; 
+border-bottom-color: rgb( 74, 87, 102 );  
+} 
+
+ParamGroup Header  
+{ 
+color: black; text-align: middle;
+background-color: qlineargradient(spread:repeat, x1:0, y1:0.1, x2:0, y2:0.9, stop:0 rgb(163, 172, 180), stop:1 rgb(219, 231, 241)); border-right-style: solid; 
+border-right-width: 1px; 
+border-right-color: rgb( 219, 231, 241 ); 
+}
+
+ParamGroup Header OpenCloseButton 
+{ 
+color:  rgb( 111, 120, 129 );
+}
+
+ParamGroup[direction=in_and_out] Header  
+{ 
+padding-right: 7px;
+}
+
+NodeSizer { background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb(147, 157, 166), stop:1 rgb(177, 187, 196)); }
+NodeSizer { margin: 2px; margin-top: 1px; border-bottom-left-radius: 4px;  border-bottom-right-radius: 4px; border-bottom-right-is-flattened: 1;  }   
+
+Node > header { background-color:slateblue; }
+Node[category="Parameters"] > Header { background-color:saddlebrown; }
+Node[category="Implicit parameters"] > Header { background-color:saddlebrown; } 
+Node[category="Constants"] > Header { background-color:darkorange; } 
+Node[category="Outputs"] > Header { background-color:darkgrey; } 
+Node[category="Inputs"] > Header { background-color:indianred; } 
+Node[iscompound="true"] > Header { background-color: darkorchid; }
+
+/* NODE NAVIGATOR STYLES */
+Node:navigator 
+{ 
+margin: 0px;
+border-style: solid; border-width: 1px; border-color: rgb( 74, 87, 102 ); border-radius: 0px; 
+background-color: rgb(77, 132, 173);
+}
+
+Node:navigator:selected 
+{ 
+border-color: rgb( 255, 255, 255 ); 
+}
+
+Node:navigator[category="Parameters"] { background-color:saddlebrown; }
+Node:navigator[category="Implicit parameters"] { background-color:saddlebrown; } 
+Node:navigator[category="Constants"] { background-color:darkorange; } 
+Node:navigator[category="Outputs"] { background-color:darkgrey; } 
+Node:navigator[category="Inputs"] { background-color:indianred; }
+Node:navigator[iscompound="true"] { background-color: darkorchid; }
+
+
+ExposedPanel { 
+	background-color: rgb(180,180,180);  
+	max-width: 200px; 
+	spacing: 0;
+}
+ExposedPanel[position=left] { 
+	margin-right: 1px;
+	border-right: 1px solid rgb(200,200,200);
+	outline: 1px solid rgb(100,100,100);
+	outline-width: 0 1px 0 0;
+}
+ExposedPanel[position=right] { 
+	margin-left: 1px;
+	border-left: 1px solid rgb(200,200,200);
+	outline: 1px solid rgb(100,100,100);
+	outline-width: 0 0 0 1px;
+}
+ExposedPanel > Slot { margin: 0 -1px; }
+ExposedPanel[position=left] > Slot { 
+	text-align: right; 
+	border-top-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb(180,180,180), stop:1 rgb( 200, 200,200) );   
+	border-bottom-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb(180,180,180), stop:1 rgb(100,100,100) ); 
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb(180, 180, 180), stop:1 rgb( 177, 187, 196, 128));
+	}
+ExposedPanel[position=right] > Slot { 
+	text-align: left; 
+	border-top-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:1 rgb(180,180,180), stop:0 rgb( 200, 200,200) );   
+	border-bottom-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:1 rgb(180,180,180), stop:0 rgb(100,100,100) ); 
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:1 rgb(180, 180, 180), stop:0 rgb( 177, 187, 196, 128));
+}
+
+ExposedPanel > DnDSeperator { margin: 0 -1px; }
+ExposedPanel[position=left] > DnDSeperator { background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0, 130, 255, 150)); }
+ExposedPanel[position=right] > DnDSeperator { background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:1 rgba(0, 0, 0, 0), stop:0 rgba(0, 130, 255, 150)); }
+
+ExposedEdge { border-color: rgb( 0, 150, 0 ); border-width: 1px; border-style: dashed; }
+ExposedEdge:selected { border-color: rgb( 255, 255, 255 ); }
+
+ExposedSocket { background-color: rgb( 0, 150, 0 ); border-shape: circle; border-style:none; margin: 6px;  min-width: 3px; min-height: 3px; max-width: 3px; max-height: 3px; } 
+
+DnDSeperator { background-color:  rgba(0, 130, 255, 150); }
+
+ExposedPanel { sortable: true; }
+
+Node  Content { sortable: true; }

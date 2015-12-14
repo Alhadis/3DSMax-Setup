@@ -1,0 +1,9 @@
+[InterfaceSettings]
+ToolSettings=#(20.0,[0,0,0],100,1,OK,OK,false,true,true,50,true,2,false,false,true,true,true,false,0,true,true,true,false,false,0.25,0,false,false,false,false,false,false,false,2,30,0,100,0,100,0,100,0.25,4.0,5,40,false,[255,255,255],false,-1,1,1,true,1,1,[410,230],false)
+RolloutStates=#(false, true, false, true, true, true, true)
+DialogPos=[988,229]
+DialogHeight=617.0
+DockingState=cui_floatable
+LayerDialogDockingState=cui_floatable
+LayerDialogPos=[100,300]
+LayerDialogOpen=true

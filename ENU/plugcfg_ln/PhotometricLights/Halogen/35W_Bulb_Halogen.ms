@@ -1,0 +1,9 @@
+(
+SetProperty photometricLight_ActiveLight #type "Free_Point"
+SetProperty photometricLight_ActiveLight #useKelvin on
+SetProperty photometricLight_ActiveLight #kelvin 3050
+SetProperty photometricLight_ActiveLight #distribution 0
+SetProperty photometricLight_ActiveLight #intensityType 1
+SetProperty photometricLight_ActiveLight #Intensity 32
+SetProperty photometricLight_ActiveLight #useMultiplier on
+)

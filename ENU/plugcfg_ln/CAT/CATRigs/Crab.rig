@@ -1,0 +1,4132 @@
+# CAT Character Rig exported from 3dsmax on Tue Oct 11 21:51:04 2005
+
+Version = 2100
+CATParent {
+  CharacterName = "Crab"
+  Version = 2100
+  LengthAxis = 0
+  Hub {
+    BoneName = "Hub"
+    Flags = 0
+    BoneColour = 172
+    Controller {
+      SetupTM = matrix 1 0 0 0 1 0 0 0 1 16.7677 0 -7.32939e-007
+      Flags = 7537152
+    }
+    DangleRatioVal = 1
+    ParentNode = INode "SceneRootNode"
+    ObjectParams {
+      Width = 101.687
+      Length = 84.5226
+      Height = 30.143
+      PivotPosZ = -1
+      PivotPosY = 0
+      MeshParams {
+        NumVerticies = 26
+        Vert = point -0.555556 -0.555555 -0.0455096
+        Vert = point 0.555555 -0.555555 -0.0455095
+        Vert = point -0.555556 0.555556 -0.0455096
+        Vert = point 0.555555 0.555556 -0.0455095
+        Vert = point -0.555556 -0.555555 0.510046
+        Vert = point 0.555555 -0.555555 0.510047
+        Vert = point -0.555556 0.555556 0.510046
+        Vert = point 0.555555 0.555556 0.510047
+        Vert = point -3.10438e-008 7.51037e-008 -0.267732
+        Vert = point -1.39557e-007 7.51037e-008 0.732269
+        Vert = point -8.53001e-008 -1 0.232268
+        Vert = point 1 7.51037e-008 0.232269
+        Vert = point -8.53001e-008 1 0.232268
+        Vert = point -1 7.51037e-008 0.232268
+        Vert = point -0.75 7.51037e-008 -0.142732
+        Vert = point -4.46079e-008 0.75 -0.142732
+        Vert = point 0.75 7.51037e-008 -0.142731
+        Vert = point -4.46079e-008 -0.75 -0.142732
+        Vert = point -1.25992e-007 -0.75 0.607269
+        Vert = point 0.75 7.51037e-008 0.607269
+        Vert = point -1.25992e-007 0.75 0.607269
+        Vert = point -0.75 7.51037e-008 0.607268
+        Vert = point 0.75 -0.75 0.232269
+        Vert = point -0.75 -0.75 0.232268
+        Vert = point 0.75 0.75 0.232269
+        Vert = point -0.75 0.75 0.232268
+        NumFaces = 48
+        ValFace = Face 0 14 8 1 65603
+        ValFace = Face 8 17 0 1 65603
+        ValFace = Face 2 15 8 1 65603
+        ValFace = Face 8 14 2 1 65603
+        ValFace = Face 3 16 8 1 65603
+        ValFace = Face 8 15 3 1 65603
+        ValFace = Face 1 17 8 1 65603
+        ValFace = Face 8 16 1 1 65603
+        ValFace = Face 4 18 9 1 67
+        ValFace = Face 9 21 4 1 67
+        ValFace = Face 5 19 9 1 67
+        ValFace = Face 9 18 5 1 67
+        ValFace = Face 7 20 9 1 67
+        ValFace = Face 9 19 7 1 67
+        ValFace = Face 6 21 9 1 67
+        ValFace = Face 9 20 6 1 67
+        ValFace = Face 0 17 10 1 262211
+        ValFace = Face 10 23 0 1 262211
+        ValFace = Face 1 22 10 1 262211
+        ValFace = Face 10 17 1 1 262211
+        ValFace = Face 5 18 10 1 262211
+        ValFace = Face 10 22 5 1 262211
+        ValFace = Face 4 23 10 1 262211
+        ValFace = Face 10 18 4 1 262211
+        ValFace = Face 1 16 11 1 196675
+        ValFace = Face 11 22 1 1 196675
+        ValFace = Face 3 24 11 1 196675
+        ValFace = Face 11 16 3 1 196675
+        ValFace = Face 7 19 11 1 196675
+        ValFace = Face 11 24 7 1 196675
+        ValFace = Face 5 22 11 1 196675
+        ValFace = Face 11 19 5 1 196675
+        ValFace = Face 3 15 12 1 327747
+        ValFace = Face 12 24 3 1 327747
+        ValFace = Face 2 25 12 1 327747
+        ValFace = Face 12 15 2 1 327747
+        ValFace = Face 6 20 12 1 327747
+        ValFace = Face 12 25 6 1 327747
+        ValFace = Face 7 24 12 1 327747
+        ValFace = Face 12 20 7 1 327747
+        ValFace = Face 2 14 13 1 131139
+        ValFace = Face 13 25 2 1 131139
+        ValFace = Face 0 23 13 1 131139
+        ValFace = Face 13 14 0 1 131139
+        ValFace = Face 4 21 13 1 131139
+        ValFace = Face 13 23 4 1 131139
+        ValFace = Face 6 25 13 1 131139
+        ValFace = Face 13 21 6 1 131139
+      }
+    }
+    Limb {
+      Flags = 4108
+      BoneName = "LLeg1"
+      IKFKValue = 0
+      BoneColour = 130
+      Platform {
+        Flags = 0
+        Controller {
+          SetupTM = matrix 1 0 0 0 1 0 0 0 1 1.41551e-006 70.7205 81.9837
+          Flags = 7537152
+        }
+        ObjectParams {
+          Width = 6
+          Length = 6
+        }
+      }
+      NumBones = 3
+      LimbBone {
+        BoneName = ""
+        Flags = 56
+        Controller {
+          SetupTM = matrix -0.735288 0.414409 -0.5363 -0.676357 -0.397853 0.619882 0.0435164 0.818522 0.572825 2.82373 25.8691 -31.356
+          Flags = 8257536
+        }
+        NumBoneSegs = 1
+        Width = 12
+        Length = 32.6225
+        Height = 12
+        WeightOutTan = 0.333
+        WeightInTan = 0.333
+        WeightOutVal = 0
+        WeightInVal = 1
+        ParentNode = INode "SceneRootNode.Hub"
+        BoneSeg {
+          BoneName = ""
+          Flags = 0
+          ObjectParams {
+            Flags = 14
+            Width = 12
+            Height = 12
+            Length = 32.6225
+            ObjectOffsetPos = point 0 0 0
+            ObjectOffsetRot = quat 0 0 0 1
+            ObjectOffsetScl = point 1 1 1
+            MeshParams {
+              NumVerticies = 26
+              Vert = point -0.555556 -0.555556 0.222222
+              Vert = point 0.555555 -0.555556 0.222222
+              Vert = point -0.555556 0.555556 0.222222
+              Vert = point 0.555555 0.555556 0.222222
+              Vert = point -0.555556 -0.555555 0.777778
+              Vert = point 0.555555 -0.555555 0.777778
+              Vert = point -0.555556 0.555556 0.777778
+              Vert = point 0.555555 0.555556 0.777778
+              Vert = point -2.43742e-007 4.71889e-008 4.06699e-009
+              Vert = point -5.53646e-007 1.46508e-007 1
+              Vert = point -3.6664e-007 -1 0.5
+              Vert = point 1 8.62005e-008 0.5
+              Vert = point -4.30749e-007 1 0.5
+              Vert = point -1 1.07497e-007 0.5
+              Vert = point -0.75 6.75899e-008 0.125
+              Vert = point -3.06521e-007 0.75 0.125
+              Vert = point 0.75 5.16177e-008 0.125
+              Vert = point -2.5844e-007 -0.75 0.125
+              Vert = point -4.90867e-007 -0.75 0.875
+              Vert = point 0.749999 1.26107e-007 0.875
+              Vert = point -5.38949e-007 0.75 0.875
+              Vert = point -0.750001 1.4208e-007 0.875
+              Vert = point 0.75 -0.75 0.5
+              Vert = point -0.75 -0.75 0.5
+              Vert = point 0.75 0.75 0.5
+              Vert = point -0.75 0.75 0.5
+              NumFaces = 48
+              ValFace = Face 0 14 8 1 65539
+              ValFace = Face 8 17 0 1 65539
+              ValFace = Face 2 15 8 1 65539
+              ValFace = Face 8 14 2 1 65539
+              ValFace = Face 3 16 8 1 65539
+              ValFace = Face 8 15 3 1 65539
+              ValFace = Face 1 17 8 1 65539
+              ValFace = Face 8 16 1 1 65539
+              ValFace = Face 4 18 9 1 3
+              ValFace = Face 9 21 4 1 3
+              ValFace = Face 5 19 9 1 3
+              ValFace = Face 9 18 5 1 3
+              ValFace = Face 7 20 9 1 3
+              ValFace = Face 9 19 7 1 3
+              ValFace = Face 6 21 9 1 3
+              ValFace = Face 9 20 6 1 3
+              ValFace = Face 0 17 10 1 262147
+              ValFace = Face 10 23 0 1 262147
+              ValFace = Face 1 22 10 1 262147
+              ValFace = Face 10 17 1 1 262147
+              ValFace = Face 5 18 10 1 262147
+              ValFace = Face 10 22 5 1 262147
+              ValFace = Face 4 23 10 1 262147
+              ValFace = Face 10 18 4 1 262147
+              ValFace = Face 1 16 11 1 196611
+              ValFace = Face 11 22 1 1 196611
+              ValFace = Face 3 24 11 1 196611
+              ValFace = Face 11 16 3 1 196611
+              ValFace = Face 7 19 11 1 196611
+              ValFace = Face 11 24 7 1 196611
+              ValFace = Face 5 22 11 1 196611
+              ValFace = Face 11 19 5 1 196611
+              ValFace = Face 3 15 12 1 327683
+              ValFace = Face 12 24 3 1 327683
+              ValFace = Face 2 25 12 1 327683
+              ValFace = Face 12 15 2 1 327683
+              ValFace = Face 6 20 12 1 327683
+              ValFace = Face 12 25 6 1 327683
+              ValFace = Face 7 24 12 1 327683
+              ValFace = Face 12 20 7 1 327683
+              ValFace = Face 2 14 13 1 131075
+              ValFace = Face 13 25 2 1 131075
+              ValFace = Face 0 23 13 1 131075
+              ValFace = Face 13 14 0 1 131075
+              ValFace = Face 4 21 13 1 131075
+              ValFace = Face 13 23 4 1 131075
+              ValFace = Face 6 25 13 1 131075
+              ValFace = Face 13 21 6 1 131075
+            }
+          }
+        }
+      }
+      LimbBone {
+        BoneName = ""
+        Flags = 312
+        Controller {
+          SetupTM = matrix 0.513306 -0.847504 0.135109 0.827437 0.530508 0.184144 -0.227739 0.017272 0.973569 -1.25505e-005 7.14505e-008 -3.93148e-006
+          Flags = 7340032
+        }
+        NumBoneSegs = 1
+        Width = 12
+        Length = 33.0587
+        Height = 12
+        WeightOutTan = 0.333
+        WeightInTan = 0.333
+        WeightOutVal = 0
+        WeightInVal = 1
+        ParentNode = INode "SceneRootNode.Hub.Limb[0].LimbBone[0].BoneSeg[0]"
+        BoneSeg {
+          BoneName = ""
+          Flags = 0
+          ObjectParams {
+            Flags = 14
+            Width = 12
+            Height = 12
+            Length = 33.0587
+            ObjectOffsetPos = point 0 0 0
+            ObjectOffsetRot = quat 0 0 0 1
+            ObjectOffsetScl = point 1 1 1
+            MeshParams {
+              NumVerticies = 26
+              Vert = point -0.555557 -0.555556 0.222222
+              Vert = point 0.555555 -0.555556 0.222222
+              Vert = point -0.555557 0.555555 0.222222
+              Vert = point 0.555555 0.555555 0.222222
+              Vert = point -0.555557 -0.555556 0.777778
+              Vert = point 0.555554 -0.555556 0.777778
+              Vert = point -0.555557 0.555555 0.777778
+              Vert = point 0.555554 0.555555 0.777778
+              Vert = point -8.78575e-007 -7.93137e-007 -8.38821e-008
+              Vert = point -1.37133e-006 -7.07963e-007 1
+              Vert = point -1.148e-006 -1 0.5
+              Vert = point 0.999999 -7.65963e-007 0.5
+              Vert = point -1.10191e-006 0.999999 0.5
+              Vert = point -1 -7.35136e-007 0.5
+              Vert = point -0.750001 -7.7093e-007 0.125
+              Vert = point -9.22885e-007 0.749999 0.125
+              Vert = point 0.749999 -7.9405e-007 0.125
+              Vert = point -9.57455e-007 -0.750001 0.125
+              Vert = point -1.32702e-006 -0.750001 0.875
+              Vert = point 0.749999 -7.3017e-007 0.875
+              Vert = point -1.29245e-006 0.749999 0.875
+              Vert = point -0.750001 -7.07049e-007 0.875
+              Vert = point 0.749999 -0.750001 0.5
+              Vert = point -0.750001 -0.750001 0.5
+              Vert = point 0.749999 0.749999 0.5
+              Vert = point -0.750001 0.749999 0.5
+              NumFaces = 48
+              ValFace = Face 0 14 8 1 65539
+              ValFace = Face 8 17 0 1 65539
+              ValFace = Face 2 15 8 1 65539
+              ValFace = Face 8 14 2 1 65539
+              ValFace = Face 3 16 8 1 65539
+              ValFace = Face 8 15 3 1 65539
+              ValFace = Face 1 17 8 1 65539
+              ValFace = Face 8 16 1 1 65539
+              ValFace = Face 4 18 9 1 3
+              ValFace = Face 9 21 4 1 3
+              ValFace = Face 5 19 9 1 3
+              ValFace = Face 9 18 5 1 3
+              ValFace = Face 7 20 9 1 3
+              ValFace = Face 9 19 7 1 3
+              ValFace = Face 6 21 9 1 3
+              ValFace = Face 9 20 6 1 3
+              ValFace = Face 0 17 10 1 262147
+              ValFace = Face 10 23 0 1 262147
+              ValFace = Face 1 22 10 1 262147
+              ValFace = Face 10 17 1 1 262147
+              ValFace = Face 5 18 10 1 262147
+              ValFace = Face 10 22 5 1 262147
+              ValFace = Face 4 23 10 1 262147
+              ValFace = Face 10 18 4 1 262147
+              ValFace = Face 1 16 11 1 196611
+              ValFace = Face 11 22 1 1 196611
+              ValFace = Face 3 24 11 1 196611
+              ValFace = Face 11 16 3 1 196611
+              ValFace = Face 7 19 11 1 196611
+              ValFace = Face 11 24 7 1 196611
+              ValFace = Face 5 22 11 1 196611
+              ValFace = Face 11 19 5 1 196611
+              ValFace = Face 3 15 12 1 327683
+              ValFace = Face 12 24 3 1 327683
+              ValFace = Face 2 25 12 1 327683
+              ValFace = Face 12 15 2 1 327683
+              ValFace = Face 6 20 12 1 327683
+              ValFace = Face 12 25 6 1 327683
+              ValFace = Face 7 24 12 1 327683
+              ValFace = Face 12 20 7 1 327683
+              ValFace = Face 2 14 13 1 131075
+              ValFace = Face 13 25 2 1 131075
+              ValFace = Face 0 23 13 1 131075
+              ValFace = Face 13 14 0 1 131075
+              ValFace = Face 4 21 13 1 131075
+              ValFace = Face 13 23 4 1 131075
+              ValFace = Face 6 25 13 1 131075
+              ValFace = Face 13 21 6 1 131075
+            }
+          }
+        }
+      }
+      LimbBone {
+        BoneName = ""
+        Flags = 312
+        Controller {
+          SetupTM = matrix 0.566932 -0.801679 0.189471 0.823382 0.558486 -0.100678 -0.0251046 0.213085 0.976711 -1.87922e-005 -1.0961e-005 2.0929e-005
+          Flags = 7340032
+        }
+        NumBoneSegs = 1
+        Width = 5
+        Length = 33.9514
+        Height = 5
+        WeightOutTan = 0.333
+        WeightInTan = 0.333
+        WeightOutVal = 0
+        WeightInVal = 1
+        ParentNode = INode "SceneRootNode.Hub.Limb[0].LimbBone[1].BoneSeg[0]"
+        BoneSeg {
+          BoneName = ""
+          Flags = 0
+          ObjectParams {
+            Flags = 14
+            Width = 5
+            Height = 5
+            Length = 33.9514
+            ObjectOffsetPos = point 0 0 0
+            ObjectOffsetRot = quat 0 0 0 1
+            ObjectOffsetScl = point 1 1 1
+            MeshParams {
+              NumVerticies = 26
+              Vert = point -0.555558 -0.555555 0.222222
+              Vert = point 0.555553 -0.555555 0.222222
+              Vert = point -0.555558 0.555556 0.222222
+              Vert = point 0.555553 0.555556 0.222222
+              Vert = point -0.555559 -0.555555 0.777778
+              Vert = point 0.555553 -0.555555 0.777778
+              Vert = point -0.555559 0.555556 0.777778
+              Vert = point 0.555553 0.555556 0.777778
+              Vert = point -2.30913e-006 8.5848e-007 8.96423e-009
+              Vert = point -3.21301e-006 6.37953e-007 1
+              Vert = point -2.81662e-006 -0.999999 0.5
+              Vert = point 0.999997 7.22785e-007 0.5
+              Vert = point -2.70552e-006 1 0.5
+              Vert = point -1 7.73647e-007 0.5
+              Vert = point -0.750002 8.49987e-007 0.125
+              Vert = point -2.38045e-006 0.750001 0.125
+              Vert = point 0.749998 8.1184e-007 0.125
+              Vert = point -2.46378e-006 -0.749999 0.125
+              Vert = point -3.14169e-006 -0.749999 0.875
+              Vert = point 0.749997 6.46445e-007 0.875
+              Vert = point -3.05836e-006 0.750001 0.875
+              Vert = point -0.750003 6.84592e-007 0.875
+              Vert = point 0.749997 -0.749999 0.5
+              Vert = point -0.750003 -0.749999 0.5
+              Vert = point 0.749997 0.750001 0.5
+              Vert = point -0.750003 0.750001 0.5
+              NumFaces = 48
+              ValFace = Face 0 14 8 1 65539
+              ValFace = Face 8 17 0 1 65539
+              ValFace = Face 2 15 8 1 65539
+              ValFace = Face 8 14 2 1 65539
+              ValFace = Face 3 16 8 1 65539
+              ValFace = Face 8 15 3 1 65539
+              ValFace = Face 1 17 8 1 65539
+              ValFace = Face 8 16 1 1 65539
+              ValFace = Face 4 18 9 1 3
+              ValFace = Face 9 21 4 1 3
+              ValFace = Face 5 19 9 1 3
+              ValFace = Face 9 18 5 1 3
+              ValFace = Face 7 20 9 1 3
+              ValFace = Face 9 19 7 1 3
+              ValFace = Face 6 21 9 1 3
+              ValFace = Face 9 20 6 1 3
+              ValFace = Face 0 17 10 1 262147
+              ValFace = Face 10 23 0 1 262147
+              ValFace = Face 1 22 10 1 262147
+              ValFace = Face 10 17 1 1 262147
+              ValFace = Face 5 18 10 1 262147
+              ValFace = Face 10 22 5 1 262147
+              ValFace = Face 4 23 10 1 262147
+              ValFace = Face 10 18 4 1 262147
+              ValFace = Face 1 16 11 1 196611
+              ValFace = Face 11 22 1 1 196611
+              ValFace = Face 3 24 11 1 196611
+              ValFace = Face 11 16 3 1 196611
+              ValFace = Face 7 19 11 1 196611
+              ValFace = Face 11 24 7 1 196611
+              ValFace = Face 5 22 11 1 196611
+              ValFace = Face 11 19 5 1 196611
+              ValFace = Face 3 15 12 1 327683
+              ValFace = Face 12 24 3 1 327683
+              ValFace = Face 2 25 12 1 327683
+              ValFace = Face 12 15 2 1 327683
+              ValFace = Face 6 20 12 1 327683
+              ValFace = Face 12 25 6 1 327683
+              ValFace = Face 7 24 12 1 327683
+              ValFace = Face 12 20 7 1 327683
+              ValFace = Face 2 14 13 1 131075
+              ValFace = Face 13 25 2 1 131075
+              ValFace = Face 0 23 13 1 131075
+              ValFace = Face 13 14 0 1 131075
+              ValFace = Face 4 21 13 1 131075
+              ValFace = Face 13 23 4 1 131075
+              ValFace = Face 6 25 13 1 131075
+              ValFace = Face 13 21 6 1 131075
+            }
+          }
+        }
+      }
+    }
+    Limb {
+      Flags = 4132
+      BoneName = "RLeg"
+      IKFKValue = 0
+      BoneColour = 130
+      Platform {
+        Flags = 0
+        Controller {
+          SetupTM = matrix 1 0 0 0 1 0 0 0 1 1.41551e-006 70.7205 -81.9837
+          Flags = 7537152
+        }
+        ObjectParams {
+          Width = 6
+          Length = 6
+        }
+      }
+      NumBones = 3
+      LimbBone {
+        BoneName = ""
+        Flags = 56
+        Controller {
+          SetupTM = matrix -0.735288 0.414409 0.5363 -0.676357 -0.397853 -0.619882 -0.0435164 -0.818522 0.572825 2.82373 25.8691 31.356
+          Flags = 8257536
+        }
+        NumBoneSegs = 1
+        Width = 12
+        Length = 32.6225
+        Height = 12
+        WeightOutTan = 0.333
+        WeightInTan = 0.333
+        WeightOutVal = 0
+        WeightInVal = 1
+        ParentNode = INode "SceneRootNode.Hub"
+        BoneSeg {
+          BoneName = ""
+          Flags = 0
+          ObjectParams {
+            Flags = 14
+            Width = 12
+            Height = 12
+            Length = 32.6225
+            ObjectOffsetPos = point 0 0 0
+            ObjectOffsetRot = quat 0 0 0 1
+            ObjectOffsetScl = point 1 1 1
+            MeshParams {
+              NumVerticies = 26
+              Vert = point -0.555556 -0.555556 0.222223
+              Vert = point 0.555556 -0.555556 0.222223
+              Vert = point -0.555556 0.555555 0.222223
+              Vert = point 0.555555 0.555555 0.222223
+              Vert = point -0.555556 -0.555556 0.777778
+              Vert = point 0.555555 -0.555556 0.777778
+              Vert = point -0.555556 0.555555 0.777778
+              Vert = point 0.555555 0.555555 0.777778
+              Vert = point -2.28185e-008 -4.15737e-007 3.25457e-007
+              Vert = point -3.5897e-007 -2.37007e-007 1
+              Vert = point -1.67213e-007 -1 0.5
+              Vert = point 1 -3.68743e-007 0.5
+              Vert = point -2.14575e-007 1 0.5
+              Vert = point -1 -2.84e-007 0.5
+              Vert = point -0.75 -3.61617e-007 0.125
+              Vert = point -8.25982e-008 0.75 0.125
+              Vert = point 0.75 -4.25175e-007 0.125
+              Vert = point -4.70766e-008 -0.75 0.125
+              Vert = point -2.9919e-007 -0.75 0.875
+              Vert = point 0.75 -2.91126e-007 0.875
+              Vert = point -3.34712e-007 0.75 0.875
+              Vert = point -0.75 -2.27569e-007 0.875
+              Vert = point 0.75 -0.75 0.5
+              Vert = point -0.75 -0.75 0.5
+              Vert = point 0.75 0.75 0.5
+              Vert = point -0.75 0.75 0.5
+              NumFaces = 48
+              ValFace = Face 0 14 8 1 65539
+              ValFace = Face 8 17 0 1 65539
+              ValFace = Face 2 15 8 1 65539
+              ValFace = Face 8 14 2 1 65539
+              ValFace = Face 3 16 8 1 65539
+              ValFace = Face 8 15 3 1 65539
+              ValFace = Face 1 17 8 1 65539
+              ValFace = Face 8 16 1 1 65539
+              ValFace = Face 4 18 9 1 3
+              ValFace = Face 9 21 4 1 3
+              ValFace = Face 5 19 9 1 3
+              ValFace = Face 9 18 5 1 3
+              ValFace = Face 7 20 9 1 3
+              ValFace = Face 9 19 7 1 3
+              ValFace = Face 6 21 9 1 3
+              ValFace = Face 9 20 6 1 3
+              ValFace = Face 0 17 10 1 262147
+              ValFace = Face 10 23 0 1 262147
+              ValFace = Face 1 22 10 1 262147
+              ValFace = Face 10 17 1 1 262147
+              ValFace = Face 5 18 10 1 262147
+              ValFace = Face 10 22 5 1 262147
+              ValFace = Face 4 23 10 1 262147
+              ValFace = Face 10 18 4 1 262147
+              ValFace = Face 1 16 11 1 196611
+              ValFace = Face 11 22 1 1 196611
+              ValFace = Face 3 24 11 1 196611
+              ValFace = Face 11 16 3 1 196611
+              ValFace = Face 7 19 11 1 196611
+              ValFace = Face 11 24 7 1 196611
+              ValFace = Face 5 22 11 1 196611
+              ValFace = Face 11 19 5 1 196611
+              ValFace = Face 3 15 12 1 327683
+              ValFace = Face 12 24 3 1 327683
+              ValFace = Face 2 25 12 1 327683
+              ValFace = Face 12 15 2 1 327683
+              ValFace = Face 6 20 12 1 327683
+              ValFace = Face 12 25 6 1 327683
+              ValFace = Face 7 24 12 1 327683
+              ValFace = Face 12 20 7 1 327683
+              ValFace = Face 2 14 13 1 131075
+              ValFace = Face 13 25 2 1 131075
+              ValFace = Face 0 23 13 1 131075
+              ValFace = Face 13 14 0 1 131075
+              ValFace = Face 4 21 13 1 131075
+              ValFace = Face 13 23 4 1 131075
+              ValFace = Face 6 25 13 1 131075
+              ValFace = Face 13 21 6 1 131075
+            }
+          }
+        }
+      }
+      LimbBone {
+        BoneName = ""
+        Flags = 312
+        Controller {
+          SetupTM = matrix 0.513306 -0.847504 -0.135109 0.827437 0.530508 -0.184144 0.227739 -0.017272 0.973569 -1.25505e-005 7.14505e-008 3.93148e-006
+          Flags = 7340032
+        }
+        NumBoneSegs = 1
+        Width = 12
+        Length = 33.0587
+        Height = 12
+        WeightOutTan = 0.333
+        WeightInTan = 0.333
+        WeightOutVal = 0
+        WeightInVal = 1
+        ParentNode = INode "SceneRootNode.Hub.Limb[1].LimbBone[0].BoneSeg[0]"
+        BoneSeg {
+          BoneName = ""
+          Flags = 0
+          ObjectParams {
+            Flags = 14
+            Width = 12
+            Height = 12
+            Length = 33.0587
+            ObjectOffsetPos = point 0 0 0
+            ObjectOffsetRot = quat 0 0 0 1
+            ObjectOffsetScl = point 1 1 1
+            MeshParams {
+              NumVerticies = 26
+              Vert = point -0.555556 -0.555557 0.222222
+              Vert = point 0.555555 -0.555557 0.222222
+              Vert = point -0.555556 0.555555 0.222222
+              Vert = point 0.555555 0.555555 0.222222
+              Vert = point -0.555556 -0.555557 0.777778
+              Vert = point 0.555555 -0.555557 0.777778
+              Vert = point -0.555556 0.555555 0.777778
+              Vert = point 0.555555 0.555555 0.777778
+              Vert = point -2.46545e-007 -8.77039e-007 1.6936e-007
+              Vert = point -1.05577e-006 -9.01713e-007 1
+              Vert = point -6.33614e-007 -1 0.5
+              Vert = point 0.999999 -8.93612e-007 0.5
+              Vert = point -6.68702e-007 0.999999 0.5
+              Vert = point -1 -8.8514e-007 0.5
+              Vert = point -0.75 -8.76947e-007 0.125
+              Vert = point -3.60856e-007 0.749999 0.125
+              Vert = point 0.75 -8.833e-007 0.125
+              Vert = point -3.34541e-007 -0.750001 0.125
+              Vert = point -9.4146e-007 -0.750001 0.875
+              Vert = point 0.749999 -9.01805e-007 0.875
+              Vert = point -9.67775e-007 0.749999 0.875
+              Vert = point -0.750001 -8.95452e-007 0.875
+              Vert = point 0.749999 -0.750001 0.5
+              Vert = point -0.750001 -0.750001 0.5
+              Vert = point 0.749999 0.749999 0.5
+              Vert = point -0.750001 0.749999 0.5
+              NumFaces = 48
+              ValFace = Face 0 14 8 1 65539
+              ValFace = Face 8 17 0 1 65539
+              ValFace = Face 2 15 8 1 65539
+              ValFace = Face 8 14 2 1 65539
+              ValFace = Face 3 16 8 1 65539
+              ValFace = Face 8 15 3 1 65539
+              ValFace = Face 1 17 8 1 65539
+              ValFace = Face 8 16 1 1 65539
+              ValFace = Face 4 18 9 1 3
+              ValFace = Face 9 21 4 1 3
+              ValFace = Face 5 19 9 1 3
+              ValFace = Face 9 18 5 1 3
+              ValFace = Face 7 20 9 1 3
+              ValFace = Face 9 19 7 1 3
+              ValFace = Face 6 21 9 1 3
+              ValFace = Face 9 20 6 1 3
+              ValFace = Face 0 17 10 1 262147
+              ValFace = Face 10 23 0 1 262147
+              ValFace = Face 1 22 10 1 262147
+              ValFace = Face 10 17 1 1 262147
+              ValFace = Face 5 18 10 1 262147
+              ValFace = Face 10 22 5 1 262147
+              ValFace = Face 4 23 10 1 262147
+              ValFace = Face 10 18 4 1 262147
+              ValFace = Face 1 16 11 1 196611
+              ValFace = Face 11 22 1 1 196611
+              ValFace = Face 3 24 11 1 196611
+              ValFace = Face 11 16 3 1 196611
+              ValFace = Face 7 19 11 1 196611
+              ValFace = Face 11 24 7 1 196611
+              ValFace = Face 5 22 11 1 196611
+              ValFace = Face 11 19 5 1 196611
+              ValFace = Face 3 15 12 1 327683
+              ValFace = Face 12 24 3 1 327683
+              ValFace = Face 2 25 12 1 327683
+              ValFace = Face 12 15 2 1 327683
+              ValFace = Face 6 20 12 1 327683
+              ValFace = Face 12 25 6 1 327683
+              ValFace = Face 7 24 12 1 327683
+              ValFace = Face 12 20 7 1 327683
+              ValFace = Face 2 14 13 1 131075
+              ValFace = Face 13 25 2 1 131075
+              ValFace = Face 0 23 13 1 131075
+              ValFace = Face 13 14 0 1 131075
+              ValFace = Face 4 21 13 1 131075
+              ValFace = Face 13 23 4 1 131075
+              ValFace = Face 6 25 13 1 131075
+              ValFace = Face 13 21 6 1 131075
+            }
+          }
+        }
+      }
+      LimbBone {
+        BoneName = ""
+        Flags = 312
+        Controller {
+          SetupTM = matrix 0.566932 -0.801679 -0.189471 0.823382 0.558486 0.100678 0.0251046 -0.213085 0.976711 -1.87922e-005 -1.0961e-005 -2.0929e-005
+          Flags = 7340032
+        }
+        NumBoneSegs = 1
+        Width = 5
+        Length = 33.9514
+        Height = 5
+        WeightOutTan = 0.333
+        WeightInTan = 0.333
+        WeightOutVal = 0
+        WeightInVal = 1
+        ParentNode = INode "SceneRootNode.Hub.Limb[1].LimbBone[1].BoneSeg[0]"
+        BoneSeg {
+          BoneName = ""
+          Flags = 0
+          ObjectParams {
+            Flags = 14
+            Width = 5
+            Height = 5
+            Length = 33.9514
+            ObjectOffsetPos = point 0 0 0
+            ObjectOffsetRot = quat 0 0 0 1
+            ObjectOffsetScl = point 1 1 1
+            MeshParams {
+              NumVerticies = 26
+              Vert = point -0.555556 -0.55556 0.222222
+              Vert = point 0.555555 -0.55556 0.222222
+              Vert = point -0.555556 0.555552 0.222222
+              Vert = point 0.555555 0.555552 0.222222
+              Vert = point -0.555557 -0.555559 0.777778
+              Vert = point 0.555554 -0.555559 0.777778
+              Vert = point -0.555557 0.555552 0.777778
+              Vert = point 0.555554 0.555552 0.777778
+              Vert = point -7.1596e-008 -4.10213e-006 -2.28817e-008
+              Vert = point -1.65926e-006 -3.64388e-006 1
+              Vert = point -7.97768e-007 -1 0.5
+              Vert = point 0.999999 -3.84031e-006 0.5
+              Vert = point -9.33083e-007 0.999996 0.5
+              Vert = point -1 -3.9057e-006 0.5
+              Vert = point -0.75 -4.06937e-006 0.125
+              Vert = point -3.20797e-007 0.749996 0.125
+              Vert = point 0.75 -4.02033e-006 0.125
+              Vert = point -2.1931e-007 -0.750004 0.125
+              Vert = point -1.41005e-006 -0.750004 0.875
+              Vert = point 0.749999 -3.67664e-006 0.875
+              Vert = point -1.51154e-006 0.749996 0.875
+              Vert = point -0.750001 -3.72568e-006 0.875
+              Vert = point 0.749999 -0.750004 0.5
+              Vert = point -0.750001 -0.750004 0.5
+              Vert = point 0.749999 0.749996 0.5
+              Vert = point -0.750001 0.749996 0.5
+              NumFaces = 48
+              ValFace = Face 0 14 8 1 65539
+              ValFace = Face 8 17 0 1 65539
+              ValFace = Face 2 15 8 1 65539
+              ValFace = Face 8 14 2 1 65539
+              ValFace = Face 3 16 8 1 65539
+              ValFace = Face 8 15 3 1 65539
+              ValFace = Face 1 17 8 1 65539
+              ValFace = Face 8 16 1 1 65539
+              ValFace = Face 4 18 9 1 3
+              ValFace = Face 9 21 4 1 3
+              ValFace = Face 5 19 9 1 3
+              ValFace = Face 9 18 5 1 3
+              ValFace = Face 7 20 9 1 3
+              ValFace = Face 9 19 7 1 3
+              ValFace = Face 6 21 9 1 3
+              ValFace = Face 9 20 6 1 3
+              ValFace = Face 0 17 10 1 262147
+              ValFace = Face 10 23 0 1 262147
+              ValFace = Face 1 22 10 1 262147
+              ValFace = Face 10 17 1 1 262147
+              ValFace = Face 5 18 10 1 262147
+              ValFace = Face 10 22 5 1 262147
+              ValFace = Face 4 23 10 1 262147
+              ValFace = Face 10 18 4 1 262147
+              ValFace = Face 1 16 11 1 196611
+              ValFace = Face 11 22 1 1 196611
+              ValFace = Face 3 24 11 1 196611
+              ValFace = Face 11 16 3 1 196611
+              ValFace = Face 7 19 11 1 196611
+              ValFace = Face 11 24 7 1 196611
+              ValFace = Face 5 22 11 1 196611
+              ValFace = Face 11 19 5 1 196611
+              ValFace = Face 3 15 12 1 327683
+              ValFace = Face 12 24 3 1 327683
+              ValFace = Face 2 25 12 1 327683
+              ValFace = Face 12 15 2 1 327683
+              ValFace = Face 6 20 12 1 327683
+              ValFace = Face 12 25 6 1 327683
+              ValFace = Face 7 24 12 1 327683
+              ValFace = Face 12 20 7 1 327683
+              ValFace = Face 2 14 13 1 131075
+              ValFace = Face 13 25 2 1 131075
+              ValFace = Face 0 23 13 1 131075
+              ValFace = Face 13 14 0 1 131075
+              ValFace = Face 4 21 13 1 131075
+              ValFace = Face 13 23 4 1 131075
+              ValFace = Face 6 25 13 1 131075
+              ValFace = Face 13 21 6 1 131075
+            }
+          }
+        }
+      }
+    }
+    Limb {
+      Flags = 4172
+      BoneName = "LLeg2"
+      IKFKValue = 0
+      BoneColour = 230
+      Platform {
+        Flags = 0
+        Controller {
+          SetupTM = matrix 1 0 0 0 1 0 0 0 1 3.33135e-006 25.0243 97.5598
+          Flags = 7537152
+        }
+        ObjectParams {
+          Width = 6
+          Length = 6
+        }
+      }
+      NumBones = 3
+      LimbBone {
+        BoneName = ""
+        Flags = 56
+        Controller {
+          SetupTM = matrix -0.778317 0.062491 -0.624755 -0.627758 -0.0964517 0.77241 -0.0119908 0.993374 0.114299 2.64422 8.90848 -35.0133
+          Flags = 8257536
+        }
+        NumBoneSegs = 1
+        Width = 12
+        Length = 32.1683
+        Height = 12
+        WeightOutTan = 0.333
+        WeightInTan = 0.333
+        WeightOutVal = 0
+        WeightInVal = 1
+        ParentNode = INode "SceneRootNode.Hub"
+        BoneSeg {
+          BoneName = ""
+          Flags = 0
+          ObjectParams {
+            Flags = 14
+            Width = 12
+            Height = 12
+            Length = 32.1683
+            ObjectOffsetPos = point 0 0 0
+            ObjectOffsetRot = quat 0 0 0 1
+            ObjectOffsetScl = point 1 1 1
+            MeshParams {
+              NumVerticies = 26
+              Vert = point -0.555556 -0.555556 0.222222
+              Vert = point 0.555555 -0.555556 0.222222
+              Vert = point -0.555556 0.555555 0.222222
+              Vert = point 0.555555 0.555555 0.222222
+              Vert = point -0.555556 -0.555556 0.777778
+              Vert = point 0.555555 -0.555556 0.777778
+              Vert = point -0.555556 0.555555 0.777778
+              Vert = point 0.555555 0.555555 0.777778
+              Vert = point -4.24489e-007 -1.0573e-007 -1.09599e-008
+              Vert = point -9.14153e-007 -5.82929e-007 1
+              Vert = point -6.7443e-007 -1 0.5
+              Vert = point 0.999999 -3.35528e-007 0.5
+              Vert = point -6.64212e-007 1 0.5
+              Vert = point -1 -3.5313e-007 0.5
+              Vert = point -0.750001 -1.7198e-007 0.125
+              Vert = point -4.81866e-007 0.75 0.125
+              Vert = point 0.749999 -1.58779e-007 0.125
+              Vert = point -4.89529e-007 -0.75 0.125
+              Vert = point -8.56776e-007 -0.750001 0.875
+              Vert = point 0.749999 -5.16678e-007 0.875
+              Vert = point -8.49113e-007 0.749999 0.875
+              Vert = point -0.750001 -5.29879e-007 0.875
+              Vert = point 0.749999 -0.75 0.5
+              Vert = point -0.750001 -0.75 0.5
+              Vert = point 0.749999 0.75 0.5
+              Vert = point -0.750001 0.75 0.5
+              NumFaces = 48
+              ValFace = Face 0 14 8 1 65539
+              ValFace = Face 8 17 0 1 65539
+              ValFace = Face 2 15 8 1 65539
+              ValFace = Face 8 14 2 1 65539
+              ValFace = Face 3 16 8 1 65539
+              ValFace = Face 8 15 3 1 65539
+              ValFace = Face 1 17 8 1 65539
+              ValFace = Face 8 16 1 1 65539
+              ValFace = Face 4 18 9 1 3
+              ValFace = Face 9 21 4 1 3
+              ValFace = Face 5 19 9 1 3
+              ValFace = Face 9 18 5 1 3
+              ValFace = Face 7 20 9 1 3
+              ValFace = Face 9 19 7 1 3
+              ValFace = Face 6 21 9 1 3
+              ValFace = Face 9 20 6 1 3
+              ValFace = Face 0 17 10 1 262147
+              ValFace = Face 10 23 0 1 262147
+              ValFace = Face 1 22 10 1 262147
+              ValFace = Face 10 17 1 1 262147
+              ValFace = Face 5 18 10 1 262147
+              ValFace = Face 10 22 5 1 262147
+              ValFace = Face 4 23 10 1 262147
+              ValFace = Face 10 18 4 1 262147
+              ValFace = Face 1 16 11 1 196611
+              ValFace = Face 11 22 1 1 196611
+              ValFace = Face 3 24 11 1 196611
+              ValFace = Face 11 16 3 1 196611
+              ValFace = Face 7 19 11 1 196611
+              ValFace = Face 11 24 7 1 196611
+              ValFace = Face 5 22 11 1 196611
+              ValFace = Face 11 19 5 1 196611
+              ValFace = Face 3 15 12 1 327683
+              ValFace = Face 12 24 3 1 327683
+              ValFace = Face 2 25 12 1 327683
+              ValFace = Face 12 15 2 1 327683
+              ValFace = Face 6 20 12 1 327683
+              ValFace = Face 12 25 6 1 327683
+              ValFace = Face 7 24 12 1 327683
+              ValFace = Face 12 20 7 1 327683
+              ValFace = Face 2 14 13 1 131075
+              ValFace = Face 13 25 2 1 131075
+              ValFace = Face 0 23 13 1 131075
+              ValFace = Face 13 14 0 1 131075
+              ValFace = Face 4 21 13 1 131075
+              ValFace = Face 13 23 4 1 131075
+              ValFace = Face 6 25 13 1 131075
+              ValFace = Face 13 21 6 1 131075
+            }
+          }
+        }
+      }
+      LimbBone {
+        BoneName = ""
+        Flags = 312
+        Controller {
+          SetupTM = matrix 0.43378 -0.883073 0.178929 0.860563 0.46489 0.208104 -0.266954 0.0637086 0.961601 2.3961e-006 7.85694e-006 6.66972e-006
+          Flags = 7340032
+        }
+        NumBoneSegs = 1
+        Width = 12
+        Length = 32.1977
+        Height = 12
+        WeightOutTan = 0.333
+        WeightInTan = 0.333
+        WeightOutVal = 0
+        WeightInVal = 1
+        ParentNode = INode "SceneRootNode.Hub.Limb[2].LimbBone[0].BoneSeg[0]"
+        BoneSeg {
+          BoneName = ""
+          Flags = 0
+          ObjectParams {
+            Flags = 14
+            Width = 12
+            Height = 12
+            Length = 32.1977
+            ObjectOffsetPos = point 0 0 0
+            ObjectOffsetRot = quat 0 0 0 1
+            ObjectOffsetScl = point 1 1 1
+            MeshParams {
+              NumVerticies = 26
+              Vert = point -0.555556 -0.555556 0.222222
+              Vert = point 0.555556 -0.555556 0.222222
+              Vert = point -0.555556 0.555555 0.222222
+              Vert = point 0.555556 0.555555 0.222222
+              Vert = point -0.555556 -0.555556 0.777778
+              Vert = point 0.555556 -0.555556 0.777778
+              Vert = point -0.555556 0.555555 0.777778
+              Vert = point 0.555556 0.555555 0.777778
+              Vert = point 1.34106e-007 -4.9668e-007 1.26356e-008
+              Vert = point -1.17013e-007 -5.59002e-007 1
+              Vert = point 1.15641e-008 -1 0.5
+              Vert = point 1 -5.42428e-007 0.5
+              Vert = point 5.52876e-009 0.999999 0.5
+              Vert = point -1 -5.13254e-007 0.5
+              Vert = point -0.75 -4.9353e-007 0.125
+              Vert = point 1.00453e-007 0.749999 0.125
+              Vert = point 0.75 -5.15411e-007 0.125
+              Vert = point 1.04979e-007 -0.750001 0.125
+              Vert = point -8.33599e-008 -0.750001 0.875
+              Vert = point 0.75 -5.62152e-007 0.875
+              Vert = point -8.78864e-008 0.749999 0.875
+              Vert = point -0.75 -5.40271e-007 0.875
+              Vert = point 0.75 -0.750001 0.5
+              Vert = point -0.75 -0.750001 0.5
+              Vert = point 0.75 0.749999 0.5
+              Vert = point -0.75 0.749999 0.5
+              NumFaces = 48
+              ValFace = Face 0 14 8 1 65539
+              ValFace = Face 8 17 0 1 65539
+              ValFace = Face 2 15 8 1 65539
+              ValFace = Face 8 14 2 1 65539
+              ValFace = Face 3 16 8 1 65539
+              ValFace = Face 8 15 3 1 65539
+              ValFace = Face 1 17 8 1 65539
+              ValFace = Face 8 16 1 1 65539
+              ValFace = Face 4 18 9 1 3
+              ValFace = Face 9 21 4 1 3
+              ValFace = Face 5 19 9 1 3
+              ValFace = Face 9 18 5 1 3
+              ValFace = Face 7 20 9 1 3
+              ValFace = Face 9 19 7 1 3
+              ValFace = Face 6 21 9 1 3
+              ValFace = Face 9 20 6 1 3
+              ValFace = Face 0 17 10 1 262147
+              ValFace = Face 10 23 0 1 262147
+              ValFace = Face 1 22 10 1 262147
+              ValFace = Face 10 17 1 1 262147
+              ValFace = Face 5 18 10 1 262147
+              ValFace = Face 10 22 5 1 262147
+              ValFace = Face 4 23 10 1 262147
+              ValFace = Face 10 18 4 1 262147
+              ValFace = Face 1 16 11 1 196611
+              ValFace = Face 11 22 1 1 196611
+              ValFace = Face 3 24 11 1 196611
+              ValFace = Face 11 16 3 1 196611
+              ValFace = Face 7 19 11 1 196611
+              ValFace = Face 11 24 7 1 196611
+              ValFace = Face 5 22 11 1 196611
+              ValFace = Face 11 19 5 1 196611
+              ValFace = Face 3 15 12 1 327683
+              ValFace = Face 12 24 3 1 327683
+              ValFace = Face 2 25 12 1 327683
+              ValFace = Face 12 15 2 1 327683
+              ValFace = Face 6 20 12 1 327683
+              ValFace = Face 12 25 6 1 327683
+              ValFace = Face 7 24 12 1 327683
+              ValFace = Face 12 20 7 1 327683
+              ValFace = Face 2 14 13 1 131075
+              ValFace = Face 13 25 2 1 131075
+              ValFace = Face 0 23 13 1 131075
+              ValFace = Face 13 14 0 1 131075
+              ValFace = Face 4 21 13 1 131075
+              ValFace = Face 13 23 4 1 131075
+              ValFace = Face 6 25 13 1 131075
+              ValFace = Face 13 21 6 1 131075
+            }
+          }
+        }
+      }
+      LimbBone {
+        BoneName = ""
+        Flags = 312
+        Controller {
+          SetupTM = matrix 0.570062 -0.806688 0.155832 0.820942 0.566868 -0.0686716 -0.0329399 0.167076 0.985394 1.94784e-006 -7.71801e-006 -5.07936e-006
+          Flags = 7340032
+        }
+        NumBoneSegs = 1
+        Width = 5
+        Length = 34.8874
+        Height = 5
+        WeightOutTan = 0.333
+        WeightInTan = 0.333
+        WeightOutVal = 0
+        WeightInVal = 1
+        ParentNode = INode "SceneRootNode.Hub.Limb[2].LimbBone[1].BoneSeg[0]"
+        BoneSeg {
+          BoneName = ""
+          Flags = 0
+          ObjectParams {
+            Flags = 14
+            Width = 5
+            Height = 5
+            Length = 34.8874
+            ObjectOffsetPos = point 0 0 0
+            ObjectOffsetRot = quat 0 0 0 1
+            ObjectOffsetScl = point 1 1 1
+            MeshParams {
+              NumVerticies = 26
+              Vert = point -0.555556 -0.555555 0.222222
+              Vert = point 0.555555 -0.555555 0.222222
+              Vert = point -0.555556 0.555556 0.222222
+              Vert = point 0.555555 0.555556 0.222222
+              Vert = point -0.555556 -0.555555 0.777778
+              Vert = point 0.555555 -0.555556 0.777778
+              Vert = point -0.555556 0.555556 0.777778
+              Vert = point 0.555555 0.555556 0.777778
+              Vert = point 1.02103e-007 1.79884e-007 -7.50442e-009
+              Vert = point -1.06113e-006 1.20853e-007 1
+              Vert = point -4.88782e-007 -1 0.5
+              Vert = point 1 1.00564e-007 0.5
+              Vert = point -4.70246e-007 1 0.5
+              Vert = point -1 2.00172e-007 0.5
+              Vert = point -0.75 2.09858e-007 0.125
+              Vert = point -3.63499e-008 0.75 0.125
+              Vert = point 0.75 1.35151e-007 0.125
+              Vert = point -5.02523e-008 -0.75 0.125
+              Vert = point -9.22678e-007 -0.75 0.875
+              Vert = point 0.749999 9.0878e-008 0.875
+              Vert = point -9.08776e-007 0.75 0.875
+              Vert = point -0.750001 1.65585e-007 0.875
+              Vert = point 0.75 -0.75 0.5
+              Vert = point -0.75 -0.75 0.5
+              Vert = point 0.75 0.75 0.5
+              Vert = point -0.75 0.75 0.5
+              NumFaces = 48
+              ValFace = Face 0 14 8 1 65539
+              ValFace = Face 8 17 0 1 65539
+              ValFace = Face 2 15 8 1 65539
+              ValFace = Face 8 14 2 1 65539
+              ValFace = Face 3 16 8 1 65539
+              ValFace = Face 8 15 3 1 65539
+              ValFace = Face 1 17 8 1 65539
+              ValFace = Face 8 16 1 1 65539
+              ValFace = Face 4 18 9 1 3
+              ValFace = Face 9 21 4 1 3
+              ValFace = Face 5 19 9 1 3
+              ValFace = Face 9 18 5 1 3
+              ValFace = Face 7 20 9 1 3
+              ValFace = Face 9 19 7 1 3
+              ValFace = Face 6 21 9 1 3
+              ValFace = Face 9 20 6 1 3
+              ValFace = Face 0 17 10 1 262147
+              ValFace = Face 10 23 0 1 262147
+              ValFace = Face 1 22 10 1 262147
+              ValFace = Face 10 17 1 1 262147
+              ValFace = Face 5 18 10 1 262147
+              ValFace = Face 10 22 5 1 262147
+              ValFace = Face 4 23 10 1 262147
+              ValFace = Face 10 18 4 1 262147
+              ValFace = Face 1 16 11 1 196611
+              ValFace = Face 11 22 1 1 196611
+              ValFace = Face 3 24 11 1 196611
+              ValFace = Face 11 16 3 1 196611
+              ValFace = Face 7 19 11 1 196611
+              ValFace = Face 11 24 7 1 196611
+              ValFace = Face 5 22 11 1 196611
+              ValFace = Face 11 19 5 1 196611
+              ValFace = Face 3 15 12 1 327683
+              ValFace = Face 12 24 3 1 327683
+              ValFace = Face 2 25 12 1 327683
+              ValFace = Face 12 15 2 1 327683
+              ValFace = Face 6 20 12 1 327683
+              ValFace = Face 12 25 6 1 327683
+              ValFace = Face 7 24 12 1 327683
+              ValFace = Face 12 20 7 1 327683
+              ValFace = Face 2 14 13 1 131075
+              ValFace = Face 13 25 2 1 131075
+              ValFace = Face 0 23 13 1 131075
+              ValFace = Face 13 14 0 1 131075
+              ValFace = Face 4 21 13 1 131075
+              ValFace = Face 13 23 4 1 131075
+              ValFace = Face 6 25 13 1 131075
+              ValFace = Face 13 21 6 1 131075
+            }
+          }
+        }
+      }
+    }
+    Limb {
+      Flags = 4196
+      BoneName = "RLeg"
+      IKFKValue = 0
+      BoneColour = 230
+      Platform {
+        Flags = 0
+        Controller {
+          SetupTM = matrix 1 0 0 0 1 0 0 0 1 3.33135e-006 25.0243 -97.5598
+          Flags = 7537152
+        }
+        ObjectParams {
+          Width = 6
+          Length = 6
+        }
+      }
+      NumBones = 3
+      LimbBone {
+        BoneName = ""
+        Flags = 56
+        Controller {
+          SetupTM = matrix -0.778317 0.062491 0.624755 -0.627758 -0.0964517 -0.77241 0.0119908 -0.993374 0.114299 2.64422 8.90848 35.0133
+          Flags = 8257536
+        }
+        NumBoneSegs = 1
+        Width = 12
+        Length = 32.1683
+        Height = 12
+        WeightOutTan = 0.333
+        WeightInTan = 0.333
+        WeightOutVal = 0
+        WeightInVal = 1
+        ParentNode = INode "SceneRootNode.Hub"
+        BoneSeg {
+          BoneName = ""
+          Flags = 0
+          ObjectParams {
+            Flags = 14
+            Width = 12
+            Height = 12
+            Length = 32.1683
+            ObjectOffsetPos = point 0 0 0
+            ObjectOffsetRot = quat 0 0 0 1
+            ObjectOffsetScl = point 1 1 1
+            MeshParams {
+              NumVerticies = 26
+              Vert = point -0.555556 -0.555555 0.222222
+              Vert = point 0.555556 -0.555555 0.222222
+              Vert = point -0.555556 0.555556 0.222222
+              Vert = point 0.555556 0.555556 0.222222
+              Vert = point -0.555556 -0.555555 0.777778
+              Vert = point 0.555555 -0.555555 0.777778
+              Vert = point -0.555556 0.555556 0.777778
+              Vert = point 0.555555 0.555556 0.777778
+              Vert = point 1.36315e-007 7.03955e-007 9.83749e-008
+              Vert = point -3.15526e-007 8.0237e-007 1
+              Vert = point -8.57732e-008 -0.999999 0.5
+              Vert = point 1 7.31052e-007 0.5
+              Vert = point -9.34383e-008 1 0.5
+              Vert = point -1 7.75274e-007 0.5
+              Vert = point -0.75 7.3284e-007 0.125
+              Vert = point 7.69601e-008 0.750001 0.125
+              Vert = point 0.75 6.99674e-007 0.125
+              Vert = point 8.27089e-008 -0.749999 0.125
+              Vert = point -2.56172e-007 -0.749999 0.875
+              Vert = point 0.75 7.73486e-007 0.875
+              Vert = point -2.6192e-007 0.750001 0.875
+              Vert = point -0.75 8.06652e-007 0.875
+              Vert = point 0.75 -0.749999 0.5
+              Vert = point -0.75 -0.749999 0.5
+              Vert = point 0.75 0.750001 0.5
+              Vert = point -0.75 0.750001 0.5
+              NumFaces = 48
+              ValFace = Face 0 14 8 1 65539
+              ValFace = Face 8 17 0 1 65539
+              ValFace = Face 2 15 8 1 65539
+              ValFace = Face 8 14 2 1 65539
+              ValFace = Face 3 16 8 1 65539
+              ValFace = Face 8 15 3 1 65539
+              ValFace = Face 1 17 8 1 65539
+              ValFace = Face 8 16 1 1 65539
+              ValFace = Face 4 18 9 1 3
+              ValFace = Face 9 21 4 1 3
+              ValFace = Face 5 19 9 1 3
+              ValFace = Face 9 18 5 1 3
+              ValFace = Face 7 20 9 1 3
+              ValFace = Face 9 19 7 1 3
+              ValFace = Face 6 21 9 1 3
+              ValFace = Face 9 20 6 1 3
+              ValFace = Face 0 17 10 1 262147
+              ValFace = Face 10 23 0 1 262147
+              ValFace = Face 1 22 10 1 262147
+              ValFace = Face 10 17 1 1 262147
+              ValFace = Face 5 18 10 1 262147
+              ValFace = Face 10 22 5 1 262147
+              ValFace = Face 4 23 10 1 262147
+              ValFace = Face 10 18 4 1 262147
+              ValFace = Face 1 16 11 1 196611
+              ValFace = Face 11 22 1 1 196611
+              ValFace = Face 3 24 11 1 196611
+              ValFace = Face 11 16 3 1 196611
+              ValFace = Face 7 19 11 1 196611
+              ValFace = Face 11 24 7 1 196611
+              ValFace = Face 5 22 11 1 196611
+              ValFace = Face 11 19 5 1 196611
+              ValFace = Face 3 15 12 1 327683
+              ValFace = Face 12 24 3 1 327683
+              ValFace = Face 2 25 12 1 327683
+              ValFace = Face 12 15 2 1 327683
+              ValFace = Face 6 20 12 1 327683
+              ValFace = Face 12 25 6 1 327683
+              ValFace = Face 7 24 12 1 327683
+              ValFace = Face 12 20 7 1 327683
+              ValFace = Face 2 14 13 1 131075
+              ValFace = Face 13 25 2 1 131075
+              ValFace = Face 0 23 13 1 131075
+              ValFace = Face 13 14 0 1 131075
+              ValFace = Face 4 21 13 1 131075
+              ValFace = Face 13 23 4 1 131075
+              ValFace = Face 6 25 13 1 131075
+              ValFace = Face 13 21 6 1 131075
+            }
+          }
+        }
+      }
+      LimbBone {
+        BoneName = ""
+        Flags = 312
+        Controller {
+          SetupTM = matrix 0.43378 -0.883073 -0.178929 0.860563 0.46489 -0.208104 0.266954 -0.0637086 0.961601 2.3961e-006 7.85694e-006 -6.66972e-006
+          Flags = 7340032
+        }
+        NumBoneSegs = 1
+        Width = 12
+        Length = 32.1977
+        Height = 12
+        WeightOutTan = 0.333
+        WeightInTan = 0.333
+        WeightOutVal = 0
+        WeightInVal = 1
+        ParentNode = INode "SceneRootNode.Hub.Limb[3].LimbBone[0].BoneSeg[0]"
+        BoneSeg {
+          BoneName = ""
+          Flags = 0
+          ObjectParams {
+            Flags = 14
+            Width = 12
+            Height = 12
+            Length = 32.1977
+            ObjectOffsetPos = point 0 0 0
+            ObjectOffsetRot = quat 0 0 0 1
+            ObjectOffsetScl = point 1 1 1
+            MeshParams {
+              NumVerticies = 26
+              Vert = point -0.555556 -0.555556 0.222222
+              Vert = point 0.555555 -0.555556 0.222222
+              Vert = point -0.555556 0.555555 0.222222
+              Vert = point 0.555555 0.555555 0.222222
+              Vert = point -0.555556 -0.555556 0.777778
+              Vert = point 0.555555 -0.555557 0.777778
+              Vert = point -0.555556 0.555555 0.777778
+              Vert = point 0.555555 0.555555 0.777778
+              Vert = point -2.71845e-007 -8.02098e-007 -7.39741e-008
+              Vert = point -8.60247e-007 -8.82545e-007 1
+              Vert = point -5.64376e-007 -1 0.5
+              Vert = point 0.999999 -8.50768e-007 0.5
+              Vert = point -5.67716e-007 0.999999 0.5
+              Vert = point -1 -8.33876e-007 0.5
+              Vert = point -0.75 -8.0582e-007 0.125
+              Vert = point -3.46648e-007 0.749999 0.125
+              Vert = point 0.75 -8.18489e-007 0.125
+              Vert = point -3.44143e-007 -0.750001 0.125
+              Vert = point -7.85444e-007 -0.750001 0.875
+              Vert = point 0.749999 -8.78824e-007 0.875
+              Vert = point -7.87949e-007 0.749999 0.875
+              Vert = point -0.750001 -8.66155e-007 0.875
+              Vert = point 0.749999 -0.750001 0.5
+              Vert = point -0.750001 -0.750001 0.5
+              Vert = point 0.749999 0.749999 0.5
+              Vert = point -0.750001 0.749999 0.5
+              NumFaces = 48
+              ValFace = Face 0 14 8 1 65539
+              ValFace = Face 8 17 0 1 65539
+              ValFace = Face 2 15 8 1 65539
+              ValFace = Face 8 14 2 1 65539
+              ValFace = Face 3 16 8 1 65539
+              ValFace = Face 8 15 3 1 65539
+              ValFace = Face 1 17 8 1 65539
+              ValFace = Face 8 16 1 1 65539
+              ValFace = Face 4 18 9 1 3
+              ValFace = Face 9 21 4 1 3
+              ValFace = Face 5 19 9 1 3
+              ValFace = Face 9 18 5 1 3
+              ValFace = Face 7 20 9 1 3
+              ValFace = Face 9 19 7 1 3
+              ValFace = Face 6 21 9 1 3
+              ValFace = Face 9 20 6 1 3
+              ValFace = Face 0 17 10 1 262147
+              ValFace = Face 10 23 0 1 262147
+              ValFace = Face 1 22 10 1 262147
+              ValFace = Face 10 17 1 1 262147
+              ValFace = Face 5 18 10 1 262147
+              ValFace = Face 10 22 5 1 262147
+              ValFace = Face 4 23 10 1 262147
+              ValFace = Face 10 18 4 1 262147
+              ValFace = Face 1 16 11 1 196611
+              ValFace = Face 11 22 1 1 196611
+              ValFace = Face 3 24 11 1 196611
+              ValFace = Face 11 16 3 1 196611
+              ValFace = Face 7 19 11 1 196611
+              ValFace = Face 11 24 7 1 196611
+              ValFace = Face 5 22 11 1 196611
+              ValFace = Face 11 19 5 1 196611
+              ValFace = Face 3 15 12 1 327683
+              ValFace = Face 12 24 3 1 327683
+              ValFace = Face 2 25 12 1 327683
+              ValFace = Face 12 15 2 1 327683
+              ValFace = Face 6 20 12 1 327683
+              ValFace = Face 12 25 6 1 327683
+              ValFace = Face 7 24 12 1 327683
+              ValFace = Face 12 20 7 1 327683
+              ValFace = Face 2 14 13 1 131075
+              ValFace = Face 13 25 2 1 131075
+              ValFace = Face 0 23 13 1 131075
+              ValFace = Face 13 14 0 1 131075
+              ValFace = Face 4 21 13 1 131075
+              ValFace = Face 13 23 4 1 131075
+              ValFace = Face 6 25 13 1 131075
+              ValFace = Face 13 21 6 1 131075
+            }
+          }
+        }
+      }
+      LimbBone {
+        BoneName = ""
+        Flags = 312
+        Controller {
+          SetupTM = matrix 0.570062 -0.806688 -0.155832 0.820942 0.566868 0.0686716 0.0329399 -0.167076 0.985394 1.94784e-006 -7.71801e-006 5.07936e-006
+          Flags = 7340032
+        }
+        NumBoneSegs = 1
+        Width = 5
+        Length = 34.8874
+        Height = 5
+        WeightOutTan = 0.333
+        WeightInTan = 0.333
+        WeightOutVal = 0
+        WeightInVal = 1
+        ParentNode = INode "SceneRootNode.Hub.Limb[3].LimbBone[1].BoneSeg[0]"
+        BoneSeg {
+          BoneName = ""
+          Flags = 0
+          ObjectParams {
+            Flags = 14
+            Width = 5
+            Height = 5
+            Length = 34.8874
+            ObjectOffsetPos = point 0 0 0
+            ObjectOffsetRot = quat 0 0 0 1
+            ObjectOffsetScl = point 1 1 1
+            MeshParams {
+              NumVerticies = 26
+              Vert = point -0.555556 -0.555556 0.222222
+              Vert = point 0.555555 -0.555556 0.222222
+              Vert = point -0.555556 0.555555 0.222222
+              Vert = point 0.555555 0.555555 0.222222
+              Vert = point -0.555556 -0.555556 0.777778
+              Vert = point 0.555555 -0.555556 0.777778
+              Vert = point -0.555557 0.555555 0.777778
+              Vert = point 0.555554 0.555555 0.777778
+              Vert = point 1.07617e-007 -2.92949e-007 7.2138e-008
+              Vert = point -1.31121e-006 -1.59855e-007 1
+              Vert = point -5.64862e-007 -1 0.5
+              Vert = point 0.999999 -2.24846e-007 0.5
+              Vert = point -6.38727e-007 1 0.5
+              Vert = point -1 -2.27958e-007 0.5
+              Vert = point -0.75 -2.77479e-007 0.125
+              Vert = point -9.74354e-008 0.75 0.125
+              Vert = point 0.75 -2.75145e-007 0.125
+              Vert = point -4.20362e-008 -0.75 0.125
+              Vert = point -1.10615e-006 -0.75 0.875
+              Vert = point 0.749999 -1.75325e-007 0.875
+              Vert = point -1.16155e-006 0.75 0.875
+              Vert = point -0.750001 -1.77659e-007 0.875
+              Vert = point 0.749999 -0.75 0.5
+              Vert = point -0.75 -0.75 0.5
+              Vert = point 0.749999 0.75 0.5
+              Vert = point -0.75 0.75 0.5
+              NumFaces = 48
+              ValFace = Face 0 14 8 1 65539
+              ValFace = Face 8 17 0 1 65539
+              ValFace = Face 2 15 8 1 65539
+              ValFace = Face 8 14 2 1 65539
+              ValFace = Face 3 16 8 1 65539
+              ValFace = Face 8 15 3 1 65539
+              ValFace = Face 1 17 8 1 65539
+              ValFace = Face 8 16 1 1 65539
+              ValFace = Face 4 18 9 1 3
+              ValFace = Face 9 21 4 1 3
+              ValFace = Face 5 19 9 1 3
+              ValFace = Face 9 18 5 1 3
+              ValFace = Face 7 20 9 1 3
+              ValFace = Face 9 19 7 1 3
+              ValFace = Face 6 21 9 1 3
+              ValFace = Face 9 20 6 1 3
+              ValFace = Face 0 17 10 1 262147
+              ValFace = Face 10 23 0 1 262147
+              ValFace = Face 1 22 10 1 262147
+              ValFace = Face 10 17 1 1 262147
+              ValFace = Face 5 18 10 1 262147
+              ValFace = Face 10 22 5 1 262147
+              ValFace = Face 4 23 10 1 262147
+              ValFace = Face 10 18 4 1 262147
+              ValFace = Face 1 16 11 1 196611
+              ValFace = Face 11 22 1 1 196611
+              ValFace = Face 3 24 11 1 196611
+              ValFace = Face 11 16 3 1 196611
+              ValFace = Face 7 19 11 1 196611
+              ValFace = Face 11 24 7 1 196611
+              ValFace = Face 5 22 11 1 196611
+              ValFace = Face 11 19 5 1 196611
+              ValFace = Face 3 15 12 1 327683
+              ValFace = Face 12 24 3 1 327683
+              ValFace = Face 2 25 12 1 327683
+              ValFace = Face 12 15 2 1 327683
+              ValFace = Face 6 20 12 1 327683
+              ValFace = Face 12 25 6 1 327683
+              ValFace = Face 7 24 12 1 327683
+              ValFace = Face 12 20 7 1 327683
+              ValFace = Face 2 14 13 1 131075
+              ValFace = Face 13 25 2 1 131075
+              ValFace = Face 0 23 13 1 131075
+              ValFace = Face 13 14 0 1 131075
+              ValFace = Face 4 21 13 1 131075
+              ValFace = Face 13 23 4 1 131075
+              ValFace = Face 6 25 13 1 131075
+              ValFace = Face 13 21 6 1 131075
+            }
+          }
+        }
+      }
+    }
+    Limb {
+      Flags = 4172
+      BoneName = "LLeg3"
+      IKFKValue = 0
+      BoneColour = 180
+      Platform {
+        Flags = 0
+        Controller {
+          SetupTM = matrix 1 -2.38068e-008 -7.05183e-009 2.38068e-008 0.838673 0.544636 -7.05183e-009 -0.544636 0.838673 3.81148e-006 -36.829 87.1965
+          Flags = 7537152
+        }
+        ObjectParams {
+          Width = 6
+          Length = 6
+        }
+      }
+      NumBones = 3
+      LimbBone {
+        BoneName = ""
+        Flags = 56
+        Controller {
+          SetupTM = matrix -0.927022 0.161567 -0.338417 -0.373802 -0.470386 0.79938 -0.0300328 0.867544 0.496452 2.54285 -10.5822 -35.0311
+          Flags = 8257536
+        }
+        NumBoneSegs = 1
+        Width = 12
+        Length = 30.6
+        Height = 12
+        WeightOutTan = 0.333
+        WeightInTan = 0.333
+        WeightOutVal = 0
+        WeightInVal = 1
+        ParentNode = INode "SceneRootNode.Hub"
+        BoneSeg {
+          BoneName = ""
+          Flags = 0
+          ObjectParams {
+            Flags = 14
+            Width = 12
+            Height = 12
+            Length = 30.6
+            ObjectOffsetPos = point 0 0 0
+            ObjectOffsetRot = quat 0 0 0 1
+            ObjectOffsetScl = point 1 1 1
+            MeshParams {
+              NumVerticies = 26
+              Vert = point -0.555555 -0.555556 0.222222
+              Vert = point 0.555556 -0.555556 0.222222
+              Vert = point -0.555555 0.555555 0.222222
+              Vert = point 0.555556 0.555555 0.222222
+              Vert = point -0.555556 -0.555556 0.777778
+              Vert = point 0.555556 -0.555556 0.777778
+              Vert = point -0.555556 0.555555 0.777778
+              Vert = point 0.555556 0.555555 0.777778
+              Vert = point 4.4911e-007 -5.85843e-007 7.39458e-008
+              Vert = point -1.32022e-007 -5.33468e-007 1
+              Vert = point 1.2111e-007 -1 0.5
+              Vert = point 1 -5.49663e-007 0.5
+              Vert = point 1.95978e-007 0.999999 0.5
+              Vert = point -1 -5.69647e-007 0.5
+              Vert = point -0.75 -5.8679e-007 0.125
+              Vert = point 4.04544e-007 0.749999 0.125
+              Vert = point 0.75 -5.71802e-007 0.125
+              Vert = point 3.48393e-007 -0.750001 0.125
+              Vert = point -8.74562e-008 -0.75 0.875
+              Vert = point 0.75 -5.32521e-007 0.875
+              Vert = point -3.13046e-008 0.749999 0.875
+              Vert = point -0.75 -5.47509e-007 0.875
+              Vert = point 0.75 -0.75 0.5
+              Vert = point -0.75 -0.750001 0.5
+              Vert = point 0.75 0.749999 0.5
+              Vert = point -0.75 0.749999 0.5
+              NumFaces = 48
+              ValFace = Face 0 14 8 1 65539
+              ValFace = Face 8 17 0 1 65539
+              ValFace = Face 2 15 8 1 65539
+              ValFace = Face 8 14 2 1 65539
+              ValFace = Face 3 16 8 1 65539
+              ValFace = Face 8 15 3 1 65539
+              ValFace = Face 1 17 8 1 65539
+              ValFace = Face 8 16 1 1 65539
+              ValFace = Face 4 18 9 1 3
+              ValFace = Face 9 21 4 1 3
+              ValFace = Face 5 19 9 1 3
+              ValFace = Face 9 18 5 1 3
+              ValFace = Face 7 20 9 1 3
+              ValFace = Face 9 19 7 1 3
+              ValFace = Face 6 21 9 1 3
+              ValFace = Face 9 20 6 1 3
+              ValFace = Face 0 17 10 1 262147
+              ValFace = Face 10 23 0 1 262147
+              ValFace = Face 1 22 10 1 262147
+              ValFace = Face 10 17 1 1 262147
+              ValFace = Face 5 18 10 1 262147
+              ValFace = Face 10 22 5 1 262147
+              ValFace = Face 4 23 10 1 262147
+              ValFace = Face 10 18 4 1 262147
+              ValFace = Face 1 16 11 1 196611
+              ValFace = Face 11 22 1 1 196611
+              ValFace = Face 3 24 11 1 196611
+              ValFace = Face 11 16 3 1 196611
+              ValFace = Face 7 19 11 1 196611
+              ValFace = Face 11 24 7 1 196611
+              ValFace = Face 5 22 11 1 196611
+              ValFace = Face 11 19 5 1 196611
+              ValFace = Face 3 15 12 1 327683
+              ValFace = Face 12 24 3 1 327683
+              ValFace = Face 2 25 12 1 327683
+              ValFace = Face 12 15 2 1 327683
+              ValFace = Face 6 20 12 1 327683
+              ValFace = Face 12 25 6 1 327683
+              ValFace = Face 7 24 12 1 327683
+              ValFace = Face 12 20 7 1 327683
+              ValFace = Face 2 14 13 1 131075
+              ValFace = Face 13 25 2 1 131075
+              ValFace = Face 0 23 13 1 131075
+              ValFace = Face 13 14 0 1 131075
+              ValFace = Face 4 21 13 1 131075
+              ValFace = Face 13 23 4 1 131075
+              ValFace = Face 6 25 13 1 131075
+              ValFace = Face 13 21 6 1 131075
+            }
+          }
+        }
+      }
+      LimbBone {
+        BoneName = ""
+        Flags = 312
+        Controller {
+          SetupTM = matrix 0.390612 -0.920556 -1.46572e-008 0.920556 0.390612 -5.4139e-008 5.55632e-008 7.65458e-009 1 -1.3909e-007 -2.50329e-006 1.90797e-006
+          Flags = 7340032
+        }
+        NumBoneSegs = 1
+        Width = 12
+        Length = 34.8
+        Height = 12
+        WeightOutTan = 0.333
+        WeightInTan = 0.333
+        WeightOutVal = 0
+        WeightInVal = 1
+        ParentNode = INode "SceneRootNode.Hub.Limb[4].LimbBone[0].BoneSeg[0]"
+        BoneSeg {
+          BoneName = ""
+          Flags = 0
+          ObjectParams {
+            Flags = 14
+            Width = 12
+            Height = 12
+            Length = 34.8
+            ObjectOffsetPos = point 0 0 0
+            ObjectOffsetRot = quat 0 0 0 1
+            ObjectOffsetScl = point 1 1 1
+            MeshParams {
+              NumVerticies = 26
+              Vert = point -0.555556 -0.555556 0.222222
+              Vert = point 0.555555 -0.555556 0.222222
+              Vert = point -0.555556 0.555555 0.222222
+              Vert = point 0.555555 0.555555 0.222222
+              Vert = point -0.555557 -0.555556 0.777778
+              Vert = point 0.555555 -0.555556 0.777778
+              Vert = point -0.555557 0.555555 0.777778
+              Vert = point 0.555555 0.555555 0.777778
+              Vert = point -4.78823e-007 -2.11014e-007 -4.53305e-008
+              Vert = point -1.15819e-006 -2.23048e-007 1
+              Vert = point -8.08904e-007 -1 0.5
+              Vert = point 0.999999 -2.08966e-007 0.5
+              Vert = point -8.2811e-007 1 0.5
+              Vert = point -1 -2.25096e-007 0.5
+              Vert = point -0.750001 -2.18567e-007 0.125
+              Vert = point -5.70947e-007 0.75 0.125
+              Vert = point 0.749999 -2.06469e-007 0.125
+              Vert = point -5.56542e-007 -0.75 0.125
+              Vert = point -1.06607e-006 -0.75 0.875
+              Vert = point 0.749999 -2.15495e-007 0.875
+              Vert = point -1.08047e-006 0.75 0.875
+              Vert = point -0.750001 -2.27592e-007 0.875
+              Vert = point 0.749999 -0.75 0.5
+              Vert = point -0.750001 -0.75 0.5
+              Vert = point 0.749999 0.75 0.5
+              Vert = point -0.750001 0.75 0.5
+              NumFaces = 48
+              ValFace = Face 0 14 8 1 65539
+              ValFace = Face 8 17 0 1 65539
+              ValFace = Face 2 15 8 1 65539
+              ValFace = Face 8 14 2 1 65539
+              ValFace = Face 3 16 8 1 65539
+              ValFace = Face 8 15 3 1 65539
+              ValFace = Face 1 17 8 1 65539
+              ValFace = Face 8 16 1 1 65539
+              ValFace = Face 4 18 9 1 3
+              ValFace = Face 9 21 4 1 3
+              ValFace = Face 5 19 9 1 3
+              ValFace = Face 9 18 5 1 3
+              ValFace = Face 7 20 9 1 3
+              ValFace = Face 9 19 7 1 3
+              ValFace = Face 6 21 9 1 3
+              ValFace = Face 9 20 6 1 3
+              ValFace = Face 0 17 10 1 262147
+              ValFace = Face 10 23 0 1 262147
+              ValFace = Face 1 22 10 1 262147
+              ValFace = Face 10 17 1 1 262147
+              ValFace = Face 5 18 10 1 262147
+              ValFace = Face 10 22 5 1 262147
+              ValFace = Face 4 23 10 1 262147
+              ValFace = Face 10 18 4 1 262147
+              ValFace = Face 1 16 11 1 196611
+              ValFace = Face 11 22 1 1 196611
+              ValFace = Face 3 24 11 1 196611
+              ValFace = Face 11 16 3 1 196611
+              ValFace = Face 7 19 11 1 196611
+              ValFace = Face 11 24 7 1 196611
+              ValFace = Face 5 22 11 1 196611
+              ValFace = Face 11 19 5 1 196611
+              ValFace = Face 3 15 12 1 327683
+              ValFace = Face 12 24 3 1 327683
+              ValFace = Face 2 25 12 1 327683
+              ValFace = Face 12 15 2 1 327683
+              ValFace = Face 6 20 12 1 327683
+              ValFace = Face 12 25 6 1 327683
+              ValFace = Face 7 24 12 1 327683
+              ValFace = Face 12 20 7 1 327683
+              ValFace = Face 2 14 13 1 131075
+              ValFace = Face 13 25 2 1 131075
+              ValFace = Face 0 23 13 1 131075
+              ValFace = Face 13 14 0 1 131075
+              ValFace = Face 4 21 13 1 131075
+              ValFace = Face 13 23 4 1 131075
+              ValFace = Face 6 25 13 1 131075
+              ValFace = Face 13 21 6 1 131075
+            }
+          }
+        }
+      }
+      LimbBone {
+        BoneName = ""
+        Flags = 312
+        Controller {
+          SetupTM = matrix 0.540302 -0.841471 2.0094e-008 0.841471 0.540302 -3.67819e-008 2.0094e-008 3.67819e-008 1 0 0 0
+          Flags = 7340032
+        }
+        NumBoneSegs = 1
+        Width = 5
+        Length = 29.2
+        Height = 5
+        WeightOutTan = 0.333
+        WeightInTan = 0.333
+        WeightOutVal = 0
+        WeightInVal = 1
+        ParentNode = INode "SceneRootNode.Hub.Limb[4].LimbBone[1].BoneSeg[0]"
+        BoneSeg {
+          BoneName = ""
+          Flags = 0
+          ObjectParams {
+            Flags = 14
+            Width = 5
+            Height = 5
+            Length = 29.2
+            ObjectOffsetPos = point 0 0 0
+            ObjectOffsetRot = quat 0 0 0 1
+            ObjectOffsetScl = point 1 1 1
+            MeshParams {
+              NumVerticies = 26
+              Vert = point -0.555555 -0.555555 0.222222
+              Vert = point 0.555557 -0.555555 0.222222
+              Vert = point -0.555554 0.555556 0.222222
+              Vert = point 0.555557 0.555556 0.222222
+              Vert = point -0.555555 -0.555555 0.777778
+              Vert = point 0.555556 -0.555555 0.777778
+              Vert = point -0.555555 0.555556 0.777778
+              Vert = point 0.555556 0.555556 0.777778
+              Vert = point 1.25925e-006 4.90999e-007 1.00121e-007
+              Vert = point 3.71462e-007 4.45224e-007 1
+              Vert = point 7.67688e-007 -1 0.5
+              Vert = point 1 5.0775e-007 0.5
+              Vert = point 8.63027e-007 1 0.5
+              Vert = point -0.999999 4.28474e-007 0.5
+              Vert = point -0.749999 4.55549e-007 0.125
+              Vert = point 1.18403e-006 0.75 0.125
+              Vert = point 0.750001 5.15006e-007 0.125
+              Vert = point 1.11253e-006 -0.75 0.125
+              Vert = point 4.46683e-007 -0.75 0.875
+              Vert = point 0.75 4.80674e-007 0.875
+              Vert = point 5.18188e-007 0.75 0.875
+              Vert = point -0.75 4.21218e-007 0.875
+              Vert = point 0.750001 -0.75 0.5
+              Vert = point -0.749999 -0.75 0.5
+              Vert = point 0.750001 0.75 0.5
+              Vert = point -0.749999 0.75 0.5
+              NumFaces = 48
+              ValFace = Face 0 14 8 1 65539
+              ValFace = Face 8 17 0 1 65539
+              ValFace = Face 2 15 8 1 65539
+              ValFace = Face 8 14 2 1 65539
+              ValFace = Face 3 16 8 1 65539
+              ValFace = Face 8 15 3 1 65539
+              ValFace = Face 1 17 8 1 65539
+              ValFace = Face 8 16 1 1 65539
+              ValFace = Face 4 18 9 1 3
+              ValFace = Face 9 21 4 1 3
+              ValFace = Face 5 19 9 1 3
+              ValFace = Face 9 18 5 1 3
+              ValFace = Face 7 20 9 1 3
+              ValFace = Face 9 19 7 1 3
+              ValFace = Face 6 21 9 1 3
+              ValFace = Face 9 20 6 1 3
+              ValFace = Face 0 17 10 1 262147
+              ValFace = Face 10 23 0 1 262147
+              ValFace = Face 1 22 10 1 262147
+              ValFace = Face 10 17 1 1 262147
+              ValFace = Face 5 18 10 1 262147
+              ValFace = Face 10 22 5 1 262147
+              ValFace = Face 4 23 10 1 262147
+              ValFace = Face 10 18 4 1 262147
+              ValFace = Face 1 16 11 1 196611
+              ValFace = Face 11 22 1 1 196611
+              ValFace = Face 3 24 11 1 196611
+              ValFace = Face 11 16 3 1 196611
+              ValFace = Face 7 19 11 1 196611
+              ValFace = Face 11 24 7 1 196611
+              ValFace = Face 5 22 11 1 196611
+              ValFace = Face 11 19 5 1 196611
+              ValFace = Face 3 15 12 1 327683
+              ValFace = Face 12 24 3 1 327683
+              ValFace = Face 2 25 12 1 327683
+              ValFace = Face 12 15 2 1 327683
+              ValFace = Face 6 20 12 1 327683
+              ValFace = Face 12 25 6 1 327683
+              ValFace = Face 7 24 12 1 327683
+              ValFace = Face 12 20 7 1 327683
+              ValFace = Face 2 14 13 1 131075
+              ValFace = Face 13 25 2 1 131075
+              ValFace = Face 0 23 13 1 131075
+              ValFace = Face 13 14 0 1 131075
+              ValFace = Face 4 21 13 1 131075
+              ValFace = Face 13 23 4 1 131075
+              ValFace = Face 6 25 13 1 131075
+              ValFace = Face 13 21 6 1 131075
+            }
+          }
+        }
+      }
+    }
+    Limb {
+      Flags = 4196
+      BoneName = "RLeg"
+      IKFKValue = 0
+      BoneColour = 180
+      Platform {
+        Flags = 0
+        Controller {
+          SetupTM = matrix 1 -2.38068e-008 7.05183e-009 2.38068e-008 0.838673 -0.544636 7.05183e-009 0.544636 0.838673 3.81148e-006 -36.829 -87.1965
+          Flags = 7537152
+        }
+        ObjectParams {
+          Width = 6
+          Length = 6
+        }
+      }
+      NumBones = 3
+      LimbBone {
+        BoneName = ""
+        Flags = 56
+        Controller {
+          SetupTM = matrix -0.927022 0.161567 0.338417 -0.373802 -0.470386 -0.79938 0.0300328 -0.867544 0.496452 2.54285 -10.5822 35.0311
+          Flags = 8257536
+        }
+        NumBoneSegs = 1
+        Width = 12
+        Length = 30.6
+        Height = 12
+        WeightOutTan = 0.333
+        WeightInTan = 0.333
+        WeightOutVal = 0
+        WeightInVal = 1
+        ParentNode = INode "SceneRootNode.Hub"
+        BoneSeg {
+          BoneName = ""
+          Flags = 0
+          ObjectParams {
+            Flags = 14
+            Width = 12
+            Height = 12
+            Length = 30.6
+            ObjectOffsetPos = point 0 0 0
+            ObjectOffsetRot = quat 0 0 0 1
+            ObjectOffsetScl = point 1 1 1
+            MeshParams {
+              NumVerticies = 26
+              Vert = point -0.555554 -0.555555 0.222222
+              Vert = point 0.555557 -0.555555 0.222222
+              Vert = point -0.555554 0.555556 0.222222
+              Vert = point 0.555557 0.555556 0.222222
+              Vert = point -0.555555 -0.555555 0.777778
+              Vert = point 0.555556 -0.555555 0.777778
+              Vert = point -0.555555 0.555556 0.777778
+              Vert = point 0.555556 0.555556 0.777778
+              Vert = point 1.27817e-006 5.97033e-007 -1.93632e-007
+              Vert = point 7.20401e-007 5.4235e-007 1
+              Vert = point 9.69431e-007 -0.999999 0.5
+              Vert = point 1 5.70622e-007 0.5
+              Vert = point 1.02914e-006 1 0.5
+              Vert = point -0.999999 5.6876e-007 0.5
+              Vert = point -0.749999 5.89499e-007 0.125
+              Vert = point 1.23084e-006 0.750001 0.125
+              Vert = point 0.750001 5.90896e-007 0.125
+              Vert = point 1.18606e-006 -0.749999 0.125
+              Vert = point 7.67731e-007 -0.749999 0.875
+              Vert = point 0.750001 5.49883e-007 0.875
+              Vert = point 8.12514e-007 0.750001 0.875
+              Vert = point -0.749999 5.48487e-007 0.875
+              Vert = point 0.750001 -0.749999 0.5
+              Vert = point -0.749999 -0.749999 0.5
+              Vert = point 0.750001 0.750001 0.5
+              Vert = point -0.749999 0.750001 0.5
+              NumFaces = 48
+              ValFace = Face 0 14 8 1 65539
+              ValFace = Face 8 17 0 1 65539
+              ValFace = Face 2 15 8 1 65539
+              ValFace = Face 8 14 2 1 65539
+              ValFace = Face 3 16 8 1 65539
+              ValFace = Face 8 15 3 1 65539
+              ValFace = Face 1 17 8 1 65539
+              ValFace = Face 8 16 1 1 65539
+              ValFace = Face 4 18 9 1 3
+              ValFace = Face 9 21 4 1 3
+              ValFace = Face 5 19 9 1 3
+              ValFace = Face 9 18 5 1 3
+              ValFace = Face 7 20 9 1 3
+              ValFace = Face 9 19 7 1 3
+              ValFace = Face 6 21 9 1 3
+              ValFace = Face 9 20 6 1 3
+              ValFace = Face 0 17 10 1 262147
+              ValFace = Face 10 23 0 1 262147
+              ValFace = Face 1 22 10 1 262147
+              ValFace = Face 10 17 1 1 262147
+              ValFace = Face 5 18 10 1 262147
+              ValFace = Face 10 22 5 1 262147
+              ValFace = Face 4 23 10 1 262147
+              ValFace = Face 10 18 4 1 262147
+              ValFace = Face 1 16 11 1 196611
+              ValFace = Face 11 22 1 1 196611
+              ValFace = Face 3 24 11 1 196611
+              ValFace = Face 11 16 3 1 196611
+              ValFace = Face 7 19 11 1 196611
+              ValFace = Face 11 24 7 1 196611
+              ValFace = Face 5 22 11 1 196611
+              ValFace = Face 11 19 5 1 196611
+              ValFace = Face 3 15 12 1 327683
+              ValFace = Face 12 24 3 1 327683
+              ValFace = Face 2 25 12 1 327683
+              ValFace = Face 12 15 2 1 327683
+              ValFace = Face 6 20 12 1 327683
+              ValFace = Face 12 25 6 1 327683
+              ValFace = Face 7 24 12 1 327683
+              ValFace = Face 12 20 7 1 327683
+              ValFace = Face 2 14 13 1 131075
+              ValFace = Face 13 25 2 1 131075
+              ValFace = Face 0 23 13 1 131075
+              ValFace = Face 13 14 0 1 131075
+              ValFace = Face 4 21 13 1 131075
+              ValFace = Face 13 23 4 1 131075
+              ValFace = Face 6 25 13 1 131075
+              ValFace = Face 13 21 6 1 131075
+            }
+          }
+        }
+      }
+      LimbBone {
+        BoneName = ""
+        Flags = 312
+        Controller {
+          SetupTM = matrix 0.390612 -0.920556 1.46572e-008 0.920556 0.390612 5.4139e-008 -5.55632e-008 -7.65458e-009 1 -1.3909e-007 -2.50329e-006 -1.90797e-006
+          Flags = 7340032
+        }
+        NumBoneSegs = 1
+        Width = 12
+        Length = 34.8
+        Height = 12
+        WeightOutTan = 0.333
+        WeightInTan = 0.333
+        WeightOutVal = 0
+        WeightInVal = 1
+        ParentNode = INode "SceneRootNode.Hub.Limb[5].LimbBone[0].BoneSeg[0]"
+        BoneSeg {
+          BoneName = ""
+          Flags = 0
+          ObjectParams {
+            Flags = 14
+            Width = 12
+            Height = 12
+            Length = 34.8
+            ObjectOffsetPos = point 0 0 0
+            ObjectOffsetRot = quat 0 0 0 1
+            ObjectOffsetScl = point 1 1 1
+            MeshParams {
+              NumVerticies = 26
+              Vert = point -0.555555 -0.555556 0.222222
+              Vert = point 0.555556 -0.555556 0.222222
+              Vert = point -0.555555 0.555555 0.222222
+              Vert = point 0.555556 0.555555 0.222222
+              Vert = point -0.555555 -0.555556 0.777778
+              Vert = point 0.555556 -0.555556 0.777778
+              Vert = point -0.555555 0.555555 0.777778
+              Vert = point 0.555556 0.555555 0.777778
+              Vert = point 5.36796e-007 -1.86489e-007 7.93722e-008
+              Vert = point 3.47393e-008 -3.55146e-007 1
+              Vert = point 2.88394e-007 -1 0.5
+              Vert = point 1 -2.86152e-007 0.5
+              Vert = point 2.83141e-007 1 0.5
+              Vert = point -1 -2.55483e-007 0.5
+              Vert = point -0.749999 -1.96071e-007 0.125
+              Vert = point 4.72069e-007 0.75 0.125
+              Vert = point 0.750001 -2.19072e-007 0.125
+              Vert = point 4.76009e-007 -0.75 0.125
+              Vert = point 9.94664e-008 -0.75 0.875
+              Vert = point 0.75 -3.45565e-007 0.875
+              Vert = point 9.55263e-008 0.75 0.875
+              Vert = point -0.75 -3.22563e-007 0.875
+              Vert = point 0.75 -0.75 0.5
+              Vert = point -0.75 -0.75 0.5
+              Vert = point 0.75 0.75 0.5
+              Vert = point -0.75 0.75 0.5
+              NumFaces = 48
+              ValFace = Face 0 14 8 1 65539
+              ValFace = Face 8 17 0 1 65539
+              ValFace = Face 2 15 8 1 65539
+              ValFace = Face 8 14 2 1 65539
+              ValFace = Face 3 16 8 1 65539
+              ValFace = Face 8 15 3 1 65539
+              ValFace = Face 1 17 8 1 65539
+              ValFace = Face 8 16 1 1 65539
+              ValFace = Face 4 18 9 1 3
+              ValFace = Face 9 21 4 1 3
+              ValFace = Face 5 19 9 1 3
+              ValFace = Face 9 18 5 1 3
+              ValFace = Face 7 20 9 1 3
+              ValFace = Face 9 19 7 1 3
+              ValFace = Face 6 21 9 1 3
+              ValFace = Face 9 20 6 1 3
+              ValFace = Face 0 17 10 1 262147
+              ValFace = Face 10 23 0 1 262147
+              ValFace = Face 1 22 10 1 262147
+              ValFace = Face 10 17 1 1 262147
+              ValFace = Face 5 18 10 1 262147
+              ValFace = Face 10 22 5 1 262147
+              ValFace = Face 4 23 10 1 262147
+              ValFace = Face 10 18 4 1 262147
+              ValFace = Face 1 16 11 1 196611
+              ValFace = Face 11 22 1 1 196611
+              ValFace = Face 3 24 11 1 196611
+              ValFace = Face 11 16 3 1 196611
+              ValFace = Face 7 19 11 1 196611
+              ValFace = Face 11 24 7 1 196611
+              ValFace = Face 5 22 11 1 196611
+              ValFace = Face 11 19 5 1 196611
+              ValFace = Face 3 15 12 1 327683
+              ValFace = Face 12 24 3 1 327683
+              ValFace = Face 2 25 12 1 327683
+              ValFace = Face 12 15 2 1 327683
+              ValFace = Face 6 20 12 1 327683
+              ValFace = Face 12 25 6 1 327683
+              ValFace = Face 7 24 12 1 327683
+              ValFace = Face 12 20 7 1 327683
+              ValFace = Face 2 14 13 1 131075
+              ValFace = Face 13 25 2 1 131075
+              ValFace = Face 0 23 13 1 131075
+              ValFace = Face 13 14 0 1 131075
+              ValFace = Face 4 21 13 1 131075
+              ValFace = Face 13 23 4 1 131075
+              ValFace = Face 6 25 13 1 131075
+              ValFace = Face 13 21 6 1 131075
+            }
+          }
+        }
+      }
+      LimbBone {
+        BoneName = ""
+        Flags = 312
+        Controller {
+          SetupTM = matrix 0.540302 -0.841471 -2.0094e-008 0.841471 0.540302 3.67819e-008 -2.0094e-008 -3.67819e-008 1 0 0 0
+          Flags = 7340032
+        }
+        NumBoneSegs = 1
+        Width = 5
+        Length = 29.2
+        Height = 5
+        WeightOutTan = 0.333
+        WeightInTan = 0.333
+        WeightOutVal = 0
+        WeightInVal = 1
+        ParentNode = INode "SceneRootNode.Hub.Limb[5].LimbBone[1].BoneSeg[0]"
+        BoneSeg {
+          BoneName = ""
+          Flags = 0
+          ObjectParams {
+            Flags = 14
+            Width = 5
+            Height = 5
+            Length = 29.2
+            ObjectOffsetPos = point 0 0 0
+            ObjectOffsetRot = quat 0 0 0 1
+            ObjectOffsetScl = point 1 1 1
+            MeshParams {
+              NumVerticies = 26
+              Vert = point -0.55556 -0.555552 0.222222
+              Vert = point 0.555551 -0.555552 0.222222
+              Vert = point -0.55556 0.555559 0.222222
+              Vert = point 0.555551 0.555559 0.222222
+              Vert = point -0.555561 -0.555552 0.777778
+              Vert = point 0.55555 -0.555552 0.777778
+              Vert = point -0.555561 0.555559 0.777778
+              Vert = point 0.55555 0.555559 0.777778
+              Vert = point -4.44845e-006 3.17641e-006 -5.87732e-009
+              Vert = point -5.53326e-006 3.2095e-006 1
+              Vert = point -4.973e-006 -0.999997 0.5
+              Vert = point 0.999995 3.18499e-006 0.5
+              Vert = point -5.0087e-006 1 0.5
+              Vert = point -1.00001 3.20092e-006 0.5
+              Vert = point -0.750005 3.18652e-006 0.125
+              Vert = point -4.59744e-006 0.750003 0.125
+              Vert = point 0.749995 3.17457e-006 0.125
+              Vert = point -4.57066e-006 -0.749997 0.125
+              Vert = point -5.38427e-006 -0.749997 0.875
+              Vert = point 0.749995 3.19939e-006 0.875
+              Vert = point -5.41104e-006 0.750003 0.875
+              Vert = point -0.750005 3.21134e-006 0.875
+              Vert = point 0.749995 -0.749997 0.5
+              Vert = point -0.750005 -0.749997 0.5
+              Vert = point 0.749995 0.750003 0.5
+              Vert = point -0.750005 0.750003 0.5
+              NumFaces = 48
+              ValFace = Face 0 14 8 1 65539
+              ValFace = Face 8 17 0 1 65539
+              ValFace = Face 2 15 8 1 65539
+              ValFace = Face 8 14 2 1 65539
+              ValFace = Face 3 16 8 1 65539
+              ValFace = Face 8 15 3 1 65539
+              ValFace = Face 1 17 8 1 65539
+              ValFace = Face 8 16 1 1 65539
+              ValFace = Face 4 18 9 1 3
+              ValFace = Face 9 21 4 1 3
+              ValFace = Face 5 19 9 1 3
+              ValFace = Face 9 18 5 1 3
+              ValFace = Face 7 20 9 1 3
+              ValFace = Face 9 19 7 1 3
+              ValFace = Face 6 21 9 1 3
+              ValFace = Face 9 20 6 1 3
+              ValFace = Face 0 17 10 1 262147
+              ValFace = Face 10 23 0 1 262147
+              ValFace = Face 1 22 10 1 262147
+              ValFace = Face 10 17 1 1 262147
+              ValFace = Face 5 18 10 1 262147
+              ValFace = Face 10 22 5 1 262147
+              ValFace = Face 4 23 10 1 262147
+              ValFace = Face 10 18 4 1 262147
+              ValFace = Face 1 16 11 1 196611
+              ValFace = Face 11 22 1 1 196611
+              ValFace = Face 3 24 11 1 196611
+              ValFace = Face 11 16 3 1 196611
+              ValFace = Face 7 19 11 1 196611
+              ValFace = Face 11 24 7 1 196611
+              ValFace = Face 5 22 11 1 196611
+              ValFace = Face 11 19 5 1 196611
+              ValFace = Face 3 15 12 1 327683
+              ValFace = Face 12 24 3 1 327683
+              ValFace = Face 2 25 12 1 327683
+              ValFace = Face 12 15 2 1 327683
+              ValFace = Face 6 20 12 1 327683
+              ValFace = Face 12 25 6 1 327683
+              ValFace = Face 7 24 12 1 327683
+              ValFace = Face 12 20 7 1 327683
+              ValFace = Face 2 14 13 1 131075
+              ValFace = Face 13 25 2 1 131075
+              ValFace = Face 0 23 13 1 131075
+              ValFace = Face 13 14 0 1 131075
+              ValFace = Face 4 21 13 1 131075
+              ValFace = Face 13 23 4 1 131075
+              ValFace = Face 6 25 13 1 131075
+              ValFace = Face 13 21 6 1 131075
+            }
+          }
+        }
+      }
+    }
+    Limb {
+      Flags = 4172
+      BoneName = "LLeg4"
+      IKFKValue = 0
+      BoneColour = 100
+      Platform {
+        Flags = 0
+        Controller {
+          SetupTM = matrix 1 0 0 0 1 0 0 0 1 -3.51984e-008 -86.9138 61.9709
+          Flags = 7537152
+        }
+        ObjectParams {
+          Width = 6
+          Length = 6
+        }
+      }
+      NumBones = 3
+      LimbBone {
+        BoneName = ""
+        Flags = 56
+        Controller {
+          SetupTM = matrix -0.597841 -0.551278 -0.581961 -0.780692 0.565194 0.2666 0.181949 0.613717 -0.768275 1.88836 -27.3673 -30.1299
+          Flags = 8257536
+        }
+        NumBoneSegs = 1
+        Width = 12
+        Length = 28.2537
+        Height = 12
+        WeightOutTan = 0.333
+        WeightInTan = 0.333
+        WeightOutVal = 0
+        WeightInVal = 1
+        ParentNode = INode "SceneRootNode.Hub"
+        BoneSeg {
+          BoneName = ""
+          Flags = 0
+          ObjectParams {
+            Flags = 14
+            Width = 12
+            Height = 12
+            Length = 28.2537
+            ObjectOffsetPos = point 0 0 0
+            ObjectOffsetRot = quat 0 0 0 1
+            ObjectOffsetScl = point 1 1 1
+            MeshParams {
+              NumVerticies = 26
+              Vert = point -0.555556 -0.555555 0.222222
+              Vert = point 0.555555 -0.555555 0.222222
+              Vert = point -0.555556 0.555556 0.222222
+              Vert = point 0.555555 0.555556 0.222222
+              Vert = point -0.555556 -0.555555 0.777778
+              Vert = point 0.555555 -0.555555 0.777778
+              Vert = point -0.555556 0.555556 0.777778
+              Vert = point 0.555555 0.555556 0.777778
+              Vert = point -1.88382e-007 5.54381e-007 1.1809e-007
+              Vert = point -6.60679e-007 7.05642e-007 1
+              Vert = point -4.61484e-007 -0.999999 0.5
+              Vert = point 1 6.2428e-007 0.5
+              Vert = point -3.87577e-007 1 0.5
+              Vert = point -1 6.35743e-007 0.5
+              Vert = point -0.75 5.77588e-007 0.125
+              Vert = point -2.19704e-007 0.750001 0.125
+              Vert = point 0.75 5.6899e-007 0.125
+              Vert = point -2.75134e-007 -0.749999 0.125
+              Vert = point -6.29357e-007 -0.749999 0.875
+              Vert = point 0.749999 6.82436e-007 0.875
+              Vert = point -5.73926e-007 0.750001 0.875
+              Vert = point -0.750001 6.91033e-007 0.875
+              Vert = point 0.75 -0.749999 0.5
+              Vert = point -0.75 -0.749999 0.5
+              Vert = point 0.75 0.750001 0.5
+              Vert = point -0.75 0.750001 0.5
+              NumFaces = 48
+              ValFace = Face 0 14 8 1 65539
+              ValFace = Face 8 17 0 1 65539
+              ValFace = Face 2 15 8 1 65539
+              ValFace = Face 8 14 2 1 65539
+              ValFace = Face 3 16 8 1 65539
+              ValFace = Face 8 15 3 1 65539
+              ValFace = Face 1 17 8 1 65539
+              ValFace = Face 8 16 1 1 65539
+              ValFace = Face 4 18 9 1 3
+              ValFace = Face 9 21 4 1 3
+              ValFace = Face 5 19 9 1 3
+              ValFace = Face 9 18 5 1 3
+              ValFace = Face 7 20 9 1 3
+              ValFace = Face 9 19 7 1 3
+              ValFace = Face 6 21 9 1 3
+              ValFace = Face 9 20 6 1 3
+              ValFace = Face 0 17 10 1 262147
+              ValFace = Face 10 23 0 1 262147
+              ValFace = Face 1 22 10 1 262147
+              ValFace = Face 10 17 1 1 262147
+              ValFace = Face 5 18 10 1 262147
+              ValFace = Face 10 22 5 1 262147
+              ValFace = Face 4 23 10 1 262147
+              ValFace = Face 10 18 4 1 262147
+              ValFace = Face 1 16 11 1 196611
+              ValFace = Face 11 22 1 1 196611
+              ValFace = Face 3 24 11 1 196611
+              ValFace = Face 11 16 3 1 196611
+              ValFace = Face 7 19 11 1 196611
+              ValFace = Face 11 24 7 1 196611
+              ValFace = Face 5 22 11 1 196611
+              ValFace = Face 11 19 5 1 196611
+              ValFace = Face 3 15 12 1 327683
+              ValFace = Face 12 24 3 1 327683
+              ValFace = Face 2 25 12 1 327683
+              ValFace = Face 12 15 2 1 327683
+              ValFace = Face 6 20 12 1 327683
+              ValFace = Face 12 25 6 1 327683
+              ValFace = Face 7 24 12 1 327683
+              ValFace = Face 12 20 7 1 327683
+              ValFace = Face 2 14 13 1 131075
+              ValFace = Face 13 25 2 1 131075
+              ValFace = Face 0 23 13 1 131075
+              ValFace = Face 13 14 0 1 131075
+              ValFace = Face 4 21 13 1 131075
+              ValFace = Face 13 23 4 1 131075
+              ValFace = Face 6 25 13 1 131075
+              ValFace = Face 13 21 6 1 131075
+            }
+          }
+        }
+      }
+      LimbBone {
+        BoneName = ""
+        Flags = 312
+        Controller {
+          SetupTM = matrix 0.589127 -0.797225 -0.131764 0.783426 0.603477 -0.148521 0.197921 -0.0157292 0.980092 6.21714e-006 1.18392e-005 -1.10761e-005
+          Flags = 7340032
+        }
+        NumBoneSegs = 1
+        Width = 12
+        Length = 31.3446
+        Height = 12
+        WeightOutTan = 0.333
+        WeightInTan = 0.333
+        WeightOutVal = 0
+        WeightInVal = 1
+        ParentNode = INode "SceneRootNode.Hub.Limb[6].LimbBone[0].BoneSeg[0]"
+        BoneSeg {
+          BoneName = ""
+          Flags = 0
+          ObjectParams {
+            Flags = 14
+            Width = 12
+            Height = 12
+            Length = 31.3446
+            ObjectOffsetPos = point 0 0 0
+            ObjectOffsetRot = quat 0 0 0 1
+            ObjectOffsetScl = point 1 1 1
+            MeshParams {
+              NumVerticies = 26
+              Vert = point -0.555556 -0.555555 0.222222
+              Vert = point 0.555555 -0.555555 0.222222
+              Vert = point -0.555556 0.555556 0.222222
+              Vert = point 0.555555 0.555556 0.222222
+              Vert = point -0.555556 -0.555555 0.777778
+              Vert = point 0.555555 -0.555555 0.777778
+              Vert = point -0.555556 0.555556 0.777778
+              Vert = point 0.555555 0.555556 0.777778
+              Vert = point 1.07308e-009 1.89043e-007 -1.8611e-007
+              Vert = point -4.68937e-007 3.29117e-007 1
+              Vert = point -2.31748e-007 -1 0.5
+              Vert = point 1 2.503e-007 0.5
+              Vert = point -2.36117e-007 1 0.5
+              Vert = point -1 2.67861e-007 0.5
+              Vert = point -0.75 2.13138e-007 0.125
+              Vert = point -5.93166e-008 0.75 0.125
+              Vert = point 0.75 1.99967e-007 0.125
+              Vert = point -5.60398e-008 -0.75 0.125
+              Vert = point -4.08548e-007 -0.75 0.875
+              Vert = point 0.749999 3.05023e-007 0.875
+              Vert = point -4.11824e-007 0.75 0.875
+              Vert = point -0.75 3.18193e-007 0.875
+              Vert = point 0.75 -0.75 0.5
+              Vert = point -0.75 -0.75 0.5
+              Vert = point 0.75 0.75 0.5
+              Vert = point -0.75 0.75 0.5
+              NumFaces = 48
+              ValFace = Face 0 14 8 1 65539
+              ValFace = Face 8 17 0 1 65539
+              ValFace = Face 2 15 8 1 65539
+              ValFace = Face 8 14 2 1 65539
+              ValFace = Face 3 16 8 1 65539
+              ValFace = Face 8 15 3 1 65539
+              ValFace = Face 1 17 8 1 65539
+              ValFace = Face 8 16 1 1 65539
+              ValFace = Face 4 18 9 1 3
+              ValFace = Face 9 21 4 1 3
+              ValFace = Face 5 19 9 1 3
+              ValFace = Face 9 18 5 1 3
+              ValFace = Face 7 20 9 1 3
+              ValFace = Face 9 19 7 1 3
+              ValFace = Face 6 21 9 1 3
+              ValFace = Face 9 20 6 1 3
+              ValFace = Face 0 17 10 1 262147
+              ValFace = Face 10 23 0 1 262147
+              ValFace = Face 1 22 10 1 262147
+              ValFace = Face 10 17 1 1 262147
+              ValFace = Face 5 18 10 1 262147
+              ValFace = Face 10 22 5 1 262147
+              ValFace = Face 4 23 10 1 262147
+              ValFace = Face 10 18 4 1 262147
+              ValFace = Face 1 16 11 1 196611
+              ValFace = Face 11 22 1 1 196611
+              ValFace = Face 3 24 11 1 196611
+              ValFace = Face 11 16 3 1 196611
+              ValFace = Face 7 19 11 1 196611
+              ValFace = Face 11 24 7 1 196611
+              ValFace = Face 5 22 11 1 196611
+              ValFace = Face 11 19 5 1 196611
+              ValFace = Face 3 15 12 1 327683
+              ValFace = Face 12 24 3 1 327683
+              ValFace = Face 2 25 12 1 327683
+              ValFace = Face 12 15 2 1 327683
+              ValFace = Face 6 20 12 1 327683
+              ValFace = Face 12 25 6 1 327683
+              ValFace = Face 7 24 12 1 327683
+              ValFace = Face 12 20 7 1 327683
+              ValFace = Face 2 14 13 1 131075
+              ValFace = Face 13 25 2 1 131075
+              ValFace = Face 0 23 13 1 131075
+              ValFace = Face 13 14 0 1 131075
+              ValFace = Face 4 21 13 1 131075
+              ValFace = Face 13 23 4 1 131075
+              ValFace = Face 6 25 13 1 131075
+              ValFace = Face 13 21 6 1 131075
+            }
+          }
+        }
+      }
+      LimbBone {
+        BoneName = ""
+        Flags = 312
+        Controller {
+          SetupTM = matrix 0.714619 -0.674019 -0.187129 0.687502 0.726112 0.0100943 0.129073 -0.135866 0.982283 1.23901e-005 -8.07814e-007 -1.15045e-005
+          Flags = 7340032
+        }
+        NumBoneSegs = 1
+        Width = 5
+        Length = 29.5541
+        Height = 5
+        WeightOutTan = 0.333
+        WeightInTan = 0.333
+        WeightOutVal = 0
+        WeightInVal = 1
+        ParentNode = INode "SceneRootNode.Hub.Limb[6].LimbBone[1].BoneSeg[0]"
+        BoneSeg {
+          BoneName = ""
+          Flags = 0
+          ObjectParams {
+            Flags = 14
+            Width = 5
+            Height = 5
+            Length = 29.5541
+            ObjectOffsetPos = point 0 0 0
+            ObjectOffsetRot = quat 0 0 0 1
+            ObjectOffsetScl = point 1 1 1
+            MeshParams {
+              NumVerticies = 26
+              Vert = point -0.555557 -0.555556 0.222222
+              Vert = point 0.555554 -0.555556 0.222222
+              Vert = point -0.555557 0.555555 0.222222
+              Vert = point 0.555554 0.555555 0.222222
+              Vert = point -0.555557 -0.555556 0.777778
+              Vert = point 0.555554 -0.555556 0.777778
+              Vert = point -0.555557 0.555555 0.777778
+              Vert = point 0.555554 0.555555 0.777778
+              Vert = point -1.00039e-006 6.3525e-008 -1.92991e-008
+              Vert = point -2.00837e-006 -6.41525e-007 1
+              Vert = point -1.47027e-006 -1 0.5
+              Vert = point 0.999999 -3.36798e-007 0.5
+              Vert = point -1.5385e-006 1 0.5
+              Vert = point -1 -2.41202e-007 0.5
+              Vert = point -0.750001 1.12424e-008 0.125
+              Vert = point -1.15198e-006 0.75 0.125
+              Vert = point 0.749999 -6.04549e-008 0.125
+              Vert = point -1.1008e-006 -0.75 0.125
+              Vert = point -1.85679e-006 -0.75 0.875
+              Vert = point 0.749998 -5.89243e-007 0.875
+              Vert = point -1.90796e-006 0.749999 0.875
+              Vert = point -0.750002 -5.17545e-007 0.875
+              Vert = point 0.749999 -0.75 0.5
+              Vert = point -0.750001 -0.75 0.5
+              Vert = point 0.749998 0.75 0.5
+              Vert = point -0.750002 0.75 0.5
+              NumFaces = 48
+              ValFace = Face 0 14 8 1 65539
+              ValFace = Face 8 17 0 1 65539
+              ValFace = Face 2 15 8 1 65539
+              ValFace = Face 8 14 2 1 65539
+              ValFace = Face 3 16 8 1 65539
+              ValFace = Face 8 15 3 1 65539
+              ValFace = Face 1 17 8 1 65539
+              ValFace = Face 8 16 1 1 65539
+              ValFace = Face 4 18 9 1 3
+              ValFace = Face 9 21 4 1 3
+              ValFace = Face 5 19 9 1 3
+              ValFace = Face 9 18 5 1 3
+              ValFace = Face 7 20 9 1 3
+              ValFace = Face 9 19 7 1 3
+              ValFace = Face 6 21 9 1 3
+              ValFace = Face 9 20 6 1 3
+              ValFace = Face 0 17 10 1 262147
+              ValFace = Face 10 23 0 1 262147
+              ValFace = Face 1 22 10 1 262147
+              ValFace = Face 10 17 1 1 262147
+              ValFace = Face 5 18 10 1 262147
+              ValFace = Face 10 22 5 1 262147
+              ValFace = Face 4 23 10 1 262147
+              ValFace = Face 10 18 4 1 262147
+              ValFace = Face 1 16 11 1 196611
+              ValFace = Face 11 22 1 1 196611
+              ValFace = Face 3 24 11 1 196611
+              ValFace = Face 11 16 3 1 196611
+              ValFace = Face 7 19 11 1 196611
+              ValFace = Face 11 24 7 1 196611
+              ValFace = Face 5 22 11 1 196611
+              ValFace = Face 11 19 5 1 196611
+              ValFace = Face 3 15 12 1 327683
+              ValFace = Face 12 24 3 1 327683
+              ValFace = Face 2 25 12 1 327683
+              ValFace = Face 12 15 2 1 327683
+              ValFace = Face 6 20 12 1 327683
+              ValFace = Face 12 25 6 1 327683
+              ValFace = Face 7 24 12 1 327683
+              ValFace = Face 12 20 7 1 327683
+              ValFace = Face 2 14 13 1 131075
+              ValFace = Face 13 25 2 1 131075
+              ValFace = Face 0 23 13 1 131075
+              ValFace = Face 13 14 0 1 131075
+              ValFace = Face 4 21 13 1 131075
+              ValFace = Face 13 23 4 1 131075
+              ValFace = Face 6 25 13 1 131075
+              ValFace = Face 13 21 6 1 131075
+            }
+          }
+        }
+      }
+    }
+    Limb {
+      Flags = 4196
+      BoneName = "RLeg"
+      IKFKValue = 0
+      BoneColour = 100
+      Platform {
+        Flags = 0
+        Controller {
+          SetupTM = matrix 1 0 0 0 1 0 0 0 1 -3.51984e-008 -86.9138 -61.9709
+          Flags = 7537152
+        }
+        ObjectParams {
+          Width = 6
+          Length = 6
+        }
+      }
+      NumBones = 3
+      LimbBone {
+        BoneName = ""
+        Flags = 56
+        Controller {
+          SetupTM = matrix -0.597841 -0.551278 0.581961 -0.780692 0.565194 -0.2666 -0.181949 -0.613717 -0.768275 1.88836 -27.3673 30.1299
+          Flags = 8257536
+        }
+        NumBoneSegs = 1
+        Width = 12
+        Length = 28.2537
+        Height = 12
+        WeightOutTan = 0.333
+        WeightInTan = 0.333
+        WeightOutVal = 0
+        WeightInVal = 1
+        ParentNode = INode "SceneRootNode.Hub"
+        BoneSeg {
+          BoneName = ""
+          Flags = 0
+          ObjectParams {
+            Flags = 14
+            Width = 12
+            Height = 12
+            Length = 28.2537
+            ObjectOffsetPos = point 0 0 0
+            ObjectOffsetRot = quat 0 0 0 1
+            ObjectOffsetScl = point 1 1 1
+            MeshParams {
+              NumVerticies = 26
+              Vert = point -0.555555 -0.555556 0.222222
+              Vert = point 0.555557 -0.555556 0.222222
+              Vert = point -0.555555 0.555555 0.222222
+              Vert = point 0.555557 0.555556 0.222222
+              Vert = point -0.555555 -0.555556 0.777778
+              Vert = point 0.555556 -0.555556 0.777778
+              Vert = point -0.555555 0.555555 0.777778
+              Vert = point 0.555556 0.555555 0.777778
+              Vert = point 9.5901e-007 -4.34925e-008 -1.86885e-008
+              Vert = point 6.80343e-007 -3.56856e-007 1
+              Vert = point 8.20334e-007 -1 0.5
+              Vert = point 1 -1.4038e-007 0.5
+              Vert = point 8.19018e-007 1 0.5
+              Vert = point -0.999999 -2.59968e-007 0.5
+              Vert = point -0.749999 -1.27508e-007 0.125
+              Vert = point 9.23683e-007 0.75 0.125
+              Vert = point 0.750001 -3.78175e-008 0.125
+              Vert = point 9.2467e-007 -0.75 0.125
+              Vert = point 7.1567e-007 -0.75 0.875
+              Vert = point 0.750001 -2.7284e-007 0.875
+              Vert = point 7.14683e-007 0.75 0.875
+              Vert = point -0.749999 -3.62531e-007 0.875
+              Vert = point 0.750001 -0.75 0.5
+              Vert = point -0.749999 -0.75 0.5
+              Vert = point 0.750001 0.75 0.5
+              Vert = point -0.749999 0.75 0.5
+              NumFaces = 48
+              ValFace = Face 0 14 8 1 65539
+              ValFace = Face 8 17 0 1 65539
+              ValFace = Face 2 15 8 1 65539
+              ValFace = Face 8 14 2 1 65539
+              ValFace = Face 3 16 8 1 65539
+              ValFace = Face 8 15 3 1 65539
+              ValFace = Face 1 17 8 1 65539
+              ValFace = Face 8 16 1 1 65539
+              ValFace = Face 4 18 9 1 3
+              ValFace = Face 9 21 4 1 3
+              ValFace = Face 5 19 9 1 3
+              ValFace = Face 9 18 5 1 3
+              ValFace = Face 7 20 9 1 3
+              ValFace = Face 9 19 7 1 3
+              ValFace = Face 6 21 9 1 3
+              ValFace = Face 9 20 6 1 3
+              ValFace = Face 0 17 10 1 262147
+              ValFace = Face 10 23 0 1 262147
+              ValFace = Face 1 22 10 1 262147
+              ValFace = Face 10 17 1 1 262147
+              ValFace = Face 5 18 10 1 262147
+              ValFace = Face 10 22 5 1 262147
+              ValFace = Face 4 23 10 1 262147
+              ValFace = Face 10 18 4 1 262147
+              ValFace = Face 1 16 11 1 196611
+              ValFace = Face 11 22 1 1 196611
+              ValFace = Face 3 24 11 1 196611
+              ValFace = Face 11 16 3 1 196611
+              ValFace = Face 7 19 11 1 196611
+              ValFace = Face 11 24 7 1 196611
+              ValFace = Face 5 22 11 1 196611
+              ValFace = Face 11 19 5 1 196611
+              ValFace = Face 3 15 12 1 327683
+              ValFace = Face 12 24 3 1 327683
+              ValFace = Face 2 25 12 1 327683
+              ValFace = Face 12 15 2 1 327683
+              ValFace = Face 6 20 12 1 327683
+              ValFace = Face 12 25 6 1 327683
+              ValFace = Face 7 24 12 1 327683
+              ValFace = Face 12 20 7 1 327683
+              ValFace = Face 2 14 13 1 131075
+              ValFace = Face 13 25 2 1 131075
+              ValFace = Face 0 23 13 1 131075
+              ValFace = Face 13 14 0 1 131075
+              ValFace = Face 4 21 13 1 131075
+              ValFace = Face 13 23 4 1 131075
+              ValFace = Face 6 25 13 1 131075
+              ValFace = Face 13 21 6 1 131075
+            }
+          }
+        }
+      }
+      LimbBone {
+        BoneName = ""
+        Flags = 312
+        Controller {
+          SetupTM = matrix 0.589127 -0.797225 0.131764 0.783426 0.603477 0.148521 -0.197921 0.0157292 0.980092 6.21714e-006 1.18392e-005 1.10761e-005
+          Flags = 7340032
+        }
+        NumBoneSegs = 1
+        Width = 12
+        Length = 31.3446
+        Height = 12
+        WeightOutTan = 0.333
+        WeightInTan = 0.333
+        WeightOutVal = 0
+        WeightInVal = 1
+        ParentNode = INode "SceneRootNode.Hub.Limb[7].LimbBone[0].BoneSeg[0]"
+        BoneSeg {
+          BoneName = ""
+          Flags = 0
+          ObjectParams {
+            Flags = 14
+            Width = 12
+            Height = 12
+            Length = 31.3446
+            ObjectOffsetPos = point 0 0 0
+            ObjectOffsetRot = quat 0 0 0 1
+            ObjectOffsetScl = point 1 1 1
+            MeshParams {
+              NumVerticies = 26
+              Vert = point -0.555554 -0.555555 0.222222
+              Vert = point 0.555557 -0.555555 0.222222
+              Vert = point -0.555554 0.555556 0.222222
+              Vert = point 0.555557 0.555556 0.222222
+              Vert = point -0.555554 -0.555556 0.777778
+              Vert = point 0.555557 -0.555556 0.777778
+              Vert = point -0.555554 0.555556 0.777778
+              Vert = point 0.555557 0.555556 0.777778
+              Vert = point 1.95523e-006 1.8086e-007 1.88234e-008
+              Vert = point 1.45428e-006 6.13404e-008 1
+              Vert = point 1.70477e-006 -1 0.5
+              Vert = point 1 1.12882e-007 0.5
+              Vert = point 1.70474e-006 1 0.5
+              Vert = point -0.999998 1.29318e-007 0.5
+              Vert = point -0.749998 1.72083e-007 0.125
+              Vert = point 1.8926e-006 0.75 0.125
+              Vert = point 0.750002 1.59756e-007 0.125
+              Vert = point 1.89262e-006 -0.75 0.125
+              Vert = point 1.51691e-006 -0.75 0.875
+              Vert = point 0.750001 7.01169e-008 0.875
+              Vert = point 1.51689e-006 0.75 0.875
+              Vert = point -0.749999 8.24439e-008 0.875
+              Vert = point 0.750002 -0.75 0.5
+              Vert = point -0.749998 -0.75 0.5
+              Vert = point 0.750002 0.75 0.5
+              Vert = point -0.749998 0.75 0.5
+              NumFaces = 48
+              ValFace = Face 0 14 8 1 65539
+              ValFace = Face 8 17 0 1 65539
+              ValFace = Face 2 15 8 1 65539
+              ValFace = Face 8 14 2 1 65539
+              ValFace = Face 3 16 8 1 65539
+              ValFace = Face 8 15 3 1 65539
+              ValFace = Face 1 17 8 1 65539
+              ValFace = Face 8 16 1 1 65539
+              ValFace = Face 4 18 9 1 3
+              ValFace = Face 9 21 4 1 3
+              ValFace = Face 5 19 9 1 3
+              ValFace = Face 9 18 5 1 3
+              ValFace = Face 7 20 9 1 3
+              ValFace = Face 9 19 7 1 3
+              ValFace = Face 6 21 9 1 3
+              ValFace = Face 9 20 6 1 3
+              ValFace = Face 0 17 10 1 262147
+              ValFace = Face 10 23 0 1 262147
+              ValFace = Face 1 22 10 1 262147
+              ValFace = Face 10 17 1 1 262147
+              ValFace = Face 5 18 10 1 262147
+              ValFace = Face 10 22 5 1 262147
+              ValFace = Face 4 23 10 1 262147
+              ValFace = Face 10 18 4 1 262147
+              ValFace = Face 1 16 11 1 196611
+              ValFace = Face 11 22 1 1 196611
+              ValFace = Face 3 24 11 1 196611
+              ValFace = Face 11 16 3 1 196611
+              ValFace = Face 7 19 11 1 196611
+              ValFace = Face 11 24 7 1 196611
+              ValFace = Face 5 22 11 1 196611
+              ValFace = Face 11 19 5 1 196611
+              ValFace = Face 3 15 12 1 327683
+              ValFace = Face 12 24 3 1 327683
+              ValFace = Face 2 25 12 1 327683
+              ValFace = Face 12 15 2 1 327683
+              ValFace = Face 6 20 12 1 327683
+              ValFace = Face 12 25 6 1 327683
+              ValFace = Face 7 24 12 1 327683
+              ValFace = Face 12 20 7 1 327683
+              ValFace = Face 2 14 13 1 131075
+              ValFace = Face 13 25 2 1 131075
+              ValFace = Face 0 23 13 1 131075
+              ValFace = Face 13 14 0 1 131075
+              ValFace = Face 4 21 13 1 131075
+              ValFace = Face 13 23 4 1 131075
+              ValFace = Face 6 25 13 1 131075
+              ValFace = Face 13 21 6 1 131075
+            }
+          }
+        }
+      }
+      LimbBone {
+        BoneName = ""
+        Flags = 312
+        Controller {
+          SetupTM = matrix 0.714619 -0.674019 0.187129 0.687502 0.726112 -0.0100943 -0.129073 0.135866 0.982283 1.23901e-005 -8.07814e-007 1.15045e-005
+          Flags = 7340032
+        }
+        NumBoneSegs = 1
+        Width = 5
+        Length = 29.5541
+        Height = 5
+        WeightOutTan = 0.333
+        WeightInTan = 0.333
+        WeightOutVal = 0
+        WeightInVal = 1
+        ParentNode = INode "SceneRootNode.Hub.Limb[7].LimbBone[1].BoneSeg[0]"
+        BoneSeg {
+          BoneName = ""
+          Flags = 0
+          ObjectParams {
+            Flags = 14
+            Width = 5
+            Height = 5
+            Length = 29.5541
+            ObjectOffsetPos = point 0 0 0
+            ObjectOffsetRot = quat 0 0 0 1
+            ObjectOffsetScl = point 1 1 1
+            MeshParams {
+              NumVerticies = 26
+              Vert = point -0.555553 -0.555554 0.222222
+              Vert = point 0.555559 -0.555554 0.222222
+              Vert = point -0.555553 0.555557 0.222222
+              Vert = point 0.555559 0.555557 0.222222
+              Vert = point -0.555553 -0.555554 0.777778
+              Vert = point 0.555558 -0.555554 0.777778
+              Vert = point -0.555553 0.555557 0.777778
+              Vert = point 0.555558 0.555557 0.777778
+              Vert = point 3.106e-006 1.81627e-006 -1.73559e-008
+              Vert = point 2.25631e-006 1.56259e-006 1
+              Vert = point 2.66455e-006 -0.999998 0.5
+              Vert = point 1 1.67744e-006 0.5
+              Vert = point 2.69776e-006 1 0.5
+              Vert = point -0.999997 1.70143e-006 0.5
+              Vert = point -0.749997 1.79355e-006 0.125
+              Vert = point 3.01225e-006 0.750002 0.125
+              Vert = point 0.750003 1.77556e-006 0.125
+              Vert = point 2.98734e-006 -0.749998 0.125
+              Vert = point 2.35007e-006 -0.749998 0.875
+              Vert = point 0.750002 1.58531e-006 0.875
+              Vert = point 2.37497e-006 0.750002 0.875
+              Vert = point -0.749998 1.6033e-006 0.875
+              Vert = point 0.750003 -0.749998 0.5
+              Vert = point -0.749997 -0.749998 0.5
+              Vert = point 0.750003 0.750002 0.5
+              Vert = point -0.749997 0.750002 0.5
+              NumFaces = 48
+              ValFace = Face 0 14 8 1 65539
+              ValFace = Face 8 17 0 1 65539
+              ValFace = Face 2 15 8 1 65539
+              ValFace = Face 8 14 2 1 65539
+              ValFace = Face 3 16 8 1 65539
+              ValFace = Face 8 15 3 1 65539
+              ValFace = Face 1 17 8 1 65539
+              ValFace = Face 8 16 1 1 65539
+              ValFace = Face 4 18 9 1 3
+              ValFace = Face 9 21 4 1 3
+              ValFace = Face 5 19 9 1 3
+              ValFace = Face 9 18 5 1 3
+              ValFace = Face 7 20 9 1 3
+              ValFace = Face 9 19 7 1 3
+              ValFace = Face 6 21 9 1 3
+              ValFace = Face 9 20 6 1 3
+              ValFace = Face 0 17 10 1 262147
+              ValFace = Face 10 23 0 1 262147
+              ValFace = Face 1 22 10 1 262147
+              ValFace = Face 10 17 1 1 262147
+              ValFace = Face 5 18 10 1 262147
+              ValFace = Face 10 22 5 1 262147
+              ValFace = Face 4 23 10 1 262147
+              ValFace = Face 10 18 4 1 262147
+              ValFace = Face 1 16 11 1 196611
+              ValFace = Face 11 22 1 1 196611
+              ValFace = Face 3 24 11 1 196611
+              ValFace = Face 11 16 3 1 196611
+              ValFace = Face 7 19 11 1 196611
+              ValFace = Face 11 24 7 1 196611
+              ValFace = Face 5 22 11 1 196611
+              ValFace = Face 11 19 5 1 196611
+              ValFace = Face 3 15 12 1 327683
+              ValFace = Face 12 24 3 1 327683
+              ValFace = Face 2 25 12 1 327683
+              ValFace = Face 12 15 2 1 327683
+              ValFace = Face 6 20 12 1 327683
+              ValFace = Face 12 25 6 1 327683
+              ValFace = Face 7 24 12 1 327683
+              ValFace = Face 12 20 7 1 327683
+              ValFace = Face 2 14 13 1 131075
+              ValFace = Face 13 25 2 1 131075
+              ValFace = Face 0 23 13 1 131075
+              ValFace = Face 13 14 0 1 131075
+              ValFace = Face 4 21 13 1 131075
+              ValFace = Face 13 23 4 1 131075
+              ValFace = Face 6 25 13 1 131075
+              ValFace = Face 13 21 6 1 131075
+            }
+          }
+        }
+      }
+    }
+    Limb {
+      Flags = 1034
+      BoneName = "LArm"
+      IKFKValue = 1
+      BoneColour = 200
+      NumBones = 2
+      LimbBone {
+        BoneName = ""
+        Flags = 56
+        Controller {
+          SetupTM = matrix -0.0725409 0.484041 -0.872033 -0.992138 0.0543775 0.112715 0.101978 0.873354 0.476291 0.102831 34.5676 -20.5138
+          Flags = 8257536
+        }
+        NumBoneSegs = 1
+        Width = 10
+        Length = 26.3205
+        Height = 10
+        WeightOutTan = 0.333
+        WeightInTan = 0.333
+        WeightOutVal = 0
+        WeightInVal = 1
+        ParentNode = INode "SceneRootNode.Hub"
+        BoneSeg {
+          BoneName = ""
+          Flags = 0
+          ObjectParams {
+            Flags = 14
+            Width = 10
+            Height = 10
+            Length = 26.3205
+            ObjectOffsetPos = point 0 0 0
+            ObjectOffsetRot = quat 0 0 0 1
+            ObjectOffsetScl = point 1 1 1
+            MeshParams {
+              NumVerticies = 26
+              Vert = point -0.555559 -0.555555 0.222222
+              Vert = point 0.555552 -0.555555 0.222222
+              Vert = point -0.555559 0.555556 0.222222
+              Vert = point 0.555552 0.555556 0.222222
+              Vert = point -0.55556 -0.555555 0.777778
+              Vert = point 0.555552 -0.555555 0.777778
+              Vert = point -0.55556 0.555556 0.777778
+              Vert = point 0.555552 0.555556 0.777778
+              Vert = point -3.41171e-006 1.07245e-007 -1.12653e-008
+              Vert = point -4.11183e-006 7.43914e-008 1
+              Vert = point -3.75012e-006 -1 0.5
+              Vert = point 0.999996 7.91705e-008 0.5
+              Vert = point -3.77342e-006 1 0.5
+              Vert = point -1 1.02466e-007 0.5
+              Vert = point -0.750004 1.11875e-007 0.125
+              Vert = point -3.50796e-006 0.75 0.125
+              Vert = point 0.749996 9.44027e-008 0.125
+              Vert = point -3.49049e-006 -0.75 0.125
+              Vert = point -4.01558e-006 -0.75 0.875
+              Vert = point 0.749996 6.97623e-008 0.875
+              Vert = point -4.03305e-006 0.75 0.875
+              Vert = point -0.750004 8.72341e-008 0.875
+              Vert = point 0.749996 -0.75 0.5
+              Vert = point -0.750004 -0.75 0.5
+              Vert = point 0.749996 0.75 0.5
+              Vert = point -0.750004 0.75 0.5
+              NumFaces = 48
+              ValFace = Face 0 14 8 1 65603
+              ValFace = Face 8 17 0 1 65603
+              ValFace = Face 2 15 8 1 65603
+              ValFace = Face 8 14 2 1 65603
+              ValFace = Face 3 16 8 1 65603
+              ValFace = Face 8 15 3 1 65603
+              ValFace = Face 1 17 8 1 65603
+              ValFace = Face 8 16 1 1 65603
+              ValFace = Face 4 18 9 1 67
+              ValFace = Face 9 21 4 1 67
+              ValFace = Face 5 19 9 1 67
+              ValFace = Face 9 18 5 1 67
+              ValFace = Face 7 20 9 1 67
+              ValFace = Face 9 19 7 1 67
+              ValFace = Face 6 21 9 1 67
+              ValFace = Face 9 20 6 1 67
+              ValFace = Face 0 17 10 1 262211
+              ValFace = Face 10 23 0 1 262211
+              ValFace = Face 1 22 10 1 262211
+              ValFace = Face 10 17 1 1 262211
+              ValFace = Face 5 18 10 1 262211
+              ValFace = Face 10 22 5 1 262211
+              ValFace = Face 4 23 10 1 262211
+              ValFace = Face 10 18 4 1 262211
+              ValFace = Face 1 16 11 1 196675
+              ValFace = Face 11 22 1 1 196675
+              ValFace = Face 3 24 11 1 196675
+              ValFace = Face 11 16 3 1 196675
+              ValFace = Face 7 19 11 1 196675
+              ValFace = Face 11 24 7 1 196675
+              ValFace = Face 5 22 11 1 196675
+              ValFace = Face 11 19 5 1 196675
+              ValFace = Face 3 15 12 1 327747
+              ValFace = Face 12 24 3 1 327747
+              ValFace = Face 2 25 12 1 327747
+              ValFace = Face 12 15 2 1 327747
+              ValFace = Face 6 20 12 1 327747
+              ValFace = Face 12 25 6 1 327747
+              ValFace = Face 7 24 12 1 327747
+              ValFace = Face 12 20 7 1 327747
+              ValFace = Face 2 14 13 1 131139
+              ValFace = Face 13 25 2 1 131139
+              ValFace = Face 0 23 13 1 131139
+              ValFace = Face 13 14 0 1 131139
+              ValFace = Face 4 21 13 1 131139
+              ValFace = Face 13 23 4 1 131139
+              ValFace = Face 6 25 13 1 131139
+              ValFace = Face 13 21 6 1 131139
+            }
+          }
+        }
+      }
+      LimbBone {
+        BoneName = ""
+        Flags = 312
+        Controller {
+          SetupTM = matrix -0.292983 -0.141937 0.945524 0.655167 0.690447 0.306658 -0.69636 0.709322 -0.109296 0 0 0
+          Flags = 7340032
+        }
+        NumBoneSegs = 1
+        Width = 10
+        Length = 16.8787
+        Height = 10
+        WeightOutTan = 0.333
+        WeightInTan = 0.333
+        WeightOutVal = 0
+        WeightInVal = 1
+        ParentNode = INode "SceneRootNode.Hub.Limb[8].LimbBone[0].BoneSeg[0]"
+        BoneSeg {
+          BoneName = ""
+          Flags = 0
+          ObjectParams {
+            Flags = 14
+            Width = 10
+            Height = 10
+            Length = 16.8787
+            ObjectOffsetPos = point 0 0 0
+            ObjectOffsetRot = quat 0 0 0 1
+            ObjectOffsetScl = point 1 1 1
+            MeshParams {
+              NumVerticies = 26
+              Vert = point -0.555556 -0.555554 0.222222
+              Vert = point 0.555555 -0.555554 0.222222
+              Vert = point -0.555556 0.555557 0.222222
+              Vert = point 0.555556 0.555557 0.222222
+              Vert = point -0.555556 -0.555554 0.777777
+              Vert = point 0.555555 -0.555554 0.777777
+              Vert = point -0.555556 0.555557 0.777777
+              Vert = point 0.555555 0.555557 0.777777
+              Vert = point 8.96591e-008 1.4326e-006 -6.01623e-007
+              Vert = point -5.78357e-007 1.52282e-006 0.999999
+              Vert = point -2.78619e-007 -0.999999 0.499999
+              Vert = point 1 1.51472e-006 0.499999
+              Vert = point -2.10079e-007 1 0.499999
+              Vert = point -1 1.44071e-006 0.499999
+              Vert = point -0.75 1.41613e-006 0.124999
+              Vert = point 3.18593e-008 0.750001 0.124999
+              Vert = point 0.75 1.47164e-006 0.124999
+              Vert = point -1.95451e-008 -0.749999 0.124999
+              Vert = point -5.20557e-007 -0.749999 0.874999
+              Vert = point 0.75 1.5393e-006 0.874999
+              Vert = point -4.69153e-007 0.750001 0.874999
+              Vert = point -0.75 1.48379e-006 0.874999
+              Vert = point 0.75 -0.749999 0.499999
+              Vert = point -0.75 -0.749999 0.499999
+              Vert = point 0.75 0.750001 0.499999
+              Vert = point -0.75 0.750001 0.499999
+              NumFaces = 48
+              ValFace = Face 0 14 8 1 65603
+              ValFace = Face 8 17 0 1 65603
+              ValFace = Face 2 15 8 1 65603
+              ValFace = Face 8 14 2 1 65603
+              ValFace = Face 3 16 8 1 65603
+              ValFace = Face 8 15 3 1 65603
+              ValFace = Face 1 17 8 1 65603
+              ValFace = Face 8 16 1 1 65603
+              ValFace = Face 4 18 9 1 67
+              ValFace = Face 9 21 4 1 67
+              ValFace = Face 5 19 9 1 67
+              ValFace = Face 9 18 5 1 67
+              ValFace = Face 7 20 9 1 67
+              ValFace = Face 9 19 7 1 67
+              ValFace = Face 6 21 9 1 67
+              ValFace = Face 9 20 6 1 67
+              ValFace = Face 0 17 10 1 262211
+              ValFace = Face 10 23 0 1 262211
+              ValFace = Face 1 22 10 1 262211
+              ValFace = Face 10 17 1 1 262211
+              ValFace = Face 5 18 10 1 262211
+              ValFace = Face 10 22 5 1 262211
+              ValFace = Face 4 23 10 1 262211
+              ValFace = Face 10 18 4 1 262211
+              ValFace = Face 1 16 11 1 196675
+              ValFace = Face 11 22 1 1 196675
+              ValFace = Face 3 24 11 1 196675
+              ValFace = Face 11 16 3 1 196675
+              ValFace = Face 7 19 11 1 196675
+              ValFace = Face 11 24 7 1 196675
+              ValFace = Face 5 22 11 1 196675
+              ValFace = Face 11 19 5 1 196675
+              ValFace = Face 3 15 12 1 327747
+              ValFace = Face 12 24 3 1 327747
+              ValFace = Face 2 25 12 1 327747
+              ValFace = Face 12 15 2 1 327747
+              ValFace = Face 6 20 12 1 327747
+              ValFace = Face 12 25 6 1 327747
+              ValFace = Face 7 24 12 1 327747
+              ValFace = Face 12 20 7 1 327747
+              ValFace = Face 2 14 13 1 131139
+              ValFace = Face 13 25 2 1 131139
+              ValFace = Face 0 23 13 1 131139
+              ValFace = Face 13 14 0 1 131139
+              ValFace = Face 4 21 13 1 131139
+              ValFace = Face 13 23 4 1 131139
+              ValFace = Face 6 25 13 1 131139
+              ValFace = Face 13 21 6 1 131139
+            }
+          }
+        }
+      }
+      Palm {
+        BoneName = "Palm"
+        Flags = 304
+        Controller {
+          SetupTM = matrix 0.565318 -0.461012 0.68402 0.65315 0.75664 -0.0298486 -0.503797 0.463642 0.728852 0 0 0
+          Flags = 7340032
+        }
+        ObjectParams {
+          Flags = 14
+          Width = 13.8
+          Height = 16.35
+          Length = 32
+          ObjectOffsetPos = point 0 0 0
+          ObjectOffsetRot = quat 0 0 0 1
+          ObjectOffsetScl = point 1 1 1
+          MeshParams {
+            NumVerticies = 26
+            Vert = point -0.790042 -0.551369 0.222026
+            Vert = point 0.312463 -0.551587 0.221621
+            Vert = point -0.789562 0.551584 0.222133
+            Vert = point 0.312943 0.551367 0.221729
+            Vert = point -0.233815 -0.376015 0.769355
+            Vert = point 0.508293 -0.385337 0.752007
+            Vert = point -0.213222 0.385338 0.773956
+            Vert = point 0.528886 0.376015 0.756608
+            Vert = point 3.83663e-007 -1.37402e-006 4.00819e-008
+            Vert = point 0.780633 1.80707e-006 0.968552
+            Vert = point -0.244995 -0.916372 0.494969
+            Vert = point 0.671699 -0.00222993 0.491921
+            Vert = point -0.235147 0.916371 0.497169
+            Vert = point -1.15184 0.00222821 0.500217
+            Vert = point -0.906849 2.49978e-005 0.124987
+            Vert = point -0.157825 0.749018 0.124952
+            Vert = point 0.591083 -2.75957e-005 0.12489
+            Vert = point -0.157941 -0.749021 0.124926
+            Vert = point 0.367135 -0.413852 0.84951
+            Vert = point 0.782284 -0.00895858 0.83726
+            Vert = point 0.406718 0.413854 0.858355
+            Vert = point -0.00843032 0.00896023 0.870605
+            Vert = point 0.440063 -0.688951 0.492133
+            Vert = point -0.927591 -0.685608 0.498355
+            Vert = point 0.447449 0.685606 0.493783
+            Vert = point -0.920205 0.688949 0.500005
+            NumFaces = 48
+            ValFace = Face 0 14 8 1 65603
+            ValFace = Face 8 17 0 1 65603
+            ValFace = Face 2 15 8 1 65603
+            ValFace = Face 8 14 2 1 65603
+            ValFace = Face 3 16 8 1 65603
+            ValFace = Face 8 15 3 1 65603
+            ValFace = Face 1 17 8 1 65603
+            ValFace = Face 8 16 1 1 65603
+            ValFace = Face 4 18 9 1 67
+            ValFace = Face 9 21 4 1 67
+            ValFace = Face 5 19 9 1 67
+            ValFace = Face 9 18 5 1 67
+            ValFace = Face 7 20 9 1 67
+            ValFace = Face 9 19 7 1 67
+            ValFace = Face 6 21 9 1 67
+            ValFace = Face 9 20 6 1 67
+            ValFace = Face 0 17 10 1 262211
+            ValFace = Face 10 23 0 1 262211
+            ValFace = Face 1 22 10 1 262211
+            ValFace = Face 10 17 1 1 262211
+            ValFace = Face 5 18 10 1 262211
+            ValFace = Face 10 22 5 1 262211
+            ValFace = Face 4 23 10 1 262211
+            ValFace = Face 10 18 4 1 262211
+            ValFace = Face 1 16 11 1 196675
+            ValFace = Face 11 22 1 1 196675
+            ValFace = Face 3 24 11 1 196675
+            ValFace = Face 11 16 3 1 196675
+            ValFace = Face 7 19 11 1 196675
+            ValFace = Face 11 24 7 1 196675
+            ValFace = Face 5 22 11 1 196675
+            ValFace = Face 11 19 5 1 196675
+            ValFace = Face 3 15 12 1 327747
+            ValFace = Face 12 24 3 1 327747
+            ValFace = Face 2 25 12 1 327747
+            ValFace = Face 12 15 2 1 327747
+            ValFace = Face 6 20 12 1 327747
+            ValFace = Face 12 25 6 1 327747
+            ValFace = Face 7 24 12 1 327747
+            ValFace = Face 12 20 7 1 327747
+            ValFace = Face 2 14 13 1 131139
+            ValFace = Face 13 25 2 1 131139
+            ValFace = Face 0 23 13 1 131139
+            ValFace = Face 13 14 0 1 131139
+            ValFace = Face 4 21 13 1 131139
+            ValFace = Face 13 23 4 1 131139
+            ValFace = Face 6 25 13 1 131139
+            ValFace = Face 13 21 6 1 131139
+          }
+        }
+        TargetAlign = 1
+        NumBones = 1
+        DigitParams {
+          BoneName = "Digit"
+          SetupPos = point -0.0973403 2.02361e-007 -0.394886
+          Flags = 0
+          CATMotionWeight = 1
+          Width = 7.305
+          Height = 9
+          NumBones = 1
+          DigitSegParams {
+            BoneName = "1"
+            Flags = 56
+            Length = 25.95
+            Controller {
+              SetupTM = matrix 0.9327 0.0134123 -0.360405 -0.0143786 0.999897 9.34969e-009 0.360368 0.0051821 0.932796 0 0 0
+              Flags = 7340032
+            }
+            ObjectParams {
+              Flags = 14
+              Width = 7.305
+              Height = 9
+              Length = 25.95
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+              MeshParams {
+                NumVerticies = 26
+                Vert = point -0.483928 -0.551652 0.222222
+                Vert = point 1.07225 -0.551652 0.222222
+                Vert = point -0.483928 0.551652 0.222222
+                Vert = point 1.07225 0.551652 0.222222
+                Vert = point -0.685811 -0.388182 0.777778
+                Vert = point 0.543428 -0.388182 0.777778
+                Vert = point -0.685811 0.388182 0.777777
+                Vert = point 0.543428 0.388182 0.777778
+                Vert = point 5.5316e-007 -1.62422e-007 -1.25798e-007
+                Vert = point -0.795051 -7.21879e-007 1
+                Vert = point 0.338722 -0.919961 0.5
+                Vert = point 1.69679 8.75365e-008 0.5
+                Vert = point 0.338722 0.919961 0.5
+                Vert = point -1.01934 -1.35609e-007 0.5
+                Vert = point -0.734143 -1.65294e-007 0.125
+                Vert = point 0.190118 0.749062 0.125
+                Vert = point 1.11438 -1.3428e-008 0.125
+                Vert = point 0.190118 -0.749062 0.125
+                Vert = point -0.340952 -0.42828 0.875
+                Vert = point 0.262527 -3.94412e-007 0.875
+                Vert = point -0.340952 0.428279 0.875
+                Vert = point -0.94443 -4.33966e-007 0.875
+                Vert = point 1.42915 -0.68997 0.5
+                Vert = point -0.751703 -0.689971 0.5
+                Vert = point 1.42915 0.689971 0.5
+                Vert = point -0.751703 0.689971 0.5
+                NumFaces = 48
+                ValFace = Face 0 14 8 1 65603
+                ValFace = Face 8 17 0 1 65603
+                ValFace = Face 2 15 8 1 65603
+                ValFace = Face 8 14 2 1 65603
+                ValFace = Face 3 16 8 1 65603
+                ValFace = Face 8 15 3 1 65603
+                ValFace = Face 1 17 8 1 65603
+                ValFace = Face 8 16 1 1 65603
+                ValFace = Face 4 18 9 1 67
+                ValFace = Face 9 21 4 1 67
+                ValFace = Face 5 19 9 1 67
+                ValFace = Face 9 18 5 1 67
+                ValFace = Face 7 20 9 1 67
+                ValFace = Face 9 19 7 1 67
+                ValFace = Face 6 21 9 1 67
+                ValFace = Face 9 20 6 1 67
+                ValFace = Face 0 17 10 1 262211
+                ValFace = Face 10 23 0 1 262211
+                ValFace = Face 1 22 10 1 262211
+                ValFace = Face 10 17 1 1 262211
+                ValFace = Face 5 18 10 1 262211
+                ValFace = Face 10 22 5 1 262211
+                ValFace = Face 4 23 10 1 262211
+                ValFace = Face 10 18 4 1 262211
+                ValFace = Face 1 16 11 1 196675
+                ValFace = Face 11 22 1 1 196675
+                ValFace = Face 3 24 11 1 196675
+                ValFace = Face 11 16 3 1 196675
+                ValFace = Face 7 19 11 1 196675
+                ValFace = Face 11 24 7 1 196675
+                ValFace = Face 5 22 11 1 196675
+                ValFace = Face 11 19 5 1 196675
+                ValFace = Face 3 15 12 1 327747
+                ValFace = Face 12 24 3 1 327747
+                ValFace = Face 2 25 12 1 327747
+                ValFace = Face 12 15 2 1 327747
+                ValFace = Face 6 20 12 1 327747
+                ValFace = Face 12 25 6 1 327747
+                ValFace = Face 7 24 12 1 327747
+                ValFace = Face 12 20 7 1 327747
+                ValFace = Face 2 14 13 1 131139
+                ValFace = Face 13 25 2 1 131139
+                ValFace = Face 0 23 13 1 131139
+                ValFace = Face 13 14 0 1 131139
+                ValFace = Face 4 21 13 1 131139
+                ValFace = Face 13 23 4 1 131139
+                ValFace = Face 6 25 13 1 131139
+                ValFace = Face 13 21 6 1 131139
+              }
+            }
+          }
+        }
+      }
+    }
+    Limb {
+      Flags = 1058
+      BoneName = "RArm"
+      IKFKValue = 1
+      BoneColour = 200
+      NumBones = 2
+      LimbBone {
+        BoneName = ""
+        Flags = 56
+        Controller {
+          SetupTM = matrix -0.0725409 0.484041 0.872033 -0.992138 0.0543775 -0.112715 -0.101978 -0.873354 0.476291 0.102831 34.5676 20.5138
+          Flags = 8257536
+        }
+        NumBoneSegs = 1
+        Width = 10
+        Length = 26.3205
+        Height = 10
+        WeightOutTan = 0.333
+        WeightInTan = 0.333
+        WeightOutVal = 0
+        WeightInVal = 1
+        ParentNode = INode "SceneRootNode.Hub"
+        BoneSeg {
+          BoneName = ""
+          Flags = 0
+          ObjectParams {
+            Flags = 14
+            Width = 10
+            Height = 10
+            Length = 26.3205
+            ObjectOffsetPos = point 0 0 0
+            ObjectOffsetRot = quat 0 0 0 1
+            ObjectOffsetScl = point 1 1 1
+            MeshParams {
+              NumVerticies = 26
+              Vert = point 0.555558 -0.555555 0.222222
+              Vert = point -0.555553 -0.555555 0.222222
+              Vert = point 0.555558 0.555556 0.222222
+              Vert = point -0.555553 0.555556 0.222222
+              Vert = point 0.555558 -0.555555 0.777778
+              Vert = point -0.555553 -0.555555 0.777778
+              Vert = point 0.555558 0.555556 0.777778
+              Vert = point -0.555553 0.555556 0.777778
+              Vert = point 2.39416e-006 1.23015e-007 2.27026e-007
+              Vert = point 2.58228e-006 7.60792e-008 1
+              Vert = point 2.48132e-006 -1 0.5
+              Vert = point -0.999997 8.93588e-008 0.5
+              Vert = point 2.49513e-006 1 0.5
+              Vert = point 1 1.09735e-007 0.5
+              Vert = point 0.750002 1.24789e-007 0.125
+              Vert = point 2.42286e-006 0.75 0.125
+              Vert = point -0.749998 1.09507e-007 0.125
+              Vert = point 2.4125e-006 -0.75 0.125
+              Vert = point 2.55359e-006 -0.75 0.875
+              Vert = point -0.749997 7.4305e-008 0.875
+              Vert = point 2.56395e-006 0.75 0.875
+              Vert = point 0.750003 8.95873e-008 0.875
+              Vert = point -0.749997 -0.75 0.5
+              Vert = point 0.750003 -0.75 0.5
+              Vert = point -0.749997 0.75 0.5
+              Vert = point 0.750003 0.75 0.5
+              NumFaces = 48
+              ValFace = Face 14 0 8 1 65605
+              ValFace = Face 17 8 0 1 65605
+              ValFace = Face 15 2 8 1 65605
+              ValFace = Face 14 8 2 1 65605
+              ValFace = Face 16 3 8 1 65605
+              ValFace = Face 15 8 3 1 65605
+              ValFace = Face 17 1 8 1 65605
+              ValFace = Face 16 8 1 1 65605
+              ValFace = Face 18 4 9 1 69
+              ValFace = Face 21 9 4 1 69
+              ValFace = Face 19 5 9 1 69
+              ValFace = Face 18 9 5 1 69
+              ValFace = Face 20 7 9 1 69
+              ValFace = Face 19 9 7 1 69
+              ValFace = Face 21 6 9 1 69
+              ValFace = Face 20 9 6 1 69
+              ValFace = Face 17 0 10 1 262213
+              ValFace = Face 23 10 0 1 262213
+              ValFace = Face 22 1 10 1 262213
+              ValFace = Face 17 10 1 1 262213
+              ValFace = Face 18 5 10 1 262213
+              ValFace = Face 22 10 5 1 262213
+              ValFace = Face 23 4 10 1 262213
+              ValFace = Face 18 10 4 1 262213
+              ValFace = Face 16 1 11 1 196677
+              ValFace = Face 22 11 1 1 196677
+              ValFace = Face 24 3 11 1 196677
+              ValFace = Face 16 11 3 1 196677
+              ValFace = Face 19 7 11 1 196677
+              ValFace = Face 24 11 7 1 196677
+              ValFace = Face 22 5 11 1 196677
+              ValFace = Face 19 11 5 1 196677
+              ValFace = Face 15 3 12 1 327749
+              ValFace = Face 24 12 3 1 327749
+              ValFace = Face 25 2 12 1 327749
+              ValFace = Face 15 12 2 1 327749
+              ValFace = Face 20 6 12 1 327749
+              ValFace = Face 25 12 6 1 327749
+              ValFace = Face 24 7 12 1 327749
+              ValFace = Face 20 12 7 1 327749
+              ValFace = Face 14 2 13 1 131141
+              ValFace = Face 25 13 2 1 131141
+              ValFace = Face 23 0 13 1 131141
+              ValFace = Face 14 13 0 1 131141
+              ValFace = Face 21 4 13 1 131141
+              ValFace = Face 23 13 4 1 131141
+              ValFace = Face 25 6 13 1 131141
+              ValFace = Face 21 13 6 1 131141
+            }
+          }
+        }
+      }
+      LimbBone {
+        BoneName = ""
+        Flags = 312
+        Controller {
+          SetupTM = matrix -0.292983 -0.141937 -0.945524 0.655167 0.690447 -0.306658 0.69636 -0.709322 -0.109296 0 0 0
+          Flags = 7340032
+        }
+        NumBoneSegs = 1
+        Width = 10
+        Length = 16.8787
+        Height = 10
+        WeightOutTan = 0.333
+        WeightInTan = 0.333
+        WeightOutVal = 0
+        WeightInVal = 1
+        ParentNode = INode "SceneRootNode.Hub.Limb[9].LimbBone[0].BoneSeg[0]"
+        BoneSeg {
+          BoneName = ""
+          Flags = 0
+          ObjectParams {
+            Flags = 14
+            Width = 10
+            Height = 10
+            Length = 16.8787
+            ObjectOffsetPos = point 0 0 0
+            ObjectOffsetRot = quat 0 0 0 1
+            ObjectOffsetScl = point 1 1 1
+            MeshParams {
+              NumVerticies = 26
+              Vert = point 0.555555 -0.555555 0.222222
+              Vert = point -0.555557 -0.555555 0.222222
+              Vert = point 0.555555 0.555556 0.222222
+              Vert = point -0.555557 0.555556 0.222222
+              Vert = point 0.555555 -0.555555 0.777778
+              Vert = point -0.555556 -0.555555 0.777778
+              Vert = point 0.555555 0.555556 0.777778
+              Vert = point -0.555557 0.555556 0.777777
+              Vert = point -1.0785e-006 7.53321e-007 -3.73884e-007
+              Vert = point -8.08702e-007 8.639e-007 1
+              Vert = point -9.38624e-007 -0.999999 0.5
+              Vert = point -1 8.58124e-007 0.5
+              Vert = point -9.48582e-007 1 0.5
+              Vert = point 0.999999 7.59097e-007 0.5
+              Vert = point 0.749999 7.30008e-007 0.125
+              Vert = point -1.04851e-006 0.750001 0.125
+              Vert = point -0.750001 8.04279e-007 0.125
+              Vert = point -1.04104e-006 -0.749999 0.125
+              Vert = point -8.38693e-007 -0.749999 0.875
+              Vert = point -0.750001 8.87213e-007 0.875
+              Vert = point -8.46161e-007 0.750001 0.875
+              Vert = point 0.749999 8.12942e-007 0.875
+              Vert = point -0.750001 -0.749999 0.5
+              Vert = point 0.749999 -0.749999 0.5
+              Vert = point -0.750001 0.750001 0.5
+              Vert = point 0.749999 0.750001 0.5
+              NumFaces = 48
+              ValFace = Face 14 0 8 1 65605
+              ValFace = Face 17 8 0 1 65605
+              ValFace = Face 15 2 8 1 65605
+              ValFace = Face 14 8 2 1 65605
+              ValFace = Face 16 3 8 1 65605
+              ValFace = Face 15 8 3 1 65605
+              ValFace = Face 17 1 8 1 65605
+              ValFace = Face 16 8 1 1 65605
+              ValFace = Face 18 4 9 1 69
+              ValFace = Face 21 9 4 1 69
+              ValFace = Face 19 5 9 1 69
+              ValFace = Face 18 9 5 1 69
+              ValFace = Face 20 7 9 1 69
+              ValFace = Face 19 9 7 1 69
+              ValFace = Face 21 6 9 1 69
+              ValFace = Face 20 9 6 1 69
+              ValFace = Face 17 0 10 1 262213
+              ValFace = Face 23 10 0 1 262213
+              ValFace = Face 22 1 10 1 262213
+              ValFace = Face 17 10 1 1 262213
+              ValFace = Face 18 5 10 1 262213
+              ValFace = Face 22 10 5 1 262213
+              ValFace = Face 23 4 10 1 262213
+              ValFace = Face 18 10 4 1 262213
+              ValFace = Face 16 1 11 1 196677
+              ValFace = Face 22 11 1 1 196677
+              ValFace = Face 24 3 11 1 196677
+              ValFace = Face 16 11 3 1 196677
+              ValFace = Face 19 7 11 1 196677
+              ValFace = Face 24 11 7 1 196677
+              ValFace = Face 22 5 11 1 196677
+              ValFace = Face 19 11 5 1 196677
+              ValFace = Face 15 3 12 1 327749
+              ValFace = Face 24 12 3 1 327749
+              ValFace = Face 25 2 12 1 327749
+              ValFace = Face 15 12 2 1 327749
+              ValFace = Face 20 6 12 1 327749
+              ValFace = Face 25 12 6 1 327749
+              ValFace = Face 24 7 12 1 327749
+              ValFace = Face 20 12 7 1 327749
+              ValFace = Face 14 2 13 1 131141
+              ValFace = Face 25 13 2 1 131141
+              ValFace = Face 23 0 13 1 131141
+              ValFace = Face 14 13 0 1 131141
+              ValFace = Face 21 4 13 1 131141
+              ValFace = Face 23 13 4 1 131141
+              ValFace = Face 25 6 13 1 131141
+              ValFace = Face 21 13 6 1 131141
+            }
+          }
+        }
+      }
+      Palm {
+        BoneName = "Palm"
+        Flags = 304
+        Controller {
+          SetupTM = matrix 0.565318 -0.461012 -0.68402 0.65315 0.75664 0.0298486 0.503797 -0.463642 0.728852 0 0 0
+          Flags = 7340032
+        }
+        ObjectParams {
+          Flags = 14
+          Width = 13.8
+          Height = 16.35
+          Length = 32
+          ObjectOffsetPos = point 0 0 0
+          ObjectOffsetRot = quat 0 0 0 1
+          ObjectOffsetScl = point 1 1 1
+          MeshParams {
+            NumVerticies = 26
+            Vert = point 0.790042 -0.551369 0.222026
+            Vert = point -0.312462 -0.551587 0.221621
+            Vert = point 0.789562 0.551585 0.222133
+            Vert = point -0.312943 0.551368 0.221728
+            Vert = point 0.233815 -0.376015 0.769354
+            Vert = point -0.508293 -0.385337 0.752007
+            Vert = point 0.213222 0.385338 0.773956
+            Vert = point -0.528886 0.376016 0.756608
+            Vert = point -6.93798e-008 -1.10098e-006 -8.69935e-008
+            Vert = point -0.780633 2.04778e-006 0.968552
+            Vert = point 0.244995 -0.916372 0.494969
+            Vert = point -0.671699 -0.00222966 0.491921
+            Vert = point 0.235147 0.916371 0.497169
+            Vert = point 1.15184 0.0022284 0.500217
+            Vert = point 0.906849 2.5225e-005 0.124987
+            Vert = point 0.157825 0.749019 0.124951
+            Vert = point -0.591083 -2.73066e-005 0.12489
+            Vert = point 0.157941 -0.749021 0.124926
+            Vert = point -0.367135 -0.413852 0.84951
+            Vert = point -0.782284 -0.00895833 0.83726
+            Vert = point -0.406718 0.413854 0.858355
+            Vert = point 0.00843029 0.00896045 0.870605
+            Vert = point -0.440063 -0.688951 0.492133
+            Vert = point 0.927591 -0.685607 0.498355
+            Vert = point -0.447449 0.685606 0.493783
+            Vert = point 0.920205 0.68895 0.500005
+            NumFaces = 48
+            ValFace = Face 14 0 8 1 65605
+            ValFace = Face 17 8 0 1 65605
+            ValFace = Face 15 2 8 1 65605
+            ValFace = Face 14 8 2 1 65605
+            ValFace = Face 16 3 8 1 65605
+            ValFace = Face 15 8 3 1 65605
+            ValFace = Face 17 1 8 1 65605
+            ValFace = Face 16 8 1 1 65605
+            ValFace = Face 18 4 9 1 69
+            ValFace = Face 21 9 4 1 69
+            ValFace = Face 19 5 9 1 69
+            ValFace = Face 18 9 5 1 69
+            ValFace = Face 20 7 9 1 69
+            ValFace = Face 19 9 7 1 69
+            ValFace = Face 21 6 9 1 69
+            ValFace = Face 20 9 6 1 69
+            ValFace = Face 17 0 10 1 262213
+            ValFace = Face 23 10 0 1 262213
+            ValFace = Face 22 1 10 1 262213
+            ValFace = Face 17 10 1 1 262213
+            ValFace = Face 18 5 10 1 262213
+            ValFace = Face 22 10 5 1 262213
+            ValFace = Face 23 4 10 1 262213
+            ValFace = Face 18 10 4 1 262213
+            ValFace = Face 16 1 11 1 196677
+            ValFace = Face 22 11 1 1 196677
+            ValFace = Face 24 3 11 1 196677
+            ValFace = Face 16 11 3 1 196677
+            ValFace = Face 19 7 11 1 196677
+            ValFace = Face 24 11 7 1 196677
+            ValFace = Face 22 5 11 1 196677
+            ValFace = Face 19 11 5 1 196677
+            ValFace = Face 15 3 12 1 327749
+            ValFace = Face 24 12 3 1 327749
+            ValFace = Face 25 2 12 1 327749
+            ValFace = Face 15 12 2 1 327749
+            ValFace = Face 20 6 12 1 327749
+            ValFace = Face 25 12 6 1 327749
+            ValFace = Face 24 7 12 1 327749
+            ValFace = Face 20 12 7 1 327749
+            ValFace = Face 14 2 13 1 131141
+            ValFace = Face 25 13 2 1 131141
+            ValFace = Face 23 0 13 1 131141
+            ValFace = Face 14 13 0 1 131141
+            ValFace = Face 21 4 13 1 131141
+            ValFace = Face 23 13 4 1 131141
+            ValFace = Face 25 6 13 1 131141
+            ValFace = Face 21 13 6 1 131141
+          }
+        }
+        TargetAlign = 1
+        NumBones = 1
+        DigitParams {
+          BoneName = "Digit"
+          SetupPos = point -0.0973403 2.02361e-007 0.394886
+          Flags = 0
+          CATMotionWeight = 1
+          Width = 7.305
+          Height = 9
+          NumBones = 1
+          DigitSegParams {
+            BoneName = "1"
+            Flags = 56
+            Length = 25.95
+            Controller {
+              SetupTM = matrix 0.9327 0.0134123 0.360405 -0.0143786 0.999897 -9.34969e-009 -0.360368 -0.0051821 0.932796 0 0 0
+              Flags = 7340032
+            }
+            ObjectParams {
+              Flags = 14
+              Width = 7.305
+              Height = 9
+              Length = 25.95
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+              MeshParams {
+                NumVerticies = 26
+                Vert = point 0.483928 -0.551653 0.222222
+                Vert = point -1.07225 -0.551653 0.222222
+                Vert = point 0.483928 0.551651 0.222222
+                Vert = point -1.07225 0.551651 0.222222
+                Vert = point 0.685811 -0.388183 0.777777
+                Vert = point -0.543428 -0.388183 0.777778
+                Vert = point 0.685811 0.388181 0.777777
+                Vert = point -0.543428 0.388181 0.777778
+                Vert = point 2.57258e-007 -9.75122e-007 -2.34076e-007
+                Vert = point 0.795051 -1.6652e-006 1
+                Vert = point -0.338722 -0.919962 0.5
+                Vert = point -1.69679 -7.88485e-007 0.5
+                Vert = point -0.338722 0.91996 0.5
+                Vert = point 1.01934 -1.01421e-006 0.5
+                Vert = point 0.734143 -9.94925e-007 0.125
+                Vert = point -0.190117 0.749061 0.125
+                Vert = point -1.11438 -8.41302e-007 0.125
+                Vert = point -0.190117 -0.749063 0.125
+                Vert = point 0.340952 -0.428281 0.875
+                Vert = point -0.262526 -1.3205e-006 0.875
+                Vert = point 0.340952 0.428278 0.875
+                Vert = point 0.944431 -1.3612e-006 0.875
+                Vert = point -1.42915 -0.689971 0.5
+                Vert = point 0.751703 -0.689972 0.5
+                Vert = point -1.42915 0.68997 0.5
+                Vert = point 0.751703 0.68997 0.5
+                NumFaces = 48
+                ValFace = Face 14 0 8 1 65605
+                ValFace = Face 17 8 0 1 65605
+                ValFace = Face 15 2 8 1 65605
+                ValFace = Face 14 8 2 1 65605
+                ValFace = Face 16 3 8 1 65605
+                ValFace = Face 15 8 3 1 65605
+                ValFace = Face 17 1 8 1 65605
+                ValFace = Face 16 8 1 1 65605
+                ValFace = Face 18 4 9 1 69
+                ValFace = Face 21 9 4 1 69
+                ValFace = Face 19 5 9 1 69
+                ValFace = Face 18 9 5 1 69
+                ValFace = Face 20 7 9 1 69
+                ValFace = Face 19 9 7 1 69
+                ValFace = Face 21 6 9 1 69
+                ValFace = Face 20 9 6 1 69
+                ValFace = Face 17 0 10 1 262213
+                ValFace = Face 23 10 0 1 262213
+                ValFace = Face 22 1 10 1 262213
+                ValFace = Face 17 10 1 1 262213
+                ValFace = Face 18 5 10 1 262213
+                ValFace = Face 22 10 5 1 262213
+                ValFace = Face 23 4 10 1 262213
+                ValFace = Face 18 10 4 1 262213
+                ValFace = Face 16 1 11 1 196677
+                ValFace = Face 22 11 1 1 196677
+                ValFace = Face 24 3 11 1 196677
+                ValFace = Face 16 11 3 1 196677
+                ValFace = Face 19 7 11 1 196677
+                ValFace = Face 24 11 7 1 196677
+                ValFace = Face 22 5 11 1 196677
+                ValFace = Face 19 11 5 1 196677
+                ValFace = Face 15 3 12 1 327749
+                ValFace = Face 24 12 3 1 327749
+                ValFace = Face 25 2 12 1 327749
+                ValFace = Face 15 12 2 1 327749
+                ValFace = Face 20 6 12 1 327749
+                ValFace = Face 25 12 6 1 327749
+                ValFace = Face 24 7 12 1 327749
+                ValFace = Face 20 12 7 1 327749
+                ValFace = Face 14 2 13 1 131141
+                ValFace = Face 25 13 2 1 131141
+                ValFace = Face 23 0 13 1 131141
+                ValFace = Face 14 13 0 1 131141
+                ValFace = Face 21 4 13 1 131141
+                ValFace = Face 23 13 4 1 131141
+                ValFace = Face 25 6 13 1 131141
+                ValFace = Face 21 13 6 1 131141
+              }
+            }
+          }
+        }
+      }
+    }
+    Tail {
+      BoneName = "EyeL"
+      Width = 1.6
+      Height = 1.6
+      Taper = -2
+      WeightOutTan = 1
+      WeightInTan = 0.333
+      WeightOutVal = 0
+      WeightInVal = 1
+      NumLinks = 5
+      TailBone {
+        BoneName = ""
+        Flags = 40
+        ParentNode = INode "SceneRootNode.Hub"
+        ObjectParams {
+          Flags = 14
+          Width = 1.61144
+          Height = 1.61144
+          Length = 7.07
+          ObjectOffsetPos = point 0 0 0
+          ObjectOffsetRot = quat 0 0 0 1
+          ObjectOffsetScl = point 1 1 1
+          MeshParams {
+            NumVerticies = 8
+            Vert = point 1 -1 -2.13973e-007
+            Vert = point -0.999996 -1 -2.03438e-007
+            Vert = point 1 0.999998 -2.15317e-007
+            Vert = point -0.999996 0.999998 -2.04782e-007
+            Vert = point 1 -1 1
+            Vert = point -0.999996 -1 1
+            Vert = point 1 0.999998 1
+            Vert = point -0.999996 0.999998 1
+            NumFaces = 12
+            ValFace = Face 2 0 3 2 65605
+            ValFace = Face 1 3 0 2 65605
+            ValFace = Face 5 4 7 4 69
+            ValFace = Face 6 7 4 4 69
+            ValFace = Face 1 0 5 8 262213
+            ValFace = Face 4 5 0 8 262213
+            ValFace = Face 3 1 7 16 196677
+            ValFace = Face 5 7 1 16 196677
+            ValFace = Face 2 3 6 32 327749
+            ValFace = Face 7 6 3 32 327749
+            ValFace = Face 0 2 4 64 131141
+            ValFace = Face 6 4 2 64 131141
+          }
+        }
+        Controller {
+          SetupTM = matrix 0.751793 0.610375 0.249501 -0.658152 0.671317 0.340838 0.0405452 -0.420449 0.90641 4.18656 39.2216 8.8447
+          Flags = 7340032
+        }
+      }
+      TailBone {
+        BoneName = ""
+        Flags = 40
+        ParentNode = INode "SceneRootNode.Hub.Tail[0].TailBone[0]"
+        ObjectParams {
+          Flags = 14
+          Width = 1.72166
+          Height = 1.72166
+          Length = 7.07
+          ObjectOffsetPos = point 0 0 0
+          ObjectOffsetRot = quat 0 0 0 1
+          ObjectOffsetScl = point 1 1 1
+          MeshParams {
+            NumVerticies = 8
+            Vert = point 1 -1 -1.97758e-007
+            Vert = point -0.999996 -1 -1.86503e-007
+            Vert = point 1 1 -1.99194e-007
+            Vert = point -0.999996 1 -1.87939e-007
+            Vert = point 1 -1 1
+            Vert = point -0.999996 -1 1
+            Vert = point 1 1 1
+            Vert = point -0.999996 1 1
+            NumFaces = 12
+            ValFace = Face 2 0 3 2 65605
+            ValFace = Face 1 3 0 2 65605
+            ValFace = Face 5 4 7 4 69
+            ValFace = Face 6 7 4 4 69
+            ValFace = Face 1 0 5 8 262213
+            ValFace = Face 4 5 0 8 262213
+            ValFace = Face 3 1 7 16 196677
+            ValFace = Face 5 7 1 16 196677
+            ValFace = Face 2 3 6 32 327749
+            ValFace = Face 7 6 3 32 327749
+            ValFace = Face 0 2 4 64 131141
+            ValFace = Face 6 4 2 64 131141
+          }
+        }
+        Controller {
+          SetupTM = matrix 0.676083 0.671675 0.302927 -0.732408 0.567653 0.375965 0.0805695 -0.476049 0.87572 0 0 0
+          Flags = 7340032
+        }
+      }
+      TailBone {
+        BoneName = ""
+        Flags = 40
+        ParentNode = INode "SceneRootNode.Hub.Tail[0].TailBone[1]"
+        ObjectParams {
+          Flags = 14
+          Width = 2.02363
+          Height = 2.02363
+          Length = 7.07
+          ObjectOffsetPos = point 0 0 0
+          ObjectOffsetRot = quat 0 0 0 1
+          ObjectOffsetScl = point 1 1 1
+          MeshParams {
+            NumVerticies = 8
+            Vert = point 0.999997 -0.999998 7.17178e-007
+            Vert = point -1 -0.999998 7.30407e-007
+            Vert = point 0.999997 1 7.1549e-007
+            Vert = point -1 1 7.28719e-007
+            Vert = point 0.999997 -0.999998 1
+            Vert = point -1 -0.999998 1
+            Vert = point 0.999997 1 1
+            Vert = point -1 1 1
+            NumFaces = 12
+            ValFace = Face 2 0 3 2 65605
+            ValFace = Face 1 3 0 2 65605
+            ValFace = Face 5 4 7 4 69
+            ValFace = Face 6 7 4 4 69
+            ValFace = Face 1 0 5 8 262213
+            ValFace = Face 4 5 0 8 262213
+            ValFace = Face 3 1 7 16 196677
+            ValFace = Face 5 7 1 16 196677
+            ValFace = Face 2 3 6 32 327749
+            ValFace = Face 7 6 3 32 327749
+            ValFace = Face 0 2 4 64 131141
+            ValFace = Face 6 4 2 64 131141
+          }
+        }
+        Controller {
+          SetupTM = matrix 0.591686 0.719209 0.364206 -0.797254 0.455025 0.39666 0.119559 -0.525063 0.842623 0 0 0
+          Flags = 7340032
+        }
+      }
+      TailBone {
+        BoneName = ""
+        Flags = 40
+        ParentNode = INode "SceneRootNode.Hub.Tail[0].TailBone[2]"
+        ObjectParams {
+          Flags = 14
+          Width = 2.80151
+          Height = 2.80151
+          Length = 7.07
+          ObjectOffsetPos = point 0 0 0
+          ObjectOffsetRot = quat 0 0 0 1
+          ObjectOffsetScl = point 1 1 1
+          MeshParams {
+            NumVerticies = 8
+            Vert = point 0.999998 -1 -3.51646e-007
+            Vert = point -1 -1 -3.33331e-007
+            Vert = point 0.999998 0.999999 -3.53983e-007
+            Vert = point -1 0.999999 -3.35668e-007
+            Vert = point 0.999998 -1 1
+            Vert = point -1 -1 1
+            Vert = point 0.999998 0.999999 1
+            Vert = point -1 0.999999 1
+            NumFaces = 12
+            ValFace = Face 2 0 3 2 65605
+            ValFace = Face 1 3 0 2 65605
+            ValFace = Face 5 4 7 4 69
+            ValFace = Face 6 7 4 4 69
+            ValFace = Face 1 0 5 8 262213
+            ValFace = Face 4 5 0 8 262213
+            ValFace = Face 3 1 7 16 196677
+            ValFace = Face 5 7 1 16 196677
+            ValFace = Face 2 3 6 32 327749
+            ValFace = Face 7 6 3 32 327749
+            ValFace = Face 0 2 4 64 131141
+            ValFace = Face 6 4 2 64 131141
+          }
+        }
+        Controller {
+          SetupTM = matrix 0.499688 0.751491 0.430783 -0.851857 0.336185 0.401647 0.157012 -0.567663 0.80815 0 0 0
+          Flags = 7340032
+        }
+      }
+      TailBone {
+        BoneName = ""
+        Flags = 40
+        ParentNode = INode "SceneRootNode.Hub.Tail[0].TailBone[3]"
+        ObjectParams {
+          Flags = 14
+          Width = 4.65367
+          Height = 4.65367
+          Length = 7
+          ObjectOffsetPos = point 0 0 0
+          ObjectOffsetRot = quat 0 0 0 1
+          ObjectOffsetScl = point 1 1 1
+          MeshParams {
+            NumVerticies = 8
+            Vert = point -0.999998 -1 5.32413e-008
+            Vert = point 1 -1 8.98847e-008
+            Vert = point -0.999998 1 6.85179e-008
+            Vert = point 1 1 1.05161e-007
+            Vert = point -0.999999 -1 1
+            Vert = point 1 -1 1
+            Vert = point -0.999999 1 1
+            Vert = point 1 1 1
+            NumFaces = 12
+            ValFace = Face 0 2 3 2 65603
+            ValFace = Face 3 1 0 2 65603
+            ValFace = Face 4 5 7 4 67
+            ValFace = Face 7 6 4 4 67
+            ValFace = Face 0 1 5 8 262211
+            ValFace = Face 5 4 0 8 262211
+            ValFace = Face 1 3 7 16 196675
+            ValFace = Face 7 5 1 16 196675
+            ValFace = Face 3 2 6 32 327747
+            ValFace = Face 6 7 3 32 327747
+            ValFace = Face 2 0 4 64 131139
+            ValFace = Face 4 6 2 64 131139
+          }
+        }
+        Controller {
+          SetupTM = matrix 0.401054 0.77227 0.4927 -0.89717 0.222484 0.381561 0.18505 -0.595062 0.782085 0 0 0
+          Flags = 7340032
+        }
+      }
+    }
+    Tail {
+      BoneName = "EyeR"
+      Width = 1.6
+      Height = 1.6
+      Taper = -2
+      WeightOutTan = 1
+      WeightInTan = 0.333
+      WeightOutVal = 0
+      WeightInVal = 1
+      NumLinks = 5
+      TailBone {
+        BoneName = ""
+        Flags = 40
+        ParentNode = INode "SceneRootNode.Hub"
+        ObjectParams {
+          Flags = 14
+          Width = 1.61144
+          Height = 1.61144
+          Length = 7.07
+          ObjectOffsetPos = point 0 0 0
+          ObjectOffsetRot = quat 0 0 0 1
+          ObjectOffsetScl = point 1 1 1
+          MeshParams {
+            NumVerticies = 8
+            Vert = point -1 -1 -2.13973e-007
+            Vert = point 0.999996 -1 -2.03438e-007
+            Vert = point -1 0.999998 -2.15317e-007
+            Vert = point 0.999996 0.999998 -2.04782e-007
+            Vert = point -1 -1 1
+            Vert = point 0.999996 -1 1
+            Vert = point -1 0.999998 1
+            Vert = point 0.999996 0.999998 1
+            NumFaces = 12
+            ValFace = Face 0 2 3 2 65603
+            ValFace = Face 3 1 0 2 65603
+            ValFace = Face 4 5 7 4 67
+            ValFace = Face 7 6 4 4 67
+            ValFace = Face 0 1 5 8 262211
+            ValFace = Face 5 4 0 8 262211
+            ValFace = Face 1 3 7 16 196675
+            ValFace = Face 7 5 1 16 196675
+            ValFace = Face 3 2 6 32 327747
+            ValFace = Face 6 7 3 32 327747
+            ValFace = Face 2 0 4 64 131139
+            ValFace = Face 4 6 2 64 131139
+          }
+        }
+        Controller {
+          SetupTM = matrix 0.751793 0.610375 -0.249501 -0.658152 0.671317 -0.340838 -0.0405452 0.420449 0.90641 4.18656 39.2216 -8.8447
+          Flags = 7340032
+        }
+      }
+      TailBone {
+        BoneName = ""
+        Flags = 40
+        ParentNode = INode "SceneRootNode.Hub.Tail[1].TailBone[0]"
+        ObjectParams {
+          Flags = 14
+          Width = 1.72166
+          Height = 1.72166
+          Length = 7.07
+          ObjectOffsetPos = point 0 0 0
+          ObjectOffsetRot = quat 0 0 0 1
+          ObjectOffsetScl = point 1 1 1
+          MeshParams {
+            NumVerticies = 8
+            Vert = point -1 -1 -1.97758e-007
+            Vert = point 0.999996 -1 -1.86503e-007
+            Vert = point -1 1 -1.99194e-007
+            Vert = point 0.999996 1 -1.87939e-007
+            Vert = point -1 -1 1
+            Vert = point 0.999996 -1 1
+            Vert = point -1 1 1
+            Vert = point 0.999996 1 1
+            NumFaces = 12
+            ValFace = Face 0 2 3 2 65603
+            ValFace = Face 3 1 0 2 65603
+            ValFace = Face 4 5 7 4 67
+            ValFace = Face 7 6 4 4 67
+            ValFace = Face 0 1 5 8 262211
+            ValFace = Face 5 4 0 8 262211
+            ValFace = Face 1 3 7 16 196675
+            ValFace = Face 7 5 1 16 196675
+            ValFace = Face 3 2 6 32 327747
+            ValFace = Face 6 7 3 32 327747
+            ValFace = Face 2 0 4 64 131139
+            ValFace = Face 4 6 2 64 131139
+          }
+        }
+        Controller {
+          SetupTM = matrix 0.676083 0.671675 -0.302927 -0.732408 0.567653 -0.375965 -0.0805695 0.476049 0.87572 0 0 0
+          Flags = 7340032
+        }
+      }
+      TailBone {
+        BoneName = ""
+        Flags = 40
+        ParentNode = INode "SceneRootNode.Hub.Tail[1].TailBone[1]"
+        ObjectParams {
+          Flags = 14
+          Width = 2.02363
+          Height = 2.02363
+          Length = 7.07
+          ObjectOffsetPos = point 0 0 0
+          ObjectOffsetRot = quat 0 0 0 1
+          ObjectOffsetScl = point 1 1 1
+          MeshParams {
+            NumVerticies = 8
+            Vert = point -0.999997 -0.999998 7.17178e-007
+            Vert = point 1 -0.999998 7.30407e-007
+            Vert = point -0.999997 1 7.1549e-007
+            Vert = point 1 1 7.28719e-007
+            Vert = point -0.999997 -0.999998 1
+            Vert = point 1 -0.999998 1
+            Vert = point -0.999997 1 1
+            Vert = point 1 1 1
+            NumFaces = 12
+            ValFace = Face 0 2 3 2 65603
+            ValFace = Face 3 1 0 2 65603
+            ValFace = Face 4 5 7 4 67
+            ValFace = Face 7 6 4 4 67
+            ValFace = Face 0 1 5 8 262211
+            ValFace = Face 5 4 0 8 262211
+            ValFace = Face 1 3 7 16 196675
+            ValFace = Face 7 5 1 16 196675
+            ValFace = Face 3 2 6 32 327747
+            ValFace = Face 6 7 3 32 327747
+            ValFace = Face 2 0 4 64 131139
+            ValFace = Face 4 6 2 64 131139
+          }
+        }
+        Controller {
+          SetupTM = matrix 0.591686 0.719209 -0.364206 -0.797254 0.455025 -0.39666 -0.119559 0.525063 0.842623 0 0 0
+          Flags = 7340032
+        }
+      }
+      TailBone {
+        BoneName = ""
+        Flags = 40
+        ParentNode = INode "SceneRootNode.Hub.Tail[1].TailBone[2]"
+        ObjectParams {
+          Flags = 14
+          Width = 2.80151
+          Height = 2.80151
+          Length = 7.07
+          ObjectOffsetPos = point 0 0 0
+          ObjectOffsetRot = quat 0 0 0 1
+          ObjectOffsetScl = point 1 1 1
+          MeshParams {
+            NumVerticies = 8
+            Vert = point -0.999998 -1 -3.51646e-007
+            Vert = point 1 -1 -3.33331e-007
+            Vert = point -0.999998 0.999999 -3.53983e-007
+            Vert = point 1 0.999999 -3.35668e-007
+            Vert = point -0.999998 -1 1
+            Vert = point 1 -1 1
+            Vert = point -0.999998 0.999999 1
+            Vert = point 1 0.999999 1
+            NumFaces = 12
+            ValFace = Face 0 2 3 2 65603
+            ValFace = Face 3 1 0 2 65603
+            ValFace = Face 4 5 7 4 67
+            ValFace = Face 7 6 4 4 67
+            ValFace = Face 0 1 5 8 262211
+            ValFace = Face 5 4 0 8 262211
+            ValFace = Face 1 3 7 16 196675
+            ValFace = Face 7 5 1 16 196675
+            ValFace = Face 3 2 6 32 327747
+            ValFace = Face 6 7 3 32 327747
+            ValFace = Face 2 0 4 64 131139
+            ValFace = Face 4 6 2 64 131139
+          }
+        }
+        Controller {
+          SetupTM = matrix 0.499688 0.751491 -0.430783 -0.851857 0.336185 -0.401647 -0.157012 0.567663 0.80815 0 0 0
+          Flags = 7340032
+        }
+      }
+      TailBone {
+        BoneName = ""
+        Flags = 40
+        ParentNode = INode "SceneRootNode.Hub.Tail[1].TailBone[3]"
+        ObjectParams {
+          Flags = 14
+          Width = 4.65367
+          Height = 4.65367
+          Length = 7
+          ObjectOffsetPos = point 0 0 0
+          ObjectOffsetRot = quat 0 0 0 1
+          ObjectOffsetScl = point 1 1 1
+          MeshParams {
+            NumVerticies = 8
+            Vert = point 0.999998 -1 5.32413e-008
+            Vert = point -1 -1 8.98847e-008
+            Vert = point 0.999998 1 6.85179e-008
+            Vert = point -1 1 1.05161e-007
+            Vert = point 0.999999 -1 1
+            Vert = point -1 -1 1
+            Vert = point 0.999999 1 1
+            Vert = point -1 1 1
+            NumFaces = 12
+            ValFace = Face 2 0 3 2 65605
+            ValFace = Face 1 3 0 2 65605
+            ValFace = Face 5 4 7 4 69
+            ValFace = Face 6 7 4 4 69
+            ValFace = Face 1 0 5 8 262213
+            ValFace = Face 4 5 0 8 262213
+            ValFace = Face 3 1 7 16 196677
+            ValFace = Face 5 7 1 16 196677
+            ValFace = Face 2 3 6 32 327749
+            ValFace = Face 7 6 3 32 327749
+            ValFace = Face 0 2 4 64 131141
+            ValFace = Face 6 4 2 64 131141
+          }
+        }
+        Controller {
+          SetupTM = matrix 0.401054 0.77227 -0.4927 -0.89717 0.222484 -0.381561 -0.18505 0.595062 0.782085 0 0 0
+          Flags = 7340032
+        }
+      }
+    }
+  }
+}

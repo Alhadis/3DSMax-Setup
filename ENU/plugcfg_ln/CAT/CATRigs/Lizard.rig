@@ -1,0 +1,2208 @@
+# CAT Character Rig exported from 3dsmax on Tue Oct 11 19:04:33 2005
+
+Version = 2100
+CATParent {
+  CharacterName = "Lizard"
+  Version = 2100
+  LengthAxis = 0
+  Hub {
+    BoneName = "Pelvis"
+    Flags = 0
+    BoneColour = 5164751
+    Controller {
+      SetupTM = matrix 0.0582033 0.998305 4.11672e-008 -0.998305 0.0582033 4.36373e-008 4.11672e-008 -4.36373e-008 1 29.4943 -43.8445 -1.28924e-006
+      Flags = 7537152
+    }
+    DangleRatioVal = 1
+    ParentNode = INode "SceneRootNode"
+    ObjectParams {
+      Width = 23.8
+      Length = 10.4
+      Height = 10
+      PivotPosZ = 0
+      PivotPosY = 0
+    }
+    Limb {
+      Flags = 76
+      BoneName = "LLeg"
+      IKFKValue = 0
+      BoneColour = 3691953
+      Platform {
+        Flags = 0
+        Controller {
+          SetupTM = matrix 1 9.39594e-009 1.0218e-009 -9.39594e-009 0.976624 0.214954 1.0218e-009 -0.214954 0.976624 -3.41816e-006 -36.2342 53.2115
+          Flags = 7537152
+        }
+        ObjectParams {
+          Width = 17.8354
+          Length = 25.2
+        }
+      }
+      NumBones = 3
+      LimbBone {
+        BoneName = "Thigh"
+        Flags = 56
+        Controller {
+          SetupTM = matrix 0.475951 0.647753 -0.594884 -0.313007 0.756883 0.573721 0.821886 -0.0868605 0.56299 1.35342e-006 8.92944e-007 -12.132
+          Flags = 8257536
+        }
+        NumBoneSegs = 1
+        Width = 12.15
+        Length = 25.8584
+        Height = 15
+        WeightOutTan = 0.333
+        WeightInTan = 0.333
+        WeightOutVal = 0
+        WeightInVal = 1
+        ParentNode = INode "SceneRootNode.Hub"
+        BoneSeg {
+          BoneName = "Thigh"
+          Flags = 0
+          ObjectParams {
+            Flags = 8
+            Width = 12.15
+            Height = 15
+            Length = 25.8584
+            ObjectOffsetPos = point 0 0 0
+            ObjectOffsetRot = quat 0 0 0 1
+            ObjectOffsetScl = point 1 1 1
+          }
+        }
+      }
+      LimbBone {
+        BoneName = "Calf"
+        Flags = 312
+        Controller {
+          SetupTM = matrix -0.197333 -0.978733 -0.0560533 0.975807 -0.19061 -0.107092 0.0941306 -0.0758301 0.992668 -4.9049e-006 -8.38785e-007 1.88422e-006
+          Flags = 7340032
+        }
+        NumBoneSegs = 1
+        Width = 10.6445
+        Length = 41.4343
+        Height = 8.7024
+        WeightOutTan = 0.333
+        WeightInTan = 0.333
+        WeightOutVal = 0
+        WeightInVal = 1
+        ParentNode = INode "SceneRootNode.Hub.Limb[0].LimbBone[0].BoneSeg[0]"
+        BoneSeg {
+          BoneName = "Calf"
+          Flags = 0
+          ObjectParams {
+            Flags = 8
+            Width = 10.6445
+            Height = 8.7024
+            Length = 41.4343
+            ObjectOffsetPos = point 0 0 0
+            ObjectOffsetRot = quat 0 0 0 1
+            ObjectOffsetScl = point 1 1 1
+          }
+        }
+      }
+      LimbBone {
+        BoneName = "Ankle1"
+        Flags = 312
+        Controller {
+          SetupTM = matrix -0.574171 0.818695 0.00815617 -0.762634 -0.538426 0.358451 0.297854 0.199592 0.933513 9.96627e-007 6.35171e-007 4.13074e-006
+          Flags = 7340032
+        }
+        NumBoneSegs = 1
+        Width = 6
+        Length = 15.4
+        Height = 6
+        WeightOutTan = 0.333
+        WeightInTan = 0.333
+        WeightOutVal = 0
+        WeightInVal = 1
+        ParentNode = INode "SceneRootNode.Hub.Limb[0].LimbBone[1].BoneSeg[0]"
+        BoneSeg {
+          BoneName = "Ankle1"
+          Flags = 0
+          ObjectParams {
+            Flags = 8
+            Width = 6
+            Height = 6
+            Length = 15.4
+            ObjectOffsetPos = point 0 0 0
+            ObjectOffsetRot = quat 0 0 0 1
+            ObjectOffsetScl = point 1 1 1
+          }
+        }
+      }
+      Palm {
+        BoneName = "Ankle2"
+        Flags = 48
+        Controller {
+          SetupTM = matrix 0.48983 0.868538 0.075567 -0.871684 0.489433 0.0249606 -0.0153049 -0.0780964 0.996829 -2.72749 -8.03854 -1.76927
+          Flags = 7340032
+        }
+        ObjectParams {
+          Flags = 8
+          Width = 7.7
+          Height = 5
+          Length = 7
+          ObjectOffsetPos = point 0 0 0
+          ObjectOffsetRot = quat 0 0 0 1
+          ObjectOffsetScl = point 1 1 1
+        }
+        TargetAlign = 1
+        NumBones = 5
+        DigitParams {
+          BoneName = "Digit0"
+          SetupPos = point 1 0 0.5
+          Flags = 0
+          CATMotionWeight = 1
+          Width = 2
+          Height = 3
+          NumBones = 3
+          DigitSegParams {
+            BoneName = "1"
+            Flags = 56
+            Length = 9.61
+            Controller {
+              SetupTM = matrix -0.590382 0.0101604 0.80706 0.0842061 0.995239 0.0490691 -0.80272 0.0969289 -0.588426 0 0 0
+              Flags = 7340032
+            }
+            ObjectParams {
+              Flags = 8
+              Width = 2
+              Height = 3
+              Length = 9.61
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+          }
+          DigitSegParams {
+            BoneName = "2"
+            Flags = 312
+            Length = 8
+            Controller {
+              SetupTM = matrix 0.965926 -0.258819 -1.48942e-009 0.258819 0.965926 1.13133e-008 -1.48942e-009 -1.13133e-008 1 0 0 0
+              Flags = 7340032
+            }
+            ObjectParams {
+              Flags = 8
+              Width = 2
+              Height = 3
+              Length = 8
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+          }
+          DigitSegParams {
+            BoneName = "3"
+            Flags = 312
+            Length = 5
+            Controller {
+              SetupTM = matrix 0.965926 -0.258819 -1.48942e-009 0.258819 0.965926 1.13133e-008 -1.48942e-009 -1.13133e-008 1 0 0 0
+              Flags = 7340032
+            }
+            ObjectParams {
+              Flags = 8
+              Width = 2
+              Height = 3
+              Length = 5
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+          }
+        }
+        DigitParams {
+          BoneName = "Digit1"
+          SetupPos = point 0.987435 0.124552 0.420589
+          Flags = 0
+          CATMotionWeight = 1
+          Width = 3
+          Height = 4
+          NumBones = 3
+          DigitSegParams {
+            BoneName = "1"
+            Flags = 56
+            Length = 10.24
+            Controller {
+              SetupTM = matrix 0.867032 -0.0141483 0.498052 0.0531194 0.996525 -0.0641642 -0.495413 0.0820887 0.86477 0 0 0
+              Flags = 7340032
+            }
+            ObjectParams {
+              Flags = 8
+              Width = 3
+              Height = 4
+              Length = 10.24
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+          }
+          DigitSegParams {
+            BoneName = "2"
+            Flags = 312
+            Length = 8.16
+            Controller {
+              SetupTM = matrix 0.965926 -0.258819 -1.48942e-009 0.258819 0.965926 1.13133e-008 -1.48942e-009 -1.13133e-008 1 0 0 0
+              Flags = 7340032
+            }
+            ObjectParams {
+              Flags = 8
+              Width = 3
+              Height = 4
+              Length = 8.16
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+          }
+          DigitSegParams {
+            BoneName = "3"
+            Flags = 312
+            Length = 6
+            Controller {
+              SetupTM = matrix 0.965926 -0.258819 -1.48942e-009 0.258819 0.965926 1.13133e-008 -1.48942e-009 -1.13133e-008 1 0 0 0
+              Flags = 7340032
+            }
+            ObjectParams {
+              Flags = 8
+              Width = 3
+              Height = 4
+              Length = 6
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+          }
+        }
+        DigitParams {
+          BoneName = "Digit2"
+          SetupPos = point 0.996544 0.119938 -0.497304
+          Flags = 0
+          CATMotionWeight = 1
+          Width = 2.35
+          Height = 4
+          NumBones = 3
+          DigitSegParams {
+            BoneName = "1"
+            Flags = 56
+            Length = 15
+            Controller {
+              SetupTM = matrix 0.997799 0.0663131 -0.000263146 -0.0663131 0.997767 -0.00792764 -0.000263147 0.00792764 0.999969 0 0 0
+              Flags = 7340032
+            }
+            ObjectParams {
+              Flags = 8
+              Width = 2.35
+              Height = 4
+              Length = 15
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+          }
+          DigitSegParams {
+            BoneName = "2"
+            Flags = 312
+            Length = 13
+            Controller {
+              SetupTM = matrix 0.965926 -0.258819 -1.48942e-009 0.258819 0.965926 1.13133e-008 -1.48942e-009 -1.13133e-008 1 0 0 0
+              Flags = 7340032
+            }
+            ObjectParams {
+              Flags = 8
+              Width = 2.35
+              Height = 4
+              Length = 13
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+          }
+          DigitSegParams {
+            BoneName = "3"
+            Flags = 312
+            Length = 8
+            Controller {
+              SetupTM = matrix 0.998302 0.0582578 -8.8622e-010 -0.0582578 0.998302 -2.02082e-009 7.6702e-010 2.06902e-009 1 0 0 0
+              Flags = 7340032
+            }
+            ObjectParams {
+              Flags = 8
+              Width = 2.35
+              Height = 4
+              Length = 8
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+          }
+        }
+        DigitParams {
+          BoneName = "Digit3"
+          SetupPos = point 1 0 -1
+          Flags = 0
+          CATMotionWeight = 1
+          Width = 2
+          Height = 3
+          NumBones = 3
+          DigitSegParams {
+            BoneName = "1"
+            Flags = 56
+            Length = 6.03
+            Controller {
+              SetupTM = matrix 0.842092 0.0857442 -0.532475 -0.0901199 0.995771 0.0178269 0.531752 0.0329747 0.846258 0 0 0
+              Flags = 7340032
+            }
+            ObjectParams {
+              Flags = 8
+              Width = 2
+              Height = 3
+              Length = 6.03
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+          }
+          DigitSegParams {
+            BoneName = "2"
+            Flags = 312
+            Length = 8
+            Controller {
+              SetupTM = matrix 0.965926 -0.258819 -1.48942e-009 0.258819 0.965926 1.13133e-008 -1.48942e-009 -1.13133e-008 1 0 0 0
+              Flags = 7340032
+            }
+            ObjectParams {
+              Flags = 8
+              Width = 2
+              Height = 3
+              Length = 8
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+          }
+          DigitSegParams {
+            BoneName = "3"
+            Flags = 312
+            Length = 6
+            Controller {
+              SetupTM = matrix 0.983146 -0.182821 -1.39795e-009 0.182821 0.983146 1.05763e-008 -5.59204e-010 -1.06536e-008 1 0 0 0
+              Flags = 7340032
+            }
+            ObjectParams {
+              Flags = 8
+              Width = 2
+              Height = 3
+              Length = 6
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+          }
+        }
+        DigitParams {
+          BoneName = "Digit4"
+          SetupPos = point 0.862899 -0.641966 -0.910177
+          Flags = 0
+          CATMotionWeight = 1
+          Width = 3
+          Height = 3
+          NumBones = 3
+          DigitSegParams {
+            BoneName = "1"
+            Flags = 56
+            Length = 5
+            Controller {
+              SetupTM = matrix 0.0220148 -0.105051 -0.994223 0.0118783 0.994421 -0.104809 0.999687 -0.00950237 0.0231398 0 0 0
+              Flags = 7340032
+            }
+            ObjectParams {
+              Flags = 8
+              Width = 3
+              Height = 3
+              Length = 5
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+          }
+          DigitSegParams {
+            BoneName = "2"
+            Flags = 312
+            Length = 4
+            Controller {
+              SetupTM = matrix 0.965926 -0.258819 -1.48942e-009 0.258819 0.965926 1.13133e-008 -1.48942e-009 -1.13133e-008 1 0 0 0
+              Flags = 7340032
+            }
+            ObjectParams {
+              Flags = 8
+              Width = 3
+              Height = 3
+              Length = 4
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+          }
+          DigitSegParams {
+            BoneName = "3"
+            Flags = 312
+            Length = 3
+            Controller {
+              SetupTM = matrix 0.996803 -0.0799042 -1.19097e-009 0.0799042 0.996803 3.45609e-009 9.11044e-010 -3.5402e-009 1 0 0 0
+              Flags = 7340032
+            }
+            ObjectParams {
+              Flags = 8
+              Width = 3
+              Height = 3
+              Length = 3
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+          }
+        }
+      }
+    }
+    Limb {
+      Flags = 100
+      BoneName = "RRearLeg"
+      IKFKValue = 0
+      BoneColour = 4639146
+      Platform {
+        Flags = 0
+        Controller {
+          SetupTM = matrix 1 9.39594e-009 -1.0218e-009 -9.39594e-009 0.976624 -0.214954 -1.0218e-009 0.214954 0.976624 -3.41816e-006 -36.2342 -53.2115
+          Flags = 7537152
+        }
+        ObjectParams {
+          Width = 17.8354
+          Length = 25.2
+        }
+      }
+      NumBones = 3
+      LimbBone {
+        BoneName = "Thigh"
+        Flags = 56
+        Controller {
+          SetupTM = matrix 0.475951 0.647753 0.594884 -0.313007 0.756883 -0.573721 -0.821886 0.0868605 0.56299 1.35342e-006 8.92944e-007 12.132
+          Flags = 8257536
+        }
+        NumBoneSegs = 1
+        Width = 12.15
+        Length = 25.8584
+        Height = 15
+        WeightOutTan = 0.333
+        WeightInTan = 0.333
+        WeightOutVal = 0
+        WeightInVal = 1
+        ParentNode = INode "SceneRootNode.Hub"
+        BoneSeg {
+          BoneName = "Thigh"
+          Flags = 0
+          ObjectParams {
+            Flags = 8
+            Width = 12.15
+            Height = 15
+            Length = 25.8584
+            ObjectOffsetPos = point 0 0 0
+            ObjectOffsetRot = quat 0 0 0 1
+            ObjectOffsetScl = point 1 1 1
+          }
+        }
+      }
+      LimbBone {
+        BoneName = "Calf"
+        Flags = 312
+        Controller {
+          SetupTM = matrix -0.197333 -0.978733 0.0560533 0.975807 -0.19061 0.107092 -0.0941306 0.0758301 0.992668 -4.9049e-006 -8.38785e-007 -1.88422e-006
+          Flags = 7340032
+        }
+        NumBoneSegs = 1
+        Width = 10.6445
+        Length = 41.4343
+        Height = 8.7024
+        WeightOutTan = 0.333
+        WeightInTan = 0.333
+        WeightOutVal = 0
+        WeightInVal = 1
+        ParentNode = INode "SceneRootNode.Hub.Limb[1].LimbBone[0].BoneSeg[0]"
+        BoneSeg {
+          BoneName = "Calf"
+          Flags = 0
+          ObjectParams {
+            Flags = 8
+            Width = 10.6445
+            Height = 8.7024
+            Length = 41.4343
+            ObjectOffsetPos = point 0 0 0
+            ObjectOffsetRot = quat 0 0 0 1
+            ObjectOffsetScl = point 1 1 1
+          }
+        }
+      }
+      LimbBone {
+        BoneName = "Ankle1"
+        Flags = 312
+        Controller {
+          SetupTM = matrix -0.574171 0.818695 -0.00815617 -0.762634 -0.538426 -0.358451 -0.297854 -0.199592 0.933513 9.96627e-007 6.35171e-007 -4.13074e-006
+          Flags = 7340032
+        }
+        NumBoneSegs = 1
+        Width = 6
+        Length = 15.4
+        Height = 6
+        WeightOutTan = 0.333
+        WeightInTan = 0.333
+        WeightOutVal = 0
+        WeightInVal = 1
+        ParentNode = INode "SceneRootNode.Hub.Limb[1].LimbBone[1].BoneSeg[0]"
+        BoneSeg {
+          BoneName = "Ankle1"
+          Flags = 0
+          ObjectParams {
+            Flags = 8
+            Width = 6
+            Height = 6
+            Length = 15.4
+            ObjectOffsetPos = point 0 0 0
+            ObjectOffsetRot = quat 0 0 0 1
+            ObjectOffsetScl = point 1 1 1
+          }
+        }
+      }
+      Palm {
+        BoneName = "Ankle2"
+        Flags = 48
+        Controller {
+          SetupTM = matrix 0.48983 0.868538 -0.075567 -0.871684 0.489433 -0.0249606 0.0153049 0.0780964 0.996829 -2.72749 -8.03854 1.76927
+          Flags = 7340032
+        }
+        ObjectParams {
+          Flags = 8
+          Width = 7.7
+          Height = 5
+          Length = 7
+          ObjectOffsetPos = point 0 0 0
+          ObjectOffsetRot = quat 0 0 0 1
+          ObjectOffsetScl = point 1 1 1
+        }
+        TargetAlign = 1
+        NumBones = 5
+        DigitParams {
+          BoneName = "Digit0"
+          SetupPos = point 1 0 -0.5
+          Flags = 0
+          CATMotionWeight = 1
+          Width = 2
+          Height = 3
+          NumBones = 3
+          DigitSegParams {
+            BoneName = "1"
+            Flags = 56
+            Length = 9.61
+            Controller {
+              SetupTM = matrix -0.590382 0.0101604 -0.80706 0.0842061 0.995239 -0.0490691 0.80272 -0.0969289 -0.588426 0 0 0
+              Flags = 7340032
+            }
+            ObjectParams {
+              Flags = 8
+              Width = 2
+              Height = 3
+              Length = 9.61
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+          }
+          DigitSegParams {
+            BoneName = "2"
+            Flags = 312
+            Length = 8
+            Controller {
+              SetupTM = matrix 0.965926 -0.258819 1.48942e-009 0.258819 0.965926 -1.13133e-008 1.48942e-009 1.13133e-008 1 0 0 0
+              Flags = 7340032
+            }
+            ObjectParams {
+              Flags = 8
+              Width = 2
+              Height = 3
+              Length = 8
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+          }
+          DigitSegParams {
+            BoneName = "3"
+            Flags = 312
+            Length = 5
+            Controller {
+              SetupTM = matrix 0.965926 -0.258819 1.48942e-009 0.258819 0.965926 -1.13133e-008 1.48942e-009 1.13133e-008 1 0 0 0
+              Flags = 7340032
+            }
+            ObjectParams {
+              Flags = 8
+              Width = 2
+              Height = 3
+              Length = 5
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+          }
+        }
+        DigitParams {
+          BoneName = "Digit1"
+          SetupPos = point 0.987435 0.124552 -0.420589
+          Flags = 0
+          CATMotionWeight = 1
+          Width = 3
+          Height = 4
+          NumBones = 3
+          DigitSegParams {
+            BoneName = "1"
+            Flags = 56
+            Length = 10.24
+            Controller {
+              SetupTM = matrix 0.867032 -0.0141483 -0.498052 0.0531194 0.996525 0.0641642 0.495413 -0.0820887 0.86477 0 0 0
+              Flags = 7340032
+            }
+            ObjectParams {
+              Flags = 8
+              Width = 3
+              Height = 4
+              Length = 10.24
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+          }
+          DigitSegParams {
+            BoneName = "2"
+            Flags = 312
+            Length = 8.16
+            Controller {
+              SetupTM = matrix 0.965926 -0.258819 1.48942e-009 0.258819 0.965926 -1.13133e-008 1.48942e-009 1.13133e-008 1 0 0 0
+              Flags = 7340032
+            }
+            ObjectParams {
+              Flags = 8
+              Width = 3
+              Height = 4
+              Length = 8.16
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+          }
+          DigitSegParams {
+            BoneName = "3"
+            Flags = 312
+            Length = 6
+            Controller {
+              SetupTM = matrix 0.965926 -0.258819 1.48942e-009 0.258819 0.965926 -1.13133e-008 1.48942e-009 1.13133e-008 1 0 0 0
+              Flags = 7340032
+            }
+            ObjectParams {
+              Flags = 8
+              Width = 3
+              Height = 4
+              Length = 6
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+          }
+        }
+        DigitParams {
+          BoneName = "Digit2"
+          SetupPos = point 0.996544 0.119938 0.497304
+          Flags = 0
+          CATMotionWeight = 1
+          Width = 2.35
+          Height = 4
+          NumBones = 3
+          DigitSegParams {
+            BoneName = "1"
+            Flags = 56
+            Length = 15
+            Controller {
+              SetupTM = matrix 0.997799 0.0663131 0.000263146 -0.0663131 0.997767 0.00792764 0.000263147 -0.00792764 0.999969 0 0 0
+              Flags = 7340032
+            }
+            ObjectParams {
+              Flags = 8
+              Width = 2.35
+              Height = 4
+              Length = 15
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+          }
+          DigitSegParams {
+            BoneName = "2"
+            Flags = 312
+            Length = 13
+            Controller {
+              SetupTM = matrix 0.965926 -0.258819 1.48942e-009 0.258819 0.965926 -1.13133e-008 1.48942e-009 1.13133e-008 1 0 0 0
+              Flags = 7340032
+            }
+            ObjectParams {
+              Flags = 8
+              Width = 2.35
+              Height = 4
+              Length = 13
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+          }
+          DigitSegParams {
+            BoneName = "3"
+            Flags = 312
+            Length = 8
+            Controller {
+              SetupTM = matrix 0.998302 0.0582578 8.8622e-010 -0.0582578 0.998302 2.02082e-009 -7.6702e-010 -2.06902e-009 1 0 0 0
+              Flags = 7340032
+            }
+            ObjectParams {
+              Flags = 8
+              Width = 2.35
+              Height = 4
+              Length = 8
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+          }
+        }
+        DigitParams {
+          BoneName = "Digit3"
+          SetupPos = point 1 0 1
+          Flags = 0
+          CATMotionWeight = 1
+          Width = 2
+          Height = 3
+          NumBones = 3
+          DigitSegParams {
+            BoneName = "1"
+            Flags = 56
+            Length = 6.03
+            Controller {
+              SetupTM = matrix 0.842092 0.0857442 0.532475 -0.0901199 0.995771 -0.0178269 -0.531752 -0.0329747 0.846258 0 0 0
+              Flags = 7340032
+            }
+            ObjectParams {
+              Flags = 8
+              Width = 2
+              Height = 3
+              Length = 6.03
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+          }
+          DigitSegParams {
+            BoneName = "2"
+            Flags = 312
+            Length = 8
+            Controller {
+              SetupTM = matrix 0.965926 -0.258819 1.48942e-009 0.258819 0.965926 -1.13133e-008 1.48942e-009 1.13133e-008 1 0 0 0
+              Flags = 7340032
+            }
+            ObjectParams {
+              Flags = 8
+              Width = 2
+              Height = 3
+              Length = 8
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+          }
+          DigitSegParams {
+            BoneName = "3"
+            Flags = 312
+            Length = 6
+            Controller {
+              SetupTM = matrix 0.983146 -0.182821 1.39795e-009 0.182821 0.983146 -1.05763e-008 5.59204e-010 1.06536e-008 1 0 0 0
+              Flags = 7340032
+            }
+            ObjectParams {
+              Flags = 8
+              Width = 2
+              Height = 3
+              Length = 6
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+          }
+        }
+        DigitParams {
+          BoneName = "Digit4"
+          SetupPos = point 0.862899 -0.641966 0.910177
+          Flags = 0
+          CATMotionWeight = 1
+          Width = 3
+          Height = 3
+          NumBones = 3
+          DigitSegParams {
+            BoneName = "1"
+            Flags = 56
+            Length = 5
+            Controller {
+              SetupTM = matrix 0.0220148 -0.105051 0.994223 0.0118783 0.994421 0.104809 -0.999687 0.00950237 0.0231398 0 0 0
+              Flags = 7340032
+            }
+            ObjectParams {
+              Flags = 8
+              Width = 3
+              Height = 3
+              Length = 5
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+          }
+          DigitSegParams {
+            BoneName = "2"
+            Flags = 312
+            Length = 4
+            Controller {
+              SetupTM = matrix 0.965926 -0.258819 1.48942e-009 0.258819 0.965926 -1.13133e-008 1.48942e-009 1.13133e-008 1 0 0 0
+              Flags = 7340032
+            }
+            ObjectParams {
+              Flags = 8
+              Width = 3
+              Height = 3
+              Length = 4
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+          }
+          DigitSegParams {
+            BoneName = "3"
+            Flags = 312
+            Length = 3
+            Controller {
+              SetupTM = matrix 0.996803 -0.0799042 1.19097e-009 0.0799042 0.996803 -3.45609e-009 -9.11044e-010 3.5402e-009 1 0 0 0
+              Flags = 7340032
+            }
+            ObjectParams {
+              Flags = 8
+              Width = 3
+              Height = 3
+              Length = 3
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+          }
+        }
+      }
+    }
+    Spine {
+      BoneName = "Spine"
+      Flags = 0
+      AbsRelSpine = 0
+      SpineBase = matrix 1 0 0 0 1 0 0 0 1 4.50125 -0.46732 -1.08958e-006
+      WeightOutTan = 0.333
+      WeightInTan = 0.333
+      WeightOutVal = 0
+      WeightInVal = 1
+      NumLinks = 6
+      SpineLink {
+        BoneName = "1"
+        Flags = 56
+        ParentNode = INode "SceneRootNode.Hub"
+        ObjectParams {
+          Flags = 8
+          Width = 10
+          Height = 10
+          Length = 14.7516
+          ObjectOffsetPos = point 0 0 0
+          ObjectOffsetRot = quat 0 0 0 1
+          ObjectOffsetScl = point 1 1 1
+        }
+        SetupTM = matrix 1 0 0 0 1 0 0 0 1 0 0 0
+      }
+      SpineLink {
+        BoneName = "2"
+        Flags = 312
+        ParentNode = INode "SceneRootNode.Hub.Spine[0].SpineLink[0]"
+        ObjectParams {
+          Flags = 8
+          Width = 10
+          Height = 10
+          Length = 14.7516
+          ObjectOffsetPos = point 0 0 0
+          ObjectOffsetRot = quat 0 0 0 1
+          ObjectOffsetScl = point 1 1 1
+        }
+        SetupTM = matrix 1 0 0 0 1 0 0 0 1 0 0 0
+      }
+      SpineLink {
+        BoneName = "3"
+        Flags = 312
+        ParentNode = INode "SceneRootNode.Hub.Spine[0].SpineLink[1]"
+        ObjectParams {
+          Flags = 8
+          Width = 10
+          Height = 10
+          Length = 14.7516
+          ObjectOffsetPos = point 0 0 0
+          ObjectOffsetRot = quat 0 0 0 1
+          ObjectOffsetScl = point 1 1 1
+        }
+        SetupTM = matrix 1 0 0 0 1 0 0 0 1 0 0 0
+      }
+      SpineLink {
+        BoneName = "4"
+        Flags = 312
+        ParentNode = INode "SceneRootNode.Hub.Spine[0].SpineLink[2]"
+        ObjectParams {
+          Flags = 8
+          Width = 10
+          Height = 10
+          Length = 14.7516
+          ObjectOffsetPos = point 0 0 0
+          ObjectOffsetRot = quat 0 0 0 1
+          ObjectOffsetScl = point 1 1 1
+        }
+        SetupTM = matrix 1 0 0 0 1 0 0 0 1 0 0 0
+      }
+      SpineLink {
+        BoneName = "5"
+        Flags = 312
+        ParentNode = INode "SceneRootNode.Hub.Spine[0].SpineLink[3]"
+        ObjectParams {
+          Flags = 8
+          Width = 10
+          Height = 10
+          Length = 14.7516
+          ObjectOffsetPos = point 0 0 0
+          ObjectOffsetRot = quat 0 0 0 1
+          ObjectOffsetScl = point 1 1 1
+        }
+        SetupTM = matrix 1 0 0 0 1 0 0 0 1 0 0 0
+      }
+      SpineLink {
+        BoneName = "6"
+        Flags = 312
+        ParentNode = INode "SceneRootNode.Hub.Spine[0].SpineLink[4]"
+        ObjectParams {
+          Flags = 8
+          Width = 10
+          Height = 10
+          Length = 14.7516
+          ObjectOffsetPos = point 0 0 0
+          ObjectOffsetRot = quat 0 0 0 1
+          ObjectOffsetScl = point 1 1 1
+        }
+        SetupTM = matrix 1 0 0 0 1 0 0 0 1 0 0 0
+      }
+      Hub {
+        BoneName = "Ribcage"
+        Flags = 0
+        BoneColour = 39167
+        Controller {
+          SetupTM = matrix 0.0282355 0.999601 4.24772e-008 -0.999601 0.0282355 4.36939e-008 4.24772e-008 -4.36939e-008 1 31.3705 49.1124 5.49777e-005
+          Flags = 7536640
+        }
+        DangleRatioVal = 0
+        ParentNode = INode "SceneRootNode.Hub.Spine[0].SpineLink[5]"
+        ObjectParams {
+          Width = 19.8622
+          Length = 15.3092
+          Height = 37.6258
+          PivotPosZ = 0.340909
+          PivotPosY = -1
+        }
+        Limb {
+          Flags = 78
+          BoneName = "LFrontLeg"
+          IKFKValue = 0
+          BoneColour = 50315
+          Platform {
+            Flags = 0
+            Controller {
+              SetupTM = matrix 1 8.76964e-009 8.8874e-010 -8.8037e-009 0.988676 0.150066 4.37341e-010 -0.150066 0.988676 -1.43411 56.8708 47.4708
+              Flags = 7537152
+            }
+            ObjectParams {
+              Width = 15.28
+              Length = 18.282
+            }
+          }
+          CollarBone {
+            BoneName = "Collarbone"
+            Flags = 56
+            ParentNode = INode "SceneRootNode.Hub.Spine[0].Hub"
+            ObjectParams {
+              Flags = 8
+              Width = 5
+              Height = 5
+              Length = 18
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+            Controller {
+              SetupTM = matrix 0.883016 -0.400166 -0.245254 0.386432 0.916438 -0.10398 0.26637 -0.00295843 0.963866 1.90107 11.6551 8.84309
+              Flags = 7340032
+            }
+          }
+          NumBones = 3
+          LimbBone {
+            BoneName = "Upper"
+            Flags = 312
+            Controller {
+              SetupTM = matrix 0.213444 -0.883593 -0.41678 0.499799 0.465318 -0.730534 0.83943 -0.0523779 0.540938 3.14663e-006 -4.3897e-007 2.8758e-006
+              Flags = 8257536
+            }
+            NumBoneSegs = 1
+            Width = 6.45
+            Length = 27.9624
+            Height = 10
+            WeightOutTan = 0.333
+            WeightInTan = 0.333
+            WeightOutVal = 0
+            WeightInVal = 1
+            ParentNode = INode "SceneRootNode.Hub.Spine[0].Hub.Limb[0].CollarBone"
+            BoneSeg {
+              BoneName = "Upper"
+              Flags = 0
+              ObjectParams {
+                Flags = 8
+                Width = 6.45
+                Height = 10
+                Length = 27.9624
+                ObjectOffsetPos = point 0 0 0
+                ObjectOffsetRot = quat 0 0 0 1
+                ObjectOffsetScl = point 1 1 1
+              }
+            }
+          }
+          LimbBone {
+            BoneName = "Lower"
+            Flags = 312
+            Controller {
+              SetupTM = matrix -0.291684 0.938103 0.186769 -0.928916 -0.324382 0.178583 0.228113 -0.121402 0.966036 -1.2317e-006 -9.34145e-006 -4.74285e-006
+              Flags = 7340032
+            }
+            NumBoneSegs = 1
+            Width = 6.9
+            Length = 30.6666
+            Height = 9
+            WeightOutTan = 0.333
+            WeightInTan = 0.333
+            WeightOutVal = 0
+            WeightInVal = 1
+            ParentNode = INode "SceneRootNode.Hub.Spine[0].Hub.Limb[0].LimbBone[0].BoneSeg[0]"
+            BoneSeg {
+              BoneName = "Lower"
+              Flags = 0
+              ObjectParams {
+                Flags = 8
+                Width = 6.9
+                Height = 9
+                Length = 30.6666
+                ObjectOffsetPos = point 0 0 0
+                ObjectOffsetRot = quat 0 0 0 1
+                ObjectOffsetScl = point 1 1 1
+              }
+            }
+          }
+          LimbBone {
+            BoneName = "Palm1"
+            Flags = 312
+            Controller {
+              SetupTM = matrix 0.969839 0.243457 0.0118238 -0.224996 0.875528 0.427585 0.0937463 -0.417349 0.903898 7.62051e-006 -8.26805e-007 -9.5571e-006
+              Flags = 7340032
+            }
+            NumBoneSegs = 1
+            Width = 4.86
+            Length = 10.8028
+            Height = 6.21
+            WeightOutTan = 0.333
+            WeightInTan = 0.333
+            WeightOutVal = 0
+            WeightInVal = 1
+            ParentNode = INode "SceneRootNode.Hub.Spine[0].Hub.Limb[0].LimbBone[1].BoneSeg[0]"
+            BoneSeg {
+              BoneName = "Palm1"
+              Flags = 0
+              ObjectParams {
+                Flags = 8
+                Width = 4.86
+                Height = 6.21
+                Length = 10.8028
+                ObjectOffsetPos = point 0 0 0
+                ObjectOffsetRot = quat 0 0 0 1
+                ObjectOffsetScl = point 1 1 1
+              }
+            }
+          }
+          Palm {
+            BoneName = "Palm2"
+            Flags = 48
+            Controller {
+              SetupTM = matrix -0.00573963 0.999694 0.0240266 -0.983258 -0.00126593 -0.182216 -0.182129 -0.0246694 0.982965 -1.56918 -2.76572 0.790853
+              Flags = 7340032
+            }
+            ObjectParams {
+              Flags = 8
+              Width = 7.4
+              Height = 3.51
+              Length = 7.1
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+            TargetAlign = 1
+            NumBones = 5
+            DigitParams {
+              BoneName = "Digit0"
+              SetupPos = point 0.752694 -0.566876 0.995029
+              Flags = 0
+              CATMotionWeight = 1
+              Width = 2
+              Height = 3
+              NumBones = 3
+              DigitSegParams {
+                BoneName = "1"
+                Flags = 56
+                Length = 7
+                Controller {
+                  SetupTM = matrix 0.450378 -0.0399343 0.891944 -0.00365201 0.998908 0.0465674 -0.89283 -0.0242303 0.449741 -1.97592 4.32658e-007 -0.404648
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 8
+                  Width = 2
+                  Height = 3
+                  Length = 7
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = "2"
+                Flags = 312
+                Length = 6
+                Controller {
+                  SetupTM = matrix 0.965926 -0.258819 -1.48942e-009 0.258819 0.965926 1.13133e-008 -1.48942e-009 -1.13133e-008 1 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 8
+                  Width = 2
+                  Height = 3
+                  Length = 6
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = "3"
+                Flags = 312
+                Length = 4
+                Controller {
+                  SetupTM = matrix 0.965926 -0.258819 -1.48942e-009 0.258819 0.965926 1.13133e-008 -1.48942e-009 -1.13133e-008 1 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 8
+                  Width = 2
+                  Height = 3
+                  Length = 4
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+            }
+            DigitParams {
+              BoneName = "Digit1"
+              SetupPos = point 0.966992 0.374663 0.633239
+              Flags = 0
+              CATMotionWeight = 1
+              Width = 2
+              Height = 3
+              NumBones = 3
+              DigitSegParams {
+                BoneName = "1"
+                Flags = 56
+                Length = 7.07
+                Controller {
+                  SetupTM = matrix 0.890255 0.0682019 0.450328 -0.0971018 0.994415 0.0413572 -0.444992 -0.0805461 0.891905 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 8
+                  Width = 2
+                  Height = 3
+                  Length = 7.07
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = "2"
+                Flags = 312
+                Length = 5.89
+                Controller {
+                  SetupTM = matrix 0.936676 -0.350196 -7.33567e-010 0.350196 0.936676 1.73724e-008 -5.39666e-009 -1.65292e-008 1 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 8
+                  Width = 2
+                  Height = 3
+                  Length = 5.89
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = "3"
+                Flags = 312
+                Length = 4.32
+                Controller {
+                  SetupTM = matrix 0.965926 -0.258819 -1.48942e-009 0.258819 0.965926 1.13133e-008 -1.48942e-009 -1.13133e-008 1 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 8
+                  Width = 2
+                  Height = 3
+                  Length = 4.32
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+            }
+            DigitParams {
+              BoneName = "Digit2"
+              SetupPos = point 1.06351 0.908485 -0.176869
+              Flags = 0
+              CATMotionWeight = 1
+              Width = 2
+              Height = 3
+              NumBones = 3
+              DigitSegParams {
+                BoneName = "1"
+                Flags = 56
+                Length = 10.2
+                Controller {
+                  SetupTM = matrix 0.988215 0.146661 -0.0438274 -0.143896 0.987729 0.0607137 0.0521939 -0.0536916 0.997193 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 8
+                  Width = 2
+                  Height = 3
+                  Length = 10.2
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = "2"
+                Flags = 312
+                Length = 6.34
+                Controller {
+                  SetupTM = matrix 0.932009 -0.361034 0.0318521 0.362341 0.930176 -0.0590115 -0.0083229 0.0665405 0.997749 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 8
+                  Width = 2
+                  Height = 3
+                  Length = 6.34
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = "3"
+                Flags = 312
+                Length = 5.24
+                Controller {
+                  SetupTM = matrix 0.965926 -0.258819 -1.48942e-009 0.258819 0.965926 1.13133e-008 -1.48942e-009 -1.13133e-008 1 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 8
+                  Width = 2
+                  Height = 3
+                  Length = 5.24
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+            }
+            DigitParams {
+              BoneName = "Digit3"
+              SetupPos = point 0.986033 0.570907 -0.981006
+              Flags = 0
+              CATMotionWeight = 1
+              Width = 2
+              Height = 3
+              NumBones = 3
+              DigitSegParams {
+                BoneName = "1"
+                Flags = 56
+                Length = 7.03
+                Controller {
+                  SetupTM = matrix 0.967044 0.0235205 -0.253519 -0.0581754 0.989795 -0.13008 0.247872 0.140542 0.958544 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 8
+                  Width = 2
+                  Height = 3
+                  Length = 7.03
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = "2"
+                Flags = 312
+                Length = 6
+                Controller {
+                  SetupTM = matrix 0.965926 -0.258819 -1.48942e-009 0.258819 0.965926 1.13133e-008 -1.48942e-009 -1.13133e-008 1 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 8
+                  Width = 2
+                  Height = 3
+                  Length = 6
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = "3"
+                Flags = 312
+                Length = 3
+                Controller {
+                  SetupTM = matrix 0.965926 -0.258819 -1.48942e-009 0.258819 0.965926 1.13133e-008 -1.48942e-009 -1.13133e-008 1 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 8
+                  Width = 2
+                  Height = 3
+                  Length = 3
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+            }
+            DigitParams {
+              BoneName = "Digit4"
+              SetupPos = point 0.773915 -0.516002 -1.13037
+              Flags = 0
+              CATMotionWeight = 1
+              Width = 2
+              Height = 3
+              NumBones = 3
+              DigitSegParams {
+                BoneName = "1"
+                Flags = 56
+                Length = 6
+                Controller {
+                  SetupTM = matrix 0.585665 0 -0.810553 0 1 0 0.810553 0 0.585665 -2.25834 4.94498e-007 -0.462485
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 8
+                  Width = 2
+                  Height = 3
+                  Length = 6
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = "2"
+                Flags = 312
+                Length = 4
+                Controller {
+                  SetupTM = matrix 0.965926 -0.258819 -1.48942e-009 0.258819 0.965926 1.13133e-008 -1.48942e-009 -1.13133e-008 1 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 8
+                  Width = 2
+                  Height = 3
+                  Length = 4
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = "3"
+                Flags = 312
+                Length = 3
+                Controller {
+                  SetupTM = matrix 0.965926 -0.258819 -1.48942e-009 0.258819 0.965926 1.13133e-008 -1.48942e-009 -1.13133e-008 1 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 8
+                  Width = 2
+                  Height = 3
+                  Length = 3
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+            }
+          }
+        }
+        Limb {
+          Flags = 102
+          BoneName = "RFrontLeg"
+          IKFKValue = 0
+          BoneColour = 7836352
+          Platform {
+            Flags = 0
+            Controller {
+              SetupTM = matrix 1 8.76964e-009 -8.8874e-010 -8.8037e-009 0.988676 -0.150066 -4.37341e-010 0.150066 0.988676 -1.43411 56.8708 -47.4708
+              Flags = 7537152
+            }
+            ObjectParams {
+              Width = 15.28
+              Length = 18.282
+            }
+          }
+          CollarBone {
+            BoneName = "Collarbone"
+            Flags = 56
+            ParentNode = INode "SceneRootNode.Hub.Spine[0].Hub"
+            ObjectParams {
+              Flags = 8
+              Width = 5
+              Height = 5
+              Length = 18
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+            Controller {
+              SetupTM = matrix 0.883016 -0.400166 0.245254 0.386432 0.916438 0.10398 -0.26637 0.00295843 0.963866 1.90107 11.6551 -8.84309
+              Flags = 7340032
+            }
+          }
+          NumBones = 3
+          LimbBone {
+            BoneName = "Upper"
+            Flags = 312
+            Controller {
+              SetupTM = matrix 0.213444 -0.883593 0.41678 0.499799 0.465318 0.730534 -0.83943 0.0523779 0.540938 3.14663e-006 -4.3897e-007 -2.8758e-006
+              Flags = 8257536
+            }
+            NumBoneSegs = 1
+            Width = 6.45
+            Length = 27.9624
+            Height = 10
+            WeightOutTan = 0.333
+            WeightInTan = 0.333
+            WeightOutVal = 0
+            WeightInVal = 1
+            ParentNode = INode "SceneRootNode.Hub.Spine[0].Hub.Limb[1].CollarBone"
+            BoneSeg {
+              BoneName = "Upper"
+              Flags = 0
+              ObjectParams {
+                Flags = 8
+                Width = 6.45
+                Height = 10
+                Length = 27.9624
+                ObjectOffsetPos = point 0 0 0
+                ObjectOffsetRot = quat 0 0 0 1
+                ObjectOffsetScl = point 1 1 1
+              }
+            }
+          }
+          LimbBone {
+            BoneName = "Lower"
+            Flags = 312
+            Controller {
+              SetupTM = matrix -0.291684 0.938103 -0.186769 -0.928916 -0.324382 -0.178583 -0.228113 0.121402 0.966036 -1.2317e-006 -9.34145e-006 4.74285e-006
+              Flags = 7340032
+            }
+            NumBoneSegs = 1
+            Width = 6.9
+            Length = 30.6666
+            Height = 9
+            WeightOutTan = 0.333
+            WeightInTan = 0.333
+            WeightOutVal = 0
+            WeightInVal = 1
+            ParentNode = INode "SceneRootNode.Hub.Spine[0].Hub.Limb[1].LimbBone[0].BoneSeg[0]"
+            BoneSeg {
+              BoneName = "Lower"
+              Flags = 0
+              ObjectParams {
+                Flags = 8
+                Width = 6.9
+                Height = 9
+                Length = 30.6666
+                ObjectOffsetPos = point 0 0 0
+                ObjectOffsetRot = quat 0 0 0 1
+                ObjectOffsetScl = point 1 1 1
+              }
+            }
+          }
+          LimbBone {
+            BoneName = "Palm1"
+            Flags = 312
+            Controller {
+              SetupTM = matrix 0.969839 0.243457 -0.0118238 -0.224996 0.875528 -0.427585 -0.0937463 0.417349 0.903898 7.62051e-006 -8.26805e-007 9.5571e-006
+              Flags = 7340032
+            }
+            NumBoneSegs = 1
+            Width = 4.86
+            Length = 10.8028
+            Height = 6.21
+            WeightOutTan = 0.333
+            WeightInTan = 0.333
+            WeightOutVal = 0
+            WeightInVal = 1
+            ParentNode = INode "SceneRootNode.Hub.Spine[0].Hub.Limb[1].LimbBone[1].BoneSeg[0]"
+            BoneSeg {
+              BoneName = "Palm1"
+              Flags = 0
+              ObjectParams {
+                Flags = 8
+                Width = 4.86
+                Height = 6.21
+                Length = 10.8028
+                ObjectOffsetPos = point 0 0 0
+                ObjectOffsetRot = quat 0 0 0 1
+                ObjectOffsetScl = point 1 1 1
+              }
+            }
+          }
+          Palm {
+            BoneName = "Palm2"
+            Flags = 48
+            Controller {
+              SetupTM = matrix -0.00573963 0.999694 -0.0240266 -0.983258 -0.00126593 0.182216 0.182129 0.0246694 0.982965 -1.56918 -2.76572 -0.790853
+              Flags = 7340032
+            }
+            ObjectParams {
+              Flags = 8
+              Width = 7.4
+              Height = 3.51
+              Length = 7.1
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+            TargetAlign = 1
+            NumBones = 5
+            DigitParams {
+              BoneName = "Digit0"
+              SetupPos = point 0.752694 -0.566876 -0.995029
+              Flags = 0
+              CATMotionWeight = 1
+              Width = 2
+              Height = 3
+              NumBones = 3
+              DigitSegParams {
+                BoneName = "1"
+                Flags = 56
+                Length = 7
+                Controller {
+                  SetupTM = matrix 0.450378 -0.0399343 -0.891944 -0.00365201 0.998908 -0.0465674 0.89283 0.0242303 0.449741 -1.97592 4.32658e-007 0.404648
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 8
+                  Width = 2
+                  Height = 3
+                  Length = 7
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = "2"
+                Flags = 312
+                Length = 6
+                Controller {
+                  SetupTM = matrix 0.965926 -0.258819 1.48942e-009 0.258819 0.965926 -1.13133e-008 1.48942e-009 1.13133e-008 1 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 8
+                  Width = 2
+                  Height = 3
+                  Length = 6
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = "3"
+                Flags = 312
+                Length = 4
+                Controller {
+                  SetupTM = matrix 0.965926 -0.258819 1.48942e-009 0.258819 0.965926 -1.13133e-008 1.48942e-009 1.13133e-008 1 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 8
+                  Width = 2
+                  Height = 3
+                  Length = 4
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+            }
+            DigitParams {
+              BoneName = "Digit1"
+              SetupPos = point 0.966992 0.374663 -0.633239
+              Flags = 0
+              CATMotionWeight = 1
+              Width = 2
+              Height = 3
+              NumBones = 3
+              DigitSegParams {
+                BoneName = "1"
+                Flags = 56
+                Length = 7.07
+                Controller {
+                  SetupTM = matrix 0.890255 0.0682019 -0.450328 -0.0971018 0.994415 -0.0413572 0.444992 0.0805461 0.891905 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 8
+                  Width = 2
+                  Height = 3
+                  Length = 7.07
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = "2"
+                Flags = 312
+                Length = 5.89
+                Controller {
+                  SetupTM = matrix 0.936676 -0.350196 7.33567e-010 0.350196 0.936676 -1.73724e-008 5.39666e-009 1.65292e-008 1 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 8
+                  Width = 2
+                  Height = 3
+                  Length = 5.89
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = "3"
+                Flags = 312
+                Length = 4.32
+                Controller {
+                  SetupTM = matrix 0.965926 -0.258819 1.48942e-009 0.258819 0.965926 -1.13133e-008 1.48942e-009 1.13133e-008 1 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 8
+                  Width = 2
+                  Height = 3
+                  Length = 4.32
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+            }
+            DigitParams {
+              BoneName = "Digit2"
+              SetupPos = point 1.06351 0.908485 0.176869
+              Flags = 0
+              CATMotionWeight = 1
+              Width = 2
+              Height = 3
+              NumBones = 3
+              DigitSegParams {
+                BoneName = "1"
+                Flags = 56
+                Length = 10.2
+                Controller {
+                  SetupTM = matrix 0.988215 0.146661 0.0438274 -0.143896 0.987729 -0.0607137 -0.0521939 0.0536916 0.997193 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 8
+                  Width = 2
+                  Height = 3
+                  Length = 10.2
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = "2"
+                Flags = 312
+                Length = 6.34
+                Controller {
+                  SetupTM = matrix 0.932009 -0.361034 -0.0318521 0.362341 0.930176 0.0590115 0.0083229 -0.0665405 0.997749 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 8
+                  Width = 2
+                  Height = 3
+                  Length = 6.34
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = "3"
+                Flags = 312
+                Length = 5.24
+                Controller {
+                  SetupTM = matrix 0.965926 -0.258819 1.48942e-009 0.258819 0.965926 -1.13133e-008 1.48942e-009 1.13133e-008 1 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 8
+                  Width = 2
+                  Height = 3
+                  Length = 5.24
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+            }
+            DigitParams {
+              BoneName = "Digit3"
+              SetupPos = point 0.986033 0.570907 0.981006
+              Flags = 0
+              CATMotionWeight = 1
+              Width = 2
+              Height = 3
+              NumBones = 3
+              DigitSegParams {
+                BoneName = "1"
+                Flags = 56
+                Length = 7.03
+                Controller {
+                  SetupTM = matrix 0.967044 0.0235205 0.253519 -0.0581754 0.989795 0.13008 -0.247872 -0.140542 0.958544 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 8
+                  Width = 2
+                  Height = 3
+                  Length = 7.03
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = "2"
+                Flags = 312
+                Length = 6
+                Controller {
+                  SetupTM = matrix 0.965926 -0.258819 1.48942e-009 0.258819 0.965926 -1.13133e-008 1.48942e-009 1.13133e-008 1 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 8
+                  Width = 2
+                  Height = 3
+                  Length = 6
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = "3"
+                Flags = 312
+                Length = 3
+                Controller {
+                  SetupTM = matrix 0.965926 -0.258819 1.48942e-009 0.258819 0.965926 -1.13133e-008 1.48942e-009 1.13133e-008 1 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 8
+                  Width = 2
+                  Height = 3
+                  Length = 3
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+            }
+            DigitParams {
+              BoneName = "Digit4"
+              SetupPos = point 0.773915 -0.516002 1.13037
+              Flags = 0
+              CATMotionWeight = 1
+              Width = 2
+              Height = 3
+              NumBones = 3
+              DigitSegParams {
+                BoneName = "1"
+                Flags = 56
+                Length = 6
+                Controller {
+                  SetupTM = matrix 0.585665 0 0.810553 0 1 0 -0.810553 0 0.585665 -2.25834 4.94498e-007 0.462485
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 8
+                  Width = 2
+                  Height = 3
+                  Length = 6
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = "2"
+                Flags = 312
+                Length = 4
+                Controller {
+                  SetupTM = matrix 0.965926 -0.258819 1.48942e-009 0.258819 0.965926 -1.13133e-008 1.48942e-009 1.13133e-008 1 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 8
+                  Width = 2
+                  Height = 3
+                  Length = 4
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+              DigitSegParams {
+                BoneName = "3"
+                Flags = 312
+                Length = 3
+                Controller {
+                  SetupTM = matrix 0.965926 -0.258819 1.48942e-009 0.258819 0.965926 -1.13133e-008 1.48942e-009 1.13133e-008 1 0 0 0
+                  Flags = 7340032
+                }
+                ObjectParams {
+                  Flags = 8
+                  Width = 2
+                  Height = 3
+                  Length = 3
+                  ObjectOffsetPos = point 0 0 0
+                  ObjectOffsetRot = quat 0 0 0 1
+                  ObjectOffsetScl = point 1 1 1
+                }
+              }
+            }
+          }
+        }
+        Spine {
+          BoneName = "Neck"
+          Flags = 0
+          AbsRelSpine = 1
+          SpineBase = matrix 1 0 0 0 1 0 0 0 1 4.50125 -0.46732 -1.08958e-006
+          WeightOutTan = 0.333
+          WeightInTan = 0.333
+          WeightOutVal = 0
+          WeightInVal = 1
+          NumLinks = 5
+          SpineLink {
+            BoneName = "1"
+            Flags = 56
+            ParentNode = INode "SceneRootNode.Hub.Spine[0].Hub"
+            ObjectParams {
+              Flags = 8
+              Width = 6
+              Height = 6
+              Length = 15.551
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+            SetupTM = matrix 1 0 0 0 1 0 0 0 1 0 0 0
+          }
+          SpineLink {
+            BoneName = "2"
+            Flags = 312
+            ParentNode = INode "SceneRootNode.Hub.Spine[0].Hub.Spine[0].SpineLink[0]"
+            ObjectParams {
+              Flags = 8
+              Width = 6
+              Height = 6
+              Length = 15.551
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+            SetupTM = matrix 1 0 0 0 1 0 0 0 1 0 0 0
+          }
+          SpineLink {
+            BoneName = "3"
+            Flags = 312
+            ParentNode = INode "SceneRootNode.Hub.Spine[0].Hub.Spine[0].SpineLink[1]"
+            ObjectParams {
+              Flags = 8
+              Width = 6
+              Height = 6
+              Length = 15.551
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+            SetupTM = matrix 1 0 0 0 1 0 0 0 1 0 0 0
+          }
+          SpineLink {
+            BoneName = "4"
+            Flags = 312
+            ParentNode = INode "SceneRootNode.Hub.Spine[0].Hub.Spine[0].SpineLink[2]"
+            ObjectParams {
+              Flags = 8
+              Width = 6
+              Height = 6
+              Length = 15.551
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+            SetupTM = matrix 1 0 0 0 1 0 0 0 1 0 0 0
+          }
+          SpineLink {
+            BoneName = "5"
+            Flags = 312
+            ParentNode = INode "SceneRootNode.Hub.Spine[0].Hub.Spine[0].SpineLink[3]"
+            ObjectParams {
+              Flags = 8
+              Width = 6
+              Height = 6
+              Length = 15.551
+              ObjectOffsetPos = point 0 0 0
+              ObjectOffsetRot = quat 0 0 0 1
+              ObjectOffsetScl = point 1 1 1
+            }
+            SetupTM = matrix 1 0 0 0 1 0 0 0 1 0 0 0
+          }
+          Hub {
+            BoneName = "Head"
+            Flags = 0
+            BoneColour = 8963327
+            Controller {
+              SetupTM = matrix 0.049371 0.998781 4.15533e-008 -0.998781 0.049371 4.36581e-008 4.15533e-008 -4.36581e-008 1 36.7229 157.344 -1.60521e-006
+              Flags = 7471104
+            }
+            DangleRatioVal = 0
+            ParentNode = INode "SceneRootNode.Hub.Spine[0].Hub.Spine[0].SpineLink[4]"
+            ObjectParams {
+              Width = 11.5264
+              Length = 11.349
+              Height = 27.2281
+              PivotPosZ = -0.522727
+              PivotPosY = -0.5
+            }
+          }
+        }
+      }
+    }
+    Tail {
+      BoneName = "Tail"
+      Width = 12.49
+      Height = 15.06
+      Taper = 0.67
+      WeightOutTan = 0.333
+      WeightInTan = 0.333
+      WeightOutVal = 0
+      WeightInVal = 1
+      NumLinks = 8
+      TailBone {
+        BoneName = "1"
+        Flags = 40
+        ParentNode = INode "SceneRootNode.Hub"
+        ObjectParams {
+          Flags = 8
+          Width = 12.3959
+          Height = 14.9465
+          Length = 34.5875
+          ObjectOffsetPos = point 0 0 0
+          ObjectOffsetRot = quat 0 0 0 1
+          ObjectOffsetScl = point 1 1 1
+        }
+        Controller {
+          SetupTM = matrix -0.999022 0.0442144 1.94827e-007 -0.0442144 -0.999022 1.72105e-007 2.02245e-007 1.63322e-007 1 -6.92618 2.44915 1.51461e-006
+          Flags = 7340032
+        }
+      }
+      TailBone {
+        BoneName = "2"
+        Flags = 296
+        ParentNode = INode "SceneRootNode.Hub.Tail[0].TailBone[0]"
+        ObjectParams {
+          Flags = 8
+          Width = 11.717
+          Height = 14.1279
+          Length = 34.5875
+          ObjectOffsetPos = point 0 0 0
+          ObjectOffsetRot = quat 0 0 0 1
+          ObjectOffsetScl = point 1 1 1
+        }
+        Controller {
+          SetupTM = matrix -0.998413 -0.0563231 1.65614e-007 0.0563231 -0.998413 1.65173e-007 1.56048e-007 1.74239e-007 1 0 0 0
+          Flags = 7340032
+        }
+      }
+      TailBone {
+        BoneName = "3"
+        Flags = 296
+        ParentNode = INode "SceneRootNode.Hub.Tail[0].TailBone[1]"
+        ObjectParams {
+          Flags = 8
+          Width = 10.5482
+          Height = 12.7187
+          Length = 34.5875
+          ObjectOffsetPos = point 0 0 0
+          ObjectOffsetRot = quat 0 0 0 1
+          ObjectOffsetScl = point 1 1 1
+        }
+        Controller {
+          SetupTM = matrix -0.95912 -0.283001 1.3882e-007 0.283001 -0.95912 1.4905e-007 9.09638e-008 1.82242e-007 1 0 0 0
+          Flags = 7340032
+        }
+      }
+      TailBone {
+        BoneName = "4"
+        Flags = 296
+        ParentNode = INode "SceneRootNode.Hub.Tail[0].TailBone[2]"
+        ObjectParams {
+          Flags = 8
+          Width = 9.08591
+          Height = 10.9555
+          Length = 34.5875
+          ObjectOffsetPos = point 0 0 0
+          ObjectOffsetRot = quat 0 0 0 1
+          ObjectOffsetScl = point 1 1 1
+        }
+        Controller {
+          SetupTM = matrix -0.820554 -0.571569 1.08548e-007 0.571569 -0.820554 1.07493e-007 2.76298e-008 1.50247e-007 1 0 0 0
+          Flags = 7340032
+        }
+      }
+      TailBone {
+        BoneName = "5"
+        Flags = 312
+        ParentNode = INode "SceneRootNode.Hub.Tail[0].TailBone[3]"
+        ObjectParams {
+          Flags = 8
+          Width = 7.52579
+          Height = 9.07433
+          Length = 34.5875
+          ObjectOffsetPos = point 0 0 0
+          ObjectOffsetRot = quat 0 0 0 1
+          ObjectOffsetScl = point 1 1 1
+        }
+        Controller {
+          SetupTM = matrix -0.593516 -0.804822 8.14372e-008 0.804822 -0.593516 6.2873e-008 -2.26731e-009 1.02859e-007 1 0 0 0
+          Flags = 7340032
+        }
+      }
+      TailBone {
+        BoneName = "6"
+        Flags = 312
+        ParentNode = INode "SceneRootNode.Hub.Tail[0].TailBone[4]"
+        ObjectParams {
+          Flags = 8
+          Width = 6.06346
+          Height = 7.3111
+          Length = 34.5875
+          ObjectOffsetPos = point 0 0 0
+          ObjectOffsetRot = quat 0 0 0 1
+          ObjectOffsetScl = point 1 1 1
+        }
+        Controller {
+          SetupTM = matrix -0.383248 -0.923646 6.39485e-008 0.923646 -0.383248 1.70792e-008 8.73309e-009 6.56113e-008 1 0 0 0
+          Flags = 7340032
+        }
+      }
+      TailBone {
+        BoneName = "7"
+        Flags = 296
+        ParentNode = INode "SceneRootNode.Hub.Tail[0].TailBone[5]"
+        ObjectParams {
+          Flags = 8
+          Width = 4.8947
+          Height = 5.90185
+          Length = 34.5875
+          ObjectOffsetPos = point 0 0 0
+          ObjectOffsetRot = quat 0 0 0 1
+          ObjectOffsetScl = point 1 1 1
+        }
+        Controller {
+          SetupTM = matrix -0.161698 -0.98684 5.29276e-008 0.98684 -0.161698 -2.05033e-008 2.87918e-008 4.89157e-008 1 0 0 0
+          Flags = 7340032
+        }
+      }
+      TailBone {
+        BoneName = "8"
+        Flags = 296
+        ParentNode = INode "SceneRootNode.Hub.Tail[0].TailBone[6]"
+        ObjectParams {
+          Flags = 8
+          Width = 4.21583
+          Height = 5.0833
+          Length = 34.5875
+          ObjectOffsetPos = point 0 0 0
+          ObjectOffsetRot = quat 0 0 0 1
+          ObjectOffsetScl = point 1 1 1
+        }
+        Controller {
+          SetupTM = matrix -0.0139201 -0.999903 4.46248e-008 0.999903 -0.0139201 -4.33865e-008 4.40034e-008 4.40165e-008 1 0 0 0
+          Flags = 7340032
+        }
+      }
+    }
+  }
+}
