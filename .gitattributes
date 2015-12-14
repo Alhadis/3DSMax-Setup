@@ -35,3 +35,7 @@
 *.tmp   binary
 *.vms   binary
 *.xaml  binary
+
+
+# Exclude default plugin-config files from being analysed by Linguist
+ENU/plugcfg_ln/*/* linguist-vendored
