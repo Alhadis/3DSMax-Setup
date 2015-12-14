@@ -1,0 +1,347 @@
+SFX_WIN
+Version=23
+GroupVersion=1.01
+Advanced=1
+HelpID=65
+NumberOfNodes=21
+#NT=10100 0
+	PC=11
+	name=1 v=5000 _SchlickFresnel
+	version=1 v=2003 1.01
+	posx=1 v=2003 -1129.25
+	posy=1 v=2003 12.6488
+	classname=1 v=5000 Schlick Fresnel
+	submenuname=1 v=5000 Lighting
+	isadvanced=1 v=2001 1
+	helpid=1 v=2002 65
+	grpnodecolor=1 v=5012 10
+	grpPosX=1 v=2003 -729.489
+	grpPosY=1 v=2003 10.8157
+	group=-1
+	ISC=4
+		SVT=5001 3002 0 _CameraVector
+		SVT=5001 3002 0 _LightVector
+		SVT=5001 2003 0 _Reflectance
+		SVT=5001 1002 0 
+	OSC=4
+		SVT=5001 3002 0 _CameraVector
+		CC=1
+			C=0 0 0 13 1 2 0
+			CPC=0
+		SVT=5001 3002 0 _LightVector
+		CC=1
+			C=0 1 0 16 1 2 0
+			CPC=0
+		SVT=5001 2003 0 _Reflectance
+		CC=1
+			C=0 2 0 18 1 2 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 753.667
+	posy=1 v=2003 3.33333
+	group=0
+	ISC=2
+		SVT=5001 2003 0 _FresnelReflectance
+		SVT=5001 1002 0 
+	OSC=2
+		SVT=5001 2003 0 _FresnelReflectance
+		CC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=10100 0
+	PC=7
+	name=1 v=5000 SchlickFresnel
+	posx=1 v=2003 440.556
+	posy=1 v=2003 14.0621
+	isfunction=1 v=2001 1
+	functiondonotaddshaderdatastruct=1 v=2001 1
+	grpPosX=1 v=2003 -800.789
+	grpPosY=1 v=2003 87.4158
+	group=0
+	ISC=4
+		SVT=5001 3002 0 _CameraVector
+		SVT=5001 3002 0 _HalfAngleVector
+		SVT=5001 2003 0 _Reflectance
+		SVT=5001 1002 0 
+	OSC=4
+		SVT=5001 3002 0 _CameraVector
+		CC=1
+			C=2 0 0 3 0 1 0
+			CPC=0
+		SVT=5001 3002 0 _HalfAngleVector
+		CC=1
+			C=2 1 0 3 1 2 0
+			CPC=0
+		SVT=5001 2003 0 _Reflectance
+		CC=1
+			C=2 2 0 10 1 2 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20018 0
+	PC=2
+	posx=1 v=2003 -518.382
+	posy=1 v=2003 -31.3113
+	group=2
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=3 0 3 4 1 2 0
+			CPC=0
+#NT=20022 0
+	PC=2
+	posx=1 v=2003 -306.427
+	posy=1 v=2003 -15.0073
+	group=2
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=4 0 3 7 0 1 0
+			CPC=0
+#NT=20017 0
+	PC=2
+	posx=1 v=2003 -523.817
+	posy=1 v=2003 -111.022
+	group=2
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=5 0 1 4 0 1 0
+			CPC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 914.133
+	posy=1 v=2003 24.3525
+	group=2
+	ISC=2
+		SVT=5001 2003 0 _FresnelReflectance
+		SVT=5001 1002 0 
+	OSC=2
+		SVT=5001 2003 0 _FresnelReflectance
+		CC=1
+			C=6 0 0 1 0 0 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20055 0
+	PC=2
+	posx=1 v=2003 -75.6423
+	posy=1 v=2003 59.6567
+	group=2
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=2
+			C=7 0 3 11 1 2 0
+			CPC=0
+			C=7 0 3 9 1 2 0
+			CPC=0
+#NT=20017 0
+	PC=3
+	posx=1 v=2003 -286.723
+	posy=1 v=2003 124.676
+	value=2 e=0 v=2003 5.0
+	group=2
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=8 0 1 7 1 2 0
+			CPC=0
+#NT=20026 0
+	PC=2
+	posx=1 v=2003 484.553
+	posy=1 v=2003 198.592
+	group=2
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=9 0 3 6 0 0 0
+			CPC=0
+#NT=20016 0
+	PC=2
+	posx=1 v=2003 312.408
+	posy=1 v=2003 96.8377
+	group=2
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=10 0 3 9 0 1 0
+			CPC=0
+#NT=20022 0
+	PC=2
+	posx=1 v=2003 133.455
+	posy=1 v=2003 -38.4503
+	group=2
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=11 0 3 10 0 1 0
+			CPC=0
+#NT=20017 0
+	PC=2
+	posx=1 v=2003 -54.9763
+	posy=1 v=2003 -89.6102
+	group=2
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=12 0 1 11 0 1 0
+			CPC=0
+#NT=20109 0
+	PC=2
+	posx=1 v=2003 -234.707
+	posy=1 v=2003 -63.6954
+	group=0
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=2
+			C=13 0 3 2 0 0 0
+			CPC=0
+			C=13 0 3 17 0 1 0
+			CPC=0
+#NT=10100 1 Camera Vector-Hw Shader Nodes-Inputs Common
+	PC=12
+	name=1 v=5000 _CameraVec
+	version=1 v=2003 1.65
+	posx=1 v=2003 -439.743
+	posy=1 v=2003 -51.3971
+	collapsed=1 v=2001 1
+	classname=1 v=5000 Camera Vector
+	submenuname=1 v=5000 Inputs Common
+	bitmapnodeindex=1 v=2002 67
+	helpid=1 v=2002 2
+	grpnodecolor=1 v=5012 5
+	grpPosX=1 v=2003 -753.732
+	grpPosY=1 v=2003 -123.134
+	group=0
+	ISC=0
+	OSC=3
+		SVT=5001 3002 0 _CameraVector
+		CC=0
+		SVT=5001 3002 0 _Normalized
+		CC=1
+			C=14 1 0 13 0 1 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=10100 1 Light Vector-Hw Shader Nodes-Inputs Common
+	PC=12
+	name=1 v=5000 _LightVec
+	version=1 v=2003 1.7
+	posx=1 v=2003 -445.459
+	posy=1 v=2003 74.5729
+	collapsed=1 v=2001 1
+	classname=1 v=5000 Light Vector
+	submenuname=1 v=5000 Inputs Common
+	bitmapnodeindex=1 v=2002 6
+	helpid=1 v=2002 13
+	grpnodecolor=1 v=5012 5
+	grpPosX=1 v=2003 -883.698
+	grpPosY=1 v=2003 25.4893
+	group=0
+	ISC=2
+		SVT=2002 2002 0 
+		SVT=5001 1002 0 
+	OSC=3
+		SVT=5001 3002 0 _LightVector
+		CC=1
+			C=15 0 0 16 0 1 0
+			CPC=0
+		SVT=5001 3002 0 _Normalized
+		CC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20109 0
+	PC=2
+	posx=1 v=2003 -238.244
+	posy=1 v=2003 69.8208
+	group=0
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=16 0 3 17 1 2 0
+			CPC=0
+#NT=20026 0
+	PC=4
+	name=1 v=5000 HalfVector
+	posx=1 v=2003 -7.87017
+	posy=1 v=2003 68.0424
+	collapsed=1 v=2001 1
+	group=0
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=17 0 3 20 0 1 0
+			CPC=0
+#NT=20109 0
+	PC=2
+	posx=1 v=2003 -229.784
+	posy=1 v=2003 204.319
+	group=0
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=18 0 3 2 2 0 0
+			CPC=0
+#NT=20017 0
+	PC=4
+	note=1 v=5000 reflectance at normal incidence
+	posx=1 v=2003 -479.496
+	posy=1 v=2003 239.886
+	collapsed=1 v=2001 1
+	group=0
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=19 0 1 18 0 1 0
+			CPC=0
+#NT=20021 0
+	PC=4
+	name=1 v=5000 HalfVectorNormalized
+	posx=1 v=2003 201.331
+	posy=1 v=2003 66.3707
+	collapsed=1 v=2001 1
+	group=0
+	ISC=1
+		SVT=5001 3002 1 
+	OSC=1
+		SVT=5001 3002 2 
+		CC=1
+			C=20 0 2 2 1 0 0
+			CPC=0

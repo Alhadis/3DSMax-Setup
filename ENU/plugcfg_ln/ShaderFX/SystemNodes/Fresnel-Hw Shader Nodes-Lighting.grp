@@ -1,0 +1,407 @@
+SFX_WIN
+Version=24
+GroupVersion=1.34
+Advanced=0
+HelpID=10
+NumberOfNodes=24
+#NT=10100 0
+	PC=11
+	name=1 v=5000 _Fresnel
+	version=1 v=2003 1.34
+	posx=1 v=2003 18.9228
+	posy=1 v=2003 7.5228
+	classname=1 v=5000 Fresnel
+	submenuname=1 v=5000 Lighting
+	bitmapnodeindex=1 v=2002 63
+	helpid=1 v=2002 10
+	grpnodecolor=1 v=5012 7
+	grpPosX=1 v=2003 -541.209
+	grpPosY=1 v=2003 72.8022
+	group=-1
+	ISC=6
+		SVT=5001 3002 0 _Normal
+		SVT=5001 3002 0 _CameraVector
+		SVT=5001 2003 0 _Min
+		SVT=5001 2003 0 _Max
+		SVT=5001 2003 0 _Strength
+		SVT=5001 1002 0 
+	OSC=6
+		SVT=5001 3002 0 _Normal
+		CC=1
+			C=0 0 0 19 1 2 0
+			CPC=0
+		SVT=5001 3002 0 _CameraVector
+		CC=1
+			C=0 1 0 21 1 2 0
+			CPC=0
+		SVT=5001 2003 0 _Min
+		CC=1
+			C=0 2 0 16 1 2 0
+			CPC=0
+		SVT=5001 2003 0 _Max
+		CC=1
+			C=0 3 0 17 1 2 0
+			CPC=0
+		SVT=5001 2003 0 _Strength
+		CC=1
+			C=0 4 0 18 1 2 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 595.0
+	posy=1 v=2003 127.0
+	group=0
+	ISC=2
+		SVT=5001 2003 0 _FresnelMultiplier
+		SVT=5001 1002 0 
+	OSC=2
+		SVT=5001 2003 0 _FresnelMultiplier
+		CC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=10100 0
+	PC=8
+	name=1 v=5000 _Fresnel
+	geotype=1 v=5012 1
+	posx=1 v=2003 251.582
+	posy=1 v=2003 86.6941
+	isfunction=1 v=2001 1
+	functiondonotaddshaderdatastruct=1 v=2001 1
+	grpPosX=1 v=2003 -1151.15
+	grpPosY=1 v=2003 -41.2056
+	group=0
+	ISC=6
+		SVT=5001 3002 0 _CameraVector
+		SVT=5001 3002 0 _Normal
+		SVT=5001 2003 0 _Min
+		SVT=5001 2003 0 _Max
+		SVT=5001 2003 0 _Strenght
+		SVT=5001 1002 0 
+	OSC=6
+		SVT=5001 3002 0 _CameraVector
+		CC=1
+			C=2 0 0 3 0 1 0
+			CPC=0
+		SVT=5001 3002 0 _Normal
+		CC=1
+			C=2 1 0 3 1 2 0
+			CPC=0
+		SVT=5001 2003 0 _Min
+		CC=3
+			C=2 2 0 5 1 2 0
+			CPC=0
+			C=2 2 0 7 1 2 0
+			CPC=0
+			C=2 2 0 8 1 2 0
+			CPC=0
+		SVT=5001 2003 0 _Max
+		CC=1
+			C=2 3 0 7 0 1 0
+			CPC=0
+		SVT=5001 2003 0 _Strenght
+		CC=1
+			C=2 4 0 10 1 2 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20018 0
+	PC=2
+	posx=1 v=2003 -866.136
+	posy=1 v=2003 -134.211
+	group=2
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=3 0 3 12 0 1 0
+			CPC=0
+#NT=20023 0
+	PC=3
+	note=1 v=5000 Prevent negative values
+	posx=1 v=2003 -324.071
+	posy=1 v=2003 -255.23
+	group=2
+	ISC=1
+		SVT=5001 2003 1 
+	OSC=1
+		SVT=5001 2003 2 
+		CC=1
+			C=4 0 2 5 0 1 0
+			CPC=0
+#NT=20022 0
+	PC=2
+	posx=1 v=2003 -75.74
+	posy=1 v=2003 -238.504
+	group=2
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=5 0 3 6 0 1 0
+			CPC=0
+#NT=20027 0
+	PC=2
+	posx=1 v=2003 334.91
+	posy=1 v=2003 -111.128
+	group=2
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=6 0 3 9 0 1 0
+			CPC=0
+#NT=20052 0
+	PC=2
+	posx=1 v=2003 -218.813
+	posy=1 v=2003 -87.0076
+	group=2
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=7 0 3 8 0 1 0
+			CPC=0
+#NT=20022 0
+	PC=2
+	posx=1 v=2003 146.69
+	posy=1 v=2003 -27.4776
+	group=2
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=8 0 3 6 1 2 0
+			CPC=0
+#NT=20023 0
+	PC=2
+	posx=1 v=2003 547.71
+	posy=1 v=2003 -64.3346
+	group=2
+	ISC=1
+		SVT=5001 2003 1 
+	OSC=1
+		SVT=5001 2003 2 
+		CC=1
+			C=9 0 2 10 0 1 0
+			CPC=0
+#NT=20016 0
+	PC=3
+	geotype=1 v=5012 1
+	posx=1 v=2003 755.54
+	posy=1 v=2003 11.6653
+	group=2
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=10 0 3 11 0 0 0
+			CPC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 1069.85
+	posy=1 v=2003 38.7575
+	group=2
+	ISC=2
+		SVT=5001 2003 0 _FresnelMultiplier
+		SVT=5001 1002 0 
+	OSC=2
+		SVT=5001 2003 0 _FresnelMultiplier
+		CC=1
+			C=11 0 0 1 0 0 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20123 0
+	PC=2
+	posx=1 v=2003 -605.0
+	posy=1 v=2003 -231.667
+	group=2
+	ISC=1
+		SVT=5001 2003 1 
+	OSC=1
+		SVT=5001 2003 2 
+		CC=1
+			C=12 0 2 4 0 1 0
+			CPC=0
+#NT=20017 0
+	PC=7
+	name=1 v=5000 FresnelMin
+	note=1 v=5000 Not exposed to grp to hide from material
+	posx=1 v=2003 -251.081
+	posy=1 v=2003 -108.237
+	collapsed=1 v=2001 1
+	value=2 e=0 v=2003 0.8
+	exposetoui=1 v=2001 1
+	group=0
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=13 0 1 16 0 1 0
+			CPC=0
+#NT=20017 0
+	PC=5
+	name=1 v=5000 FresnelMax
+	posx=1 v=2003 -257.109
+	posy=1 v=2003 272.565
+	collapsed=1 v=2001 1
+	exposetoui=1 v=2001 1
+	group=0
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=14 0 1 17 0 1 0
+			CPC=0
+#NT=20017 0
+	PC=5
+	name=1 v=5000 FresnelStrength
+	posx=1 v=2003 -231.014
+	posy=1 v=2003 394.126
+	collapsed=1 v=2001 1
+	exposetoui=1 v=2001 1
+	group=0
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=15 0 1 18 0 1 0
+			CPC=0
+#NT=20109 0
+	PC=3
+	posx=1 v=2003 16.9695
+	posy=1 v=2003 -90.0453
+	collapsed=1 v=2001 1
+	group=0
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=16 0 3 2 2 0 0
+			CPC=0
+#NT=20109 0
+	PC=3
+	posx=1 v=2003 12.2972
+	posy=1 v=2003 252.112
+	collapsed=1 v=2001 1
+	group=0
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=17 0 3 2 3 0 0
+			CPC=0
+#NT=20109 0
+	PC=3
+	posx=1 v=2003 21.0394
+	posy=1 v=2003 346.546
+	collapsed=1 v=2001 1
+	group=0
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=18 0 3 2 4 0 0
+			CPC=0
+#NT=20109 0
+	PC=3
+	posx=1 v=2003 8.42695
+	posy=1 v=2003 140.449
+	collapsed=1 v=2001 1
+	group=0
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=19 0 3 2 1 0 0
+			CPC=0
+#NT=10100 1 Vertex World Normal-Hw Shader Nodes-Inputs Common
+	PC=10
+	name=1 v=5000 _WorldNormal
+	version=1 v=2003 1.63
+	posx=1 v=2003 -243.528
+	posy=1 v=2003 149.801
+	collapsed=1 v=2001 1
+	classname=1 v=5000 Vertex World Normal
+	submenuname=1 v=5000 Inputs Common
+	bitmapnodeindex=1 v=2002 60
+	helpid=1 v=2002 26
+	grpnodecolor=1 v=5012 5
+	group=0
+	ISC=0
+	OSC=3
+		SVT=5001 3002 0 _WorldNormal
+		CC=1
+			C=20 0 0 19 0 1 0
+			CPC=0
+		SVT=5001 3003 0 _WorldNormalVertShader
+		CC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20109 0
+	PC=3
+	posx=1 v=2003 7.02245
+	posy=1 v=2003 68.8202
+	collapsed=1 v=2001 1
+	group=0
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=21 0 3 2 0 0 0
+			CPC=0
+#NT=10100 1 Camera Vector-Hw Shader Nodes-Inputs Common
+	PC=10
+	name=1 v=5000 _CameraVec
+	version=1 v=2003 1.64
+	posx=1 v=2003 -246.237
+	posy=1 v=2003 22.9404
+	collapsed=1 v=2001 1
+	classname=1 v=5000 Camera Vector
+	submenuname=1 v=5000 Inputs Common
+	bitmapnodeindex=1 v=2002 67
+	helpid=1 v=2002 2
+	grpnodecolor=1 v=5012 5
+	group=0
+	ISC=0
+	OSC=3
+		SVT=5001 3002 0 _CameraVector
+		CC=0
+		SVT=5001 3002 0 _Normalized
+		CC=1
+			C=22 1 0 21 0 1 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20175 0
+	PC=3
+	posx=1 v=2003 257.5
+	posy=1 v=2003 -77.5
+	text=1 v=5000 float FresnelFunction(color Normal, color CameraVector, float Min, float Max, float Strenght)\n{\n    color _N;\n    if(Normal != 0)\n        _N = Normal;\n    else\n        _N = color(N);\n    \n    color _C;\n    if(CameraVector != 0)\n        _C = CameraVector;\n    else\n        _C = color(-I);\n        \n    float OneMinusOp = (1.0 - dot(vector(_C), vector(_N)));\n    float SubOp = (clamp(OneMinusOp, 0.0, 1.0) - Min);\n    float SubOp1 = (max(Max, Min) - Min);\n    float SatOp = clamp((SubOp / SubOp1), 0.0, 1.0);\n    float MulOp = (Strenght * SatOp);\n    return MulOp;\n}\n\nFresnelFunction( [[ INPUT = Normal ? 0 ]], [[ INPUT = CameraVector ? 0]], [[ INPUT = Min ? 0.8 ]], [[ INPUT = Max ? 1.0 ]], [[ INPUT = Strength ? 1.0 ]] )
+	group=0
+	ISC=0
+	OSC=0

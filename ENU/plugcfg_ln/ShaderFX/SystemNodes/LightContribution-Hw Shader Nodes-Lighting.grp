@@ -1,0 +1,575 @@
+SFX_WIN
+Version=24
+GroupVersion=1.03
+Advanced=1
+HelpID=54
+NumberOfNodes=32
+#NT=10100 0
+	PC=12
+	name=1 v=5000 LightContribution
+	version=1 v=2003 1.03
+	posx=1 v=2003 -1395.05
+	posy=1 v=2003 192.5
+	classname=1 v=5000 LightContribution
+	submenuname=1 v=5000 Lighting
+	bitmapnodeindex=1 v=2002 6
+	isadvanced=1 v=2001 1
+	helpid=1 v=2002 54
+	grpnodecolor=1 v=5012 10
+	grpPosX=1 v=2003 -840.697
+	grpPosY=1 v=2003 14.3023
+	group=-1
+	ISC=3
+		SVT=5001 3002 0 _VertexWorldPosition
+		SVT=5001 3002 0 _LightVectorUN
+		SVT=1001 1002 0 
+	OSC=3
+		SVT=5001 3002 0 _VertexWorldPosition
+		CC=1
+			C=0 0 0 28 1 2 0
+			CPC=0
+		SVT=5001 3002 0 _LightVectorUN
+		CC=1
+			C=0 1 0 30 1 2 0
+			CPC=0
+		SVT=1001 1002 0 
+		CC=0
+#NT=10100 0
+	PC=7
+	name=1 v=5000 LightContribution
+	posx=1 v=2003 -75.8666
+	posy=1 v=2003 43.631
+	isfunction=1 v=2001 1
+	functiondonotaddshaderdatastruct=1 v=2001 1
+	grpPosX=1 v=2003 -1175.16
+	grpPosY=1 v=2003 32.5458
+	group=0
+	ISC=3
+		SVT=5001 3002 0 _VertexWorldPosition
+		SVT=5001 3002 0 _LightVectorUN
+		SVT=1001 1002 0 
+	OSC=3
+		SVT=5001 3002 0 _VertexWorldPosition
+		CC=1
+			C=1 0 0 26 1 0 0
+			CPC=0
+		SVT=5001 3002 0 _LightVectorUN
+		CC=2
+			C=1 1 0 25 0 1 0
+			CPC=0
+			C=1 1 0 7 0 0 0
+			CPC=0
+		SVT=1001 1002 0 
+		CC=0
+#NT=10100 1 Light Cone Angle-Hw Shader Nodes-Lighting
+	PC=13
+	name=1 v=5000 _LightConeAngle
+	version=1 v=2003 1.24
+	posx=1 v=2003 -505.165
+	posy=1 v=2003 -9.60058
+	collapsed=1 v=2001 1
+	classname=1 v=5000 Light Cone Angle
+	submenuname=1 v=5000 Lighting
+	bitmapnodeindex=1 v=2002 6
+	isadvanced=1 v=2001 1
+	helpid=1 v=2002 39
+	grpnodecolor=1 v=5012 10
+	grpPosX=1 v=2003 -786.43
+	grpPosY=1 v=2003 13.0112
+	group=1
+	ISC=5
+		SVT=5001 3002 0 _LightVector
+		SVT=5001 3002 0 _LightDirection
+		SVT=5001 2003 0 _ConeAngle
+		SVT=5001 2003 0 _ConeFalloff
+		SVT=5001 1002 0 
+	OSC=2
+		SVT=5001 2003 0 _ConeAngle
+		CC=1
+			C=2 0 0 13 1 2 0
+			CPC=0
+		SVT=1001 1002 0 
+		CC=0
+#NT=20133 0
+	PC=4
+	posx=1 v=2003 528.275
+	posy=1 v=2003 -133.76
+	collapsed=1 v=2001 1
+	lightindex=2 e=0 v=2002 3
+	group=1
+	ISC=1
+		SVT=2002 2002 1 
+	OSC=1
+		SVT=5001 2003 2 
+		CC=1
+			C=3 0 2 4 0 1 0
+			CPC=0
+#NT=20016 0
+	PC=4
+	name=1 v=5000 MulItensity
+	note=1 v=5000 Intensity should be the first input to optimize disabled lights
+	posx=1 v=2003 757.428
+	posy=1 v=2003 -167.184
+	group=1
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=4 0 3 24 0 0 0
+			CPC=0
+#NT=10100 1 IsDirectionalLight-Hw Shader Nodes-Lighting
+	PC=11
+	name=1 v=5000 _IsDirectionalLight
+	version=1 v=2003 1.05
+	posx=1 v=2003 -203.668
+	posy=1 v=2003 -422.236
+	classname=1 v=5000 IsDirectionalLight
+	submenuname=1 v=5000 Lighting
+	isadvanced=1 v=2001 1
+	helpid=1 v=2002 61
+	grpnodecolor=1 v=5012 10
+	grpPosX=1 v=2003 -676.971
+	grpPosY=1 v=2003 -98.3253
+	group=1
+	ISC=2
+		SVT=5001 2002 0 _LightType
+		SVT=5001 1002 0 
+	OSC=2
+		SVT=5001 2001 0 _IsDirectionalLight
+		CC=1
+			C=5 0 0 11 0 1 0
+			CPC=0
+		SVT=1001 1002 0 
+		CC=0
+#NT=20137 0
+	PC=4
+	posx=1 v=2003 -425.218
+	posy=1 v=2003 -196.03
+	collapsed=1 v=2001 1
+	lightindex=2 e=0 v=2002 3
+	group=1
+	ISC=1
+		SVT=2002 2002 1 
+	OSC=1
+		SVT=5001 2003 2 
+		CC=1
+			C=6 0 2 7 1 0 0
+			CPC=0
+#NT=10100 1 Light Decay-Hw Shader Nodes-Lighting
+	PC=13
+	name=1 v=5000 _LightDecay
+	version=1 v=2003 1.28
+	posx=1 v=2003 -203.578
+	posy=1 v=2003 -199.217
+	collapsed=1 v=2001 1
+	classname=1 v=5000 Light Decay
+	submenuname=1 v=5000 Lighting
+	bitmapnodeindex=1 v=2002 6
+	isadvanced=1 v=2001 1
+	helpid=1 v=2002 34
+	grpnodecolor=1 v=5012 10
+	grpPosX=1 v=2003 -575.801
+	grpPosY=1 v=2003 -52.4782
+	group=1
+	ISC=3
+		SVT=5001 3002 0 _LightVectorUN
+		SVT=5001 2003 0 _Attenuation
+		SVT=5001 1002 0 
+	OSC=2
+		SVT=5001 2003 0 _Attenuation
+		CC=1
+			C=7 0 0 11 2 3 0
+			CPC=0
+		SVT=1001 1002 0 
+		CC=0
+#NT=20016 0
+	PC=3
+	name=1 v=5000 DecayShadowConeMul
+	posx=1 v=2003 305.988
+	posy=1 v=2003 -72.1184
+	group=1
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=8 0 3 19 0 1 0
+			CPC=0
+#NT=10100 1 IsSpotLight-Hw Shader Nodes-Lighting
+	PC=12
+	name=1 v=5000 _IsSpotLight
+	version=1 v=2003 1.04
+	posx=1 v=2003 -509.162
+	posy=1 v=2003 -93.4611
+	collapsed=1 v=2001 1
+	classname=1 v=5000 IsSpotLight
+	submenuname=1 v=5000 Lighting
+	isadvanced=1 v=2001 1
+	helpid=1 v=2002 62
+	grpnodecolor=1 v=5012 10
+	grpPosX=1 v=2003 -2376.0
+	grpPosY=1 v=2003 207.5
+	group=1
+	ISC=2
+		SVT=5001 2002 0 _LightType
+		SVT=5001 1002 0 
+	OSC=2
+		SVT=5001 2001 0 _IsSpotLight
+		CC=1
+			C=9 0 0 13 0 1 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20017 0
+	PC=4
+	name=1 v=5000 DefaultConeMul
+	posx=1 v=2003 -503.676
+	posy=1 v=2003 157.469
+	collapsed=1 v=2001 1
+	group=1
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=10 0 1 13 3 5 0
+			CPC=0
+#NT=20163 0
+	PC=3
+	name=1 v=5000 DecayMul
+	posx=1 v=2003 67.8609
+	posy=1 v=2003 -229.801
+	group=1
+	ISC=4
+		SVT=5001 2001 1 
+		SVT=5001 2003 2 
+		SVT=5001 2003 3 
+		SVT=5001 1003 5 
+	OSC=1
+		SVT=5001 2003 4 
+		CC=1
+			C=11 0 4 8 0 1 0
+			CPC=0
+#NT=20017 0
+	PC=3
+	name=1 v=5000 DefaultDecay
+	posx=1 v=2003 -203.955
+	posy=1 v=2003 -298.887
+	group=1
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=12 0 1 11 1 2 0
+			CPC=0
+#NT=20163 0
+	PC=3
+	name=1 v=5000 ConeMul
+	posx=1 v=2003 -227.718
+	posy=1 v=2003 93.8667
+	group=1
+	ISC=4
+		SVT=5001 2001 1 
+		SVT=5001 2003 2 
+		SVT=5001 2003 3 
+		SVT=5001 2003 5 
+	OSC=1
+		SVT=5001 2003 4 
+		CC=1
+			C=13 0 4 17 0 1 0
+			CPC=0
+#NT=20163 0
+	PC=3
+	name=1 v=5000 ShadowMul
+	posx=1 v=2003 -220.888
+	posy=1 v=2003 261.361
+	group=1
+	ISC=4
+		SVT=5001 2001 1 
+		SVT=5001 2003 2 
+		SVT=5001 2003 3 
+		SVT=5001 2003 5 
+	OSC=1
+		SVT=5001 2003 4 
+		CC=1
+			C=14 0 4 17 1 2 0
+			CPC=0
+#NT=20136 0
+	PC=4
+	posx=1 v=2003 -500.749
+	posy=1 v=2003 260.393
+	collapsed=1 v=2001 1
+	lightindex=2 e=0 v=2002 3
+	group=1
+	ISC=1
+		SVT=2002 2002 1 
+	OSC=1
+		SVT=5001 2001 2 
+		CC=1
+			C=15 0 2 14 0 1 0
+			CPC=0
+#NT=20017 0
+	PC=4
+	name=1 v=5000 DefaultShadowMul
+	posx=1 v=2003 -497.864
+	posy=1 v=2003 514.026
+	collapsed=1 v=2001 1
+	group=1
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=16 0 1 14 3 5 0
+			CPC=0
+#NT=20016 0
+	PC=3
+	name=1 v=5000 ShadowMul
+	posx=1 v=2003 67.2183
+	posy=1 v=2003 35.9556
+	group=1
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=17 0 3 8 1 2 0
+			CPC=0
+#NT=20025 0
+	PC=3
+	posx=1 v=2003 309.306
+	posy=1 v=2003 80.5515
+	lightindex=2 e=0 v=2002 3
+	group=1
+	ISC=1
+		SVT=2002 2002 1 
+	OSC=1
+		SVT=5001 3002 2 
+		CC=1
+			C=18 0 2 19 1 2 0
+			CPC=0
+#NT=20016 0
+	PC=3
+	name=1 v=5000 MulColor
+	posx=1 v=2003 533.862
+	posy=1 v=2003 -17.8384
+	group=1
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=19 0 3 4 1 2 0
+			CPC=0
+#NT=20147 0
+	PC=4
+	note=1 v=5000 Use ShadowColor as multiplier to keep things simple
+	posx=1 v=2003 -975.214
+	posy=1 v=2003 427.849
+	lightindex=2 e=0 v=2002 3
+	group=1
+	ISC=1
+		SVT=2002 2002 1 
+	OSC=1
+		SVT=5001 3002 2 
+		CC=1
+			C=20 0 2 21 0 1 0
+			CPC=0
+#NT=20108 0
+	PC=3
+	posx=1 v=2003 -768.969
+	posy=1 v=2003 475.679
+	collapsed=1 v=2001 1
+	group=1
+	ISC=1
+		SVT=5001 3002 1 
+	OSC=6
+		SVT=5001 2003 2 
+		CC=1
+			C=21 0 2 22 2 3 0
+			CPC=0
+		SVT=5001 2003 3 
+		CC=0
+		SVT=5001 3001 4 
+		CC=0
+		SVT=5001 2003 5 
+		CC=0
+		SVT=5001 3002 6 
+		CC=0
+		SVT=5001 2003 7 
+		CC=0
+#NT=20031 0
+	PC=3
+	name=1 v=5000 ShadowColorMix
+	posx=1 v=2003 -498.318
+	posy=1 v=2003 338.089
+	group=1
+	ISC=3
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+		SVT=5001 2003 3 
+	OSC=1
+		SVT=5001 2003 4 
+		CC=1
+			C=22 0 4 14 1 2 0
+			CPC=0
+#NT=20017 0
+	PC=4
+	name=1 v=5000 NoShadow
+	posx=1 v=2003 -765.456
+	posy=1 v=2003 388.916
+	collapsed=1 v=2001 1
+	group=1
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=23 0 1 22 1 2 0
+			CPC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 1097.61
+	posy=1 v=2003 -59.2114
+	group=1
+	ISC=2
+		SVT=5001 3002 0 _Light
+		SVT=1001 1002 0 
+	OSC=2
+		SVT=5001 3002 0 _Light
+		CC=1
+			C=24 0 0 27 0 0 0
+			CPC=0
+		SVT=1001 1002 0 
+		CC=0
+#NT=20021 0
+	PC=2
+	posx=1 v=2003 -822.498
+	posy=1 v=2003 48.0438
+	group=1
+	ISC=1
+		SVT=5001 3002 1 
+	OSC=1
+		SVT=5001 3002 2 
+		CC=1
+			C=25 0 2 2 0 0 0
+			CPC=0
+#NT=10100 1 Shadow Map-Hw Shader Nodes-Lighting
+	PC=12
+	name=1 v=5000 _ShadowMap
+	version=1 v=2003 2.0
+	posx=1 v=2003 -799.673
+	posy=1 v=2003 186.153
+	classname=1 v=5000 Shadow Map
+	submenuname=1 v=5000 Lighting
+	bitmapnodeindex=1 v=2002 64
+	isadvanced=1 v=2001 1
+	helpid=1 v=2002 29
+	grpnodecolor=1 v=5012 10
+	grpPosX=1 v=2003 -533.196
+	grpPosY=1 v=2003 50.5809
+	group=1
+	ISC=4
+		SVT=5001 4900 0 _LightViewPrj
+		SVT=5001 3002 0 _VertexWorldPosition
+		SVT=5001 2003 0 _ShadowBias
+		SVT=1001 1002 0 
+	OSC=2
+		SVT=5001 2003 0 _LightGain
+		CC=1
+			C=26 0 0 22 0 1 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 290.668
+	posy=1 v=2003 38.5887
+	group=0
+	ISC=2
+		SVT=5001 3002 0 _Light
+		SVT=1001 1002 0 
+	OSC=2
+		SVT=5001 3002 0 _Light
+		CC=0
+		SVT=1001 1002 0 
+		CC=0
+#NT=20109 0
+	PC=2
+	posx=1 v=2003 -315.8
+	posy=1 v=2003 -11.4006
+	group=0
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=28 0 3 1 0 0 0
+			CPC=0
+#NT=10100 1 Vertex World Position-Hw Shader Nodes-Inputs Common
+	PC=11
+	name=1 v=5000 _VertexWorldPos
+	version=1 v=2003 1.6
+	posx=1 v=2003 -517.461
+	posy=1 v=2003 -58.4189
+	classname=1 v=5000 Vertex World Position
+	submenuname=1 v=5000 Inputs Common
+	bitmapnodeindex=1 v=2002 66
+	helpid=1 v=2002 27
+	grpnodecolor=1 v=5012 5
+	grpPosX=1 v=2003 -1050.37
+	grpPosY=1 v=2003 -104.478
+	group=0
+	ISC=0
+	OSC=3
+		SVT=5001 3003 0 _VertexWorldPosition
+		CC=0
+		SVT=5001 3002 0 
+		CC=1
+			C=29 1 0 28 0 1 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20109 0
+	PC=2
+	posx=1 v=2003 -313.679
+	posy=1 v=2003 134.434
+	group=0
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=30 0 3 1 1 0 0
+			CPC=0
+#NT=10100 1 Light Vector-Hw Shader Nodes-Inputs Common
+	PC=12
+	name=1 v=5000 _LightVec
+	version=1 v=2003 1.74
+	posx=1 v=2003 -519.561
+	posy=1 v=2003 117.551
+	collapsed=1 v=2001 1
+	classname=1 v=5000 Light Vector
+	submenuname=1 v=5000 Inputs Common
+	bitmapnodeindex=1 v=2002 6
+	helpid=1 v=2002 13
+	grpnodecolor=1 v=5012 5
+	grpPosX=1 v=2003 -883.698
+	grpPosY=1 v=2003 24.177
+	group=0
+	ISC=2
+		SVT=2002 2002 0 
+		SVT=5001 1002 0 
+	OSC=3
+		SVT=5001 3002 0 _LightVector
+		CC=1
+			C=31 0 0 30 0 1 0
+			CPC=0
+		SVT=5001 3002 0 _Normalized
+		CC=0
+		SVT=5001 1002 0 
+		CC=0

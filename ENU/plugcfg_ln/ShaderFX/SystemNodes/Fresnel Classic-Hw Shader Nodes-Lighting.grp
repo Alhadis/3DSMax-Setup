@@ -1,0 +1,305 @@
+SFX_WIN
+Version=24
+GroupVersion=1.29
+Advanced=1
+HelpID=9
+NumberOfNodes=19
+#NT=10100 0
+	PC=15
+	name=1 v=5000 _FresnelClassic
+	version=1 v=2003 1.29
+	posx=1 v=2003 28.6636
+	posy=1 v=2003 15.9462
+	classname=1 v=5000 Fresnel Classic
+	submenuname=1 v=5000 Lighting
+	bitmapnodeindex=1 v=2002 63
+	isadvanced=1 v=2001 1
+	helpid=1 v=2002 9
+	grpnodecolor=1 v=5012 7
+	grpPosX=1 v=2003 -586.886
+	grpPosY=1 v=2003 -75.4099
+	value_FresnelBias=2 e=1 v=2003 0.0
+	value_FresnelPower=2 e=1 v=2003 1.0
+	value_FresnelScale=2 e=1 v=2003 1.0
+	group=-1
+	ISC=3
+		SVT=5001 3002 0 _Normal
+		SVT=5001 3002 0 _CameraVector
+		SVT=5001 1002 0 
+	OSC=3
+		SVT=5001 3002 0 _Normal
+		CC=1
+			C=0 0 0 16 1 2 0
+			CPC=0
+		SVT=5001 3002 0 _CameraVector
+		CC=1
+			C=0 1 0 14 1 2 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 399.918
+	posy=1 v=2003 58.1475
+	group=0
+	ISC=2
+		SVT=5001 2003 0 _FresnelMultiplier
+		SVT=5001 1002 0 
+	OSC=2
+		SVT=5001 2003 0 _FresnelMultiplier
+		CC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=10100 0
+	PC=8
+	name=1 v=5000 _FresnelClassic
+	posx=1 v=2003 117.599
+	posy=1 v=2003 10.3592
+	isfunction=1 v=2001 1
+	functiondonotaddshaderdatastruct=1 v=2001 1
+	value_FresnelPower=2 e=1 v=2003 1.0
+	value_FresnelScale=2 e=1 v=2003 1.0
+	value_FresnelBias=2 e=1 v=2003 0.0
+	group=0
+	ISC=3
+		SVT=5001 3002 0 _CameraVector
+		SVT=5001 3002 0 _Normal
+		SVT=5001 1002 0 
+	OSC=3
+		SVT=5001 3002 0 _CameraVector
+		CC=1
+			C=2 0 0 3 0 1 0
+			CPC=0
+		SVT=5001 3002 0 _Normal
+		CC=1
+			C=2 1 0 3 1 2 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20018 0
+	PC=2
+	posx=1 v=2003 370.0
+	posy=1 v=2003 4.99999
+	group=2
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=3 0 3 10 0 1 0
+			CPC=0
+#NT=20055 0
+	PC=2
+	posx=1 v=2003 809.999
+	posy=1 v=2003 51.6667
+	group=2
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=4 0 3 6 0 1 0
+			CPC=0
+#NT=20017 0
+	PC=5
+	name=1 v=5000 FresnelPower
+	posx=1 v=2003 591.666
+	posy=1 v=2003 140.0
+	value=2 e=1 v=2003 1.0
+	exposetoui=1 v=2001 1
+	group=2
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=5 0 1 4 1 2 0
+			CPC=0
+#NT=20016 0
+	PC=2
+	posx=1 v=2003 1023.33
+	posy=1 v=2003 81.6667
+	group=2
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=6 0 3 8 0 1 0
+			CPC=0
+#NT=20017 0
+	PC=5
+	name=1 v=5000 FresnelScale
+	posx=1 v=2003 811.666
+	posy=1 v=2003 188.333
+	value=2 e=1 v=2003 1.0
+	exposetoui=1 v=2001 1
+	group=2
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=7 0 1 6 1 2 0
+			CPC=0
+#NT=20026 0
+	PC=2
+	posx=1 v=2003 1208.33
+	posy=1 v=2003 113.333
+	group=2
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=8 0 3 12 1 2 0
+			CPC=0
+#NT=20017 0
+	PC=5
+	name=1 v=5000 FresnelBias
+	posx=1 v=2003 1021.67
+	posy=1 v=2003 223.333
+	value=2 e=1 v=2003 0.0
+	exposetoui=1 v=2001 1
+	group=2
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=9 0 1 8 1 2 0
+			CPC=0
+#NT=20023 0
+	PC=3
+	note=1 v=5000 Prevent negative values
+	posx=1 v=2003 576.667
+	posy=1 v=2003 16.6667
+	group=2
+	ISC=1
+		SVT=5001 2003 1 
+	OSC=1
+		SVT=5001 2003 2 
+		CC=1
+			C=10 0 2 4 0 1 0
+			CPC=0
+#NT=20017 0
+	PC=2
+	posx=1 v=2003 1209.48
+	posy=1 v=2003 -29.6443
+	group=2
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=11 0 1 12 0 1 0
+			CPC=0
+#NT=20022 0
+	PC=3
+	note=1 v=5000 Invert
+	posx=1 v=2003 1397.58
+	posy=1 v=2003 7.55751
+	group=2
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=12 0 3 13 0 0 0
+			CPC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 1683.05
+	posy=1 v=2003 41.3503
+	group=2
+	ISC=2
+		SVT=5001 2003 0 _FresnelMultiplier
+		SVT=5001 1002 0 
+	OSC=2
+		SVT=5001 2003 0 _FresnelMultiplier
+		CC=1
+			C=13 0 0 1 0 0 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20109 0
+	PC=2
+	posx=1 v=2003 -124.157
+	posy=1 v=2003 -131.493
+	group=0
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=14 0 3 2 0 0 0
+			CPC=0
+#NT=10100 1 Camera Vector-Hw Shader Nodes-Inputs Common
+	PC=10
+	name=1 v=5000 _CameraVec
+	version=1 v=2003 1.64
+	posx=1 v=2003 -344.319
+	posy=1 v=2003 -135.975
+	collapsed=1 v=2001 1
+	classname=1 v=5000 Camera Vector
+	submenuname=1 v=5000 Inputs Common
+	bitmapnodeindex=1 v=2002 67
+	helpid=1 v=2002 2
+	grpnodecolor=1 v=5012 5
+	group=0
+	ISC=0
+	OSC=3
+		SVT=5001 3002 0 _CameraVector
+		CC=0
+		SVT=5001 3002 0 _Normalized
+		CC=1
+			C=15 1 0 14 0 1 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20109 0
+	PC=2
+	posx=1 v=2003 -125.747
+	posy=1 v=2003 33.8711
+	group=0
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=16 0 3 2 1 0 0
+			CPC=0
+#NT=10100 1 Vertex World Normal-Hw Shader Nodes-Inputs Common
+	PC=10
+	name=1 v=5000 _WorldNormal
+	version=1 v=2003 1.63
+	posx=1 v=2003 -355.919
+	posy=1 v=2003 8.39309
+	collapsed=1 v=2001 1
+	classname=1 v=5000 Vertex World Normal
+	submenuname=1 v=5000 Inputs Common
+	bitmapnodeindex=1 v=2002 60
+	helpid=1 v=2002 26
+	grpnodecolor=1 v=5012 5
+	group=0
+	ISC=0
+	OSC=3
+		SVT=5001 3002 0 _WorldNormal
+		CC=1
+			C=17 0 0 16 0 1 0
+			CPC=0
+		SVT=5001 3003 0 _WorldNormalVertShader
+		CC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20175 0
+	PC=3
+	posx=1 v=2003 62.5
+	posy=1 v=2003 -161.25
+	text=1 v=5000 float FresnelClassiqueFunction(color Normal, color CameraVector)\n{\n    color _N;\n    if(Normal != 0)\n        _N = Normal;\n    else\n        _N = color(N);\n    \n    color _C;\n    if(CameraVector != 0)\n        _C = CameraVector;\n    else\n        _C = color(-I);\n\n    float SatOp = clamp(dot(vector(_C), vector(_N)), 0.0, 1.0);\n    float SubOp = (1.0 - SatOp);\n    return SubOp;\n}\n\nFresnelClassiqueFunction( [[ INPUT = Normal ? 0 ]], [[ INPUT = CameraVector ? 0]] )\n
+	group=0
+	ISC=0
+	OSC=0

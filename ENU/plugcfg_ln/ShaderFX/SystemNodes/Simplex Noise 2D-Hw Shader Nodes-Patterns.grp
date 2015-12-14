@@ -1,0 +1,208 @@
+SFX_WIN
+Version=24
+GroupVersion=1.08
+Advanced=0
+HelpID=79
+NumberOfNodes=12
+#NT=10100 0
+	PC=19
+	name=1 v=5000 SimplexNoise2D
+	version=1 v=2003 1.08
+	posx=1 v=2003 -1009.61
+	posy=1 v=2003 64.2466
+	previewswatch=1 v=2002 1
+	classname=1 v=5000 Simplex Noise 2D
+	submenuname=1 v=5000 Patterns
+	helpid=1 v=2002 79
+	grpnodecolor=1 v=5012 3
+	grpPosX=1 v=2003 -765.917
+	grpPosY=1 v=2003 32.1941
+	uvindex_UVs=2 e=2 v=2002 0
+	uvsetname_UVs=2 e=3 v=5000 
+	perinstanceunshared_UVs=2 e=4 v=2001 0
+	valueX_Tile=2 e=5 v=2003 5.0
+	valueY_Tile=2 e=6 v=2003 5.0
+	valueX_Offset=2 e=7 v=2003 0.0
+	valueY_Offset=2 e=8 v=2003 0.0
+	value_Brightness=2 e=10 v=2003 130.0
+	group=-1
+	ISC=3
+		SVT=5001 3001 0 _UV
+		SVT=5001 2003 0 Brightness
+		SVT=1001 1002 0 
+	OSC=3
+		SVT=5001 3001 0 _UV
+		CC=1
+			C=0 0 0 2 1 2 0
+			CPC=0
+		SVT=5001 2003 0 Brightness
+		CC=1
+			C=0 1 0 10 1 2 0
+			CPC=3
+			cx=-220.516
+			cy=484.185
+			cm=1
+		SVT=1001 1002 0 
+		CC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 675.206
+	posy=1 v=2003 -99.8569
+	group=0
+	ISC=2
+		SVT=5001 2003 0 Noise
+		SVT=1001 1002 0 
+	OSC=2
+		SVT=5001 2003 0 Noise
+		CC=0
+		SVT=1001 1002 0 
+		CC=0
+#NT=20109 0
+	PC=2
+	posx=1 v=2003 -318.795
+	posy=1 v=2003 -18.0764
+	group=0
+	ISC=2
+		SVT=5001 3001 1 
+		SVT=5001 3001 2 
+	OSC=1
+		SVT=5001 3001 3 
+		CC=1
+			C=2 0 3 4 0 1 0
+			CPC=0
+#NT=10100 1 UV Set-Hw Shader Nodes-Inputs Common
+	PC=14
+	name=1 v=5000 _UVSet
+	version=1 v=2003 1.69
+	posx=1 v=2003 -544.797
+	posy=1 v=2003 -143.778
+	classname=1 v=5000 UV Set
+	submenuname=1 v=5000 Inputs Common
+	bitmapnodeindex=1 v=2002 65
+	helpid=1 v=2002 23
+	grpnodecolor=1 v=5012 5
+	grpPosX=1 v=2003 -450.0
+	grpPosY=1 v=2003 -221.667
+	uvindex_UVs=2 e=2 v=2002 0
+	uvsetname_UVs=2 e=3 v=5000 
+	perinstanceunshared_UVs=2 e=4 v=2001 0
+	group=0
+	ISC=4
+		SVT=2002 2002 0 
+		SVT=5000 5000 0 
+		SVT=2001 2001 0 
+		SVT=1001 1002 0 
+	OSC=3
+		SVT=5001 3003 0 _UVWZ
+		CC=0
+		SVT=5001 3001 0 _UV
+		CC=1
+			C=3 1 0 2 0 1 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20016 0
+	PC=2
+	posx=1 v=2003 -51.051
+	posy=1 v=2003 87.087
+	group=0
+	ISC=2
+		SVT=5001 3001 1 
+		SVT=5001 3001 2 
+	OSC=1
+		SVT=5001 3001 3 
+		CC=1
+			C=4 0 3 6 0 1 0
+			CPC=0
+#NT=20139 0
+	PC=5
+	name=1 v=5000 Tile
+	posx=1 v=2003 -313.813
+	posy=1 v=2003 150.15
+	valueX=2 e=5 v=2003 5.0
+	valueY=2 e=6 v=2003 5.0
+	group=0
+	ISC=0
+	OSC=1
+		SVT=5001 3001 1 
+		CC=1
+			C=5 0 1 4 1 2 0
+			CPC=0
+#NT=20026 0
+	PC=2
+	posx=1 v=2003 169.67
+	posy=1 v=2003 142.643
+	group=0
+	ISC=2
+		SVT=5001 3001 1 
+		SVT=5001 3001 2 
+	OSC=1
+		SVT=5001 3001 3 
+		CC=1
+			C=6 0 3 8 2 99 0
+			CPC=0
+#NT=20139 0
+	PC=5
+	name=1 v=5000 Offset
+	posx=1 v=2003 -40.5405
+	posy=1 v=2003 265.766
+	valueX=2 e=7 v=2003 0.0
+	valueY=2 e=8 v=2003 0.0
+	group=0
+	ISC=0
+	OSC=1
+		SVT=5001 3001 1 
+		CC=1
+			C=7 0 1 6 1 2 0
+			CPC=0
+#NT=20161 0
+	PC=4
+	posx=1 v=2003 442.149
+	posy=1 v=2003 -50.2876
+	funcname=1 v=5000 SimplexNoise2D
+	text=1 v=5000 // Original by: Ian McEwan, Ashima Arts.\n//     License : Copyright (C) 2011 Ashima Arts. All rights reserved.\n//               Distributed under the MIT License. See LICENSE file: http://opensource.org/licenses/MIT\n//               https://github.com/ashima/webgl-noise\n// \n\n#if ( defined(SFX_HLSL_3) || defined(SFX_HLSL_5) || defined(SFX_CGFX_3) )\n   #define fract frac\n#endif\n\nfloat3 SimplexNoise2D_mod289(float3 x) \n{\n\treturn x - floor(x * (1.0 / 289.0)) * 289.0;\n}\n\nfloat2 SimplexNoise2D_mod289(float2 x) \n{\n\treturn x - floor(x * (1.0 / 289.0)) * 289.0;\n}\n\nfloat3 SimplexNoise2D_permute(float3 x) \n{\n\treturn SimplexNoise2D_mod289(((x*34.0)+1.0)*x);\n}\n\nfloat SimplexNoise2D_snoise(float2 v, float brightness)\n{\n\tconst float4 C = float4(0.211324865405187,  // (3.0-sqrt(3.0))/6.0\n\t\t0.366025403784439,  // 0.5*(sqrt(3.0)-1.0)\n\t\t-0.577350269189626,  // -1.0 + 2.0 * C.x\n\t\t0.024390243902439); // 1.0 / 41.0\n\t// First corner\n\tfloat2 i  = floor(v + dot(v, C.yy) );\n\tfloat2 x0 = v -   i + dot(i, C.xx);\n\n\t// Other corners\n\tfloat2 i1;\n\t//i1.x = step( x0.y, x0.x ); // x0.x > x0.y ? 1.0 : 0.0\n\t//i1.y = 1.0 - i1.x;\n\ti1 = (x0.x > x0.y) ? float2(1.0, 0.0) : float2(0.0, 1.0);\n\t// x0 = x0 - 0.0 + 0.0 * C.xx ;\n\t// x1 = x0 - i1 + 1.0 * C.xx ;\n\t// x2 = x0 - 1.0 + 2.0 * C.xx ;\n\tfloat4 x12 = x0.xyxy + C.xxzz;\n\tx12.xy -= i1;\n\n\t// Permutations\n\ti = SimplexNoise2D_mod289(i); // Avoid truncation effects in permutation\n\tfloat3 p = SimplexNoise2D_permute( SimplexNoise2D_permute( i.y + float3(0.0, i1.y, 1.0 ))\n\t\t+ i.x + float3(0.0, i1.x, 1.0 ));\n\n\tfloat3 m = max(0.5 - float3(dot(x0,x0), dot(x12.xy,x12.xy), dot(x12.zw,x12.zw)), 0.0);\n\tm = m*m ;\n\tm = m*m ;\n\n\t// Gradients: 41 points uniformly over a line, mapped onto a diamond.\n\t// The ring size 17*17 = 289 is close to a multiple of 41 (41*7 = 287)\n\n\tfloat3 x = 2.0 * fract(p * C.www) - 1.0;\n\tfloat3 h = abs(x) - 0.5;\n\tfloat3 ox = floor(x + 0.5);\n\tfloat3 a0 = x - ox;\n\n\t// Normalise gradients implicitly by scaling m\n\t// Approximation of: m *= inversesqrt( a0*a0 + h*h );\n\tm *= 1.79284291400159 - 0.85373472095314 * ( a0*a0 + h*h );\n\n\t// Compute final noise value at P\n\tfloat3 g;\n\tg.x  = a0.x  * x0.x  + h.x  * x0.y;\n\tg.yz = a0.yz * x12.xz + h.yz * x12.yw;\n\treturn brightness * dot(m, g);\n}\n\nstruct SimplexNoise2DOutput \n{ \n\tfloat noise; \n}; \n\nSimplexNoise2DOutput SimplexNoise2DFunc( float2 UV, float brightness  ) \n{ \n\tSimplexNoise2DOutput OUT; \n\tOUT.noise = SimplexNoise2D_snoise(UV, brightness);\n\treturn OUT; \n} \n
+	group=0
+	ISC=4
+		SVT=5001 5011 1 
+		SVT=5001 5013 2 
+		SVT=5001 3001 99 UV
+		SVT=5001 2003 100 brightness
+	OSC=1
+		SVT=5001 2003 999 noise
+		CC=1
+			C=8 0 999 1 0 0 0
+			CPC=0
+#NT=20017 0
+	PC=4
+	name=1 v=5000 Brightness
+	posx=1 v=2003 -40.5405
+	posy=1 v=2003 384.384
+	value=2 e=10 v=2003 130.0
+	group=0
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=9 0 1 10 0 1 0
+			CPC=0
+#NT=20109 0
+	PC=2
+	posx=1 v=2003 208.709
+	posy=1 v=2003 399.399
+	group=0
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=10 0 3 8 3 100 0
+			CPC=0
+#NT=20175 0
+	PC=3
+	posx=1 v=2003 -370.0
+	posy=1 v=2003 370.0
+	text=1 v=5000 // Original by: Ian McEwan, Ashima Arts.\n//     License : Copyright (C) 2011 Ashima Arts. All rights reserved.\n//               Distributed under the MIT License. See LICENSE file: http://opensource.org/licenses/MIT\n//               https://github.com/ashima/webgl-noise\n// \n\nfloat N_fract(float x)\n{\n    return x - floor(x);\n}\n\ncolor N_fract(color p)\n{\n    float px = N_fract(p[0]);\n    float py = N_fract(p[1]);\n    float pz = N_fract(p[2]);\n    return color(px, py, pz);\n}\n\ncolor SimplexNoise2D_mod289(color x) \n{\n    return x - floor(x * (1.0 / 289.0)) * 289.0;\n}\n\ncolor SimplexNoise2D_permute(color x) \n{\n    return SimplexNoise2D_mod289(((x*34.0)+1.0)*x);\n}\n\nfloat SimplexNoise2D_snoise(color v, float brightness)\n{\n    v[0] *= 5;\n    v[1] *= 5;\n\n    float C_x =  0.211324865405187; // (3.0-sqrt(3.0))/6.0\n    float C_y =  0.366025403784439; // 0.5*(sqrt(3.0)-1.0)\n    float C_z = -0.577350269189626; // -1.0 + 2.0 * C[0]\n    float C_a =  0.024390243902439; // 1.0 / 41.0\n    // First corner\n    color i  = floor(v + dot(point(v), point(C_y, C_y, 0)) );\n    color x0 = v -   i + dot(point(i), point(C_x, C_x, 0));\n    x0[2] = 0.0;\n\n    // Other corners\n    color i1;\n    i1 = (x0[0] > x0[1]) ? color(1.0, 0.0, 0.0) : color(0.0, 1.0, 0.0);\n    float x12_x = x0[0] + C_x;\n    float x12_y = x0[1] + C_x;\n    float x12_z = x0[0] + C_z;\n    float x12_a = x0[1] + C_z;\n    x12_x -= i1[0];\n    x12_y -= i1[1];\n\n    // Permutations\n    i = SimplexNoise2D_mod289(i); // Avoid truncation effects in permutation\n    color p = SimplexNoise2D_permute( SimplexNoise2D_permute( i[1] + color(0.0, i1[1], 1.0 ))\n        + i[0] + color(0.0, i1[0], 1.0 ));\n\n    color m = max(color(0.5) - color(dot(point(x0),point(x0)), dot(point(x12_x, x12_y, 0), point(x12_x, x12_y, 0)), dot(point(x12_z, x12_a, 0), point(x12_z, x12_a, 0))), 0.0);\n    m = m*m ;\n    m = m*m ;\n\n    // Gradients: 41 points uniformly over a line, mapped onto a diamond.\n    // The ring size 17*17 = 289 is close to a multiple of 41 (41*7 = 287)\n\n    color x = 2.0 * N_fract(p * color(C_a)) - 1.0;\n    color h = abs(x) - 0.5;\n    color ox = floor(x + 0.5);\n    color a0 = x - ox;\n\n    // Normalise gradients implicitly by scaling m\n    // Approximation of: m *= inversesqrt( a0*a0 + h*h );\n    m *= 1.79284291400159 - 0.85373472095314 * ( a0*a0 + h*h );\n\n    // Compute final noise value at P\n    color g;\n    g[0]  = a0[0]  * x0[0]  + h[0]  * x0[1];\n    g[1] = a0[1] * x12_x + h[1] * x12_y;\n    g[2] = a0[2] * x12_z + h[2] * x12_a;\n    float result =  brightness * dot(point(m), point(g));\n    return Gamma(result);\n}\n\nfloat SimplexNoise2DFunc( color UV, float brightness  ) \n{ \n    return SimplexNoise2D_snoise(UV, brightness);\n} \n\nSimplexNoise2DFunc( [[ INPUT = UV ? color(u,-v+1,0) ]], [[ INPUT = Brightness ? [[PROP=value_Brightness]] ]] )
+	group=0
+	ISC=0
+	OSC=0

@@ -1,0 +1,96 @@
+SFX_WIN
+Version=23
+GroupVersion=1.19
+Advanced=1
+HelpID=40
+NumberOfNodes=4
+#NT=10100 0
+	PC=15
+	name=1 v=5000 _DisplacementUV
+	version=1 v=2003 1.19
+	posx=1 v=2003 -617.645
+	posy=1 v=2003 -143.032
+	classname=1 v=5000 PNAEN Displacement UVs
+	submenuname=1 v=5000 Textures
+	bitmapnodeindex=1 v=2002 65
+	isadvanced=1 v=2001 1
+	helpid=1 v=2002 40
+	grpnodecolor=1 v=5012 7
+	grpPosX=1 v=2003 -429.311
+	grpPosY=1 v=2003 -36.207
+	flipy_UVs=2 e=1 v=2001 1
+	uvindex_UVs=2 e=2 v=2002 0
+	uvsetname_UVs=2 e=3 v=5000 
+	group=-1
+	ISC=2
+		SVT=5000 5000 0 
+		SVT=1001 1002 0 
+	OSC=2
+		SVT=5000 5000 0 
+		CC=1
+			C=0 0 0 2 1 0 0
+			CPC=0
+		SVT=1001 1002 0 
+		CC=0
+#NT=20127 0
+	PC=3
+	note=1 v=5000 UVs must be wired DIRECTLY into this node
+	posx=1 v=2003 36.0349
+	posy=1 v=2003 -51.2094
+	group=0
+	ISC=1
+		SVT=5001 3003 1 
+	OSC=3
+		SVT=5001 3001 2 
+		CC=1
+			C=1 0 2 3 0 0 0
+			CPC=0
+		SVT=5001 3002 3 
+		CC=0
+		SVT=5001 3002 4 
+		CC=0
+#NT=10100 1 UV Set-Hw Shader Nodes-Inputs Common
+	PC=14
+	name=1 v=5000 _UVSet
+	version=1 v=2003 1.66
+	posx=1 v=2003 -176.052
+	posy=1 v=2003 -51.6934
+	classname=1 v=5000 UV Set
+	submenuname=1 v=5000 Inputs Common
+	bitmapnodeindex=1 v=2002 65
+	helpid=1 v=2002 23
+	grpnodecolor=1 v=5012 5
+	grpPosX=1 v=2003 -450.0
+	grpPosY=1 v=2003 -221.667
+	flipy_UVs=2 e=1 v=2001 1
+	uvindex_UVs=2 e=2 v=2002 0
+	uvsetname_UVs=2 e=3 v=5000 
+	group=0
+	ISC=3
+		SVT=2002 2002 0 
+		SVT=5000 5000 0 
+		SVT=1001 1002 0 
+	OSC=3
+		SVT=5001 3003 0 _UVWZ
+		CC=1
+			C=2 0 0 1 0 1 0
+			CPC=0
+		SVT=5001 3001 0 _UV
+		CC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 279.311
+	posy=1 v=2003 -30.2416
+	group=0
+	ISC=2
+		SVT=5001 3001 0 
+		SVT=5001 1002 0 
+	OSC=2
+		SVT=5001 3001 0 
+		CC=1
+			C=3 0 0 -1 0 1 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0

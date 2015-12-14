@@ -1,0 +1,155 @@
+SFX_WIN
+Version=22
+GroupVersion=1.2
+Advanced=1
+HelpID=15
+NumberOfNodes=10
+#NT=10100 0
+	PC=14
+	name=1 v=5000 _PixelDepth
+	version=1 v=2003 1.2
+	posx=1 v=2003 36.6224
+	posy=1 v=2003 17.8271
+	classname=1 v=5000 Pixel Depth
+	submenuname=1 v=5000 Inputs Common
+	bitmapnodeindex=1 v=2002 72
+	isadvanced=1 v=2001 1
+	helpid=1 v=2002 15
+	grpnodecolor=1 v=5012 5
+	grpPosX=1 v=2003 -572.761
+	grpPosY=1 v=2003 104.478
+	value_CameraFar=2 e=1 v=2003 100.0
+	value_CameraNear=2 e=1 v=2003 1.0
+	group=-1
+	ISC=0
+	OSC=0
+#NT=20032 0
+	PC=2
+	posx=1 v=2003 -127.692
+	posy=1 v=2003 33.8462
+	group=0
+	ISC=1
+		SVT=5001 3002 1 
+	OSC=1
+		SVT=5001 2003 2 
+		CC=1
+			C=1 0 2 2 0 1 0
+			CPC=0
+#NT=20022 0
+	PC=2
+	posx=1 v=2003 120.0
+	posy=1 v=2003 60.0
+	group=0
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=2 0 3 6 0 1 0
+			CPC=0
+#NT=20017 0
+	PC=6
+	name=1 v=5000 CameraNear
+	posx=1 v=2003 -127.692
+	posy=1 v=2003 156.923
+	collapsed=1 v=2001 1
+	value=2 e=1 v=2003 1.0
+	exposetoui=1 v=2001 1
+	group=0
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=2
+			C=3 0 1 2 1 2 0
+			CPC=0
+			C=3 0 1 5 1 2 0
+			CPC=0
+#NT=20017 0
+	PC=6
+	name=1 v=5000 CameraFar
+	posx=1 v=2003 -129.231
+	posy=1 v=2003 252.308
+	collapsed=1 v=2001 1
+	value=2 e=1 v=2003 100.0
+	exposetoui=1 v=2001 1
+	group=0
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=4 0 1 5 0 1 0
+			CPC=0
+#NT=20022 0
+	PC=2
+	posx=1 v=2003 120.0
+	posy=1 v=2003 210.769
+	group=0
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=5 0 3 6 1 2 0
+			CPC=0
+#NT=20027 0
+	PC=2
+	posx=1 v=2003 383.077
+	posy=1 v=2003 178.462
+	group=0
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=6 0 3 7 0 1 0
+			CPC=0
+#NT=20023 0
+	PC=2
+	posx=1 v=2003 613.637
+	posy=1 v=2003 200.758
+	group=0
+	ISC=1
+		SVT=5001 2003 1 
+	OSC=1
+		SVT=5001 2003 2 
+		CC=1
+			C=7 0 2 8 0 0 0
+			CPC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 917.612
+	posy=1 v=2003 206.448
+	group=0
+	ISC=2
+		SVT=5001 2003 0 _PixelDepth
+		SVT=5001 1002 0 
+	OSC=2
+		SVT=5001 2003 0 _PixelDepth
+		CC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=10100 1 Camera Vector-Hw Shader Nodes-Inputs Common
+	PC=9
+	name=1 v=5000 _CameraVec
+	version=1 v=2003 1.64
+	posx=1 v=2003 -327.809
+	posy=1 v=2003 32.6219
+	classname=1 v=5000 Camera Vector
+	submenuname=1 v=5000 Inputs Common
+	bitmapnodeindex=1 v=2002 67
+	helpid=1 v=2002 2
+	grpnodecolor=1 v=5012 5
+	group=0
+	ISC=0
+	OSC=3
+		SVT=5001 3002 0 _CameraVector
+		CC=1
+			C=9 0 0 1 0 1 0
+			CPC=0
+		SVT=5001 3002 0 _Normalized
+		CC=0
+		SVT=5001 1002 0 
+		CC=0

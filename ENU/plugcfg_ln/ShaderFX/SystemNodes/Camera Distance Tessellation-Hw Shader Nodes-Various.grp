@@ -1,0 +1,261 @@
+SFX_WIN
+Version=23
+GroupVersion=1.7
+Advanced=0
+HelpID=1
+NumberOfNodes=17
+#NT=10100 0
+	PC=13
+	name=1 v=5000 _CameraDistanceTessellation
+	version=1 v=2003 1.7
+	posx=1 v=2003 -285.652
+	posy=1 v=2003 -247.025
+	classname=1 v=5000 Camera Distance Tessellation
+	submenuname=1 v=5000 Various
+	bitmapnodeindex=1 v=2002 2
+	helpid=1 v=2002 1
+	grpnodecolor=1 v=5012 7
+	grpPosX=1 v=2003 -1312.64
+	grpPosY=1 v=2003 2.95608
+	value_MaxTessellation=2 e=1 v=2003 20.0
+	value_TessellationRange=2 e=1 v=2003 100.0
+	group=-1
+	ISC=3
+		SVT=5001 2003 0 _TessellationRange
+		SVT=5001 2003 0 _TessellationMaximum
+		SVT=1001 1002 0 
+	OSC=3
+		SVT=5001 2003 0 _TessellationRange
+		CC=1
+			C=0 0 0 15 1 2 0
+			CPC=3
+			cx=-647.741
+			cy=-229.471
+			cm=1
+		SVT=5001 2003 0 _TessellationMaximum
+		CC=1
+			C=0 1 0 16 1 2 0
+			CPC=3
+			cx=-489.878
+			cy=248.333
+			cm=1
+		SVT=1001 1002 0 
+		CC=0
+#NT=20032 0
+	PC=2
+	posx=1 v=2003 -204.893
+	posy=1 v=2003 5.60173
+	group=0
+	ISC=1
+		SVT=5001 3002 1 
+	OSC=1
+		SVT=5001 2003 2 
+		CC=1
+			C=1 0 2 3 1 2 0
+			CPC=0
+#NT=20017 0
+	PC=8
+	name=1 v=5000 TessellationRange
+	note=1 v=5000 How close do we need to be to blend tessellation (scene scale)
+	posx=1 v=2003 -365.488
+	posy=1 v=2003 -312.581
+	value=2 e=1 v=2003 100.0
+	exposetoui=1 v=2001 1
+	uimax=2 e=0 v=2003 99999.0
+	uistep=2 e=0 v=2003 1.0
+	group=0
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=2 0 1 15 0 1 0
+			CPC=0
+#NT=20027 0
+	PC=3
+	note=1 v=5000 Do less tessellation further from camera
+	posx=1 v=2003 89.7824
+	posy=1 v=2003 -85.6483
+	group=0
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=3 0 3 4 0 1 0
+			CPC=0
+#NT=20052 0
+	PC=3
+	note=1 v=5000 Minimum tess of 1
+	posx=1 v=2003 302.258
+	posy=1 v=2003 -42.4593
+	group=0
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=4 0 3 13 0 1 0
+			CPC=0
+#NT=20017 0
+	PC=4
+	name=1 v=5000 TessellationMin
+	posx=1 v=2003 85.4204
+	posy=1 v=2003 41.7248
+	collapsed=1 v=2001 1
+	group=0
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=5 0 1 4 1 2 0
+			CPC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 975.031
+	posy=1 v=2003 -197.881
+	group=0
+	ISC=2
+		SVT=5001 2003 0 _TessellationFactor
+		SVT=5001 1002 0 
+	OSC=2
+		SVT=5001 2003 0 _TessellationFactor
+		CC=1
+			C=6 0 0 -1 1 2 0
+			CPC=0
+		SVT=1001 1002 0 
+		CC=0
+#NT=20061 0
+	PC=3
+	note=1 v=5000 Well do very simple per object tessellation reduction
+	posx=1 v=2003 -964.294
+	posy=1 v=2003 105.861
+	group=0
+	ISC=0
+	OSC=2
+		SVT=5001 4900 1 
+		CC=1
+			C=7 0 1 12 0 1 0
+			CPC=0
+		SVT=5001 4600 2 
+		CC=0
+#NT=20110 0
+	PC=3
+	note=1 v=5000 Will return correct Pos for HLSL and GLSL
+	posx=1 v=2003 -730.072
+	posy=1 v=2003 -114.612
+	group=0
+	ISC=1
+		SVT=5001 4900 1 
+	OSC=1
+		SVT=5001 3002 2 
+		CC=1
+			C=8 0 2 10 0 1 0
+			CPC=0
+#NT=20067 0
+	PC=2
+	posx=1 v=2003 -940.779
+	posy=1 v=2003 -105.101
+	group=0
+	ISC=0
+	OSC=1
+		SVT=5001 4900 1 
+		CC=1
+			C=9 0 1 8 0 1 0
+			CPC=0
+#NT=20022 0
+	PC=3
+	name=1 v=5000 CamVec
+	posx=1 v=2003 -427.186
+	posy=1 v=2003 -19.7873
+	group=0
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=10 0 3 1 0 1 0
+			CPC=0
+#NT=20111 0
+	PC=4
+	note=1 v=5000 Calculate TessFactor only once per shader
+	posx=1 v=2003 721.346
+	posy=1 v=2003 -33.8323
+	instanceidentifier=1 v=5000 TessFactorPerObject
+	group=0
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 1002 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=11 0 3 6 0 0 0
+			CPC=0
+#NT=20126 0
+	PC=3
+	note=1 v=5000 That will avoid some additional cracks and seams versus per vertex
+	posx=1 v=2003 -717.851
+	posy=1 v=2003 84.82
+	group=0
+	ISC=1
+		SVT=5001 4900 1 
+	OSC=1
+		SVT=5001 3002 2 
+		CC=1
+			C=12 0 2 10 1 2 0
+			CPC=0
+#NT=20053 0
+	PC=2
+	posx=1 v=2003 490.533
+	posy=1 v=2003 74.6809
+	group=0
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=13 0 3 11 0 1 0
+			CPC=0
+#NT=20017 0
+	PC=5
+	name=1 v=5000 MaxTessellation
+	posx=1 v=2003 77.2689
+	posy=1 v=2003 162.792
+	value=2 e=1 v=2003 20.0
+	exposetoui=1 v=2001 1
+	group=0
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=14 0 1 16 0 1 0
+			CPC=0
+#NT=20109 0
+	PC=2
+	posx=1 v=2003 -149.471
+	posy=1 v=2003 -310.847
+	group=0
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=15 0 3 3 0 1 0
+			CPC=0
+#NT=20109 0
+	PC=2
+	posx=1 v=2003 297.619
+	posy=1 v=2003 166.667
+	group=0
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=16 0 3 13 1 2 0
+			CPC=0

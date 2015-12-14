@@ -1,0 +1,374 @@
+SFX_WIN
+Version=22
+GroupVersion=1.26
+Advanced=1
+HelpID=36
+NumberOfNodes=20
+#NT=10100 0
+	PC=12
+	name=1 v=5000 _RimLight
+	version=1 v=2003 1.26
+	posx=1 v=2003 24.7988
+	posy=1 v=2003 13.7579
+	classname=1 v=5000 Rim Light
+	submenuname=1 v=5000 Lighting
+	bitmapnodeindex=1 v=2002 63
+	isadvanced=1 v=2001 1
+	helpid=1 v=2002 36
+	grpnodecolor=1 v=5012 10
+	grpPosX=1 v=2003 -120.879
+	grpPosY=1 v=2003 -31.1356
+	group=-1
+	ISC=6
+		SVT=5001 3002 0 _AlbedoColor
+		SVT=5001 3002 0 _LightVectorUN
+		SVT=5001 3002 0 _Normal
+		SVT=5001 2003 0 _Fresnel
+		SVT=5001 3002 0 _FresnelColorTint
+		SVT=5001 1002 0 
+	OSC=6
+		SVT=5001 3002 0 _AlbedoColor
+		CC=1
+			C=0 0 0 11 1 2 0
+			CPC=0
+		SVT=5001 3002 0 _LightVectorUN
+		CC=1
+			C=0 1 0 16 1 2 0
+			CPC=0
+		SVT=5001 3002 0 _Normal
+		CC=1
+			C=0 2 0 18 1 2 0
+			CPC=0
+		SVT=5001 2003 0 _Fresnel
+		CC=1
+			C=0 3 0 10 1 2 0
+			CPC=0
+		SVT=5001 3002 0 _FresnelColorTint
+		CC=1
+			C=0 4 0 13 1 2 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 1007.33
+	posy=1 v=2003 -24.0987
+	group=0
+	ISC=2
+		SVT=5001 3002 0 _Color
+		SVT=5001 1002 0 
+	OSC=2
+		SVT=5001 3002 0 _Color
+		CC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=10100 0
+	PC=7
+	name=1 v=5000 _RimLight
+	posx=1 v=2003 701.328
+	posy=1 v=2003 -108.633
+	isfunction=1 v=2001 1
+	functiondonotaddshaderdatastruct=1 v=2001 1
+	grpPosX=1 v=2003 -20.7469
+	grpPosY=1 v=2003 -209.544
+	group=0
+	ISC=6
+		SVT=5001 2003 0 _Fresnel
+		SVT=5001 3002 0 _LightVector
+		SVT=5001 3002 0 _Normal
+		SVT=5001 3002 0 _AlbedoColor
+		SVT=5001 3002 0 _FresnelColorTint
+		SVT=5001 1002 0 
+	OSC=6
+		SVT=5001 2003 0 _Fresnel
+		CC=1
+			C=2 0 0 3 0 1 0
+			CPC=0
+		SVT=5001 3002 0 _LightVector
+		CC=1
+			C=2 1 0 4 0 1 0
+			CPC=0
+		SVT=5001 3002 0 _Normal
+		CC=1
+			C=2 2 0 5 0 1 0
+			CPC=0
+		SVT=5001 3002 0 _AlbedoColor
+		CC=1
+			C=2 3 0 8 0 1 0
+			CPC=0
+		SVT=5001 3002 0 _FresnelColorTint
+		CC=1
+			C=2 4 0 8 1 2 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20016 0
+	PC=2
+	posx=1 v=2003 852.842
+	posy=1 v=2003 -126.145
+	group=2
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=3 0 3 7 1 2 0
+			CPC=0
+#NT=20112 0
+	PC=2
+	posx=1 v=2003 237.495
+	posy=1 v=2003 34.608
+	group=2
+	ISC=1
+		SVT=5001 3002 1 
+	OSC=1
+		SVT=5001 3002 2 
+		CC=1
+			C=4 0 2 5 1 2 0
+			CPC=0
+#NT=20018 0
+	PC=3
+	note=1 v=5000 Only do rim opposite of light in dark areas
+	posx=1 v=2003 453.629
+	posy=1 v=2003 -37.6404
+	group=2
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=5 0 3 6 0 1 0
+			CPC=0
+#NT=20023 0
+	PC=2
+	posx=1 v=2003 650.571
+	posy=1 v=2003 -20.0722
+	group=2
+	ISC=1
+		SVT=5001 2003 1 
+	OSC=1
+		SVT=5001 2003 2 
+		CC=1
+			C=6 0 2 3 1 2 0
+			CPC=0
+#NT=20016 0
+	PC=2
+	posx=1 v=2003 1063.31
+	posy=1 v=2003 -210.314
+	group=2
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=7 0 3 9 0 0 0
+			CPC=0
+#NT=20026 0
+	PC=3
+	note=1 v=5000 Default Rim is Albedo color
+	posx=1 v=2003 851.353
+	posy=1 v=2003 -244.933
+	group=2
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=8 0 3 7 0 1 0
+			CPC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 1364.5
+	posy=1 v=2003 -139.838
+	group=2
+	ISC=2
+		SVT=5001 3002 0 _Color
+		SVT=5001 1002 0 
+	OSC=2
+		SVT=5001 3002 0 _Color
+		CC=1
+			C=9 0 0 1 0 0 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20109 0
+	PC=3
+	note=1 v=5000 so it is only calculated once per object
+	posx=1 v=2003 451.899
+	posy=1 v=2003 -331.497
+	group=0
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=10 0 3 2 0 0 0
+			CPC=0
+#NT=20109 0
+	PC=2
+	posx=1 v=2003 448.237
+	posy=1 v=2003 110.414
+	group=0
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=11 0 3 2 3 0 0
+			CPC=0
+#NT=20011 0
+	PC=5
+	name=1 v=5000 Col
+	posx=1 v=2003 217.57
+	posy=1 v=2003 90.4142
+	collapsed=1 v=2001 1
+	color=2 e=0 v=3003 1.0,1.0,1.0,1.0
+	group=0
+	ISC=0
+	OSC=6
+		SVT=5001 3003 1 
+		CC=0
+		SVT=5001 3002 2 
+		CC=1
+			C=12 1 2 11 0 1 0
+			CPC=0
+		SVT=5001 2003 3 
+		CC=0
+		SVT=5001 2003 4 
+		CC=0
+		SVT=5001 2003 5 
+		CC=0
+		SVT=5001 2003 6 
+		CC=0
+#NT=20109 0
+	PC=2
+	posx=1 v=2003 450.026
+	posy=1 v=2003 263.023
+	group=0
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=13 0 3 2 4 0 0
+			CPC=0
+#NT=20011 0
+	PC=5
+	name=1 v=5000 Col
+	posx=1 v=2003 212.692
+	posy=1 v=2003 240.356
+	collapsed=1 v=2001 1
+	color=2 e=0 v=3003 1.0,1.0,1.0,1.0
+	group=0
+	ISC=0
+	OSC=6
+		SVT=5001 3003 1 
+		CC=0
+		SVT=5001 3002 2 
+		CC=1
+			C=14 1 2 13 0 1 0
+			CPC=0
+		SVT=5001 2003 3 
+		CC=0
+		SVT=5001 2003 4 
+		CC=0
+		SVT=5001 2003 5 
+		CC=0
+		SVT=5001 2003 6 
+		CC=0
+#NT=20017 0
+	PC=4
+	note=1 v=5000 Fresnel should be calculated outside this node
+	posx=1 v=2003 211.345
+	posy=1 v=2003 -333.649
+	value=2 e=0 v=2003 0.0
+	group=0
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=15 0 1 10 0 1 0
+			CPC=0
+#NT=20109 0
+	PC=3
+	posx=1 v=2003 452.957
+	posy=1 v=2003 -134.409
+	collapsed=1 v=2001 1
+	group=0
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=16 0 3 2 1 0 0
+			CPC=0
+#NT=10100 1 Light Vector-Hw Shader Nodes-Inputs Common
+	PC=10
+	name=1 v=5000 _LightVec
+	version=1 v=2003 1.65
+	posx=1 v=2003 221.766
+	posy=1 v=2003 -154.384
+	collapsed=1 v=2001 1
+	classname=1 v=5000 Light Vector
+	submenuname=1 v=5000 Inputs Common
+	bitmapnodeindex=1 v=2002 6
+	helpid=1 v=2002 13
+	grpnodecolor=1 v=5012 5
+	group=0
+	ISC=2
+		SVT=2002 2002 0 
+		SVT=5001 1002 0 
+	OSC=3
+		SVT=5001 3002 0 _LightVector
+		CC=1
+			C=17 0 0 16 0 1 0
+			CPC=0
+		SVT=5001 3002 0 _Normalized
+		CC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20109 0
+	PC=3
+	posx=1 v=2003 451.613
+	posy=1 v=2003 -28.2258
+	collapsed=1 v=2001 1
+	group=0
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=18 0 3 2 2 0 0
+			CPC=0
+#NT=10100 1 Vertex World Normal-Hw Shader Nodes-Inputs Common
+	PC=10
+	name=1 v=5000 _WorldNormal
+	version=1 v=2003 1.63
+	posx=1 v=2003 228.005
+	posy=1 v=2003 -44.7745
+	collapsed=1 v=2001 1
+	classname=1 v=5000 Vertex World Normal
+	submenuname=1 v=5000 Inputs Common
+	bitmapnodeindex=1 v=2002 60
+	helpid=1 v=2002 26
+	grpnodecolor=1 v=5012 5
+	group=0
+	ISC=0
+	OSC=3
+		SVT=5001 3002 0 _WorldNormal
+		CC=1
+			C=19 0 0 18 0 1 0
+			CPC=0
+		SVT=5001 3003 0 _WorldNormalVertShader
+		CC=0
+		SVT=5001 1002 0 
+		CC=0

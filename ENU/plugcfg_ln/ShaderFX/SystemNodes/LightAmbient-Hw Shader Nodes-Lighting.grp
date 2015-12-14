@@ -1,0 +1,145 @@
+SFX_WIN
+Version=23
+GroupVersion=1.01
+Advanced=1
+HelpID=70
+NumberOfNodes=8
+#NT=10100 0
+	PC=12
+	name=1 v=5000 LightAmbient
+	version=1 v=2003 1.01
+	posx=1 v=2003 -62.8802
+	posy=1 v=2003 -134.441
+	classname=1 v=5000 LightAmbient
+	submenuname=1 v=5000 Lighting
+	bitmapnodeindex=1 v=2002 6
+	isadvanced=1 v=2001 1
+	helpid=1 v=2002 70
+	grpnodecolor=1 v=5012 10
+	grpPosX=1 v=2003 -816.621
+	grpPosY=1 v=2003 -268.095
+	group=-1
+	ISC=2
+		SVT=5001 3002 0 _AlbedoColor
+		SVT=5001 1002 0 
+	OSC=2
+		SVT=5001 3002 0 _AlbedoColor
+		CC=1
+			C=0 0 0 4 0 0 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20025 0
+	PC=3
+	posx=1 v=2003 -484.964
+	posy=1 v=2003 -131.359
+	lightindex=2 e=0 v=2002 2
+	group=0
+	ISC=1
+		SVT=2002 2002 1 
+	OSC=1
+		SVT=5001 3002 2 
+		CC=1
+			C=1 0 2 4 1 0 0
+			CPC=0
+#NT=20133 0
+	PC=3
+	posx=1 v=2003 -482.936
+	posy=1 v=2003 -22.5549
+	lightindex=2 e=0 v=2002 2
+	group=0
+	ISC=1
+		SVT=2002 2002 1 
+	OSC=1
+		SVT=5001 2003 2 
+		CC=1
+			C=2 0 2 4 2 0 0
+			CPC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 554.624
+	posy=1 v=2003 -205.199
+	group=0
+	ISC=2
+		SVT=5001 3002 0 _LightColor
+		SVT=5001 1002 0 
+	OSC=2
+		SVT=5001 3002 0 _LightColor
+		CC=1
+			C=3 0 0 -1 1 2 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=10100 0
+	PC=7
+	name=1 v=5000 AmbientLight
+	posx=1 v=2003 -143.0
+	posy=1 v=2003 -211.5
+	isfunction=1 v=2001 1
+	functiondonotaddshaderdatastruct=1 v=2001 1
+	grpPosX=1 v=2003 -566.798
+	grpPosY=1 v=2003 -197.739
+	group=0
+	ISC=4
+		SVT=5001 3002 0 _AlbedoColor
+		SVT=5001 3002 0 _LightColor
+		SVT=5001 2003 0 _LightIntensity
+		SVT=1001 1002 0 
+	OSC=4
+		SVT=5001 3002 0 _AlbedoColor
+		CC=1
+			C=4 0 0 6 0 1 0
+			CPC=0
+		SVT=5001 3002 0 _LightColor
+		CC=1
+			C=4 1 0 6 1 2 0
+			CPC=0
+		SVT=5001 2003 0 _LightIntensity
+		CC=1
+			C=4 2 0 7 0 1 0
+			CPC=0
+		SVT=1001 1002 0 
+		CC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 263.596
+	posy=1 v=2003 -170.216
+	group=4
+	ISC=2
+		SVT=5001 3002 0 _LightColor
+		SVT=1001 1002 0 
+	OSC=2
+		SVT=5001 3002 0 _LightColor
+		CC=1
+			C=5 0 0 3 0 0 0
+			CPC=0
+		SVT=1001 1002 0 
+		CC=0
+#NT=20016 0
+	PC=3
+	name=1 v=5000 Albedo_LightColor
+	posx=1 v=2003 -259.101
+	posy=1 v=2003 -219.589
+	group=4
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=6 0 3 7 1 2 0
+			CPC=0
+#NT=20016 0
+	PC=3
+	note=1 v=5000 Intensity should be the first input to optimize disabled lights
+	posx=1 v=2003 -27.4314
+	posy=1 v=2003 -204.635
+	group=4
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=7 0 3 5 0 0 0
+			CPC=0

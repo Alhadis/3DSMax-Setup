@@ -1,0 +1,229 @@
+SFX_WIN
+Version=24
+GroupVersion=1.25
+Advanced=1
+HelpID=30
+NumberOfNodes=14
+#NT=10100 0
+	PC=12
+	name=1 v=5000 _TangentCamVec
+	version=1 v=2003 1.25
+	posx=1 v=2003 29.9431
+	posy=1 v=2003 20.2118
+	classname=1 v=5000 Camera Vector Tangent Space
+	submenuname=1 v=5000 Various
+	bitmapnodeindex=1 v=2002 67
+	isadvanced=1 v=2001 1
+	helpid=1 v=2002 30
+	grpnodecolor=1 v=5012 5
+	grpPosX=1 v=2003 -836.576
+	grpPosY=1 v=2003 85.0356
+	group=-1
+	ISC=0
+	OSC=0
+#NT=20090 0
+	PC=3
+	note=1 v=5000 WorldToTangent Matrix
+	posx=1 v=2003 -67.3067
+	posy=1 v=2003 28.0494
+	group=0
+	ISC=3
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+		SVT=5001 3002 3 
+	OSC=1
+		SVT=5001 4600 4 
+		CC=1
+			C=1 0 4 2 0 1 0
+			CPC=0
+#NT=20016 0
+	PC=4
+	note=1 v=5000 World to Tangent multiply is in reverse order
+	posx=1 v=2003 156.014
+	posy=1 v=2003 73.6386
+	flipglsl=1 v=2001 1
+	group=0
+	ISC=2
+		SVT=5001 4600 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=2 0 3 3 1 2 0
+			CPC=0
+#NT=20015 0
+	PC=4
+	note=1 v=5000 Store Tangent space Cam Vec in texcoord
+	posx=1 v=2003 390.118
+	posy=1 v=2003 77.3682
+	texcoordname=1 v=5000 CameraVectorTangentSpace
+	group=0
+	ISC=2
+		SVT=5001 5000 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=2
+			C=3 0 3 4 0 0 0
+			CPC=0
+			C=3 0 3 5 0 1 0
+			CPC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 1102.43
+	posy=1 v=2003 187.709
+	group=0
+	ISC=3
+		SVT=5001 3002 0 _TangentSpace
+		SVT=5001 3002 0 _Normalized
+		SVT=5001 1002 0 
+	OSC=3
+		SVT=5001 3002 0 _TangentSpace
+		CC=0
+		SVT=5001 3002 0 _Normalized
+		CC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20021 0
+	PC=3
+	name=1 v=5000 CamVecNorm
+	posx=1 v=2003 626.043
+	posy=1 v=2003 196.592
+	group=0
+	ISC=1
+		SVT=5001 3002 1 
+	OSC=1
+		SVT=5001 3002 2 
+		CC=1
+			C=5 0 2 6 0 1 0
+			CPC=0
+#NT=20111 0
+	PC=4
+	note=1 v=5000 Normalize only once per shader
+	posx=1 v=2003 843.719
+	posy=1 v=2003 199.181
+	instanceidentifier=1 v=5000 CameraVectorTangentSpaceNormalized
+	group=0
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 1002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=6 0 3 4 1 0 0
+			CPC=0
+#NT=20103 0
+	PC=2
+	posx=1 v=2003 -541.933
+	posy=1 v=2003 -30.8984
+	group=0
+	ISC=0
+	OSC=2
+		SVT=5001 3003 1 
+		CC=0
+		SVT=5001 3002 2 
+		CC=1
+			C=7 1 2 8 0 1 0
+			CPC=0
+#NT=20016 0
+	PC=4
+	note=1 v=5000 Calculate WorldBiNormal seperate because we dont want to store in texcoord
+	posx=1 v=2003 -327.968
+	posy=1 v=2003 11.4616
+	flipglsl=1 v=2001 1
+	group=0
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 4600 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=8 0 3 1 1 2 0
+			CPC=0
+#NT=20061 0
+	PC=2
+	posx=1 v=2003 -541.391
+	posy=1 v=2003 79.1966
+	group=0
+	ISC=0
+	OSC=2
+		SVT=5001 4900 1 
+		CC=0
+		SVT=5001 4600 2 
+		CC=1
+			C=9 1 2 8 1 2 0
+			CPC=0
+#NT=10100 1 Vertex World Tangent-Hw Shader Nodes-Inputs Common
+	PC=9
+	name=1 v=5000 _WorldTangent
+	version=1 v=2003 1.62
+	posx=1 v=2003 -337.789
+	posy=1 v=2003 -142.218
+	classname=1 v=5000 Vertex World Tangent
+	submenuname=1 v=5000 Inputs Common
+	bitmapnodeindex=1 v=2002 62
+	helpid=1 v=2002 28
+	grpnodecolor=1 v=5012 5
+	group=0
+	ISC=0
+	OSC=3
+		SVT=5001 3002 0 _WorldTangent
+		CC=1
+			C=10 0 0 1 0 1 0
+			CPC=0
+		SVT=5001 3003 0 _WorldTangentVertShader
+		CC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=10100 1 Vertex World Normal-Hw Shader Nodes-Inputs Common
+	PC=9
+	name=1 v=5000 _WorldNormal
+	version=1 v=2003 1.63
+	posx=1 v=2003 -324.159
+	posy=1 v=2003 147.738
+	classname=1 v=5000 Vertex World Normal
+	submenuname=1 v=5000 Inputs Common
+	bitmapnodeindex=1 v=2002 60
+	helpid=1 v=2002 26
+	grpnodecolor=1 v=5012 5
+	group=0
+	ISC=0
+	OSC=3
+		SVT=5001 3002 0 _WorldNormal
+		CC=1
+			C=11 0 0 1 2 3 0
+			CPC=0
+		SVT=5001 3003 0 _WorldNormalVertShader
+		CC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=10100 1 Camera Vector-Hw Shader Nodes-Inputs Common
+	PC=9
+	name=1 v=5000 _CameraVec
+	version=1 v=2003 1.64
+	posx=1 v=2003 -68.0789
+	posy=1 v=2003 199.347
+	classname=1 v=5000 Camera Vector
+	submenuname=1 v=5000 Inputs Common
+	bitmapnodeindex=1 v=2002 67
+	helpid=1 v=2002 2
+	grpnodecolor=1 v=5012 5
+	group=0
+	ISC=0
+	OSC=3
+		SVT=5001 3002 0 _CameraVector
+		CC=1
+			C=12 0 0 2 1 2 0
+			CPC=0
+		SVT=5001 3002 0 _Normalized
+		CC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20175 0
+	PC=3
+	posx=1 v=2003 -2.89855
+	posy=1 v=2003 -172.464
+	text=1 v=5000 color GammaColor(color c)\n{\n    float gamma = 1.0/2.2;\n    float x = pow(c[0], gamma);\n    float y = pow(c[1], gamma);\n    float z = pow(c[2], gamma);\n    \n    return color(x,y,z);\n}\n\nGammaColor( [[ INPUT = Color ? 0.5 ]] )
+	group=0
+	ISC=0
+	OSC=0

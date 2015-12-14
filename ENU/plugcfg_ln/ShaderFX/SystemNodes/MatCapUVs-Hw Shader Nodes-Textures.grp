@@ -1,0 +1,625 @@
+SFX_WIN
+Version=24
+GroupVersion=1.04
+Advanced=0
+HelpID=76
+NumberOfNodes=35
+#NT=10100 0
+	PC=11
+	name=1 v=5000 MatCapUVs
+	version=1 v=2003 1.04
+	posx=1 v=2003 -950.533
+	posy=1 v=2003 -121.617
+	classname=1 v=5000 MatCapUVs
+	submenuname=1 v=5000 Textures
+	helpid=1 v=2002 76
+	grpnodecolor=1 v=5012 7
+	grpPosX=1 v=2003 -985.541
+	grpPosY=1 v=2003 -160.111
+	value_CenterHighlights=2 e=1 v=2001 0
+	group=-1
+	ISC=2
+		SVT=5001 3002 0 _Normal
+		SVT=1001 1002 0 
+	OSC=2
+		SVT=5001 3002 0 _Normal
+		CC=1
+			C=0 0 0 3 1 2 0
+			CPC=0
+		SVT=1001 1002 0 
+		CC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 788.139
+	posy=1 v=2003 -278.344
+	group=0
+	ISC=2
+		SVT=5001 3001 0 _UV
+		SVT=1001 1002 0 
+	OSC=2
+		SVT=5001 3001 0 _UV
+		CC=0
+		SVT=1001 1002 0 
+		CC=0
+#NT=10100 1 Vertex World Normal-Hw Shader Nodes-Inputs Common
+	PC=11
+	name=1 v=5000 _WorldNormal
+	version=1 v=2003 1.64
+	posx=1 v=2003 -540.316
+	posy=1 v=2003 -151.381
+	classname=1 v=5000 Vertex World Normal
+	submenuname=1 v=5000 Inputs Common
+	bitmapnodeindex=1 v=2002 60
+	helpid=1 v=2002 26
+	grpnodecolor=1 v=5012 5
+	grpPosX=1 v=2003 -947.761
+	grpPosY=1 v=2003 -80.2239
+	group=0
+	ISC=0
+	OSC=3
+		SVT=5001 3002 0 _WorldNormal
+		CC=1
+			C=2 0 0 3 0 1 0
+			CPC=0
+		SVT=5001 3003 0 _WorldNormalVertShader
+		CC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20109 0
+	PC=2
+	posx=1 v=2003 -253.304
+	posy=1 v=2003 15.2534
+	group=0
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=2
+			C=3 0 3 7 0 0 0
+			CPC=0
+			C=3 0 3 18 0 0 0
+			CPC=0
+#NT=20093 0
+	PC=3
+	name=1 v=5000 CenteredOrOriginal
+	posx=1 v=2003 488.103
+	posy=1 v=2003 18.0233
+	group=0
+	ISC=3
+		SVT=2001 2001 1 
+		SVT=5001 3001 2 
+		SVT=5001 3001 3 
+	OSC=1
+		SVT=5001 3001 4 
+		CC=1
+			C=4 0 4 1 0 0 0
+			CPC=0
+#NT=20116 0
+	PC=4
+	name=1 v=5000 CenterHighlights
+	posx=1 v=2003 209.674
+	posy=1 v=2003 -175.747
+	value=2 e=1 v=2001 0
+	group=0
+	ISC=0
+	OSC=2
+		SVT=2001 2001 1 
+		CC=1
+			C=5 0 1 4 0 1 0
+			CPC=0
+		SVT=2001 2001 2 
+		CC=0
+#NT=20142 0
+	PC=3
+	note=1 v=5000 For 3dsMax invert Y of UV
+	posx=1 v=2003 -71.9566
+	posy=1 v=2003 -150.008
+	group=0
+	ISC=0
+	OSC=2
+		SVT=2001 2001 1 
+		CC=2
+			C=6 0 1 7 1 0 0
+			CPC=0
+			C=6 0 1 18 1 0 0
+			CPC=0
+		SVT=2001 2001 2 
+		CC=0
+#NT=10100 0
+	PC=5
+	name=1 v=5000 Original
+	posx=1 v=2003 209.475
+	posy=1 v=2003 173.248
+	grpPosX=1 v=2003 -730.0
+	grpPosY=1 v=2003 -120.5
+	group=0
+	ISC=3
+		SVT=5001 3002 0 
+		SVT=2001 2001 0 
+		SVT=1001 1002 0 
+	OSC=3
+		SVT=5001 3002 0 
+		CC=1
+			C=7 0 0 12 4 5 0
+			CPC=0
+		SVT=2001 2001 0 
+		CC=1
+			C=7 1 0 17 0 1 0
+			CPC=0
+		SVT=1001 1002 0 
+		CC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 1449.0
+	posy=1 v=2003 -120.5
+	group=7
+	ISC=2
+		SVT=5001 3001 0 _UV
+		SVT=1001 1002 0 
+	OSC=2
+		SVT=5001 3001 0 _UV
+		CC=1
+			C=8 0 0 4 2 3 0
+			CPC=0
+		SVT=1001 1002 0 
+		CC=0
+#NT=10100 1 CollapseRange-Hw Shader Nodes-Various
+	PC=12
+	name=1 v=5000 _CollapseRange
+	version=1 v=2003 1.05
+	posx=1 v=2003 316.495
+	posy=1 v=2003 -120.237
+	classname=1 v=5000 CollapseRange
+	submenuname=1 v=5000 Various
+	bitmapnodeindex=1 v=2002 45
+	isadvanced=1 v=2001 1
+	helpid=1 v=2002 51
+	grpnodecolor=1 v=5012 7
+	grpPosX=1 v=2003 -212.871
+	grpPosY=1 v=2003 28.0528
+	group=7
+	ISC=2
+		SVT=5001 3002 0 _Vector
+		SVT=5001 1002 0 
+	OSC=2
+		SVT=5001 3002 0 _CollapsedVector
+		CC=1
+			C=9 0 0 10 0 1 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20108 0
+	PC=3
+	name=1 v=5000 MatCapUVs
+	posx=1 v=2003 513.91
+	posy=1 v=2003 -112.33
+	group=7
+	ISC=1
+		SVT=5001 3002 1 
+	OSC=6
+		SVT=5001 2003 2 
+		CC=1
+			C=10 0 2 16 0 1 0
+			CPC=3
+			cx=845.0
+			cy=-164.5
+			cm=1
+		SVT=5001 2003 3 
+		CC=1
+			C=10 1 3 15 0 1 0
+			CPC=0
+		SVT=5001 3001 4 
+		CC=1
+			C=10 2 4 17 2 3 0
+			CPC=3
+			cx=961.25
+			cy=2.5
+			cm=1
+		SVT=5001 2003 5 
+		CC=0
+		SVT=5001 3002 6 
+		CC=0
+		SVT=5001 2003 7 
+		CC=0
+#NT=20016 0
+	PC=3
+	name=1 v=5000 UseScreenSpaceNormal
+	posx=1 v=2003 -291.76
+	posy=1 v=2003 -123.258
+	group=7
+	ISC=2
+		SVT=5001 4900 1 
+		SVT=5001 3003 2 
+	OSC=1
+		SVT=5001 3003 3 
+		CC=1
+			C=11 0 3 13 0 1 0
+			CPC=0
+#NT=20020 0
+	PC=3
+	posx=1 v=2003 -530.919
+	posy=1 v=2003 -10.3781
+	collapsed=1 v=2001 1
+	group=7
+	ISC=6
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+		SVT=5001 3001 3 
+		SVT=5001 2003 4 
+		SVT=5001 3002 5 
+		SVT=5001 2003 6 
+	OSC=3
+		SVT=5001 3001 7 
+		CC=0
+		SVT=5001 3002 8 
+		CC=0
+		SVT=5001 3003 9 
+		CC=1
+			C=12 2 9 11 1 2 0
+			CPC=0
+#NT=20108 0
+	PC=2
+	posx=1 v=2003 99.4629
+	posy=1 v=2003 -120.02
+	group=7
+	ISC=1
+		SVT=5001 3003 1 
+	OSC=6
+		SVT=5001 2003 2 
+		CC=0
+		SVT=5001 2003 3 
+		CC=0
+		SVT=5001 3001 4 
+		CC=0
+		SVT=5001 2003 5 
+		CC=0
+		SVT=5001 3002 6 
+		CC=1
+			C=13 4 6 9 0 0 0
+			CPC=0
+		SVT=5001 2003 7 
+		CC=0
+#NT=20067 0
+	PC=2
+	posx=1 v=2003 -518.389
+	posy=1 v=2003 -129.096
+	group=7
+	ISC=0
+	OSC=1
+		SVT=5001 4900 1 
+		CC=1
+			C=14 0 1 11 0 1 0
+			CPC=0
+#NT=20123 0
+	PC=2
+	posx=1 v=2003 773.75
+	posy=1 v=2003 -114.189
+	group=7
+	ISC=1
+		SVT=5001 2003 1 
+	OSC=1
+		SVT=5001 2003 2 
+		CC=1
+			C=15 0 2 16 1 2 0
+			CPC=0
+#NT=20020 0
+	PC=2
+	posx=1 v=2003 975.0
+	posy=1 v=2003 -231.689
+	group=7
+	ISC=6
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+		SVT=5001 3001 3 
+		SVT=5001 2003 4 
+		SVT=5001 3002 5 
+		SVT=5001 2003 6 
+	OSC=3
+		SVT=5001 3001 7 
+		CC=1
+			C=16 0 7 17 1 2 0
+			CPC=0
+		SVT=5001 3002 8 
+		CC=0
+		SVT=5001 3003 9 
+		CC=0
+#NT=20093 0
+	PC=2
+	posx=1 v=2003 1249.54
+	posy=1 v=2003 -211.848
+	group=7
+	ISC=3
+		SVT=2001 2001 1 
+		SVT=5001 3001 2 
+		SVT=5001 3001 3 
+	OSC=1
+		SVT=5001 3001 4 
+		CC=1
+			C=17 0 4 8 0 0 0
+			CPC=0
+#NT=10100 0
+	PC=5
+	name=1 v=5000 CenteredHighlights
+	posx=1 v=2003 214.159
+	posy=1 v=2003 -17.2576
+	grpPosX=1 v=2003 -1260.63
+	grpPosY=1 v=2003 -17.1974
+	group=0
+	ISC=3
+		SVT=5001 3002 0 
+		SVT=2001 2001 0 
+		SVT=1001 1002 0 
+	OSC=3
+		SVT=5001 3002 0 
+		CC=2
+			C=18 0 0 20 1 2 0
+			CPC=0
+			C=18 0 0 31 0 1 0
+			CPC=0
+		SVT=2001 2001 0 
+		CC=1
+			C=18 1 0 32 0 1 0
+			CPC=3
+			cx=56.5622
+			cy=-245.692
+			cm=1
+		SVT=1001 1002 0 
+		CC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 1414.99
+	posy=1 v=2003 -146.551
+	group=18
+	ISC=2
+		SVT=5001 3001 0 
+		SVT=1001 1002 0 
+	OSC=2
+		SVT=5001 3001 0 
+		CC=1
+			C=19 0 0 4 1 2 0
+			CPC=0
+		SVT=1001 1002 0 
+		CC=0
+#NT=20016 0
+	PC=2
+	posx=1 v=2003 -510.679
+	posy=1 v=2003 -78.2039
+	group=18
+	ISC=2
+		SVT=5001 4900 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=20 0 3 23 0 0 0
+			CPC=0
+#NT=20108 0
+	PC=2
+	posx=1 v=2003 165.192
+	posy=1 v=2003 -102.165
+	group=18
+	ISC=1
+		SVT=5001 3002 1 
+	OSC=6
+		SVT=5001 2003 2 
+		CC=1
+			C=21 0 2 34 0 1 0
+			CPC=3
+			cx=801.86
+			cy=81.305
+			cm=1
+		SVT=5001 2003 3 
+		CC=1
+			C=21 1 3 33 0 1 0
+			CPC=0
+		SVT=5001 3001 4 
+		CC=1
+			C=21 2 4 32 2 3 0
+			CPC=3
+			cx=968.073
+			cy=42.7672
+			cm=1
+		SVT=5001 2003 5 
+		CC=0
+		SVT=5001 3002 6 
+		CC=0
+		SVT=5001 2003 7 
+		CC=0
+#NT=20067 0
+	PC=2
+	posx=1 v=2003 -720.073
+	posy=1 v=2003 -129.226
+	group=18
+	ISC=0
+	OSC=1
+		SVT=5001 4900 1 
+		CC=1
+			C=22 0 1 20 0 1 0
+			CPC=0
+#NT=10100 1 CollapseRange-Hw Shader Nodes-Various
+	PC=12
+	name=1 v=5000 _CollapseRange
+	version=1 v=2003 1.05
+	posx=1 v=2003 -289.153
+	posy=1 v=2003 -37.64
+	classname=1 v=5000 CollapseRange
+	submenuname=1 v=5000 Various
+	bitmapnodeindex=1 v=2002 45
+	isadvanced=1 v=2001 1
+	helpid=1 v=2002 51
+	grpnodecolor=1 v=5012 7
+	grpPosX=1 v=2003 -212.871
+	grpPosY=1 v=2003 28.0528
+	group=18
+	ISC=2
+		SVT=5001 3002 0 _Vector
+		SVT=5001 1002 0 
+	OSC=2
+		SVT=5001 3002 0 _CollapsedVector
+		CC=1
+			C=23 0 0 29 0 1 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=10100 1 Camera Vector-Hw Shader Nodes-Inputs Common
+	PC=11
+	name=1 v=5000 _CameraVec
+	version=1 v=2003 1.65
+	posx=1 v=2003 -949.293
+	posy=1 v=2003 266.801
+	classname=1 v=5000 Camera Vector
+	submenuname=1 v=5000 Inputs Common
+	bitmapnodeindex=1 v=2002 67
+	helpid=1 v=2002 2
+	grpnodecolor=1 v=5012 5
+	grpPosX=1 v=2003 -753.732
+	grpPosY=1 v=2003 -123.134
+	group=18
+	ISC=0
+	OSC=3
+		SVT=5001 3002 0 _CameraVector
+		CC=0
+		SVT=5001 3002 0 _Normalized
+		CC=2
+			C=24 1 0 25 1 2 0
+			CPC=0
+			C=24 1 0 31 1 2 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20016 0
+	PC=2
+	posx=1 v=2003 -724.558
+	posy=1 v=2003 74.3352
+	group=18
+	ISC=2
+		SVT=5001 4900 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=25 0 3 27 0 1 0
+			CPC=0
+#NT=20067 0
+	PC=2
+	posx=1 v=2003 -954.139
+	posy=1 v=2003 81.717
+	group=18
+	ISC=0
+	OSC=1
+		SVT=5001 4900 1 
+		CC=1
+			C=26 0 1 25 0 1 0
+			CPC=0
+#NT=20027 0
+	PC=2
+	posx=1 v=2003 -511.058
+	posy=1 v=2003 106.585
+	group=18
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=27 0 3 30 0 1 0
+			CPC=0
+#NT=20017 0
+	PC=3
+	posx=1 v=2003 -728.558
+	posy=1 v=2003 236.585
+	value=2 e=0 v=2003 2.0
+	group=18
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=28 0 1 27 1 2 0
+			CPC=0
+#NT=20022 0
+	PC=2
+	posx=1 v=2003 -61.0575
+	posy=1 v=2003 40.3352
+	group=18
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=29 0 3 21 0 1 0
+			CPC=0
+#NT=20016 0
+	PC=2
+	posx=1 v=2003 -283.558
+	posy=1 v=2003 281.243
+	group=18
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=30 0 3 29 1 2 0
+			CPC=0
+#NT=20018 0
+	PC=2
+	posx=1 v=2003 -514.201
+	posy=1 v=2003 311.662
+	group=18
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=31 0 3 30 1 2 0
+			CPC=0
+#NT=20093 0
+	PC=2
+	posx=1 v=2003 1145.34
+	posy=1 v=2003 -314.794
+	group=18
+	ISC=3
+		SVT=2001 2001 1 
+		SVT=5001 3001 2 
+		SVT=5001 3001 3 
+	OSC=1
+		SVT=5001 3001 4 
+		CC=1
+			C=32 0 4 19 0 0 0
+			CPC=0
+#NT=20123 0
+	PC=2
+	posx=1 v=2003 602.272
+	posy=1 v=2003 -163.785
+	group=18
+	ISC=1
+		SVT=5001 2003 1 
+	OSC=1
+		SVT=5001 2003 2 
+		CC=1
+			C=33 0 2 34 1 2 0
+			CPC=0
+#NT=20020 0
+	PC=2
+	posx=1 v=2003 876.325
+	posy=1 v=2003 -202.223
+	group=18
+	ISC=6
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+		SVT=5001 3001 3 
+		SVT=5001 2003 4 
+		SVT=5001 3002 5 
+		SVT=5001 2003 6 
+	OSC=3
+		SVT=5001 3001 7 
+		CC=1
+			C=34 0 7 32 1 2 0
+			CPC=0
+		SVT=5001 3002 8 
+		CC=0
+		SVT=5001 3003 9 
+		CC=0

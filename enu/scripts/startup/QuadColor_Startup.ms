@@ -1,5 +1,5 @@
 -- Quad Color File
--- Created automatically by C:\Users\johng\AppData\Local\Autodesk\3dsMax\2012 - 64bit\enu\UI\Total_Fucking_Necro Scheme 
+-- Created automatically by C:\Users\johng\AppData\Local\Autodesk\3dsMax\2016 - 64bit\ENU\en-US\UI\Total_Fucking_Necro Scheme 
 -- To restore Quad Menu to these settings, simply run this script.
 
 -- Quad number 1 colors 

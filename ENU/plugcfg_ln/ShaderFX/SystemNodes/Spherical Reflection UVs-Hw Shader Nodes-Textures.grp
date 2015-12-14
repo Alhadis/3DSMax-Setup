@@ -1,0 +1,466 @@
+SFX_WIN
+Version=24
+GroupVersion=1.11
+Advanced=0
+HelpID=44
+NumberOfNodes=29
+#NT=10100 0
+	PC=11
+	name=1 v=5000 _SphericalReflectionUV
+	version=1 v=2003 1.11
+	posx=1 v=2003 -838.43
+	posy=1 v=2003 -25.821
+	classname=1 v=5000 Spherical Reflection UVs
+	submenuname=1 v=5000 Textures
+	bitmapnodeindex=1 v=2002 65
+	helpid=1 v=2002 44
+	grpnodecolor=1 v=5012 7
+	grpPosX=1 v=2003 -899.024
+	grpPosY=1 v=2003 -142.691
+	group=-1
+	ISC=4
+		SVT=5001 3002 0 _Normal
+		SVT=5001 3002 0 _ReflectionVector
+		SVT=5001 2003 0 _Pinching
+		SVT=1001 1002 0 
+	OSC=4
+		SVT=5001 3002 0 _Normal
+		CC=1
+			C=0 0 0 23 1 2 0
+			CPC=0
+		SVT=5001 3002 0 _ReflectionVector
+		CC=1
+			C=0 1 0 25 1 2 0
+			CPC=0
+		SVT=5001 2003 0 _Pinching
+		CC=1
+			C=0 2 0 27 1 2 0
+			CPC=0
+		SVT=1001 1002 0 
+		CC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 675.174
+	posy=1 v=2003 -97.6324
+	group=0
+	ISC=2
+		SVT=5001 3001 0 _UV
+		SVT=5001 1002 0 
+	OSC=2
+		SVT=5001 3001 0 _UV
+		CC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=10100 1 Vertex World Normal-Hw Shader Nodes-Inputs Common
+	PC=11
+	name=1 v=5000 _WorldNormal
+	version=1 v=2003 1.64
+	posx=1 v=2003 -666.18
+	posy=1 v=2003 -222.958
+	classname=1 v=5000 Vertex World Normal
+	submenuname=1 v=5000 Inputs Common
+	bitmapnodeindex=1 v=2002 60
+	helpid=1 v=2002 26
+	grpnodecolor=1 v=5012 5
+	grpPosX=1 v=2003 -947.761
+	grpPosY=1 v=2003 -80.2239
+	group=0
+	ISC=0
+	OSC=3
+		SVT=5001 3002 0 _WorldNormal
+		CC=1
+			C=2 0 0 23 0 1 0
+			CPC=0
+		SVT=5001 3003 0 _WorldNormalVertShader
+		CC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=10100 0
+	PC=7
+	name=1 v=5000 _SphericalReflectionUV
+	posx=1 v=2003 319.34
+	posy=1 v=2003 -111.565
+	isfunction=1 v=2001 1
+	functiondonotaddshaderdatastruct=1 v=2001 1
+	grpPosX=1 v=2003 -736.265
+	grpPosY=1 v=2003 -156.594
+	group=0
+	ISC=3
+		SVT=5001 3002 0 _ReflectionVector
+		SVT=5001 2003 0 _Pinching
+		SVT=1001 1002 0 
+	OSC=3
+		SVT=5001 3002 0 _ReflectionVector
+		CC=1
+			C=3 0 0 5 0 1 0
+			CPC=0
+		SVT=5001 2003 0 _Pinching
+		CC=1
+			C=3 1 0 9 1 2 0
+			CPC=0
+		SVT=1001 1002 0 
+		CC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 2099.37
+	posy=1 v=2003 79.7085
+	group=3
+	ISC=2
+		SVT=5001 3001 0 _UV
+		SVT=5001 1002 0 
+	OSC=2
+		SVT=5001 3001 0 _UV
+		CC=1
+			C=4 0 0 1 0 0 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20108 0
+	PC=2
+	posx=1 v=2003 -257.697
+	posy=1 v=2003 -162.178
+	group=3
+	ISC=1
+		SVT=5001 3002 1 
+	OSC=6
+		SVT=5001 2003 2 
+		CC=3
+			C=5 0 2 6 0 1 0
+			CPC=0
+			C=5 0 2 6 1 2 0
+			CPC=0
+			C=5 0 2 12 0 1 0
+			CPC=0
+		SVT=5001 2003 3 
+		CC=3
+			C=5 1 3 7 0 1 0
+			CPC=0
+			C=5 1 3 7 1 2 0
+			CPC=0
+			C=5 1 3 15 0 1 0
+			CPC=0
+		SVT=5001 3001 4 
+		CC=0
+		SVT=5001 2003 5 
+		CC=1
+			C=5 3 5 9 0 1 0
+			CPC=0
+		SVT=5001 3002 6 
+		CC=0
+		SVT=5001 2003 7 
+		CC=0
+#NT=20016 0
+	PC=2
+	posx=1 v=2003 -29.0887
+	posy=1 v=2003 -348.167
+	group=3
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=6 0 3 8 0 1 0
+			CPC=0
+#NT=20016 0
+	PC=2
+	posx=1 v=2003 -30.0397
+	posy=1 v=2003 -207.403
+	group=3
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=7 0 3 8 1 2 0
+			CPC=0
+#NT=20026 0
+	PC=2
+	posx=1 v=2003 196.044
+	posy=1 v=2003 -240.504
+	group=3
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=8 0 3 11 0 1 0
+			CPC=0
+#NT=20026 0
+	PC=2
+	posx=1 v=2003 -27.0433
+	posy=1 v=2003 18.7895
+	group=3
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=2
+			C=9 0 3 10 0 1 0
+			CPC=0
+			C=9 0 3 10 1 2 0
+			CPC=0
+#NT=20016 0
+	PC=3
+	note=1 v=5000 Slightly enlarge to reduce pinching artifacts
+	posx=1 v=2003 187.794
+	posy=1 v=2003 29.1678
+	group=3
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=10 0 3 11 1 2 0
+			CPC=0
+#NT=20026 0
+	PC=2
+	posx=1 v=2003 405.825
+	posy=1 v=2003 -122.87
+	group=3
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=11 0 3 19 0 1 0
+			CPC=0
+#NT=20027 0
+	PC=2
+	posx=1 v=2003 1159.66
+	posy=1 v=2003 -172.07
+	group=3
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=12 0 3 13 0 1 0
+			CPC=0
+#NT=20026 0
+	PC=2
+	posx=1 v=2003 1365.64
+	posy=1 v=2003 -131.19
+	group=3
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=13 0 3 18 0 1 0
+			CPC=0
+#NT=20017 0
+	PC=3
+	posx=1 v=2003 1167.52
+	posy=1 v=2003 -47.9308
+	value=2 e=0 v=2003 0.5
+	group=3
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=14 0 1 13 1 2 0
+			CPC=0
+#NT=20027 0
+	PC=2
+	posx=1 v=2003 1159.73
+	posy=1 v=2003 61.6786
+	group=3
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=15 0 3 16 0 1 0
+			CPC=0
+#NT=20026 0
+	PC=2
+	posx=1 v=2003 1365.71
+	posy=1 v=2003 102.559
+	group=3
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=16 0 3 18 1 2 0
+			CPC=0
+#NT=20017 0
+	PC=3
+	posx=1 v=2003 1167.59
+	posy=1 v=2003 193.753
+	value=2 e=0 v=2003 0.5
+	group=3
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=17 0 1 16 1 2 0
+			CPC=0
+#NT=20020 0
+	PC=2
+	posx=1 v=2003 1596.77
+	posy=1 v=2003 -19.5544
+	group=3
+	ISC=6
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+		SVT=5001 3001 3 
+		SVT=5001 2003 4 
+		SVT=5001 3002 5 
+		SVT=5001 2003 6 
+	OSC=3
+		SVT=5001 3001 7 
+		CC=1
+			C=18 0 7 4 0 0 0
+			CPC=0
+		SVT=5001 3002 8 
+		CC=0
+		SVT=5001 3003 9 
+		CC=0
+#NT=20024 0
+	PC=2
+	posx=1 v=2003 626.912
+	posy=1 v=2003 -113.652
+	group=3
+	ISC=1
+		SVT=5001 2003 1 
+	OSC=1
+		SVT=5001 2003 2 
+		CC=1
+			C=19 0 2 20 0 1 0
+			CPC=0
+#NT=20016 0
+	PC=2
+	posx=1 v=2003 831.198
+	posy=1 v=2003 -82.2228
+	group=3
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=2
+			C=20 0 3 12 1 2 0
+			CPC=0
+			C=20 0 3 15 1 2 0
+			CPC=0
+#NT=20017 0
+	PC=3
+	posx=1 v=2003 619.769
+	posy=1 v=2003 -6.41743
+	value=2 e=0 v=2003 2.0
+	group=3
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=21 0 1 20 1 2 0
+			CPC=0
+#NT=10100 1 Camera Vector-Hw Shader Nodes-Inputs Common
+	PC=11
+	name=1 v=5000 _CameraVec
+	version=1 v=2003 1.65
+	posx=1 v=2003 -470.684
+	posy=1 v=2003 -290.748
+	classname=1 v=5000 Camera Vector
+	submenuname=1 v=5000 Inputs Common
+	bitmapnodeindex=1 v=2002 67
+	helpid=1 v=2002 2
+	grpnodecolor=1 v=5012 5
+	grpPosX=1 v=2003 -753.732
+	grpPosY=1 v=2003 -123.134
+	group=0
+	ISC=0
+	OSC=3
+		SVT=5001 3002 0 _CameraVector
+		CC=0
+		SVT=5001 3002 0 _Normalized
+		CC=1
+			C=22 1 0 24 0 1 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20109 0
+	PC=3
+	posx=1 v=2003 -458.898
+	posy=1 v=2003 -155.499
+	collapsed=1 v=2001 1
+	group=0
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=23 0 3 24 1 2 0
+			CPC=0
+#NT=20057 0
+	PC=2
+	posx=1 v=2003 -229.864
+	posy=1 v=2003 -209.194
+	group=0
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=24 0 3 25 0 1 0
+			CPC=0
+#NT=20109 0
+	PC=2
+	posx=1 v=2003 35.248
+	posy=1 v=2003 -144.909
+	group=0
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=25 0 3 3 0 0 0
+			CPC=0
+#NT=20017 0
+	PC=4
+	note=1 v=5000 Slightly enlarge to reduce pinching artifacts
+	posx=1 v=2003 -227.334
+	posy=1 v=2003 -9.79939
+	value=2 e=0 v=2003 1.1
+	group=0
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=26 0 1 27 0 1 0
+			CPC=0
+#NT=20109 0
+	PC=2
+	posx=1 v=2003 38.3333
+	posy=1 v=2003 25.0
+	group=0
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=27 0 3 3 1 0 0
+			CPC=0
+#NT=20175 0
+	PC=3
+	posx=1 v=2003 -349.216
+	posy=1 v=2003 -430.591
+	text=1 v=5000 color SphericalReflectionUVFunction(color Normal, color Reflection, float Pinching)\n{\n    color _N;\n    if(Normal != 0)\n        _N = Normal;\n    else\n        _N = color(N);\n    \n    color _R;\n    if(Reflection != 0)\n        _R = Reflection;\n    else\n        _R = color(reflect(-I, vector(_N)));\n        \n    float AddOp = ((_R[0] * _R[0]) + (_R[1] * _R[1]));\n    float AddOp1 = (_R[2] + Pinching);\n    float AddOp2 = (AddOp + (AddOp1 * AddOp1));\n    float MulOp = (2.0 * sqrt(AddOp2));\n    float AddOp3 = ((_R[0] / MulOp) + 0.5);\n    float AddOp4 = ((_R[1] / MulOp) + 0.5);\n    color VectorConstruct = color(AddOp3, AddOp4, 0);\n    \n    return VectorConstruct;\n}\n\nSphericalReflectionUVFunction( [[ INPUT = Normal ? color(0) ]], [[ INPUT = ReflectionVector ? color(0) ]], [[ INPUT = Pinching ? 1.1 ]] )
+	group=0
+	ISC=0
+	OSC=0

@@ -1,0 +1,566 @@
+SFX_WIN
+Version=23
+GroupVersion=1.33
+Advanced=1
+HelpID=18
+NumberOfNodes=32
+#NT=10100 0
+	PC=12
+	name=1 v=5000 _TangentWorldConvert
+	version=1 v=2003 1.33
+	posx=1 v=2003 -1782.59
+	posy=1 v=2003 668.844
+	classname=1 v=5000 Tangent to World Space
+	submenuname=1 v=5000 Various
+	bitmapnodeindex=1 v=2002 60
+	isadvanced=1 v=2001 1
+	helpid=1 v=2002 18
+	grpnodecolor=1 v=5012 7
+	grpPosX=1 v=2003 -800.521
+	grpPosY=1 v=2003 18.1067
+	group=-1
+	ISC=4
+		SVT=5001 3002 0 _Vector
+		SVT=5001 3002 0 _Normal
+		SVT=5001 3002 0 _Tangent
+		SVT=5001 1002 0 
+	OSC=4
+		SVT=5001 3002 0 _Vector
+		CC=1
+			C=0 0 0 30 1 2 0
+			CPC=0
+		SVT=5001 3002 0 _Normal
+		CC=1
+			C=0 1 0 28 1 2 0
+			CPC=0
+		SVT=5001 3002 0 _Tangent
+		CC=1
+			C=0 2 0 29 1 2 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=10100 0
+	PC=4
+	note=1 v=5000 Vertex Shader Part
+	posx=1 v=2003 -492.183
+	posy=1 v=2003 -215.61
+	bitmapnodeindex=1 v=2002 2
+	group=0
+	ISC=0
+	OSC=0
+#NT=20014 0
+	PC=2
+	posx=1 v=2003 -1803.94
+	posy=1 v=2003 -936.983
+	group=1
+	ISC=0
+	OSC=2
+		SVT=5001 3003 1 
+		CC=0
+		SVT=5001 3002 2 
+		CC=1
+			C=2 1 2 3 0 1 0
+			CPC=0
+#NT=20030 0
+	PC=2
+	posx=1 v=2003 -1569.07
+	posy=1 v=2003 -874.842
+	group=1
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=3 0 3 4 0 1 0
+			CPC=0
+#NT=20018 0
+	PC=2
+	posx=1 v=2003 -1350.43
+	posy=1 v=2003 -871.736
+	group=1
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=4 0 3 5 0 1 0
+			CPC=0
+#NT=20094 0
+	PC=5
+	name=1 v=5000 BiNormalDir
+	note=1 v=5000 Determine direction of binormal (for mirrored UVs)
+	posx=1 v=2003 -1113.87
+	posy=1 v=2003 -716.936
+	ternary=1 v=2001 1
+	group=1
+	ISC=7
+		SVT=5001 2003 1 
+		SVT=5001 5000 2 
+		SVT=5001 2003 3 
+		SVT=5001 5000 4 
+		SVT=5001 2003 5 
+		SVT=5001 2003 6 
+		SVT=5001 1002 7 
+	OSC=1
+		SVT=5001 2003 8 
+		CC=1
+			C=5 0 8 10 5 6 0
+			CPC=0
+#NT=20017 0
+	PC=4
+	posx=1 v=2003 -1354.61
+	posy=1 v=2003 -677.537
+	collapsed=1 v=2001 1
+	value=2 e=0 v=2003 0.0
+	group=1
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=6 0 1 5 2 3 0
+			CPC=0
+#NT=20105 0
+	PC=5
+	posx=1 v=2003 -1353.38
+	posy=1 v=2003 -741.263
+	collapsed=1 v=2001 1
+	defaultoptions=1 v=5012 2
+	value=1 v=5000 <
+	group=1
+	ISC=0
+	OSC=2
+		SVT=5001 5000 2 
+		CC=1
+			C=7 0 2 5 1 2 0
+			CPC=0
+		SVT=5001 5001 3 
+		CC=0
+#NT=20017 0
+	PC=4
+	posx=1 v=2003 -1355.83
+	posy=1 v=2003 -609.525
+	collapsed=1 v=2001 1
+	value=2 e=0 v=2003 -1.0
+	group=1
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=8 0 1 5 4 5 0
+			CPC=0
+#NT=20017 0
+	PC=3
+	posx=1 v=2003 -1354.4
+	posy=1 v=2003 -540.085
+	collapsed=1 v=2001 1
+	group=1
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=9 0 1 5 5 6 0
+			CPC=0
+#NT=20020 0
+	PC=3
+	note=1 v=5000 Store binormal direction in Tangent.w
+	posx=1 v=2003 -679.588
+	posy=1 v=2003 -747.007
+	group=1
+	ISC=6
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+		SVT=5001 3001 3 
+		SVT=5001 2003 4 
+		SVT=5001 3002 5 
+		SVT=5001 2003 6 
+	OSC=3
+		SVT=5001 3001 7 
+		CC=0
+		SVT=5001 3002 8 
+		CC=0
+		SVT=5001 3003 9 
+		CC=1
+			C=10 2 9 11 0 1 0
+			CPC=0
+#NT=20111 0
+	PC=4
+	note=1 v=5000 Calculate binormal direction only once
+	posx=1 v=2003 -469.965
+	posy=1 v=2003 -627.676
+	instanceidentifier=1 v=5000 NormalMapBinormalDir
+	group=1
+	ISC=2
+		SVT=5001 3003 1 
+		SVT=5001 1002 2 
+	OSC=1
+		SVT=5001 3003 3 
+		CC=1
+			C=11 0 3 12 1 2 0
+			CPC=0
+#NT=20015 0
+	PC=7
+	note=1 v=5000 Tweak the Tangent texcoord previously set by WorldTangent node
+	posx=1 v=2003 -269.092
+	posy=1 v=2003 -662.396
+	texcoordname=1 v=5000 Tangent
+	semantic=1 v=5000 TANGENT
+	semantictype=1 v=5012 5
+	tweaktexcoord=1 v=2001 1
+	group=1
+	ISC=2
+		SVT=5001 5000 1 
+		SVT=5001 3003 2 
+	OSC=1
+		SVT=5001 3003 3 
+		CC=1
+			C=12 0 3 13 0 0 0
+			CPC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 -2093.86
+	posy=1 v=2003 -609.75
+	group=1
+	ISC=2
+		SVT=5001 3003 0 _BinormalWithDirection
+		SVT=5001 1002 0 
+	OSC=2
+		SVT=5001 3003 0 _BinormalWithDirection
+		CC=1
+			C=13 0 0 27 0 1 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20104 0
+	PC=2
+	posx=1 v=2003 -1803.84
+	posy=1 v=2003 -814.575
+	group=1
+	ISC=0
+	OSC=2
+		SVT=5001 3003 1 
+		CC=0
+		SVT=5001 3002 2 
+		CC=1
+			C=14 1 2 3 1 2 0
+			CPC=0
+#NT=20103 0
+	PC=2
+	posx=1 v=2003 -1569.55
+	posy=1 v=2003 -744.576
+	group=1
+	ISC=0
+	OSC=2
+		SVT=5001 3003 1 
+		CC=0
+		SVT=5001 3002 2 
+		CC=1
+			C=15 1 2 4 1 2 0
+			CPC=0
+#NT=20108 0
+	PC=2
+	posx=1 v=2003 -904.254
+	posy=1 v=2003 -851.063
+	group=1
+	ISC=1
+		SVT=5001 3003 1 
+	OSC=6
+		SVT=5001 2003 2 
+		CC=0
+		SVT=5001 2003 3 
+		CC=0
+		SVT=5001 3001 4 
+		CC=0
+		SVT=5001 2003 5 
+		CC=0
+		SVT=5001 3002 6 
+		CC=1
+			C=16 4 6 10 4 5 0
+			CPC=0
+		SVT=5001 2003 7 
+		CC=0
+#NT=10100 1 Vertex World Tangent-Hw Shader Nodes-Inputs Common
+	PC=11
+	name=1 v=5000 _WorldTangent
+	version=1 v=2003 1.63
+	posx=1 v=2003 -1122.26
+	posy=1 v=2003 -865.087
+	classname=1 v=5000 Vertex World Tangent
+	submenuname=1 v=5000 Inputs Common
+	bitmapnodeindex=1 v=2002 62
+	helpid=1 v=2002 28
+	grpnodecolor=1 v=5012 5
+	grpPosX=1 v=2003 -947.761
+	grpPosY=1 v=2003 -108.209
+	group=1
+	ISC=0
+	OSC=3
+		SVT=5001 3002 0 _WorldTangent
+		CC=0
+		SVT=5001 3003 0 _WorldTangentVertShader
+		CC=1
+			C=17 1 0 16 0 1 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 285.775
+	posy=1 v=2003 160.33
+	group=0
+	ISC=2
+		SVT=5001 3002 0 _Vector
+		SVT=5001 1002 0 
+	OSC=2
+		SVT=5001 3002 0 _Vector
+		CC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=10100 1 Vertex World Normal-Hw Shader Nodes-Inputs Common
+	PC=11
+	name=1 v=5000 _WorldNormal
+	version=1 v=2003 1.64
+	posx=1 v=2003 -495.893
+	posy=1 v=2003 -12.9884
+	classname=1 v=5000 Vertex World Normal
+	submenuname=1 v=5000 Inputs Common
+	bitmapnodeindex=1 v=2002 60
+	helpid=1 v=2002 26
+	grpnodecolor=1 v=5012 5
+	grpPosX=1 v=2003 -947.761
+	grpPosY=1 v=2003 -80.2239
+	group=0
+	ISC=0
+	OSC=3
+		SVT=5001 3002 0 _WorldNormal
+		CC=1
+			C=19 0 0 28 0 1 0
+			CPC=0
+		SVT=5001 3003 0 _WorldNormalVertShader
+		CC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=10100 1 Vertex World Tangent-Hw Shader Nodes-Inputs Common
+	PC=11
+	name=1 v=5000 _WorldTangent
+	version=1 v=2003 1.63
+	posx=1 v=2003 -486.096
+	posy=1 v=2003 132.169
+	classname=1 v=5000 Vertex World Tangent
+	submenuname=1 v=5000 Inputs Common
+	bitmapnodeindex=1 v=2002 62
+	helpid=1 v=2002 28
+	grpnodecolor=1 v=5012 5
+	grpPosX=1 v=2003 -947.761
+	grpPosY=1 v=2003 -108.209
+	group=0
+	ISC=0
+	OSC=3
+		SVT=5001 3002 0 _WorldTangent
+		CC=1
+			C=20 0 0 29 0 1 0
+			CPC=0
+		SVT=5001 3003 0 _WorldTangentVertShader
+		CC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=10100 0
+	PC=7
+	name=1 v=5000 _TangentWorldConvert
+	posx=1 v=2003 9.9399
+	posy=1 v=2003 110.345
+	isfunction=1 v=2001 1
+	functiondonotaddshaderdatastruct=1 v=2001 1
+	grpPosX=1 v=2003 -556.98
+	grpPosY=1 v=2003 188.034
+	group=0
+	ISC=5
+		SVT=5001 2003 0 _TangentDirection
+		SVT=5001 3002 0 _Normal
+		SVT=5001 3002 0 _Tangent
+		SVT=5001 3002 0 _Vector
+		SVT=5001 1002 0 
+	OSC=5
+		SVT=5001 2003 0 _TangentDirection
+		CC=1
+			C=21 0 0 22 1 2 0
+			CPC=0
+		SVT=5001 3002 0 _Normal
+		CC=2
+			C=21 1 0 23 0 1 0
+			CPC=0
+			C=21 1 0 24 2 3 0
+			CPC=0
+		SVT=5001 3002 0 _Tangent
+		CC=2
+			C=21 2 0 23 1 2 0
+			CPC=0
+			C=21 2 0 24 0 1 0
+			CPC=0
+		SVT=5001 3002 0 _Vector
+		CC=1
+			C=21 3 0 25 0 1 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20016 0
+	PC=4
+	name=1 v=5000 Bn
+	note=1 v=5000 Adjust Direction as calculated in vertex shader
+	posx=1 v=2003 4.51791
+	posy=1 v=2003 71.456
+	group=21
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=22 0 3 24 1 2 0
+			CPC=0
+#NT=20030 0
+	PC=3
+	name=1 v=5000 B
+	posx=1 v=2003 -265.841
+	posy=1 v=2003 121.359
+	group=21
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=23 0 3 22 0 1 0
+			CPC=0
+#NT=20090 0
+	PC=4
+	name=1 v=5000 toWorld
+	note=1 v=5000 Build Tangent to World Matrix
+	posx=1 v=2003 289.558
+	posy=1 v=2003 160.622
+	group=21
+	ISC=3
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+		SVT=5001 3002 3 
+	OSC=1
+		SVT=5001 4600 4 
+		CC=1
+			C=24 0 4 25 1 2 0
+			CPC=0
+#NT=20016 0
+	PC=4
+	name=1 v=5000 TangentToWorld
+	note=1 v=5000 Flip is off for cgfx
+	posx=1 v=2003 582.737
+	posy=1 v=2003 238.921
+	group=21
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 4600 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=25 0 3 26 0 0 0
+			CPC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 829.259
+	posy=1 v=2003 250.743
+	group=21
+	ISC=2
+		SVT=5001 3002 0 _Vector
+		SVT=5001 1002 0 
+	OSC=2
+		SVT=5001 3002 0 _Vector
+		CC=1
+			C=26 0 0 18 0 0 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20108 0
+	PC=3
+	note=1 v=5000 Grab the direction (.w) we stored
+	posx=1 v=2003 -235.027
+	posy=1 v=2003 -212.086
+	group=0
+	ISC=1
+		SVT=5001 3003 1 
+	OSC=6
+		SVT=5001 2003 2 
+		CC=0
+		SVT=5001 2003 3 
+		CC=0
+		SVT=5001 3001 4 
+		CC=0
+		SVT=5001 2003 5 
+		CC=0
+		SVT=5001 3002 6 
+		CC=0
+		SVT=5001 2003 7 
+		CC=1
+			C=27 5 7 21 0 0 0
+			CPC=0
+#NT=20109 0
+	PC=2
+	posx=1 v=2003 -264.022
+	posy=1 v=2003 5.07561
+	group=0
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=28 0 3 21 1 0 0
+			CPC=0
+#NT=20109 0
+	PC=2
+	posx=1 v=2003 -254.022
+	posy=1 v=2003 145.076
+	group=0
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=29 0 3 21 2 0 0
+			CPC=0
+#NT=20109 0
+	PC=2
+	posx=1 v=2003 -261.922
+	posy=1 v=2003 291.893
+	group=0
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=30 0 3 21 3 0 0
+			CPC=0
+#NT=20011 0
+	PC=4
+	posx=1 v=2003 -480.449
+	posy=1 v=2003 277.641
+	collapsed=1 v=2001 1
+	color=2 e=0 v=3003 1.0,1.0,1.0,1.0
+	group=0
+	ISC=0
+	OSC=6
+		SVT=5001 3003 1 
+		CC=0
+		SVT=5001 3002 2 
+		CC=1
+			C=31 1 2 30 0 1 0
+			CPC=0
+		SVT=5001 2003 3 
+		CC=0
+		SVT=5001 2003 4 
+		CC=0
+		SVT=5001 2003 5 
+		CC=0
+		SVT=5001 2003 6 
+		CC=0

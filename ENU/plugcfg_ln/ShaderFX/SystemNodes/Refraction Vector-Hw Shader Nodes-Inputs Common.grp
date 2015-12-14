@@ -1,0 +1,250 @@
+SFX_WIN
+Version=24
+GroupVersion=1.66
+Advanced=0
+HelpID=42
+NumberOfNodes=15
+#NT=10100 0
+	PC=11
+	name=1 v=5000 _RefractionVector
+	version=1 v=2003 1.66
+	posx=1 v=2003 36.3744
+	posy=1 v=2003 20.14
+	classname=1 v=5000 Refraction Vector
+	submenuname=1 v=5000 Inputs Common
+	bitmapnodeindex=1 v=2002 44
+	helpid=1 v=2002 42
+	grpnodecolor=1 v=5012 5
+	grpPosX=1 v=2003 -634.328
+	grpPosY=1 v=2003 -69.0299
+	group=-1
+	ISC=3
+		SVT=5001 3002 0 _Normal
+		SVT=5001 2003 0 _RefractionIndex
+		SVT=5001 1002 0 
+	OSC=3
+		SVT=5001 3002 0 _Normal
+		CC=2
+			C=0 0 0 2 1 2 0
+			CPC=0
+			C=0 0 0 7 0 1 0
+			CPC=0
+		SVT=5001 2003 0 _RefractionIndex
+		CC=2
+			C=0 1 0 10 1 2 0
+			CPC=0
+			C=0 1 0 12 0 1 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20112 0
+	PC=2
+	posx=1 v=2003 -46.5902
+	posy=1 v=2003 -134.198
+	group=0
+	ISC=1
+		SVT=5001 3002 1 
+	OSC=1
+		SVT=5001 3002 2 
+		CC=1
+			C=1 0 2 9 0 1 0
+			CPC=0
+#NT=20109 0
+	PC=3
+	name=1 v=5000 AifBempty
+	posx=1 v=2003 -54.0902
+	posy=1 v=2003 35.8016
+	group=0
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=2 0 3 9 1 2 0
+			CPC=0
+#NT=20111 0
+	PC=4
+	note=1 v=5000 Calculate Default Refraction Vector only once
+	posx=1 v=2003 435.752
+	posy=1 v=2003 50.2987
+	instanceidentifier=1 v=5000 DefaultRefractionVector
+	group=0
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 1002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=3 0 3 8 2 3 0
+			CPC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 894.693
+	posy=1 v=2003 -192.393
+	group=0
+	ISC=2
+		SVT=5001 3002 0 _RefractionVector
+		SVT=5001 1002 0 
+	OSC=2
+		SVT=5001 3002 0 _RefractionVector
+		CC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=10100 1 Camera Vector-Hw Shader Nodes-Inputs Common
+	PC=9
+	name=1 v=5000 _CameraVec
+	version=1 v=2003 1.64
+	posx=1 v=2003 -293.457
+	posy=1 v=2003 -145.838
+	classname=1 v=5000 Camera Vector
+	submenuname=1 v=5000 Inputs Common
+	bitmapnodeindex=1 v=2002 67
+	helpid=1 v=2002 2
+	grpnodecolor=1 v=5012 5
+	group=0
+	ISC=0
+	OSC=3
+		SVT=5001 3002 0 _CameraVector
+		CC=1
+			C=5 0 0 1 0 1 0
+			CPC=0
+		SVT=5001 3002 0 _Normalized
+		CC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=10100 1 Vertex World Normal-Hw Shader Nodes-Inputs Common
+	PC=11
+	name=1 v=5000 _WorldNormal
+	version=1 v=2003 1.64
+	posx=1 v=2003 -298.341
+	posy=1 v=2003 2.01689
+	classname=1 v=5000 Vertex World Normal
+	submenuname=1 v=5000 Inputs Common
+	bitmapnodeindex=1 v=2002 60
+	helpid=1 v=2002 26
+	grpnodecolor=1 v=5012 5
+	grpPosX=1 v=2003 -947.761
+	grpPosY=1 v=2003 -80.2239
+	group=0
+	ISC=0
+	OSC=3
+		SVT=5001 3002 0 _WorldNormal
+		CC=1
+			C=6 0 0 2 0 1 0
+			CPC=0
+		SVT=5001 3003 0 _WorldNormalVertShader
+		CC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20113 0
+	PC=3
+	posx=1 v=2003 -292.771
+	posy=1 v=2003 -318.875
+	collapsed=1 v=2001 1
+	group=0
+	ISC=1
+		SVT=5001 3002 1 
+	OSC=2
+		SVT=2001 2001 2 
+		CC=1
+			C=7 0 2 13 0 1 0
+			CPC=0
+		SVT=2001 2001 3 
+		CC=0
+#NT=20093 0
+	PC=3
+	note=1 v=5000 Default or custom refraction vector
+	posx=1 v=2003 624.34
+	posy=1 v=2003 -275.877
+	group=0
+	ISC=3
+		SVT=2001 2001 1 
+		SVT=5001 3002 2 
+		SVT=5001 3002 3 
+	OSC=1
+		SVT=5001 3002 4 
+		CC=1
+			C=8 0 4 4 0 0 0
+			CPC=0
+#NT=20058 0
+	PC=2
+	posx=1 v=2003 183.333
+	posy=1 v=2003 3.33339
+	group=0
+	ISC=3
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+		SVT=5001 2003 3 
+	OSC=1
+		SVT=5001 3002 4 
+		CC=2
+			C=9 0 4 8 1 2 0
+			CPC=0
+			C=9 0 4 3 0 1 0
+			CPC=0
+#NT=20109 0
+	PC=2
+	posx=1 v=2003 -56.6667
+	posy=1 v=2003 158.333
+	group=0
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=10 0 3 9 2 3 0
+			CPC=0
+#NT=20017 0
+	PC=5
+	name=1 v=5000 refractionIndex
+	posx=1 v=2003 -283.333
+	posy=1 v=2003 155.0
+	collapsed=1 v=2001 1
+	value=2 e=0 v=2003 0.02
+	group=0
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=11 0 1 10 0 1 0
+			CPC=0
+#NT=20113 0
+	PC=3
+	posx=1 v=2003 -293.333
+	posy=1 v=2003 -245.0
+	collapsed=1 v=2001 1
+	group=0
+	ISC=1
+		SVT=5001 2003 1 
+	OSC=2
+		SVT=2001 2001 2 
+		CC=1
+			C=12 0 2 13 1 2 0
+			CPC=0
+		SVT=2001 2001 3 
+		CC=0
+#NT=20121 0
+	PC=2
+	posx=1 v=2003 -95.0
+	posy=1 v=2003 -315.0
+	group=0
+	ISC=2
+		SVT=2001 2001 1 
+		SVT=2001 2001 2 
+	OSC=2
+		SVT=2001 2001 3 
+		CC=1
+			C=13 0 3 8 0 1 0
+			CPC=0
+		SVT=2001 2001 4 
+		CC=0
+#NT=20175 0
+	PC=3
+	posx=1 v=2003 180.0
+	posy=1 v=2003 -106.25
+	text=1 v=5000 color GetRefractionVector(color Normal, float RefractionIndex)\n{\n    color _N;\n    if(Normal != 0)\n        _N = Normal;\n    else\n        _N = color(N);\n        \n    return color(refract(I, vector(_N), RefractionIndex));\n}\n\nGetRefractionVector( [[ INPUT = Normal ? 0 ]], [[ INPUT = RefractionIndex ? 0.02 ]] )\n
+	group=0
+	ISC=0
+	OSC=0

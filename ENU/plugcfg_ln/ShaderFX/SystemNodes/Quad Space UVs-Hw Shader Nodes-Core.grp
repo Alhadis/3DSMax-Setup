@@ -1,0 +1,82 @@
+SFX_WIN
+Version=23
+GroupVersion=1.09
+Advanced=1
+HelpID=50
+NumberOfNodes=4
+#NT=10100 0
+	PC=10
+	name=1 v=5000 QuadUVs
+	version=1 v=2003 1.09
+	posx=1 v=2003 -669.524
+	posy=1 v=2003 -75.5239
+	classname=1 v=5000 Quad Space UVs
+	submenuname=1 v=5000 Core
+	bitmapnodeindex=1 v=2002 65
+	isadvanced=1 v=2001 1
+	helpid=1 v=2002 50
+	grpnodecolor=1 v=5012 5
+	group=-1
+	ISC=2
+		SVT=2002 2002 0 
+		SVT=1001 1002 0 
+	OSC=2
+		SVT=2002 2002 0 
+		CC=1
+			C=0 0 0 2 0 5 0
+			CPC=0
+		SVT=1001 1002 0 
+		CC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 718.015
+	posy=1 v=2003 -27.3284
+	group=0
+	ISC=2
+		SVT=5001 3001 0 
+		SVT=5001 1002 0 
+	OSC=2
+		SVT=5001 3001 0 
+		CC=1
+			C=1 0 0 -1 0 1 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20106 0
+	PC=5
+	name=1 v=5000 UVset
+	note=1 v=5000 V not flipped becaues our quad does not have it flipped
+	posx=1 v=2003 243.602
+	posy=1 v=2003 -32.556
+	flipy=2 e=0 v=2001 0
+	group=0
+	ISC=2
+		SVT=2002 2002 5 
+		SVT=5000 5000 6 
+	OSC=4
+		SVT=5001 5000 1 
+		CC=1
+			C=2 0 1 3 0 1 0
+			CPC=0
+		SVT=5001 3003 2 
+		CC=0
+		SVT=5001 3002 3 
+		CC=0
+		SVT=5001 3001 4 
+		CC=1
+			C=2 3 4 3 1 2 0
+			CPC=0
+#NT=20015 0
+	PC=3
+	note=1 v=5000 The vertex input struct for quad rendering is hardcoded. Do not change
+	posx=1 v=2003 487.991
+	posy=1 v=2003 -59.333
+	group=0
+	ISC=2
+		SVT=5001 5000 1 
+		SVT=5001 3001 2 
+	OSC=1
+		SVT=5001 3001 3 
+		CC=1
+			C=3 0 3 1 0 0 0
+			CPC=0

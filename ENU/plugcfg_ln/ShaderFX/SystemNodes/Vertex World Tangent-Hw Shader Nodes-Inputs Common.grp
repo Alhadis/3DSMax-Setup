@@ -1,0 +1,197 @@
+SFX_WIN
+Version=24
+GroupVersion=1.64
+Advanced=0
+HelpID=28
+NumberOfNodes=12
+#NT=10100 0
+	PC=11
+	name=1 v=5000 _WorldTangent
+	version=1 v=2003 1.64
+	posx=1 v=2003 28.1259
+	posy=1 v=2003 18.9253
+	classname=1 v=5000 Vertex World Tangent
+	submenuname=1 v=5000 Inputs Common
+	bitmapnodeindex=1 v=2002 62
+	helpid=1 v=2002 28
+	grpnodecolor=1 v=5012 5
+	grpPosX=1 v=2003 -947.761
+	grpPosY=1 v=2003 -108.209
+	group=-1
+	ISC=0
+	OSC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 1069.67
+	posy=1 v=2003 -141.457
+	group=0
+	ISC=3
+		SVT=5001 3002 0 _WorldTangent
+		SVT=5001 3003 0 _WorldTangentVertShader
+		SVT=5001 1002 0 
+	OSC=3
+		SVT=5001 3002 0 _WorldTangent
+		CC=0
+		SVT=5001 3003 0 _WorldTangentVertShader
+		CC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20016 0
+	PC=3
+	posx=1 v=2003 -503.563
+	posy=1 v=2003 -186.481
+	flipglsl=1 v=2001 1
+	group=0
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 4600 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=2 0 3 5 0 1 0
+			CPC=0
+#NT=20015 0
+	PC=6
+	note=1 v=5000 because a tweak node may want to store additional data in .w
+	posx=1 v=2003 101.65
+	posy=1 v=2003 -173.418
+	texcoordname=1 v=5000 Tangent
+	semantic=1 v=5000 TANGENT
+	semantictype=1 v=5012 5
+	group=0
+	ISC=2
+		SVT=5001 5000 1 
+		SVT=5001 3003 2 
+	OSC=1
+		SVT=5001 3003 3 
+		CC=2
+			C=3 0 3 7 0 1 0
+			CPC=0
+			C=3 0 3 1 1 0 0
+			CPC=0
+#NT=20111 0
+	PC=4
+	name=1 v=5000 WorldTangentN
+	posx=1 v=2003 784.948
+	posy=1 v=2003 -202.837
+	instanceidentifier=1 v=5000 WorldTangent
+	group=0
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 1002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=4 0 3 1 0 0 0
+			CPC=0
+#NT=20021 0
+	PC=4
+	name=1 v=5000 TangentNorm
+	note=1 v=5000 Normalize in case we have domain
+	posx=1 v=2003 -280.743
+	posy=1 v=2003 -170.198
+	group=0
+	ISC=1
+		SVT=5001 3002 1 
+	OSC=1
+		SVT=5001 3002 2 
+		CC=1
+			C=5 0 2 8 4 5 0
+			CPC=0
+#NT=20104 0
+	PC=2
+	posx=1 v=2003 -712.16
+	posy=1 v=2003 -183.274
+	group=0
+	ISC=0
+	OSC=2
+		SVT=5001 3003 1 
+		CC=0
+		SVT=5001 3002 2 
+		CC=1
+			C=6 1 2 2 0 1 0
+			CPC=0
+#NT=20108 0
+	PC=4
+	name=1 v=5000 TangentXYZ
+	posx=1 v=2003 318.561
+	posy=1 v=2003 -191.015
+	collapsed=1 v=2001 1
+	group=0
+	ISC=1
+		SVT=5001 3003 1 
+	OSC=6
+		SVT=5001 2003 2 
+		CC=0
+		SVT=5001 2003 3 
+		CC=0
+		SVT=5001 3001 4 
+		CC=0
+		SVT=5001 2003 5 
+		CC=0
+		SVT=5001 3002 6 
+		CC=1
+			C=7 4 6 10 0 1 0
+			CPC=0
+		SVT=5001 2003 7 
+		CC=0
+#NT=20020 0
+	PC=5
+	name=1 v=5000 WorldTangent
+	note=1 v=5000 We store the normal as float4
+	posx=1 v=2003 -86.3403
+	posy=1 v=2003 -135.688
+	collapsed=1 v=2001 1
+	group=0
+	ISC=6
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+		SVT=5001 3001 3 
+		SVT=5001 2003 4 
+		SVT=5001 3002 5 
+		SVT=5001 2003 6 
+	OSC=3
+		SVT=5001 3001 7 
+		CC=0
+		SVT=5001 3002 8 
+		CC=0
+		SVT=5001 3003 9 
+		CC=1
+			C=8 2 9 3 1 2 0
+			CPC=0
+#NT=20061 0
+	PC=4
+	note=1 v=5000 Could also use worldIT
+	posx=1 v=2003 -704.167
+	posy=1 v=2003 -62.9167
+	collapsed=1 v=2001 1
+	group=0
+	ISC=0
+	OSC=2
+		SVT=5001 4900 1 
+		CC=0
+		SVT=5001 4600 2 
+		CC=1
+			C=9 1 2 2 1 2 0
+			CPC=0
+#NT=20021 0
+	PC=3
+	note=1 v=5000 re-normalize after interpolation in pixel shader
+	posx=1 v=2003 550.467
+	posy=1 v=2003 -202.155
+	group=0
+	ISC=1
+		SVT=5001 3002 1 
+	OSC=1
+		SVT=5001 3002 2 
+		CC=1
+			C=10 0 2 4 0 1 0
+			CPC=0
+#NT=20175 0
+	PC=3
+	posx=1 v=2003 -35.0
+	posy=1 v=2003 -266.25
+	text=1 v=5000 color(dPdu)
+	group=0
+	ISC=0
+	OSC=0

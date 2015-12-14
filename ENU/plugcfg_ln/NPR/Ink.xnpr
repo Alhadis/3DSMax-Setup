@@ -1,0 +1,11 @@
+<root>
+  <parameter name="EdgeDilateRadius" type="float" default="0.1" min="0.0" max="20.0" label="Edge Dilation Radius"/>
+  <parameter name="SilhouetteDilateRadius" type="float" default="0.5" min="0.0" max="20.0" label="Silhouette Dilation Radius"/>
+  <parameter name="normalEdgeMultiplier" type="float" default="14.0" min="0.0" max="50.0" label="Normal Edge Multiplier"/>
+  <parameter name="depthEdgeMultiplier" type="float" default="3.0" min="0.0" max="50.0" label="Depth Edge Multiplier"/>
+  <parameter name="normalEdgeOffset" type="float" default="0.0" min="0.0" max="1.0" label="Normal Edge Offset"/>
+  <parameter name="depthEdgeOffset" type="float" default="0.0" min="0.0" max="1.0" label="Depth Edge Offset"/>
+  <parameter name="useAnalyticPosterization" type="bool" default="true" label="Use Analytic Posterization"/>
+  <parameter name="posterizeSteps" type="float" default="10.0" min="5.0" max="20.0" label="Posterization Steps"/>
+  <parameter name="posterizeOffset" type="float" default="0.03" min="-1.0" max="1.0" label="Posterization Offset"/>
+</root>

@@ -1,0 +1,83 @@
+SFX_WIN
+Version=22
+GroupVersion=1.05
+Advanced=1
+HelpID=49
+NumberOfNodes=5
+#NT=10100 0
+	PC=12
+	name=1 v=5000 VertexShaderQuadSpace
+	version=1 v=2003 1.05
+	posx=1 v=2003 27.5141
+	posy=1 v=2003 23.6037
+	classname=1 v=5000 Vertex Shader Quad Space
+	submenuname=1 v=5000 Core
+	bitmapnodeindex=1 v=2002 2
+	isadvanced=1 v=2001 1
+	helpid=1 v=2002 49
+	grpnodecolor=1 v=5012 5
+	grpPosX=1 v=2003 -694.916
+	grpPosY=1 v=2003 -38.1355
+	group=-1
+	ISC=0
+	OSC=0
+#NT=20004 0
+	PC=3
+	posx=1 v=2003 168.623
+	posy=1 v=2003 -20.3592
+	usedefaultinputsstruct=1 v=2001 0
+	group=0
+	ISC=3
+		SVT=5001 3003 1 
+		SVT=5001 1002 4 
+		SVT=5001 3003 2 
+	OSC=1
+		SVT=5001 5005 3 
+		CC=1
+			C=1 0 3 3 0 0 0
+			CPC=0
+#NT=20015 0
+	PC=6
+	note=1 v=5000 The vertex input struct for quad rendering is hardcoded. Do not change
+	posx=1 v=2003 -184.161
+	posy=1 v=2003 -50.6882
+	texcoordname=1 v=5000 Position
+	semantic=1 v=5000 SV_Position
+	semantictype=1 v=5012 2
+	group=0
+	ISC=2
+		SVT=5001 5000 1 
+		SVT=5001 3003 2 
+	OSC=1
+		SVT=5001 3003 3 
+		CC=2
+			C=2 0 3 1 0 1 0
+			CPC=0
+			C=2 0 3 1 2 2 0
+			CPC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 448.725
+	posy=1 v=2003 13.5895
+	group=0
+	ISC=2
+		SVT=5001 5005 0 
+		SVT=5001 1002 0 
+	OSC=2
+		SVT=5001 5005 0 
+		CC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20012 0
+	PC=2
+	posx=1 v=2003 -436.94
+	posy=1 v=2003 -37.3262
+	group=0
+	ISC=0
+	OSC=2
+		SVT=5001 3003 1 
+		CC=1
+			C=4 0 1 2 1 2 0
+			CPC=0
+		SVT=5001 3002 2 
+		CC=0

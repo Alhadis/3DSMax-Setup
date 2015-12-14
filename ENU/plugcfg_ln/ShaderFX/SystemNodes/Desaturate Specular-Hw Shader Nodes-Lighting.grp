@@ -1,0 +1,110 @@
+SFX_WIN
+Version=24
+GroupVersion=1.26
+Advanced=1
+HelpID=33
+NumberOfNodes=6
+#NT=10100 0
+	PC=12
+	name=1 v=5000 _DesaturateSpecular
+	version=1 v=2003 1.26
+	posx=1 v=2003 22.3504
+	posy=1 v=2003 14.8443
+	classname=1 v=5000 Desaturate Specular
+	submenuname=1 v=5000 Lighting
+	bitmapnodeindex=1 v=2002 2
+	isadvanced=1 v=2001 1
+	helpid=1 v=2002 33
+	grpnodecolor=1 v=5012 10
+	grpPosX=1 v=2003 -468.75
+	grpPosY=1 v=2003 -151.316
+	group=-1
+	ISC=2
+		SVT=5001 3002 0 _SpecularColor
+		SVT=5001 1002 0 
+	OSC=2
+		SVT=5001 3002 0 _SpecularColor
+		CC=1
+			C=0 0 0 3 1 2 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 488.599
+	posy=1 v=2003 -117.09
+	group=0
+	ISC=2
+		SVT=5001 2003 0 _DesaturateSpecular
+		SVT=5001 1002 0 
+	OSC=2
+		SVT=5001 2003 0 _DesaturateSpecular
+		CC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=10100 1 Desaturate Color-Hw Shader Nodes-Lighting
+	PC=9
+	name=1 v=5000 _DesaturateColor
+	version=1 v=2003 1.63
+	posx=1 v=2003 247.314
+	posy=1 v=2003 -132.734
+	classname=1 v=5000 Desaturate Color
+	submenuname=1 v=5000 Lighting
+	bitmapnodeindex=1 v=2002 2
+	helpid=1 v=2002 7
+	grpnodecolor=1 v=5012 7
+	group=0
+	ISC=2
+		SVT=5001 3002 0 _Color
+		SVT=5001 1002 0 
+	OSC=2
+		SVT=5001 2003 0 _DesaturateColor
+		CC=1
+			C=2 0 0 1 0 0 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20109 0
+	PC=2
+	posx=1 v=2003 -28.39
+	posy=1 v=2003 -155.026
+	group=0
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=3 0 3 2 0 0 0
+			CPC=0
+#NT=20011 0
+	PC=4
+	posx=1 v=2003 -265.919
+	posy=1 v=2003 -198.969
+	collapsed=1 v=2001 1
+	color=2 e=0 v=3003 1.0,1.0,1.0,1.0
+	group=0
+	ISC=0
+	OSC=6
+		SVT=5001 3003 1 
+		CC=0
+		SVT=5001 3002 2 
+		CC=1
+			C=4 1 2 3 0 1 0
+			CPC=0
+		SVT=5001 2003 3 
+		CC=0
+		SVT=5001 2003 4 
+		CC=0
+		SVT=5001 2003 5 
+		CC=0
+		SVT=5001 2003 6 
+		CC=0
+#NT=20175 0
+	PC=3
+	posx=1 v=2003 -265.0
+	posy=1 v=2003 -270.447
+	text=1 v=5000 float DesaturateHighlight(color c)\n{\n    return dot(clamp(vector(c),0,1), vector(0.3,0.6,0.1));\n}\n\nDesaturateHighlight( [[ INPUT = SpecularColor ? 0.5  ]] )
+	group=0
+	ISC=0
+	OSC=0

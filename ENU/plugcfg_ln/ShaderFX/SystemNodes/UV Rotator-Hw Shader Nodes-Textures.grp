@@ -1,0 +1,464 @@
+SFX_WIN
+Version=24
+GroupVersion=1.25
+Advanced=0
+HelpID=22
+NumberOfNodes=26
+#NT=10100 0
+	PC=18
+	name=1 v=5000 _UVRotator
+	version=1 v=2003 1.25
+	posx=1 v=2003 -1235.25
+	posy=1 v=2003 2.85331
+	previewswatch=1 v=2002 2
+	classname=1 v=5000 UV Rotator
+	submenuname=1 v=5000 Textures
+	bitmapnodeindex=1 v=2002 65
+	helpid=1 v=2002 22
+	grpnodecolor=1 v=5012 2
+	grpPosX=1 v=2003 -1099.39
+	grpPosY=1 v=2003 72.4854
+	value_CenterY=2 e=1 v=2003 0.5
+	value_Speed=2 e=1 v=2003 1.0
+	value_CenterX=2 e=1 v=2003 0.5
+	uvindex_UVs=2 e=2 v=2002 0
+	uvsetname_UVs=2 e=3 v=5000 
+	perinstanceunshared_UVs=2 e=4 v=2001 0
+	group=-1
+	ISC=5
+		SVT=5001 3001 0 _UV
+		SVT=5001 2003 0 _RotationAmount
+		SVT=5001 3001 0 _Pivot
+		SVT=5001 2003 0 _Time
+		SVT=1001 1002 0 
+	OSC=5
+		SVT=5001 3001 0 _UV
+		CC=1
+			C=0 0 0 2 1 2 0
+			CPC=0
+		SVT=5001 2003 0 _RotationAmount
+		CC=1
+			C=0 1 0 20 1 2 0
+			CPC=0
+		SVT=5001 3001 0 _Pivot
+		CC=1
+			C=0 2 0 24 1 2 0
+			CPC=0
+		SVT=5001 2003 0 _Time
+		CC=1
+			C=0 3 0 18 1 2 0
+			CPC=0
+		SVT=1001 1002 0 
+		CC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 363.954
+	posy=1 v=2003 145.685
+	group=0
+	ISC=2
+		SVT=5001 3001 0 _RotatedUV
+		SVT=1001 1002 0 
+	OSC=2
+		SVT=5001 3001 0 _RotatedUV
+		CC=1
+			C=1 0 0 -1 0 0 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20109 0
+	PC=2
+	posx=1 v=2003 -353.411
+	posy=1 v=2003 -415.713
+	group=0
+	ISC=2
+		SVT=5001 3001 1 
+		SVT=5001 3001 2 
+	OSC=1
+		SVT=5001 3001 3 
+		CC=1
+			C=2 0 3 5 0 0 0
+			CPC=0
+#NT=20086 0
+	PC=2
+	posx=1 v=2003 -571.456
+	posy=1 v=2003 559.083
+	group=0
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=3 0 1 18 0 1 0
+			CPC=0
+#NT=10100 1 UV Set-Hw Shader Nodes-Inputs Common
+	PC=14
+	name=1 v=5000 _UVSet
+	version=1 v=2003 1.69
+	posx=1 v=2003 -580.181
+	posy=1 v=2003 -433.812
+	classname=1 v=5000 UV Set
+	submenuname=1 v=5000 Inputs Common
+	bitmapnodeindex=1 v=2002 65
+	helpid=1 v=2002 23
+	grpnodecolor=1 v=5012 5
+	grpPosX=1 v=2003 -450.0
+	grpPosY=1 v=2003 -221.667
+	uvindex_UVs=2 e=2 v=2002 0
+	uvsetname_UVs=2 e=3 v=5000 
+	perinstanceunshared_UVs=2 e=4 v=2001 0
+	group=0
+	ISC=4
+		SVT=2002 2002 0 
+		SVT=5000 5000 0 
+		SVT=2001 2001 0 
+		SVT=1001 1002 0 
+	OSC=3
+		SVT=5001 3003 0 _UVWZ
+		CC=0
+		SVT=5001 3001 0 _UV
+		CC=1
+			C=4 1 0 2 0 1 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=10100 0
+	PC=7
+	name=1 v=5000 _UVRotator
+	posx=1 v=2003 39.325
+	posy=1 v=2003 82.6942
+	isfunction=1 v=2001 1
+	functiondonotaddshaderdatastruct=1 v=2001 1
+	grpPosX=1 v=2003 -1120.0
+	grpPosY=1 v=2003 280.0
+	group=0
+	ISC=5
+		SVT=5001 3001 0 _UV
+		SVT=5001 2003 0 _RotationAmount
+		SVT=5001 3001 0 _Pivot
+		SVT=5001 2003 0 _Time
+		SVT=1001 1002 0 
+	OSC=5
+		SVT=5001 3001 0 _UV
+		CC=1
+			C=5 0 0 9 0 1 0
+			CPC=0
+		SVT=5001 2003 0 _RotationAmount
+		CC=1
+			C=5 1 0 17 1 2 0
+			CPC=0
+		SVT=5001 3001 0 _Pivot
+		CC=2
+			C=5 2 0 9 1 2 0
+			CPC=0
+			C=5 2 0 16 0 1 0
+			CPC=3
+			cx=98.1891
+			cy=-115.15
+			cm=1
+		SVT=5001 2003 0 _Time
+		CC=1
+			C=5 3 0 17 0 1 0
+			CPC=0
+		SVT=1001 1002 0 
+		CC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 1049.78
+	posy=1 v=2003 358.453
+	group=5
+	ISC=2
+		SVT=5001 3001 0 _RotatedUV
+		SVT=5001 1002 0 
+	OSC=2
+		SVT=5001 3001 0 _RotatedUV
+		CC=1
+			C=6 0 0 1 0 0 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20034 0
+	PC=2
+	posx=1 v=2003 -360.391
+	posy=1 v=2003 291.928
+	group=5
+	ISC=1
+		SVT=5001 2003 1 
+	OSC=1
+		SVT=5001 2003 2 
+		CC=2
+			C=7 0 2 12 0 1 0
+			CPC=0
+			C=7 0 2 13 0 1 0
+			CPC=0
+#NT=20033 0
+	PC=2
+	posx=1 v=2003 -353.367
+	posy=1 v=2003 413.48
+	group=5
+	ISC=1
+		SVT=5001 2003 1 
+	OSC=1
+		SVT=5001 2003 2 
+		CC=2
+			C=8 0 2 11 0 1 0
+			CPC=0
+			C=8 0 2 13 1 2 0
+			CPC=0
+#NT=20022 0
+	PC=3
+	note=1 v=5000 Move rotation center to origin
+	posx=1 v=2003 78.6129
+	posy=1 v=2003 -36.4674
+	group=5
+	ISC=2
+		SVT=5001 3001 1 
+		SVT=5001 3001 2 
+	OSC=1
+		SVT=5001 3001 3 
+		CC=2
+			C=9 0 3 10 0 1 0
+			CPC=0
+			C=9 0 3 14 0 1 0
+			CPC=0
+#NT=20018 0
+	PC=3
+	note=1 v=5000 _RotatedUV
+	posx=1 v=2003 331.509
+	posy=1 v=2003 187.471
+	group=5
+	ISC=2
+		SVT=5001 3001 1 
+		SVT=5001 3001 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=10 0 3 15 0 1 0
+			CPC=0
+#NT=20020 0
+	PC=2
+	posx=1 v=2003 76.6826
+	posy=1 v=2003 214.498
+	group=5
+	ISC=6
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+		SVT=5001 3001 3 
+		SVT=5001 2003 4 
+		SVT=5001 3002 5 
+		SVT=5001 2003 6 
+	OSC=3
+		SVT=5001 3001 7 
+		CC=1
+			C=11 0 7 10 1 2 0
+			CPC=0
+		SVT=5001 3002 8 
+		CC=0
+		SVT=5001 3003 9 
+		CC=0
+#NT=20112 0
+	PC=2
+	posx=1 v=2003 -161.144
+	posy=1 v=2003 298.525
+	group=5
+	ISC=1
+		SVT=5001 2003 1 
+	OSC=1
+		SVT=5001 2003 2 
+		CC=1
+			C=12 0 2 11 1 2 0
+			CPC=0
+#NT=20020 0
+	PC=2
+	posx=1 v=2003 86.3349
+	posy=1 v=2003 438.435
+	group=5
+	ISC=6
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+		SVT=5001 3001 3 
+		SVT=5001 2003 4 
+		SVT=5001 3002 5 
+		SVT=5001 2003 6 
+	OSC=3
+		SVT=5001 3001 7 
+		CC=1
+			C=13 0 7 14 1 2 0
+			CPC=0
+		SVT=5001 3002 8 
+		CC=0
+		SVT=5001 3003 9 
+		CC=0
+#NT=20018 0
+	PC=3
+	note=1 v=5000 Rotate V
+	posx=1 v=2003 335.369
+	posy=1 v=2003 336.119
+	group=5
+	ISC=2
+		SVT=5001 3001 1 
+		SVT=5001 3001 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=14 0 3 15 1 2 0
+			CPC=0
+#NT=20020 0
+	PC=2
+	posx=1 v=2003 549.655
+	posy=1 v=2003 299.439
+	group=5
+	ISC=6
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+		SVT=5001 3001 3 
+		SVT=5001 2003 4 
+		SVT=5001 3002 5 
+		SVT=5001 2003 6 
+	OSC=3
+		SVT=5001 3001 7 
+		CC=1
+			C=15 0 7 16 1 2 0
+			CPC=0
+		SVT=5001 3002 8 
+		CC=0
+		SVT=5001 3003 9 
+		CC=0
+#NT=20026 0
+	PC=3
+	note=1 v=5000 Move UVs back to correct place
+	posx=1 v=2003 781.315
+	posy=1 v=2003 339.98
+	group=5
+	ISC=2
+		SVT=5001 3001 1 
+		SVT=5001 3001 2 
+	OSC=1
+		SVT=5001 3001 3 
+		CC=1
+			C=16 0 3 6 0 0 0
+			CPC=0
+#NT=20016 0
+	PC=2
+	posx=1 v=2003 -610.577
+	posy=1 v=2003 330.984
+	group=5
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=2
+			C=17 0 3 7 0 1 0
+			CPC=0
+			C=17 0 3 8 0 1 0
+			CPC=0
+#NT=20109 0
+	PC=2
+	posx=1 v=2003 -333.863
+	posy=1 v=2003 613.188
+	group=0
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=18 0 3 5 3 0 0
+			CPC=0
+#NT=20017 0
+	PC=5
+	name=1 v=5000 Speed
+	posx=1 v=2003 -571.442
+	posy=1 v=2003 -197.027
+	value=2 e=1 v=2003 1.0
+	exposetoui=1 v=2001 1
+	group=0
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=19 0 1 20 0 1 0
+			CPC=0
+#NT=20109 0
+	PC=2
+	posx=1 v=2003 -335.256
+	posy=1 v=2003 -150.629
+	group=0
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=20 0 3 5 1 0 0
+			CPC=0
+#NT=20020 0
+	PC=3
+	name=1 v=5000 Center
+	posx=1 v=2003 -489.301
+	posy=1 v=2003 116.959
+	group=0
+	ISC=6
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+		SVT=5001 3001 3 
+		SVT=5001 2003 4 
+		SVT=5001 3002 5 
+		SVT=5001 2003 6 
+	OSC=3
+		SVT=5001 3001 7 
+		CC=1
+			C=21 0 7 24 0 1 0
+			CPC=0
+		SVT=5001 3002 8 
+		CC=0
+		SVT=5001 3003 9 
+		CC=0
+#NT=20017 0
+	PC=5
+	name=1 v=5000 CenterX
+	posx=1 v=2003 -703.268
+	posy=1 v=2003 121.203
+	value=2 e=1 v=2003 0.5
+	exposetoui=1 v=2001 1
+	group=0
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=22 0 1 21 0 1 0
+			CPC=0
+#NT=20017 0
+	PC=5
+	name=1 v=5000 CenterY
+	posx=1 v=2003 -703.446
+	posy=1 v=2003 223.876
+	value=2 e=1 v=2003 0.5
+	exposetoui=1 v=2001 1
+	group=0
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=23 0 1 21 1 2 0
+			CPC=0
+#NT=20109 0
+	PC=2
+	posx=1 v=2003 -257.796
+	posy=1 v=2003 210.464
+	group=0
+	ISC=2
+		SVT=5001 3001 1 
+		SVT=5001 3001 2 
+	OSC=1
+		SVT=5001 3001 3 
+		CC=1
+			C=24 0 3 5 2 0 0
+			CPC=0
+#NT=20175 0
+	PC=3
+	posx=1 v=2003 -869.838
+	posy=1 v=2003 424.37
+	text=1 v=5000 color UVRotatorFunction(color UV, float RotationAmount, color Pivot, float Time)\n{\n    color SubOp = (UV - Pivot);\n    float MulOp = (RotationAmount * Time);\n    float CosOp = cos(MulOp);\n    float SinOp = sin(MulOp);\n    float NegateOp = -(SinOp);\n    float DotOp1 = dot(point(SubOp), point(CosOp, NegateOp, 0));\n    float DotOp2 = dot(point(SubOp), point(SinOp, CosOp, 0));\n    color result = (Pivot + color(DotOp1, DotOp2, 0));\n    return result;\n}\n\nUVRotatorFunction( [[ INPUT = UV ? color(u,-v+1,0) ]], [[ INPUT = RotationAmount ? [[PROP=value_Speed]] ]], [[ INPUT = Pivot ? color([[PROP=value_CenterX]], [[PROP=value_CenterY]],0) ]], [[ INPUT = Time ? 0.0 ]] )
+	group=0
+	ISC=0
+	OSC=0

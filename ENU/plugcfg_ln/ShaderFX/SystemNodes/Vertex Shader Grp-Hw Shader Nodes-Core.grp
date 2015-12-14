@@ -1,0 +1,304 @@
+SFX_WIN
+Version=22
+GroupVersion=1.03
+Advanced=1
+HelpID=46
+NumberOfNodes=18
+#NT=10100 0
+	PC=12
+	name=1 v=5000 VertexShader
+	version=1 v=2003 1.03
+	posx=1 v=2003 31.3466
+	posy=1 v=2003 17.2956
+	classname=1 v=5000 Vertex Shader Grp
+	submenuname=1 v=5000 Core
+	bitmapnodeindex=1 v=2002 2
+	isadvanced=1 v=2001 1
+	helpid=1 v=2002 46
+	grpnodecolor=1 v=5012 5
+	grpPosX=1 v=2003 -816.164
+	grpPosY=1 v=2003 -139.131
+	group=-1
+	ISC=2
+		SVT=5001 3002 0 _ObjectVertexPosition
+		SVT=5001 1002 0 
+	OSC=2
+		SVT=5001 3002 0 _ObjectVertexPosition
+		CC=2
+			C=0 0 0 14 4 5 0
+			CPC=0
+			C=0 0 0 15 0 1 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20004 0
+	PC=2
+	posx=1 v=2003 538.911
+	posy=1 v=2003 67.1991
+	group=0
+	ISC=3
+		SVT=5001 3003 1 
+		SVT=5001 1002 4 
+		SVT=5001 3003 2 
+	OSC=1
+		SVT=5001 5005 3 
+		CC=1
+			C=1 0 3 13 0 0 0
+			CPC=0
+#NT=20015 0
+	PC=7
+	note=1 v=5000 Input object space vertices into vertex shader
+	posx=1 v=2003 253.6
+	posy=1 v=2003 -284.655
+	texcoordname=1 v=5000 Position
+	semantic=1 v=5000 SV_Position
+	semantictype=1 v=5012 2
+	tweaktexcoord=1 v=2001 1
+	group=0
+	ISC=2
+		SVT=5001 5000 1 
+		SVT=5001 3003 2 
+	OSC=1
+		SVT=5001 3003 3 
+		CC=1
+			C=2 0 3 1 0 1 0
+			CPC=0
+#NT=20012 0
+	PC=2
+	posx=1 v=2003 -265.457
+	posy=1 v=2003 -302.015
+	group=0
+	ISC=0
+	OSC=2
+		SVT=5001 3003 1 
+		CC=1
+			C=3 0 1 4 0 1 0
+			CPC=0
+		SVT=5001 3002 2 
+		CC=0
+#NT=20109 0
+	PC=4
+	name=1 v=5000 AifBempty
+	note=1 v=5000 User may want to manipulate obj-space vertices, such as skinning
+	posx=1 v=2003 19.6208
+	posy=1 v=2003 -310.985
+	group=0
+	ISC=2
+		SVT=5001 3003 1 
+		SVT=5001 3003 2 
+	OSC=1
+		SVT=5001 3003 3 
+		CC=1
+			C=4 0 3 2 1 2 0
+			CPC=0
+#NT=20015 0
+	PC=7
+	note=1 v=5000 Convert vertices from object to clip space prior to pixel shader
+	posx=1 v=2003 -72.7568
+	posy=1 v=2003 207.247
+	texcoordname=1 v=5000 Position
+	semantic=1 v=5000 SV_Position
+	semantictype=1 v=5012 2
+	tweaktexcoord=1 v=2001 1
+	group=0
+	ISC=2
+		SVT=5001 5000 1 
+		SVT=5001 3003 2 
+	OSC=1
+		SVT=5001 3003 3 
+		CC=1
+			C=5 0 3 12 1 2 0
+			CPC=0
+#NT=20016 0
+	PC=4
+	name=1 v=5000 WVSpace
+	posx=1 v=2003 -284.172
+	posy=1 v=2003 206.161
+	flipglsl=1 v=2001 1
+	group=0
+	ISC=2
+		SVT=5001 3003 1 
+		SVT=5001 4900 2 
+	OSC=1
+		SVT=5001 3003 3 
+		CC=1
+			C=6 0 3 5 1 2 0
+			CPC=0
+#NT=20015 0
+	PC=6
+	note=1 v=5000 Input object space vertices and store in Data struct
+	posx=1 v=2003 -473.401
+	posy=1 v=2003 206.617
+	texcoordname=1 v=5000 Position
+	semantic=1 v=5000 SV_Position
+	semantictype=1 v=5012 2
+	group=0
+	ISC=2
+		SVT=5001 5000 1 
+		SVT=5001 3003 2 
+	OSC=1
+		SVT=5001 3003 3 
+		CC=1
+			C=7 0 3 6 0 1 0
+			CPC=0
+#NT=20012 0
+	PC=3
+	posx=1 v=2003 -680.795
+	posy=1 v=2003 203.458
+	collapsed=1 v=2001 1
+	group=0
+	ISC=0
+	OSC=2
+		SVT=5001 3003 1 
+		CC=1
+			C=8 0 1 7 1 2 0
+			CPC=0
+		SVT=5001 3002 2 
+		CC=0
+#NT=20081 0
+	PC=2
+	posx=1 v=2003 -478.661
+	posy=1 v=2003 332.146
+	group=0
+	ISC=0
+	OSC=1
+		SVT=5001 4900 1 
+		CC=1
+			C=9 0 1 6 1 2 0
+			CPC=0
+#NT=20114 0
+	PC=4
+	note=1 v=5000 Does Vertex Shader Output directly to Pixel?
+	posx=1 v=2003 -64.0435
+	posy=1 v=2003 38.391
+	stage=1 v=5012 1
+	group=0
+	ISC=0
+	OSC=2
+		SVT=2001 2001 1 
+		CC=1
+			C=10 0 1 12 0 1 0
+			CPC=0
+		SVT=2001 2001 2 
+		CC=0
+#NT=20015 0
+	PC=7
+	note=1 v=5000 Convert vertices from object to world space for next stage
+	posx=1 v=2003 -66.8768
+	posy=1 v=2003 388.042
+	texcoordname=1 v=5000 Position
+	semantic=1 v=5000 SV_Position
+	semantictype=1 v=5012 2
+	tweaktexcoord=1 v=2001 1
+	group=0
+	ISC=2
+		SVT=5001 5000 1 
+		SVT=5001 3003 2 
+	OSC=1
+		SVT=5001 3003 3 
+		CC=1
+			C=11 0 3 12 2 3 0
+			CPC=0
+#NT=20093 0
+	PC=3
+	name=1 v=5000 IftruethenAelseB
+	posx=1 v=2003 249.814
+	posy=1 v=2003 174.954
+	group=0
+	ISC=3
+		SVT=2001 2001 1 
+		SVT=5001 3003 2 
+		SVT=5001 3003 3 
+	OSC=1
+		SVT=5001 3003 4 
+		CC=1
+			C=12 0 4 1 2 2 0
+			CPC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 803.485
+	posy=1 v=2003 120.119
+	group=0
+	ISC=2
+		SVT=5001 5005 0 
+		SVT=5001 1002 0 
+	OSC=2
+		SVT=5001 5005 0 
+		CC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20020 0
+	PC=3
+	posx=1 v=2003 -507.57
+	posy=1 v=2003 -114.968
+	collapsed=1 v=2001 1
+	group=0
+	ISC=6
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+		SVT=5001 3001 3 
+		SVT=5001 2003 4 
+		SVT=5001 3002 5 
+		SVT=5001 2003 6 
+	OSC=3
+		SVT=5001 3001 7 
+		CC=0
+		SVT=5001 3002 8 
+		CC=0
+		SVT=5001 3003 9 
+		CC=1
+			C=14 2 9 16 1 2 0
+			CPC=0
+#NT=20113 0
+	PC=3
+	posx=1 v=2003 -507.57
+	posy=1 v=2003 -193.305
+	collapsed=1 v=2001 1
+	group=0
+	ISC=1
+		SVT=5001 3002 1 
+	OSC=2
+		SVT=2001 2001 2 
+		CC=1
+			C=15 0 2 16 0 1 0
+			CPC=0
+		SVT=2001 2001 3 
+		CC=0
+#NT=20091 0
+	PC=3
+	posx=1 v=2003 -264.237
+	posy=1 v=2003 -189.975
+	process=2 e=0 v=2001 0
+	group=0
+	ISC=2
+		SVT=2001 2001 1 
+		SVT=5001 3003 2 
+	OSC=1
+		SVT=5001 3003 3 
+		CC=1
+			C=16 0 3 4 1 2 0
+			CPC=0
+#NT=10100 1 Vertex World Position-Hw Shader Nodes-Inputs Common
+	PC=11
+	name=1 v=5000 _VertexWorldPos
+	version=1 v=2003 1.6
+	posx=1 v=2003 -280.371
+	posy=1 v=2003 389.088
+	classname=1 v=5000 Vertex World Position
+	submenuname=1 v=5000 Inputs Common
+	bitmapnodeindex=1 v=2002 66
+	helpid=1 v=2002 27
+	grpnodecolor=1 v=5012 5
+	grpPosX=1 v=2003 -1050.37
+	grpPosY=1 v=2003 -104.478
+	group=0
+	ISC=0
+	OSC=3
+		SVT=5001 3003 0 _VertexWorldPosition
+		CC=1
+			C=17 0 0 11 1 2 0
+			CPC=0
+		SVT=5001 3002 0 
+		CC=0
+		SVT=5001 1002 0 
+		CC=0

@@ -1,0 +1,292 @@
+SFX_WIN
+Version=23
+GroupVersion=1.74
+Advanced=0
+HelpID=13
+NumberOfNodes=16
+#NT=10100 0
+	PC=11
+	name=1 v=5000 _LightVec
+	version=1 v=2003 1.74
+	posx=1 v=2003 -574.326
+	posy=1 v=2003 72.882
+	classname=1 v=5000 Light Vector
+	submenuname=1 v=5000 Inputs Common
+	bitmapnodeindex=1 v=2002 6
+	helpid=1 v=2002 13
+	grpnodecolor=1 v=5012 5
+	grpPosX=1 v=2003 -883.698
+	grpPosY=1 v=2003 24.177
+	group=-1
+	ISC=2
+		SVT=2002 2002 0 
+		SVT=5001 1002 0 
+	OSC=2
+		SVT=2002 2002 0 
+		CC=3
+			C=0 0 0 1 0 1 0
+			CPC=0
+			C=0 0 0 7 0 1 0
+			CPC=0
+			C=0 0 0 8 0 1 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20019 0
+	PC=3
+	posx=1 v=2003 -537.184
+	posy=1 v=2003 -233.604
+	lightindex=2 e=0 v=2002 3
+	group=0
+	ISC=1
+		SVT=2002 2002 1 
+	OSC=1
+		SVT=5001 3002 2 
+		CC=3
+			C=1 0 2 2 1 2 0
+			CPC=0
+			C=1 0 2 4 1 2 0
+			CPC=0
+			C=1 0 2 9 0 0 0
+			CPC=0
+#NT=20111 0
+	PC=5
+	note=1 v=5000 calculate lightvector only once for each lightindex
+	posx=1 v=2003 224.818
+	posy=1 v=2003 -174.906
+	instancepropertyname=1 v=5000 lightindex
+	instanceidentifier=1 v=5000 lightvector
+	group=0
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 1002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=2
+			C=2 0 3 3 0 1 0
+			CPC=0
+			C=2 0 3 5 0 0 0
+			CPC=0
+#NT=20021 0
+	PC=3
+	name=1 v=5000 LightVecNorm
+	posx=1 v=2003 436.726
+	posy=1 v=2003 -50.3395
+	group=0
+	ISC=1
+		SVT=5001 3002 1 
+	OSC=1
+		SVT=5001 3002 2 
+		CC=1
+			C=3 0 2 4 0 1 0
+			CPC=0
+#NT=20111 0
+	PC=4
+	posx=1 v=2003 627.901
+	posy=1 v=2003 -15.4911
+	instancepropertyname=1 v=5000 lightindex
+	instanceidentifier=1 v=5000 lightVectorNormalized
+	group=0
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 1002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=4 0 3 5 1 0 0
+			CPC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 940.828
+	posy=1 v=2003 50.9909
+	group=0
+	ISC=3
+		SVT=5001 3002 0 _LightVector
+		SVT=5001 3002 0 _Normalized
+		SVT=5001 1002 0 
+	OSC=3
+		SVT=5001 3002 0 _LightVector
+		CC=0
+		SVT=5001 3002 0 _Normalized
+		CC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=10100 1 Vertex World Position-Hw Shader Nodes-Inputs Common
+	PC=11
+	name=1 v=5000 _VertexWorldPos
+	version=1 v=2003 1.6
+	posx=1 v=2003 -541.364
+	posy=1 v=2003 -22.1817
+	classname=1 v=5000 Vertex World Position
+	submenuname=1 v=5000 Inputs Common
+	bitmapnodeindex=1 v=2002 66
+	helpid=1 v=2002 27
+	grpnodecolor=1 v=5012 5
+	grpPosX=1 v=2003 -1050.37
+	grpPosY=1 v=2003 -104.478
+	group=0
+	ISC=0
+	OSC=3
+		SVT=5001 3003 0 _VertexWorldPosition
+		CC=0
+		SVT=5001 3002 0 
+		CC=1
+			C=6 1 0 9 1 0 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20135 0
+	PC=3
+	posx=1 v=2003 -532.827
+	posy=1 v=2003 114.614
+	collapsed=1 v=2001 1
+	group=0
+	ISC=1
+		SVT=2002 2002 1 
+	OSC=1
+		SVT=5001 2002 2 
+		CC=1
+			C=7 0 2 9 2 0 0
+			CPC=0
+#NT=20130 0
+	PC=4
+	posx=1 v=2003 -530.957
+	posy=1 v=2003 204.642
+	collapsed=1 v=2001 1
+	lightindex=2 e=0 v=2002 3
+	group=0
+	ISC=1
+		SVT=2002 2002 1 
+	OSC=1
+		SVT=5001 3002 2 
+		CC=1
+			C=8 0 2 9 3 0 0
+			CPC=0
+#NT=10100 0
+	PC=7
+	name=1 v=5000 _GetLightVector
+	posx=1 v=2003 -207.66
+	posy=1 v=2003 18.5262
+	isfunction=1 v=2001 1
+	functiondonotaddshaderdatastruct=1 v=2001 1
+	grpPosX=1 v=2003 -978.855
+	grpPosY=1 v=2003 36.1194
+	group=0
+	ISC=5
+		SVT=5001 3002 0 _LightPosition
+		SVT=5001 3002 0 _VertexWorldPosition
+		SVT=5001 2002 0 _LightType
+		SVT=5001 3002 0 _LightDirection
+		SVT=5001 1002 0 
+	OSC=5
+		SVT=5001 3002 0 _LightPosition
+		CC=1
+			C=9 0 0 11 0 1 0
+			CPC=0
+		SVT=5001 3002 0 _VertexWorldPosition
+		CC=1
+			C=9 1 0 11 1 2 0
+			CPC=0
+		SVT=5001 2002 0 _LightType
+		CC=1
+			C=9 2 0 15 0 0 0
+			CPC=0
+		SVT=5001 3002 0 _LightDirection
+		CC=1
+			C=9 3 0 12 0 1 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 759.576
+	posy=1 v=2003 135.104
+	group=9
+	ISC=2
+		SVT=5001 3002 0 
+		SVT=1001 1002 0 
+	OSC=2
+		SVT=5001 3002 0 
+		CC=1
+			C=10 0 0 2 0 1 0
+			CPC=0
+		SVT=1001 1002 0 
+		CC=0
+#NT=20022 0
+	PC=3
+	name=1 v=5000 LightVec
+	posx=1 v=2003 -355.878
+	posy=1 v=2003 -3.22895
+	group=9
+	ISC=2
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=11 0 3 14 0 1 0
+			CPC=0
+#NT=20112 0
+	PC=3
+	posx=1 v=2003 -599.11
+	posy=1 v=2003 291.216
+	collapsed=1 v=2001 1
+	group=9
+	ISC=1
+		SVT=5001 3002 1 
+	OSC=1
+		SVT=5001 3002 2 
+		CC=1
+			C=12 0 2 14 1 2 0
+			CPC=0
+#NT=20112 0
+	PC=2
+	posx=1 v=2003 211.766
+	posy=1 v=2003 37.5248
+	group=9
+	ISC=1
+		SVT=5001 3002 1 
+	OSC=1
+		SVT=5001 3002 2 
+		CC=0
+#NT=20031 0
+	PC=3
+	note=1 v=5000 Directional light has no position, so we use lightDir instead
+	posx=1 v=2003 -92.4093
+	posy=1 v=2003 70.957
+	group=9
+	ISC=3
+		SVT=5001 3002 1 
+		SVT=5001 3002 2 
+		SVT=5001 2001 3 
+	OSC=1
+		SVT=5001 3002 4 
+		CC=2
+			C=14 0 4 13 0 1 0
+			CPC=0
+			C=14 0 4 10 0 0 0
+			CPC=0
+#NT=10100 1 IsDirectionalLight-Hw Shader Nodes-Lighting
+	PC=11
+	name=1 v=5000 _IsDirectionalLight
+	version=1 v=2003 1.05
+	posx=1 v=2003 -356.448
+	posy=1 v=2003 162.646
+	classname=1 v=5000 IsDirectionalLight
+	submenuname=1 v=5000 Lighting
+	isadvanced=1 v=2001 1
+	helpid=1 v=2002 61
+	grpnodecolor=1 v=5012 10
+	grpPosX=1 v=2003 -676.971
+	grpPosY=1 v=2003 -98.3253
+	group=9
+	ISC=2
+		SVT=5001 2002 0 _LightType
+		SVT=5001 1002 0 
+	OSC=2
+		SVT=5001 2001 0 _IsDirectionalLight
+		CC=1
+			C=15 0 0 14 2 3 0
+			CPC=0
+		SVT=1001 1002 0 
+		CC=0

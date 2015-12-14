@@ -1,0 +1,444 @@
+SFX_WIN
+Version=22
+GroupVersion=1.05
+Advanced=1
+HelpID=45
+NumberOfNodes=26
+#NT=10100 0
+	PC=11
+	name=1 v=5000 ShadowPassPixelDepth
+	version=1 v=2003 1.05
+	posx=1 v=2003 -615.776
+	posy=1 v=2003 57.5938
+	classname=1 v=5000 ShadowPass Pixel Depth
+	submenuname=1 v=5000 Lighting
+	isadvanced=1 v=2001 1
+	helpid=1 v=2002 45
+	grpnodecolor=1 v=5012 7
+	grpPosX=1 v=2003 -723.685
+	grpPosY=1 v=2003 -41.3535
+	group=-1
+	ISC=3
+		SVT=5001 3003 0 _VertexWorldPosition
+		SVT=5001 4900 0 _ShadowPrjMatrix
+		SVT=5001 1002 0 
+	OSC=3
+		SVT=5001 3003 0 _VertexWorldPosition
+		CC=1
+			C=0 0 0 11 1 2 0
+			CPC=0
+		SVT=5001 4900 0 _ShadowPrjMatrix
+		CC=1
+			C=0 1 0 12 1 2 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 463.544
+	posy=1 v=2003 -28.5944
+	group=0
+	ISC=2
+		SVT=5001 2003 0 _Depth
+		SVT=5001 1002 0 
+	OSC=2
+		SVT=5001 2003 0 _Depth
+		CC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=10100 1 Vertex World Position-Hw Shader Nodes-Inputs Common
+	PC=11
+	name=1 v=5000 _VertexWorldPos
+	version=1 v=2003 1.6
+	posx=1 v=2003 -395.069
+	posy=1 v=2003 -192.614
+	classname=1 v=5000 Vertex World Position
+	submenuname=1 v=5000 Inputs Common
+	bitmapnodeindex=1 v=2002 66
+	helpid=1 v=2002 27
+	grpnodecolor=1 v=5012 5
+	grpPosX=1 v=2003 -1050.37
+	grpPosY=1 v=2003 -104.478
+	group=0
+	ISC=0
+	OSC=3
+		SVT=5001 3003 0 _VertexWorldPosition
+		CC=1
+			C=2 0 0 11 0 1 0
+			CPC=0
+		SVT=5001 3002 0 
+		CC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20149 0
+	PC=3
+	posx=1 v=2003 -403.503
+	posy=1 v=2003 20.1819
+	collapsed=1 v=2001 1
+	group=0
+	ISC=0
+	OSC=2
+		SVT=5001 4900 1 
+		CC=1
+			C=3 0 1 12 0 1 0
+			CPC=0
+		SVT=5001 4600 2 
+		CC=0
+#NT=10100 0
+	PC=7
+	name=1 v=5000 GetShadowPassPixelDepth
+	posx=1 v=2003 166.11
+	posy=1 v=2003 63.6778
+	isfunction=1 v=2001 1
+	functiondonotaddshaderdatastruct=1 v=2001 1
+	grpPosX=1 v=2003 -565.519
+	grpPosY=1 v=2003 -17.2414
+	group=0
+	ISC=3
+		SVT=5001 3003 0 _VertexWorldPosition
+		SVT=5001 4900 0 _ShadowPrjMatrix
+		SVT=5001 1002 0 
+	OSC=3
+		SVT=5001 3003 0 _VertexWorldPosition
+		CC=1
+			C=4 0 0 6 0 1 0
+			CPC=0
+		SVT=5001 4900 0 _ShadowPrjMatrix
+		CC=1
+			C=4 1 0 6 1 2 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 948.207
+	posy=1 v=2003 253.357
+	group=4
+	ISC=2
+		SVT=5001 2003 0 _Depth
+		SVT=5001 1002 0 
+	OSC=2
+		SVT=5001 2003 0 _Depth
+		CC=1
+			C=5 0 0 14 2 3 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20016 0
+	PC=3
+	posx=1 v=2003 -201.893
+	posy=1 v=2003 27.6429
+	flipglsl=1 v=2001 1
+	group=4
+	ISC=2
+		SVT=5001 3003 1 
+		SVT=5001 4900 2 
+	OSC=1
+		SVT=5001 3003 3 
+		CC=1
+			C=6 0 3 7 0 1 0
+			CPC=0
+#NT=20108 0
+	PC=2
+	posx=1 v=2003 -5.22254
+	posy=1 v=2003 57.6429
+	group=4
+	ISC=1
+		SVT=5001 3003 1 
+	OSC=6
+		SVT=5001 2003 2 
+		CC=0
+		SVT=5001 2003 3 
+		CC=0
+		SVT=5001 3001 4 
+		CC=0
+		SVT=5001 2003 5 
+		CC=1
+			C=7 3 5 8 0 1 0
+			CPC=0
+		SVT=5001 3002 6 
+		CC=0
+		SVT=5001 2003 7 
+		CC=1
+			C=7 5 7 8 1 2 0
+			CPC=0
+#NT=20027 0
+	PC=3
+	name=1 v=5000 DepthPerPixel
+	posx=1 v=2003 219.778
+	posy=1 v=2003 120.977
+	group=4
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=2
+			C=8 0 3 9 0 1 0
+			CPC=0
+			C=8 0 3 10 0 1 0
+			CPC=0
+#NT=20145 0
+	PC=2
+	posx=1 v=2003 429.773
+	posy=1 v=2003 244.31
+	group=4
+	ISC=1
+		SVT=5001 2003 1 
+	OSC=1
+		SVT=5001 2003 2 
+		CC=1
+			C=9 0 2 10 1 2 0
+			CPC=0
+#NT=20026 0
+	PC=2
+	posx=1 v=2003 641.441
+	posy=1 v=2003 150.977
+	group=4
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=10 0 3 5 0 0 0
+			CPC=0
+#NT=20109 0
+	PC=2
+	posx=1 v=2003 -140.361
+	posy=1 v=2003 -167.103
+	group=0
+	ISC=2
+		SVT=5001 3003 1 
+		SVT=5001 3003 2 
+	OSC=1
+		SVT=5001 3003 3 
+		CC=2
+			C=11 0 3 4 0 0 0
+			CPC=0
+			C=11 0 3 15 0 0 0
+			CPC=0
+#NT=20109 0
+	PC=2
+	posx=1 v=2003 -141.789
+	posy=1 v=2003 50.039
+	group=0
+	ISC=2
+		SVT=5001 4900 1 
+		SVT=5001 4900 2 
+	OSC=1
+		SVT=5001 4900 3 
+		CC=2
+			C=12 0 3 4 1 0 0
+			CPC=0
+			C=12 0 3 15 1 0 0
+			CPC=0
+#NT=10100 1 IsOpenGL-Hw Shader Nodes-Code Control
+	PC=11
+	name=1 v=5000 IsOpenGL
+	posx=1 v=2003 184.059
+	posy=1 v=2003 -307.173
+	classname=1 v=5000 IsOpenGL
+	submenuname=1 v=5000 Code Control
+	functiondonotaddshaderdatastruct=1 v=2001 1
+	isadvanced=1 v=2001 1
+	helpid=1 v=2002 58
+	grpnodecolor=1 v=5012 9
+	grpPosX=1 v=2003 785.0
+	grpPosY=1 v=2003 253.0
+	group=0
+	ISC=0
+	OSC=2
+		SVT=2001 2001 0 
+		CC=1
+			C=13 0 0 14 0 1 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20093 0
+	PC=2
+	posx=1 v=2003 480.478
+	posy=1 v=2003 -90.5367
+	group=0
+	ISC=3
+		SVT=2001 2001 1 
+		SVT=5001 2003 2 
+		SVT=5001 2003 3 
+	OSC=1
+		SVT=5001 2003 4 
+		CC=1
+			C=14 0 4 1 0 0 0
+			CPC=0
+#NT=10100 0
+	PC=7
+	name=1 v=5000 GetShadowPassPixelDepthGL
+	posx=1 v=2003 170.631
+	posy=1 v=2003 -192.634
+	isfunction=1 v=2001 1
+	functiondonotaddshaderdatastruct=1 v=2001 1
+	grpPosX=1 v=2003 -565.519
+	grpPosY=1 v=2003 -17.2414
+	group=0
+	ISC=3
+		SVT=5001 3003 0 _VertexWorldPosition
+		SVT=5001 4900 0 _ShadowPrjMatrix
+		SVT=5001 1002 0 
+	OSC=3
+		SVT=5001 3003 0 _VertexWorldPosition
+		CC=1
+			C=15 0 0 17 0 1 0
+			CPC=0
+		SVT=5001 4900 0 _ShadowPrjMatrix
+		CC=1
+			C=15 1 0 17 1 2 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 948.207
+	posy=1 v=2003 253.357
+	group=15
+	ISC=2
+		SVT=5001 2003 0 _Depth
+		SVT=5001 1002 0 
+	OSC=2
+		SVT=5001 2003 0 _Depth
+		CC=1
+			C=16 0 0 14 1 2 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20016 0
+	PC=3
+	posx=1 v=2003 -575.679
+	posy=1 v=2003 -319.444
+	flipglsl=1 v=2001 1
+	group=15
+	ISC=2
+		SVT=5001 3003 1 
+		SVT=5001 4900 2 
+	OSC=1
+		SVT=5001 3003 3 
+		CC=1
+			C=17 0 3 18 0 1 0
+			CPC=0
+#NT=20108 0
+	PC=2
+	posx=1 v=2003 -379.009
+	posy=1 v=2003 -289.444
+	group=15
+	ISC=1
+		SVT=5001 3003 1 
+	OSC=6
+		SVT=5001 2003 2 
+		CC=0
+		SVT=5001 2003 3 
+		CC=0
+		SVT=5001 3001 4 
+		CC=0
+		SVT=5001 2003 5 
+		CC=1
+			C=18 3 5 19 0 1 0
+			CPC=0
+		SVT=5001 3002 6 
+		CC=0
+		SVT=5001 2003 7 
+		CC=1
+			C=18 5 7 19 1 2 0
+			CPC=0
+#NT=20027 0
+	PC=3
+	name=1 v=5000 DepthPerPixel
+	posx=1 v=2003 -154.008
+	posy=1 v=2003 -226.11
+	group=15
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=2
+			C=19 0 3 20 0 1 0
+			CPC=0
+			C=19 0 3 21 0 1 0
+			CPC=0
+#NT=20145 0
+	PC=2
+	posx=1 v=2003 55.9869
+	posy=1 v=2003 -102.777
+	group=15
+	ISC=1
+		SVT=5001 2003 1 
+	OSC=1
+		SVT=5001 2003 2 
+		CC=1
+			C=20 0 2 21 1 2 0
+			CPC=0
+#NT=20026 0
+	PC=2
+	posx=1 v=2003 267.655
+	posy=1 v=2003 -196.11
+	group=15
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=21 0 3 22 0 1 0
+			CPC=0
+#NT=20016 0
+	PC=3
+	name=1 v=5000 NormalMap
+	posx=1 v=2003 421.175
+	posy=1 v=2003 65.5983
+	group=15
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=22 0 3 25 0 1 0
+			CPC=0
+#NT=20017 0
+	PC=4
+	posx=1 v=2003 180.45
+	posy=1 v=2003 164.693
+	collapsed=1 v=2001 1
+	value=2 e=0 v=2003 0.5
+	group=15
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=23 0 1 22 1 2 0
+			CPC=0
+#NT=20017 0
+	PC=4
+	posx=1 v=2003 398.714
+	posy=1 v=2003 211.942
+	collapsed=1 v=2001 1
+	value=2 e=0 v=2003 0.5
+	group=15
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=24 0 1 25 1 2 0
+			CPC=0
+#NT=20026 0
+	PC=3
+	note=1 v=5000 Convert range between 0-1
+	posx=1 v=2003 674.985
+	posy=1 v=2003 87.9283
+	group=15
+	ISC=2
+		SVT=5001 2003 1 
+		SVT=5001 2003 2 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=25 0 3 16 0 0 0
+			CPC=0

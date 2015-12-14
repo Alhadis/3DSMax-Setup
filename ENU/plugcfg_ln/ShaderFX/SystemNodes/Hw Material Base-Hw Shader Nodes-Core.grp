@@ -1,0 +1,1684 @@
+SFX_WIN
+Version=26
+GroupVersion=1.842
+Advanced=1
+HelpID=73
+NumberOfNodes=82
+#NT=10100 0
+	PC=35
+	name=1 v=5000 _Material
+	version=1 v=2003 1.842
+	posx=1 v=2003 10.0
+	posy=1 v=2003 10.0
+	classname=1 v=5000 Hw Material Base
+	submenuname=1 v=5000 Core
+	bitmapnodeindex=1 v=2002 10
+	isadvanced=1 v=2001 1
+	advanceddelete=1 v=2001 1
+	helpid=1 v=2002 73
+	grpnodecolor=1 v=5012 4
+	grpPosX=1 v=2003 -1129.38
+	grpPosY=1 v=2003 -143.923
+	disableconsolidation_HwShader=2 e=1 v=2001 0
+	value_ClampDynamicLights=2 e=1 v=2002 99
+	value_MaxNumberLights=2 e=1 v=2002 3
+	value_Gamma=2 e=2 v=2001 0
+	value_Wireframe=2 e=3 v=2001 0
+	value_DepthWrite=2 e=4 v=2001 1
+	value_DepthTest=2 e=4 v=2001 1
+	value_CastShadow=2 e=5 v=2001 1
+	value_SurfaceMaskCutoff=2 e=6 v=2003 0.0
+	value_SSAO=2 e=7 v=2001 1
+	options_Tessellation=2 e=900 v=5012 0
+	value_FlatTessellationBlend=2 e=901 v=2003 0.0
+	value_BoundingBoxMultiplier=2 e=902 v=2003 1.0
+	value_ClippingBiasAdd=2 e=902 v=2003 5.0
+	options_Displacement=2 e=1000 v=5012 1
+	options_VDM_CoordSys=2 e=1001 v=5012 1
+	value_DisplacementMultiplier=2 e=1002 v=2003 1.0
+	value_DisplacementOffset=2 e=1003 v=2003 0.0
+	cgfxprofile_HwShader=2 e=1999 v=5012 0
+	config_HwShader=2 e=2000 v=5012 1
+	shadername_HwShader=2 e=2001 v=5000 
+	saveshadertodisk_HwShader=2 e=2002 v=5015 
+	group=-1
+	ISC=9
+		SVT=2002 2002 0 0 0 _NumberOfLights
+		SVT=5001 3002 0 0 0 _ObjectVertexPosition
+		SVT=5001 2003 0 0 0 
+		SVT=5001 3002 0 0 0 _Displacement
+		SVT=5001 5018 0 0 0 _SurfaceShader
+		SVT=5001 2003 0 0 0 _SurfaceMask
+		SVT=5001 2003 0 0 0 _SurfaceMaskCutoff
+		SVT=2001 2001 0 0 0 _Gamma
+		SVT=1001 1002 0 0 0 
+	OSC=9
+		SVT=2002 2002 0 _NumberOfLights
+		CC=1
+			C=0 0 0 57 1 2 0
+			CPC=3
+			cx=-435.762
+			cy=-293.093
+			cm=1
+		SVT=5001 3002 0 _ObjectVertexPosition
+		CC=1
+			C=0 1 0 60 0 0 0
+			CPC=0
+		SVT=5001 2003 0 
+		CC=1
+			C=0 2 0 59 0 0 0
+			CPC=0
+		SVT=5001 3002 0 _Displacement
+		CC=1
+			C=0 3 0 59 1 0 0
+			CPC=0
+		SVT=5001 5018 0 _SurfaceShader
+		CC=1
+			C=0 4 0 3 2 0 0
+			CPC=0
+		SVT=5001 2003 0 _SurfaceMask
+		CC=2
+			C=0 5 0 39 2 0 0
+			CPC=3
+			cx=-360.242
+			cy=239.59
+			cm=1
+			C=0 5 0 3 3 0 0
+			CPC=0
+		SVT=5001 2003 0 _SurfaceMaskCutoff
+		CC=1
+			C=0 6 0 61 1 2 0
+			CPC=0
+		SVT=2001 2001 0 _Gamma
+		CC=1
+			C=0 7 0 3 5 0 0
+			CPC=0
+		SVT=1001 1002 0 
+		CC=0
+#NT=20002 0
+	PC=3
+	name=1 v=5000 Technique
+	posx=1 v=2003 560.942
+	posy=1 v=2003 47.1471
+	group=0
+	ISC=1
+		SVT=5001 5004 1 0 0 
+	OSC=1
+		SVT=5001 5003 2 
+		CC=1
+			C=1 0 2 55 2 2 0
+			CPC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 1080.89
+	posy=1 v=2003 8.87555
+	group=0
+	ISC=0
+	OSC=0
+#NT=10100 0
+	PC=10
+	name=1 v=5000 ColorPass
+	posx=1 v=2003 -62.8726
+	posy=1 v=2003 -206.291
+	grpPosX=1 v=2003 -2275.94
+	grpPosY=1 v=2003 -157.507
+	value_ClampDynamicLights=2 e=1 v=2002 99
+	value_Gamma=2 e=2 v=2001 0
+	value_Wireframe=2 e=3 v=2001 0
+	value_DepthTest=2 e=4 v=2001 1
+	value_DepthWrite=2 e=4 v=2001 1
+	group=0
+	ISC=7
+		SVT=5001 5005 0 0 0 
+		SVT=5001 5007 0 0 0 
+		SVT=5001 5018 0 0 0 _SurfaceShader
+		SVT=5001 2003 0 0 0 _SurfaceMask
+		SVT=5001 2003 0 0 0 
+		SVT=2001 2001 0 0 0 _Gamma
+		SVT=1001 1002 0 0 0 
+	OSC=7
+		SVT=5001 5005 0 
+		CC=1
+			C=3 0 0 4 1 2 0
+			CPC=3
+			cx=-511.0
+			cy=-184.333
+			cm=1
+		SVT=5001 5007 0 
+		CC=1
+			C=3 1 0 4 2 3 0
+			CPC=3
+			cx=-519.333
+			cy=-169.333
+			cm=1
+		SVT=5001 5018 0 _SurfaceShader
+		CC=1
+			C=3 2 0 11 0 1 0
+			CPC=0
+		SVT=5001 2003 0 _SurfaceMask
+		CC=2
+			C=3 3 0 14 1 2 0
+			CPC=3
+			cx=-678.874
+			cy=109.162
+			cm=1
+			C=3 3 0 15 0 1 0
+			CPC=3
+			cx=-691.583
+			cy=74.6149
+			cm=1
+		SVT=5001 2003 0 
+		CC=1
+			C=3 4 0 14 2 3 0
+			CPC=3
+			cx=-699.909
+			cy=126.162
+			cm=1
+		SVT=2001 2001 0 _Gamma
+		CC=1
+			C=3 5 0 17 1 0 0
+			CPC=3
+			cx=-1712.5
+			cy=18.75
+			cm=1
+		SVT=1001 1002 0 
+		CC=0
+#NT=20003 0
+	PC=3
+	name=1 v=5000 ColorPass
+	posx=1 v=2003 363.816
+	posy=1 v=2003 -135.268
+	group=3
+	ISC=7
+		SVT=5001 5014 1 0 0 
+		SVT=5001 5005 2 0 0 
+		SVT=5001 5007 3 0 0 
+		SVT=5001 5008 4 0 0 
+		SVT=5001 5009 5 0 0 
+		SVT=5001 5011 7 0 0 
+		SVT=5001 5011 8 0 0 
+	OSC=1
+		SVT=5001 5004 6 
+		CC=1
+			C=4 0 6 13 0 0 0
+			CPC=0
+#NT=20008 0
+	PC=3
+	name=1 v=5000 PixelShader
+	posx=1 v=2003 130.124
+	posy=1 v=2003 101.429
+	group=3
+	ISC=2
+		SVT=5001 3003 1 0 0 
+		SVT=5001 2003 3 0 0 
+	OSC=1
+		SVT=5001 5009 2 
+		CC=2
+			C=5 0 2 4 4 5 0
+			CPC=0
+			C=5 0 2 13 1 0 0
+			CPC=0
+#NT=20005 0
+	PC=7
+	posx=1 v=2003 126.011
+	posy=1 v=2003 -434.347
+	defaultoptions=2 e=0 v=5012 1
+	blendenable=1 v=5012 1
+	destblend=1 v=5012 5
+	srcblendalpha=1 v=5012 0
+	destblendalpha=1 v=5012 5
+	group=3
+	ISC=5
+		SVT=2001 2001 2 0 0 
+		SVT=2002 2002 3 0 0 
+		SVT=2001 2001 4 0 0 
+		SVT=2001 2001 5 0 0 
+		SVT=2001 2001 6 0 0 
+	OSC=1
+		SVT=5001 5014 1 
+		CC=1
+			C=6 0 1 4 0 1 0
+			CPC=0
+#NT=20116 0
+	PC=6
+	name=1 v=5000 Wireframe
+	posx=1 v=2003 -147.758
+	posy=1 v=2003 -442.239
+	collapsed=1 v=2001 1
+	value=2 e=3 v=2001 0
+	exposesetting=1 v=2001 1
+	group=3
+	ISC=0
+	OSC=2
+		SVT=2001 2001 1 
+		CC=1
+			C=7 0 1 6 2 4 0
+			CPC=0
+		SVT=2001 2001 2 
+		CC=0
+#NT=20116 0
+	PC=6
+	name=1 v=5000 DepthWrite
+	posx=1 v=2003 -153.207
+	posy=1 v=2003 -346.658
+	collapsed=1 v=2001 1
+	value=2 e=4 v=2001 1
+	exposesetting=1 v=2001 1
+	group=3
+	ISC=0
+	OSC=2
+		SVT=2001 2001 1 
+		CC=1
+			C=8 0 1 6 3 5 0
+			CPC=0
+		SVT=2001 2001 2 
+		CC=0
+#NT=20116 0
+	PC=6
+	name=1 v=5000 DepthTest
+	posx=1 v=2003 -149.984
+	posy=1 v=2003 -266.054
+	collapsed=1 v=2001 1
+	value=2 e=4 v=2001 1
+	exposesetting=1 v=2001 1
+	group=3
+	ISC=0
+	OSC=2
+		SVT=2001 2001 1 
+		CC=1
+			C=9 0 1 6 4 6 0
+			CPC=0
+		SVT=2001 2001 2 
+		CC=0
+#NT=20160 0
+	PC=2
+	posx=1 v=2003 -1753.87
+	posy=1 v=2003 -159.89
+	group=3
+	ISC=3
+		SVT=5001 1002 1 0 0 
+		SVT=5001 3003 2 0 0 
+		SVT=5001 2002 4 0 0 
+	OSC=1
+		SVT=5001 3003 3 
+		CC=1
+			C=10 0 3 12 0 1 0
+			CPC=0
+#NT=20166 0
+	PC=2
+	posx=1 v=2003 -1991.56
+	posy=1 v=2003 -149.115
+	group=3
+	ISC=1
+		SVT=5001 5018 1 0 0 
+	OSC=4
+		SVT=5001 5000 2 
+		CC=1
+			C=11 0 2 10 0 1 0
+			CPC=0
+		SVT=5001 3003 3 
+		CC=1
+			C=11 1 3 10 1 2 0
+			CPC=0
+		SVT=5001 3003 4 
+		CC=1
+			C=11 2 4 12 1 2 0
+			CPC=0
+		SVT=2001 2001 5 
+		CC=1
+			C=11 3 5 6 0 2 0
+			CPC=3
+			cx=-791.367
+			cy=-480.44
+			cm=1
+#NT=20026 0
+	PC=3
+	name=1 v=5000 LightLoopAndAfterLoop
+	posx=1 v=2003 -1505.21
+	posy=1 v=2003 -108.599
+	group=3
+	ISC=2
+		SVT=5001 3003 1 0 0 
+		SVT=5001 3003 2 0 0 
+	OSC=1
+		SVT=5001 3003 3 
+		CC=1
+			C=12 0 3 17 0 0 0
+			CPC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 627.559
+	posy=1 v=2003 -48.3941
+	group=3
+	ISC=3
+		SVT=5001 5004 0 0 0 
+		SVT=5001 5009 0 0 0 
+		SVT=1001 1002 0 0 0 
+	OSC=3
+		SVT=5001 5004 0 
+		CC=1
+			C=13 0 0 1 0 1 0
+			CPC=0
+		SVT=5001 5009 0 
+		CC=1
+			C=13 1 0 63 2 0 0
+			CPC=0
+		SVT=1001 1002 0 
+		CC=0
+#NT=20045 0
+	PC=2
+	posx=1 v=2003 -1018.18
+	posy=1 v=2003 25.5404
+	group=3
+	ISC=3
+		SVT=5001 3003 1 0 0 
+		SVT=5001 2003 2 0 0 
+		SVT=5001 2003 3 0 0 
+	OSC=1
+		SVT=5001 3003 4 
+		CC=1
+			C=14 0 4 16 1 2 0
+			CPC=0
+#NT=20113 0
+	PC=3
+	posx=1 v=2003 -1015.09
+	posy=1 v=2003 -59.8971
+	collapsed=1 v=2001 1
+	group=3
+	ISC=1
+		SVT=5001 2003 1 0 0 
+	OSC=2
+		SVT=2001 2001 2 
+		CC=1
+			C=15 0 2 16 0 1 0
+			CPC=0
+		SVT=2001 2001 3 
+		CC=0
+#NT=20093 0
+	PC=3
+	note=1 v=5000 Clip Pixels?
+	posx=1 v=2003 -824.161
+	posy=1 v=2003 54.9773
+	group=3
+	ISC=3
+		SVT=2001 2001 1 0 0 
+		SVT=5001 3003 2 0 0 
+		SVT=5001 3003 3 0 0 
+	OSC=1
+		SVT=5001 3003 4 
+		CC=1
+			C=16 0 4 28 0 1 0
+			CPC=0
+#NT=10100 0
+	PC=6
+	name=1 v=5000 Gamma
+	posx=1 v=2003 -1303.14
+	posy=1 v=2003 -76.2141
+	grpPosX=1 v=2003 -896.333
+	grpPosY=1 v=2003 -32.3056
+	value_Gamma=2 e=2 v=2001 0
+	group=3
+	ISC=3
+		SVT=5001 3003 0 0 0 _Color
+		SVT=2001 2001 0 0 0 _Gamma
+		SVT=1001 1002 0 0 0 
+	OSC=3
+		SVT=5001 3003 0 _Color
+		CC=3
+			C=17 0 0 19 2 3 0
+			CPC=3
+			cx=-180.75
+			cy=97.0
+			cm=1
+			C=17 0 0 23 0 1 0
+			CPC=3
+			cx=-368.667
+			cy=-118.361
+			cm=1
+			C=17 0 0 24 3 5 0
+			CPC=3
+			cx=-301.5
+			cy=-131.0
+			cm=1
+		SVT=2001 2001 0 _Gamma
+		CC=1
+			C=17 1 0 26 1 2 0
+			CPC=3
+			cx=-233.0
+			cy=-254.0
+			cm=1
+		SVT=1001 1002 0 
+		CC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 887.249
+	posy=1 v=2003 2.05956
+	group=17
+	ISC=2
+		SVT=5001 3003 0 0 0 
+		SVT=1001 1002 0 0 0 
+	OSC=2
+		SVT=5001 3003 0 
+		CC=2
+			C=18 0 0 16 2 3 0
+			CPC=3
+			cx=-321.143
+			cy=154.714
+			cm=1
+			C=18 0 0 14 0 1 0
+			CPC=3
+			cx=-422.429
+			cy=93.2857
+			cm=1
+		SVT=1001 1002 0 
+		CC=0
+#NT=20093 0
+	PC=2
+	posx=1 v=2003 547.674
+	posy=1 v=2003 -36.3313
+	group=17
+	ISC=3
+		SVT=2001 2001 1 0 0 
+		SVT=5001 3003 2 0 0 
+		SVT=5001 3003 3 0 0 
+	OSC=1
+		SVT=5001 3003 4 
+		CC=1
+			C=19 0 4 18 0 0 0
+			CPC=0
+#NT=20017 0
+	PC=3
+	posx=1 v=2003 -619.207
+	posy=1 v=2003 -88.3603
+	collapsed=1 v=2001 1
+	group=17
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=20 0 1 21 0 1 0
+			CPC=0
+#NT=20027 0
+	PC=3
+	name=1 v=5000 DivGamma
+	posx=1 v=2003 -424.668
+	posy=1 v=2003 -69.549
+	group=17
+	ISC=2
+		SVT=5001 2003 1 0 0 
+		SVT=5001 2003 2 0 0 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=21 0 3 23 1 2 0
+			CPC=0
+#NT=20017 0
+	PC=7
+	name=1 v=5000 Gamma
+	note=1 v=5000 Global
+	posx=1 v=2003 -616.147
+	posy=1 v=2003 15.2547
+	collapsed=1 v=2001 1
+	value=2 e=0 v=2003 2.2
+	global=1 v=2001 1
+	group=17
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=22 0 1 21 1 2 0
+			CPC=0
+#NT=20055 0
+	PC=3
+	name=1 v=5000 GammaResult
+	posx=1 v=2003 -179.613
+	posy=1 v=2003 -53.1573
+	group=17
+	ISC=2
+		SVT=5001 3003 1 0 0 
+		SVT=5001 2003 2 0 0 
+	OSC=1
+		SVT=5001 3003 3 
+		CC=1
+			C=23 0 3 24 1 2 0
+			CPC=0
+#NT=20163 0
+	PC=3
+	name=1 v=5000 GammResult
+	posx=1 v=2003 140.0
+	posy=1 v=2003 -221.25
+	group=17
+	ISC=4
+		SVT=5001 2001 1 0 0 
+		SVT=5001 3003 2 0 0 
+		SVT=5001 1003 3 0 0 
+		SVT=5001 3003 5 0 0 
+	OSC=1
+		SVT=5001 3003 4 
+		CC=1
+			C=24 0 4 19 1 2 0
+			CPC=0
+#NT=20168 0
+	PC=2
+	posx=1 v=2003 -75.0
+	posy=1 v=2003 -232.5
+	group=17
+	ISC=0
+	OSC=2
+		SVT=5001 2001 1 
+		CC=0
+		SVT=5001 2001 2 
+		CC=1
+			C=25 1 2 24 0 1 0
+			CPC=0
+#NT=20109 0
+	PC=2
+	posx=1 v=2003 369.167
+	posy=1 v=2003 -224.584
+	group=17
+	ISC=2
+		SVT=2001 2001 1 0 0 
+		SVT=2001 2001 2 0 0 
+	OSC=1
+		SVT=2001 2001 3 
+		CC=1
+			C=26 0 3 19 0 1 0
+			CPC=0
+#NT=20116 0
+	PC=6
+	name=1 v=5000 Gamma
+	posx=1 v=2003 140.0
+	posy=1 v=2003 -352.5
+	collapsed=1 v=2001 1
+	value=2 e=2 v=2001 0
+	exposesetting=1 v=2001 1
+	group=17
+	ISC=0
+	OSC=2
+		SVT=2001 2001 1 
+		CC=1
+			C=27 0 1 26 0 1 0
+			CPC=0
+		SVT=2001 2001 2 
+		CC=0
+#NT=20108 0
+	PC=2
+	posx=1 v=2003 -590.0
+	posy=1 v=2003 243.929
+	group=3
+	ISC=1
+		SVT=5001 3003 1 0 0 
+	OSC=6
+		SVT=5001 2003 2 
+		CC=0
+		SVT=5001 2003 3 
+		CC=0
+		SVT=5001 3001 4 
+		CC=0
+		SVT=5001 2003 5 
+		CC=0
+		SVT=5001 3002 6 
+		CC=1
+			C=28 4 6 30 4 5 0
+			CPC=0
+		SVT=5001 2003 7 
+		CC=1
+			C=28 5 7 29 0 1 0
+			CPC=0
+#NT=20023 0
+	PC=3
+	note=1 v=5000 Alpha range 0-1 or we get artifacts in 3dsMax
+	posx=1 v=2003 -381.428
+	posy=1 v=2003 232.5
+	group=3
+	ISC=1
+		SVT=5001 2003 1 0 0 
+	OSC=1
+		SVT=5001 2003 2 
+		CC=1
+			C=29 0 2 30 5 6 0
+			CPC=0
+#NT=20020 0
+	PC=2
+	posx=1 v=2003 -165.714
+	posy=1 v=2003 254.286
+	group=3
+	ISC=6
+		SVT=5001 2003 1 0 0 
+		SVT=5001 2003 2 0 0 
+		SVT=5001 3001 3 0 0 
+		SVT=5001 2003 4 0 0 
+		SVT=5001 3002 5 0 0 
+		SVT=5001 2003 6 0 0 
+	OSC=3
+		SVT=5001 3001 7 
+		CC=0
+		SVT=5001 3002 8 
+		CC=0
+		SVT=5001 3003 9 
+		CC=1
+			C=30 2 9 5 0 1 0
+			CPC=0
+#NT=20096 0
+	PC=6
+	name=1 v=5000 ClampDynamicLights
+	note=1 v=5000 Allows Beast streaming to control how many dynamic lights we render
+	posx=1 v=2003 -1985.0
+	posy=1 v=2003 214.917
+	value=2 e=1 v=2002 99
+	exposetoui=1 v=2001 1
+	group=3
+	ISC=0
+	OSC=1
+		SVT=5001 2002 1 
+		CC=1
+			C=31 0 1 10 2 4 0
+			CPC=0
+#NT=10100 0
+	PC=5
+	name=1 v=5000 SSAO_NormalDepthPass
+	posx=1 v=2003 -58.3915
+	posy=1 v=2003 230.444
+	grpPosX=1 v=2003 -751.685
+	grpPosY=1 v=2003 -72.6571
+	group=0
+	ISC=4
+		SVT=5001 5005 0 0 0 
+		SVT=5001 5007 0 0 0 
+		SVT=2001 2001 0 0 0 Disable SSAO
+		SVT=1001 1002 0 0 0 
+	OSC=4
+		SVT=5001 5005 0 
+		CC=1
+			C=32 0 0 33 1 2 0
+			CPC=0
+		SVT=5001 5007 0 
+		CC=1
+			C=32 1 0 33 2 3 0
+			CPC=0
+		SVT=2001 2001 0 Disable SSAO
+		CC=1
+			C=32 2 0 37 0 1 0
+			CPC=0
+		SVT=1001 1002 0 
+		CC=0
+#NT=20003 0
+	PC=5
+	name=1 v=5000 SSAO_NormalDepth
+	note=1 v=5000 Set the color output [RGBA] = ( unsigned world space normal, depth )
+	posx=1 v=2003 4.6245
+	posy=1 v=2003 -80.8215
+	rendercontext=1 v=5012 4
+	group=32
+	ISC=7
+		SVT=5001 5014 1 0 0 
+		SVT=5001 5005 2 0 0 
+		SVT=5001 5007 3 0 0 
+		SVT=5001 5008 4 0 0 
+		SVT=5001 5009 5 0 0 
+		SVT=5001 5011 7 0 0 
+		SVT=5001 5011 8 0 0 
+	OSC=1
+		SVT=5001 5004 6 
+		CC=1
+			C=33 0 6 37 1 2 0
+			CPC=0
+#NT=20008 0
+	PC=2
+	posx=1 v=2003 -240.643
+	posy=1 v=2003 46.9981
+	group=32
+	ISC=2
+		SVT=5001 3003 1 0 0 
+		SVT=5001 2003 3 0 0 
+	OSC=1
+		SVT=5001 5009 2 
+		CC=1
+			C=34 0 2 33 4 5 0
+			CPC=0
+#NT=20017 0
+	PC=3
+	posx=1 v=2003 -467.819
+	posy=1 v=2003 127.739
+	collapsed=1 v=2001 1
+	group=32
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=35 0 1 34 1 3 0
+			CPC=0
+#NT=20144 0
+	PC=7
+	posx=1 v=2003 -471.546
+	posy=1 v=2003 37.3446
+	collapsed=1 v=2001 1
+	valueX=2 e=0 v=2003 0.0
+	valueY=2 e=0 v=2003 0.0
+	valueZ=2 e=0 v=2003 0.0
+	valueW=2 e=0 v=2003 0.0
+	group=32
+	ISC=0
+	OSC=1
+		SVT=5001 3003 1 
+		CC=1
+			C=36 0 1 34 0 1 0
+			CPC=0
+#NT=20091 0
+	PC=3
+	note=1 v=5000 Disable SSAO when opacity is used by writing 1.0 to depth
+	posx=1 v=2003 307.266
+	posy=1 v=2003 -38.5161
+	group=32
+	ISC=2
+		SVT=2001 2001 1 0 0 
+		SVT=5001 5004 2 0 0 
+	OSC=1
+		SVT=5001 5004 3 
+		CC=1
+			C=37 0 3 38 0 0 0
+			CPC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 634.203
+	posy=1 v=2003 -10.448
+	group=32
+	ISC=2
+		SVT=5001 5004 0 0 0 
+		SVT=1001 1002 0 0 0 
+	OSC=2
+		SVT=5001 5004 0 
+		CC=1
+			C=38 0 0 1 0 1 2
+			CPC=0
+		SVT=1001 1002 0 
+		CC=0
+#NT=10100 0
+	PC=6
+	name=1 v=5000 ShadowPass
+	posx=1 v=2003 -61.0396
+	posy=1 v=2003 38.5084
+	grpPosX=1 v=2003 -1264.73
+	grpPosY=1 v=2003 -10.8681
+	value_CastShadow=2 e=5 v=2001 1
+	group=0
+	ISC=5
+		SVT=5001 5005 0 0 0 
+		SVT=5001 5007 0 0 0 
+		SVT=5001 2003 0 0 0 _SurfaceMask
+		SVT=5001 2003 0 0 0 
+		SVT=1001 1002 0 0 0 
+	OSC=5
+		SVT=5001 5005 0 
+		CC=1
+			C=39 0 0 40 1 2 0
+			CPC=0
+		SVT=5001 5007 0 
+		CC=2
+			C=39 1 0 40 2 3 0
+			CPC=0
+			C=39 1 0 53 0 1 0
+			CPC=0
+		SVT=5001 2003 0 _SurfaceMask
+		CC=2
+			C=39 2 0 45 1 2 0
+			CPC=0
+			C=39 2 0 46 0 1 0
+			CPC=0
+		SVT=5001 2003 0 
+		CC=1
+			C=39 3 0 45 2 3 0
+			CPC=0
+		SVT=1001 1002 0 
+		CC=0
+#NT=20003 0
+	PC=5
+	name=1 v=5000 ShadowPass
+	note=1 v=5000 Render model during shadow phase
+	posx=1 v=2003 417.289
+	posy=1 v=2003 -21.98
+	rendercontext=1 v=5012 2
+	group=39
+	ISC=7
+		SVT=5001 5014 1 0 0 
+		SVT=5001 5005 2 0 0 
+		SVT=5001 5007 3 0 0 
+		SVT=5001 5008 4 0 0 
+		SVT=5001 5009 5 0 0 
+		SVT=5001 5011 7 0 0 
+		SVT=5001 5011 8 0 0 
+	OSC=1
+		SVT=5001 5004 6 
+		CC=1
+			C=40 0 6 52 1 2 0
+			CPC=0
+#NT=20005 0
+	PC=4
+	name=1 v=5000 ShadowState
+	posx=1 v=2003 124.524
+	posy=1 v=2003 -26.0997
+	collapsed=1 v=2001 1
+	group=39
+	ISC=5
+		SVT=2001 2001 2 0 0 
+		SVT=2002 2002 3 0 0 
+		SVT=2001 2001 4 0 0 
+		SVT=2001 2001 5 0 0 
+		SVT=2001 2001 6 0 0 
+	OSC=1
+		SVT=5001 5014 1 
+		CC=1
+			C=41 0 1 40 0 1 0
+			CPC=0
+#NT=20008 0
+	PC=2
+	posx=1 v=2003 131.243
+	posy=1 v=2003 118.186
+	group=39
+	ISC=2
+		SVT=5001 3003 1 0 0 
+		SVT=5001 2003 3 0 0 
+	OSC=1
+		SVT=5001 5009 2 
+		CC=1
+			C=42 0 2 40 4 5 0
+			CPC=0
+#NT=10100 1 ShadowPass Pixel Depth-Hw Shader Nodes-Lighting
+	PC=11
+	name=1 v=5000 ShadowPassPixelDepth
+	version=1 v=2003 1.05
+	posx=1 v=2003 -1050.76
+	posy=1 v=2003 163.727
+	classname=1 v=5000 ShadowPass Pixel Depth
+	submenuname=1 v=5000 Lighting
+	isadvanced=1 v=2001 1
+	helpid=1 v=2002 45
+	grpnodecolor=1 v=5012 7
+	grpPosX=1 v=2003 -723.685
+	grpPosY=1 v=2003 -41.3535
+	group=39
+	ISC=3
+		SVT=5001 3003 0 0 0 _VertexWorldPosition
+		SVT=5001 4900 0 0 0 _ShadowPrjMatrix
+		SVT=5001 1002 0 0 0 
+	OSC=2
+		SVT=5001 2003 0 _Depth
+		CC=4
+			C=43 0 0 44 0 1 0
+			CPC=0
+			C=43 0 0 44 1 2 0
+			CPC=0
+			C=43 0 0 44 3 4 0
+			CPC=0
+			C=43 0 0 44 5 6 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20020 0
+	PC=3
+	posx=1 v=2003 -820.756
+	posy=1 v=2003 225.727
+	collapsed=1 v=2001 1
+	group=39
+	ISC=6
+		SVT=5001 2003 1 0 0 
+		SVT=5001 2003 2 0 0 
+		SVT=5001 3001 3 0 0 
+		SVT=5001 2003 4 0 0 
+		SVT=5001 3002 5 0 0 
+		SVT=5001 2003 6 0 0 
+	OSC=3
+		SVT=5001 3001 7 
+		CC=0
+		SVT=5001 3002 8 
+		CC=0
+		SVT=5001 3003 9 
+		CC=2
+			C=44 2 9 45 0 1 0
+			CPC=0
+			C=44 2 9 47 2 3 0
+			CPC=0
+#NT=20045 0
+	PC=3
+	note=1 v=5000 Note: there is also a opacity mask in color pass
+	posx=1 v=2003 -624.762
+	posy=1 v=2003 69.7271
+	group=39
+	ISC=3
+		SVT=5001 3003 1 0 0 
+		SVT=5001 2003 2 0 0 
+		SVT=5001 2003 3 0 0 
+	OSC=1
+		SVT=5001 3003 4 
+		CC=1
+			C=45 0 4 47 1 2 0
+			CPC=0
+#NT=20113 0
+	PC=3
+	posx=1 v=2003 -631.012
+	posy=1 v=2003 -65.2735
+	collapsed=1 v=2001 1
+	group=39
+	ISC=1
+		SVT=5001 2003 1 0 0 
+	OSC=2
+		SVT=2001 2001 2 
+		CC=2
+			C=46 0 2 47 0 1 0
+			CPC=0
+			C=46 0 2 54 1 2 0
+			CPC=0
+		SVT=2001 2001 3 
+		CC=0
+#NT=20093 0
+	PC=3
+	note=1 v=5000 Clip Pixels?
+	posx=1 v=2003 -396.761
+	posy=1 v=2003 113.727
+	group=39
+	ISC=3
+		SVT=2001 2001 1 0 0 
+		SVT=5001 3003 2 0 0 
+		SVT=5001 3003 3 0 0 
+	OSC=1
+		SVT=5001 3003 4 
+		CC=1
+			C=47 0 4 49 1 2 0
+			CPC=0
+#NT=20011 0
+	PC=5
+	name=1 v=5000 CastNoShadowColor
+	posx=1 v=2003 -388.85
+	posy=1 v=2003 277.845
+	collapsed=1 v=2001 1
+	color=2 e=0 v=3003 1.0,1.0,1.0,1.0
+	group=39
+	ISC=0
+	OSC=6
+		SVT=5001 3003 1 
+		CC=1
+			C=48 0 1 49 2 3 0
+			CPC=0
+		SVT=5001 3002 2 
+		CC=0
+		SVT=5001 2003 3 
+		CC=0
+		SVT=5001 2003 4 
+		CC=0
+		SVT=5001 2003 5 
+		CC=0
+		SVT=5001 2003 6 
+		CC=0
+#NT=20093 0
+	PC=2
+	posx=1 v=2003 -79.6157
+	posy=1 v=2003 145.96
+	group=39
+	ISC=3
+		SVT=2001 2001 1 0 0 
+		SVT=5001 3003 2 0 0 
+		SVT=5001 3003 3 0 0 
+	OSC=1
+		SVT=5001 3003 4 
+		CC=1
+			C=49 0 4 42 0 1 0
+			CPC=0
+#NT=20116 0
+	PC=6
+	name=1 v=5000 CastShadow
+	posx=1 v=2003 -394.933
+	posy=1 v=2003 21.8382
+	collapsed=1 v=2001 1
+	value=2 e=5 v=2001 1
+	exposesetting=1 v=2001 1
+	group=39
+	ISC=0
+	OSC=2
+		SVT=2001 2001 1 
+		CC=1
+			C=50 0 1 49 0 1 0
+			CPC=0
+		SVT=2001 2001 2 
+		CC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 994.927
+	posy=1 v=2003 -56.8592
+	group=39
+	ISC=2
+		SVT=5001 5004 0 0 0 
+		SVT=1001 1002 0 0 0 
+	OSC=2
+		SVT=5001 5004 0 
+		CC=1
+			C=51 0 0 1 0 1 1
+			CPC=0
+		SVT=1001 1002 0 
+		CC=0
+#NT=20091 0
+	PC=2
+	posx=1 v=2003 717.143
+	posy=1 v=2003 -148.571
+	group=39
+	ISC=2
+		SVT=2001 2001 1 0 0 
+		SVT=5001 5004 2 0 0 
+	OSC=1
+		SVT=5001 5004 3 
+		CC=1
+			C=52 0 3 51 0 0 0
+			CPC=0
+#NT=20113 0
+	PC=3
+	posx=1 v=2003 -630.0
+	posy=1 v=2003 -184.286
+	collapsed=1 v=2001 1
+	group=39
+	ISC=1
+		SVT=5001 5007 1 0 0 
+	OSC=2
+		SVT=2001 2001 2 
+		CC=1
+			C=53 0 2 54 0 1 0
+			CPC=0
+		SVT=2001 2001 3 
+		CC=0
+#NT=20121 0
+	PC=3
+	note=1 v=5000 Only override Maya default shadow shader if we use tessellation or clipped pixels
+	posx=1 v=2003 123.75
+	posy=1 v=2003 -217.5
+	group=39
+	ISC=2
+		SVT=2001 2001 1 0 0 
+		SVT=2001 2001 2 0 0 
+	OSC=2
+		SVT=2001 2001 3 
+		CC=1
+			C=54 0 3 52 0 1 0
+			CPC=0
+		SVT=2001 2001 4 
+		CC=0
+#NT=20001 0
+	PC=7
+	posx=1 v=2003 806.273
+	posy=1 v=2003 29.345
+	config=2 e=2000 v=5012 1
+	shadername=2 e=2001 v=5000 
+	saveshadertodisk=2 e=2002 v=5015 
+	disableconsolidation=2 e=1 v=2001 0
+	cgfxprofile=2 e=1999 v=5012 0
+	group=0
+	ISC=3
+		SVT=2002 2002 3 0 0 
+		SVT=5001 5016 1 0 0 
+		SVT=5001 5003 2 0 0 
+	OSC=0
+#NT=20117 0
+	PC=4
+	name=1 v=5000 MaxNumberLights
+	posx=1 v=2003 -296.239
+	posy=1 v=2003 -386.871
+	value=2 e=1 v=2002 3
+	group=0
+	ISC=0
+	OSC=1
+		SVT=2002 2002 1 
+		CC=1
+			C=56 0 1 57 0 1 0
+			CPC=0
+#NT=20109 0
+	PC=2
+	posx=1 v=2003 -77.1194
+	posy=1 v=2003 -374.829
+	group=0
+	ISC=2
+		SVT=2002 2002 1 0 0 
+		SVT=2002 2002 2 0 0 
+	OSC=1
+		SVT=2002 2002 3 
+		CC=1
+			C=57 0 3 55 0 3 0
+			CPC=0
+#NT=20017 0
+	PC=6
+	name=1 v=5000 SurfaceMaskCutoff
+	posx=1 v=2003 -579.906
+	posy=1 v=2003 141.744
+	collapsed=1 v=2001 1
+	value=2 e=6 v=2003 0.0
+	defineinheader=2 e=0 v=2001 1
+	group=0
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=58 0 1 61 0 1 0
+			CPC=0
+#NT=10100 1 Tessellation Grp-Hw Shader Nodes-Core
+	PC=20
+	name=1 v=5000 Tessellation
+	version=1 v=2003 1.03
+	posx=1 v=2003 -358.703
+	posy=1 v=2003 -8.37241
+	classname=1 v=5000 Tessellation Grp
+	submenuname=1 v=5000 Core
+	bitmapnodeindex=1 v=2002 2
+	isadvanced=1 v=2001 1
+	helpid=1 v=2002 66
+	grpnodecolor=1 v=5012 4
+	grpPosX=1 v=2003 -1086.67
+	grpPosY=1 v=2003 156.667
+	options_Tessellation=2 e=900 v=5012 0
+	value_FlatTessellationBlend=2 e=901 v=2003 0.0
+	value_BoundingBoxMultiplier=2 e=902 v=2003 1.0
+	value_ClippingBiasAdd=2 e=902 v=2003 5.0
+	options_Displacement=2 e=1000 v=5012 1
+	options_VDM_CoordSys=2 e=1001 v=5012 1
+	value_DisplacementMultiplier=2 e=1002 v=2003 1.0
+	value_DisplacementOffset=2 e=1003 v=2003 0.0
+	group=0
+	ISC=3
+		SVT=5001 2003 0 0 0 _TessellationFactor
+		SVT=5001 3002 0 0 0 _Displacement
+		SVT=5001 1002 0 0 0 
+	OSC=2
+		SVT=5001 5007 0 
+		CC=4
+			C=59 0 0 3 1 0 0
+			CPC=0
+			C=59 0 0 39 1 0 0
+			CPC=0
+			C=59 0 0 32 1 0 0
+			CPC=0
+			C=59 0 0 63 1 0 0
+			CPC=3
+			cx=41.2722
+			cy=491.745
+			cm=1
+		SVT=5001 1002 0 
+		CC=0
+#NT=10100 1 Vertex Shader Grp-Hw Shader Nodes-Core
+	PC=12
+	name=1 v=5000 VertexShader
+	version=1 v=2003 1.03
+	posx=1 v=2003 -363.267
+	posy=1 v=2003 -174.113
+	classname=1 v=5000 Vertex Shader Grp
+	submenuname=1 v=5000 Core
+	bitmapnodeindex=1 v=2002 2
+	isadvanced=1 v=2001 1
+	helpid=1 v=2002 46
+	grpnodecolor=1 v=5012 5
+	grpPosX=1 v=2003 -816.164
+	grpPosY=1 v=2003 -139.131
+	group=0
+	ISC=2
+		SVT=5001 3002 0 0 0 _ObjectVertexPosition
+		SVT=5001 1002 0 0 0 
+	OSC=2
+		SVT=5001 5005 0 
+		CC=4
+			C=60 0 0 3 0 0 0
+			CPC=0
+			C=60 0 0 39 0 0 0
+			CPC=0
+			C=60 0 0 32 0 0 0
+			CPC=0
+			C=60 0 0 63 0 0 0
+			CPC=3
+			cx=47.1479
+			cy=477.585
+			cm=1
+		SVT=5001 1002 0 
+		CC=0
+#NT=20109 0
+	PC=3
+	posx=1 v=2003 -355.0
+	posy=1 v=2003 145.0
+	collapsed=1 v=2001 1
+	group=0
+	ISC=2
+		SVT=5001 2003 1 0 0 
+		SVT=5001 2003 2 0 0 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=2
+			C=61 0 3 39 3 0 0
+			CPC=0
+			C=61 0 3 3 4 0 0
+			CPC=0
+#NT=20116 0
+	PC=6
+	name=1 v=5000 SSAO
+	posx=1 v=2003 -328.889
+	posy=1 v=2003 303.333
+	collapsed=1 v=2001 1
+	value=2 e=7 v=2001 1
+	exposesetting=1 v=2001 1
+	group=0
+	ISC=0
+	OSC=2
+		SVT=2001 2001 1 
+		CC=0
+		SVT=2001 2001 2 
+		CC=1
+			C=62 1 2 32 2 0 0
+			CPC=0
+#NT=10100 0
+	PC=31
+	name=1 v=5000 DepthPeeling
+	posx=1 v=2003 260.649
+	posy=1 v=2003 409.761
+	hidechildproperties=1 v=2001 1
+	grpPosX=1 v=2003 -2205.43
+	grpPosY=1 v=2003 90.8991
+	defineinheader_OpaqueDepthTexture=2 e=1 v=2001 0
+	defineinheader_TransDepthTexture=2 e=1 v=2001 0
+	texturepath_TransDepthTexture=2 e=1 v=5000 
+	texturepath_OpaqueDepthTexture=2 e=1 v=5000 
+	exposetoui_OpaqueDepthTexture=2 e=3 v=2001 0
+	exposetoui_TransDepthTexture=2 e=3 v=2001 0
+	autoPreviewTexture_OpaqueDepthTexture=2 e=4 v=2001 1
+	autoPreviewTexture_TransDepthTexture=2 e=4 v=2001 1
+	fullpathinshader_OpaqueDepthTexture=2 e=4 v=2001 0
+	fullpathinshader_TransDepthTexture=2 e=4 v=2001 0
+	mipmaplevels_OpaqueDepthTexture=2 e=5 v=2002 -1
+	mipmaplevels_TransDepthTexture=2 e=5 v=2002 -1
+	texturenodename_TransDepthTexture=2 e=5 v=5000 
+	texturenodename_OpaqueDepthTexture=2 e=5 v=5000 
+	filter_DepthSampler=2 e=6 v=5012 1
+	addressu_DepthSampler=2 e=7 v=5012 3
+	addressv_DepthSampler=2 e=8 v=5012 3
+	addressw_DepthSampler=2 e=9 v=5012 0
+	bordercolor_DepthSampler=2 e=10 v=3003 1.0,1.0,1.0,1.0
+	uveditororder_OpaqueDepthTexture=2 e=12 v=2002 -1
+	uveditororder_TransDepthTexture=2 e=12 v=2002 -1
+	uigroup_OpaqueDepthTexture=2 e=13 v=5000 
+	uigroup_TransDepthTexture=2 e=13 v=5000 
+	uiorder_OpaqueDepthTexture=2 e=13 v=2002 0
+	uiorder_TransDepthTexture=2 e=13 v=2002 0
+	group=0
+	ISC=4
+		SVT=5001 5005 0 0 0 
+		SVT=5001 5007 0 0 0 
+		SVT=5001 5009 0 0 0 Color Pixel Shader
+		SVT=1001 1002 0 0 0 
+	OSC=4
+		SVT=5001 5005 0 
+		CC=3
+			C=63 0 0 65 1 2 0
+			CPC=3
+			cx=-1024.44
+			cy=-420.217
+			cm=1
+			C=63 0 0 66 1 2 0
+			CPC=0
+			C=63 0 0 67 1 2 0
+			CPC=3
+			cx=-1036.48
+			cy=754.111
+			cm=1
+		SVT=5001 5007 0 
+		CC=3
+			C=63 1 0 65 2 3 0
+			CPC=3
+			cx=-1041.93
+			cy=-401.96
+			cm=1
+			C=63 1 0 66 2 3 0
+			CPC=0
+			C=63 1 0 67 2 3 0
+			CPC=3
+			cx=-1035.51
+			cy=710.009
+			cm=1
+		SVT=5001 5009 0 Color Pixel Shader
+		CC=1
+			C=63 2 0 78 0 1 0
+			CPC=0
+		SVT=1001 1002 0 
+		CC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 409.618
+	posy=1 v=2003 35.75
+	group=63
+	ISC=4
+		SVT=5001 5004 0 0 0 transparentPeel
+		SVT=5001 5004 0 0 0 transparentPeelAvg
+		SVT=5001 5004 0 0 0 transparentWeighted
+		SVT=1001 1002 0 0 0 
+	OSC=4
+		SVT=5001 5004 0 transparentPeel
+		CC=1
+			C=64 0 0 1 0 1 3
+			CPC=0
+		SVT=5001 5004 0 transparentPeelAvg
+		CC=1
+			C=64 1 0 1 0 1 4
+			CPC=0
+		SVT=5001 5004 0 transparentWeighted
+		CC=1
+			C=64 2 0 1 0 1 5
+			CPC=0
+		SVT=1001 1002 0 
+		CC=0
+#NT=20003 0
+	PC=4
+	name=1 v=5000 transparentPeel
+	posx=1 v=2003 -40.75
+	posy=1 v=2003 -415.25
+	rendercontext=1 v=5012 5
+	group=63
+	ISC=7
+		SVT=5001 5014 1 0 0 
+		SVT=5001 5005 2 0 0 
+		SVT=5001 5007 3 0 0 
+		SVT=5001 5008 4 0 0 
+		SVT=5001 5009 5 0 0 
+		SVT=5001 5011 7 0 0 
+		SVT=5001 5011 8 0 0 
+	OSC=1
+		SVT=5001 5004 6 
+		CC=1
+			C=65 0 6 64 0 0 0
+			CPC=0
+#NT=20003 0
+	PC=4
+	name=1 v=5000 transparentPeelAndAvg
+	posx=1 v=2003 -37.0
+	posy=1 v=2003 97.25
+	rendercontext=1 v=5012 6
+	group=63
+	ISC=7
+		SVT=5001 5014 1 0 0 
+		SVT=5001 5005 2 0 0 
+		SVT=5001 5007 3 0 0 
+		SVT=5001 5008 4 0 0 
+		SVT=5001 5009 5 0 0 
+		SVT=5001 5011 7 0 0 
+		SVT=5001 5011 8 0 0 
+	OSC=1
+		SVT=5001 5004 6 
+		CC=1
+			C=66 0 6 64 1 0 0
+			CPC=0
+#NT=20003 0
+	PC=4
+	name=1 v=5000 transparentWeightedAvg
+	posx=1 v=2003 -40.75
+	posy=1 v=2003 522.25
+	rendercontext=1 v=5012 7
+	group=63
+	ISC=7
+		SVT=5001 5014 1 0 0 
+		SVT=5001 5005 2 0 0 
+		SVT=5001 5007 3 0 0 
+		SVT=5001 5008 4 0 0 
+		SVT=5001 5009 5 0 0 
+		SVT=5001 5011 7 0 0 
+		SVT=5001 5011 8 0 0 
+	OSC=1
+		SVT=5001 5004 6 
+		CC=1
+			C=67 0 6 64 2 0 0
+			CPC=0
+#NT=20141 0
+	PC=2
+	posx=1 v=2003 -379.507
+	posy=1 v=2003 -381.402
+	group=63
+	ISC=2
+		SVT=5001 3003 1 0 0 
+		SVT=5001 2003 3 0 0 
+	OSC=1
+		SVT=5001 5009 2 
+		CC=1
+			C=68 0 2 65 4 5 0
+			CPC=0
+#NT=20141 0
+	PC=2
+	posx=1 v=2003 -382.255
+	posy=1 v=2003 197.321
+	group=63
+	ISC=2
+		SVT=5001 3003 1 0 0 
+		SVT=5001 2003 3 0 0 
+	OSC=1
+		SVT=5001 5009 2 
+		CC=1
+			C=69 0 2 66 4 5 0
+			CPC=0
+#NT=20141 0
+	PC=2
+	posx=1 v=2003 -369.841
+	posy=1 v=2003 547.738
+	group=63
+	ISC=2
+		SVT=5001 3003 1 0 0 
+		SVT=5001 2003 3 0 0 
+	OSC=1
+		SVT=5001 5009 2 
+		CC=1
+			C=70 0 2 67 4 5 0
+			CPC=0
+#NT=20028 0
+	PC=15
+	name=1 v=5000 TransDepthTexture
+	posx=1 v=2003 -1480.96
+	posy=1 v=2003 43.6076
+	collapsed=1 v=2001 1
+	fullpathinshader=2 e=4 v=2001 0
+	exposetoui=2 e=3 v=2001 0
+	autoPreviewTexture=2 e=4 v=2001 1
+	defineinheader=2 e=1 v=2001 0
+	texturenodename=2 e=5 v=5000 
+	semantic=2 e=0 v=5000 transpdepthtexture
+	mipmaplevels=2 e=5 v=2002 -1
+	typeofmap=2 e=0 v=5012 5
+	uveditororder=2 e=12 v=2002 -1
+	uiorder=2 e=13 v=2002 0
+	uigroup=2 e=13 v=5000 
+	group=63
+	ISC=3
+		SVT=2002 2002 1 0 0 
+		SVT=2002 2002 3 0 0 
+		SVT=2002 2002 4 0 0 
+	OSC=1
+		SVT=5001 5011 2 
+		CC=2
+			C=71 0 2 72 0 3 0
+			CPC=0
+			C=71 0 2 80 0 1 0
+			CPC=0
+#NT=20092 0
+	PC=9
+	name=1 v=5000 DepthSampler
+	posx=1 v=2003 -1200.18
+	posy=1 v=2003 46.0648
+	collapsed=1 v=2001 1
+	filter=2 e=6 v=5012 1
+	addressu=2 e=7 v=5012 3
+	addressv=2 e=8 v=5012 3
+	addressw=2 e=9 v=5012 0
+	bordercolor=2 e=10 v=3003 1.0,1.0,1.0,1.0
+	group=63
+	ISC=2
+		SVT=5001 5011 3 0 0 
+		SVT=2002 2002 2 0 0 
+	OSC=1
+		SVT=5001 5013 1 
+		CC=1
+			C=72 0 1 80 1 2 0
+			CPC=0
+#NT=20028 0
+	PC=15
+	name=1 v=5000 OpaqueDepthTexture
+	posx=1 v=2003 -1475.6
+	posy=1 v=2003 177.067
+	collapsed=1 v=2001 1
+	fullpathinshader=2 e=4 v=2001 0
+	exposetoui=2 e=3 v=2001 0
+	autoPreviewTexture=2 e=4 v=2001 1
+	defineinheader=2 e=1 v=2001 0
+	texturenodename=2 e=5 v=5000 
+	semantic=2 e=0 v=5000 opaquedepthtexture
+	mipmaplevels=2 e=5 v=2002 -1
+	typeofmap=2 e=0 v=5012 6
+	uveditororder=2 e=12 v=2002 -1
+	uiorder=2 e=13 v=2002 0
+	uigroup=2 e=13 v=5000 
+	group=63
+	ISC=3
+		SVT=2002 2002 1 0 0 
+		SVT=2002 2002 3 0 0 
+		SVT=2002 2002 4 0 0 
+	OSC=1
+		SVT=5001 5011 2 
+		CC=2
+			C=73 0 2 74 0 3 0
+			CPC=0
+			C=73 0 2 80 0 1 1
+			CPC=0
+#NT=20092 0
+	PC=9
+	name=1 v=5000 DepthSampler
+	posx=1 v=2003 -1206.16
+	posy=1 v=2003 255.082
+	collapsed=1 v=2001 1
+	filter=2 e=6 v=5012 1
+	addressu=2 e=7 v=5012 3
+	addressv=2 e=8 v=5012 3
+	addressw=2 e=9 v=5012 0
+	bordercolor=2 e=10 v=3003 1.0,1.0,1.0,1.0
+	group=63
+	ISC=2
+		SVT=5001 5011 3 0 0 
+		SVT=2002 2002 2 0 0 
+	OSC=1
+		SVT=5001 5013 1 
+		CC=1
+			C=74 0 1 80 1 2 1
+			CPC=0
+#NT=10100 1 Vertex World Position-Hw Shader Nodes-Inputs Common
+	PC=12
+	name=1 v=5000 _VertexWorldPos
+	version=1 v=2003 1.61
+	posx=1 v=2003 -1408.7
+	posy=1 v=2003 336.487
+	collapsed=1 v=2001 1
+	classname=1 v=5000 Vertex World Position
+	submenuname=1 v=5000 Inputs Common
+	bitmapnodeindex=1 v=2002 66
+	helpid=1 v=2002 27
+	grpnodecolor=1 v=5012 5
+	grpPosX=1 v=2003 -1050.37
+	grpPosY=1 v=2003 -104.478
+	group=63
+	ISC=0
+	OSC=3
+		SVT=5001 3003 0 _VertexWorldPosition
+		CC=0
+		SVT=5001 3002 0 
+		CC=1
+			C=75 1 0 80 2 99 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20065 0
+	PC=3
+	posx=1 v=2003 -1189.1
+	posy=1 v=2003 393.498
+	collapsed=1 v=2001 1
+	group=63
+	ISC=0
+	OSC=1
+		SVT=5001 4900 1 
+		CC=1
+			C=76 0 1 80 3 100 0
+			CPC=0
+#NT=20077 0
+	PC=3
+	posx=1 v=2003 -1184.2
+	posy=1 v=2003 477.099
+	collapsed=1 v=2001 1
+	group=63
+	ISC=0
+	OSC=1
+		SVT=5001 4900 1 
+		CC=1
+			C=77 0 1 80 4 101 0
+			CPC=0
+#NT=20118 0
+	PC=4
+	note=1 v=5000 Is here to prevent Grp Start from changing socket to float4
+	posx=1 v=2003 -1230.25
+	posy=1 v=2003 -231.939
+	collapsed=1 v=2001 0
+	group=63
+	ISC=1
+		SVT=5001 5009 1 0 0 
+	OSC=1
+		SVT=5001 5009 2 
+		CC=3
+			C=78 0 2 68 0 1 0
+			CPC=0
+			C=78 0 2 69 0 1 0
+			CPC=0
+			C=78 0 2 70 0 1 0
+			CPC=0
+#NT=20105 0
+	PC=4
+	note=1 v=5000 Hack - Read .w from target0
+	posx=1 v=2003 -886.438
+	posy=1 v=2003 533.857
+	value=1 v=5000 (_ATTR_OUT_PREFIX_Color0.w > 0.001f ? float4(1.0f, 1.0f, 1.0f, 1.0f) : float4(0.0f, 0.0f, 0.0f, 0.0f))
+	group=63
+	ISC=0
+	OSC=2
+		SVT=5001 5000 2 
+		CC=0
+		SVT=5001 3003 3 
+		CC=2
+			C=79 1 3 70 0 1 1
+			CPC=0
+			C=79 1 3 81 1 2 0
+			CPC=0
+#NT=20161 0
+	PC=5
+	name=1 v=5000 DepthPeel
+	posx=1 v=2003 -914.806
+	posy=1 v=2003 200.658
+	funcname=1 v=5000 DepthPeel
+	text=1 v=5000 float4 sampleTransDepthTex(float2 UV)\n{\n\tfloat4 col = float4(0,0,0,0);\n\n\t#if defined(SFX_CGFX_3) || defined(SFX_HLSL_3)\n\t\tcol = tex2D( SFX_SAMPLER0, UV );\n\t#endif\n\t#ifdef SFX_HLSL_5\n\t\t#if defined(SFX_SWATCH) || defined(_3DSMAX_)\n\t\t\tcol = SFX_TEXTURE0.Sample( SFX_SAMPLER0, UV );\n\t\t#else\n\t\t\tcol = SFX_TEXTURE0.Sample( SFX_SAMPLER0, UV );\n\t\t#endif\n\t#endif\n\t#ifdef SFX_GLSL_4\n\t\tcol = texture( SFX_TEXTURE0, UV );\n\t#endif\n\t#ifdef SFX_OGSFX\n\t\tcol = texture( SFX_SAMPLER0, UV );\n\t#endif\n\t#ifdef SFX_GLSL_1_2\n\t\tcol = texture2D( SFX_TEXTURE0, UV );\n\t#endif\n\n\treturn col;\n}\n\nfloat4 sampleOpaqueDepthTex(float2 UV)\n{\n\tfloat4 col = float4(0,0,0,0);\n\n\t#if defined(SFX_CGFX_3) || defined(SFX_HLSL_3)\n\t\tcol = tex2D( SFX_SAMPLER1, UV );\n\t#endif\n\t#ifdef SFX_HLSL_5\n\t\t#if defined(SFX_SWATCH) || defined(_3DSMAX_)\n\t\t\tcol = SFX_TEXTURE1.Sample( SFX_SAMPLER1, UV );\n\t\t#else\n\t\t\tcol = SFX_TEXTURE1.Sample( SFX_SAMPLER1, UV );\n\t\t#endif\n\t#endif\n\t#ifdef SFX_GLSL_4\n\t\tcol = texture( SFX_TEXTURE1, UV );\n\t#endif\n\t#ifdef SFX_OGSFX\n\t\tcol = texture( SFX_SAMPLER1, UV );\n\t#endif\n\t#ifdef SFX_GLSL_1_2\n\t\tcol = texture2D( SFX_TEXTURE1, UV );\n\t#endif\n\n\treturn col;\n}\n\nstruct DepthPeelOutput \n{ \n\tfloat4 LinearDepth; \n\tfloat Peel;\n}; \n\nDepthPeelOutput DepthPeelFunc( float3 worldPos, float4x4 view, float4x4 viewPrj ) \n{ \n\tDepthPeelOutput OUT; \n\n\t#ifdef SFX_CGFX_3\n\t\tfloat currZ = abs( mul( view, float4(worldPos, 1.0f) ).z );\n\t\tfloat4 Pndc  = mul( viewPrj, float4(worldPos, 1.0f) );\n\t\tfloat2 UV = Pndc.xy / Pndc.w * float2(0.5f, 0.5f) + 0.5f;\n\n\t\tfloat prevZ = sampleTransDepthTex(UV).r;\n\t\tfloat opaqZ = sampleOpaqueDepthTex(UV).r;\n\t\tfloat bias = 0.00002f;\n\t\tif (currZ < prevZ * (1.0f + bias) || currZ > opaqZ * (1.0f - bias))\n\t\t{\n\t\t\tdiscard;\n\t\t}\n\n\t\tfloat ld = abs( mul( view, float4(worldPos, 1.0f) ).z );\n\t\tOUT.LinearDepth = float4(ld, ld, ld, ld);\n\t#else\n\t#if defined(SFX_GLSL_1_2) || defined(SFX_GLSL_4) || defined(SFX_OGSFX)\n\t\tfloat currZ = abs( ( view * float4(worldPos, 1.0f) ).z );\n\t\tfloat4 Pndc  = viewPrj * float4(worldPos, 1.0f);\n\t\tfloat2 UV = Pndc.xy / Pndc.w * float2(0.5f, 0.5f) + 0.5f;\n\n\t\tfloat prevZ = sampleTransDepthTex(UV).r;\n\t\tfloat opaqZ = sampleOpaqueDepthTex(UV).r;\n\t\tfloat bias = 0.00002f;\n\t\tif (currZ < prevZ * (1.0f + bias) || currZ > opaqZ * (1.0f - bias))\n\t\t{\n\t\t\tdiscard;\n\t\t}\n\n\t\tfloat ld = abs( ( view * float4(worldPos, 1.0f) ).z );\n\t\tOUT.LinearDepth = float4(ld, ld, ld, ld);\n\t#else\n\t\tfloat currZ = abs( mul( float4(worldPos, 1.0f), view ).z );\n\t\tfloat4 Pndc  = mul( float4(worldPos, 1.0f), viewPrj );\n\t\tfloat2 UV = Pndc.xy / Pndc.w * float2(0.5f, -0.5f) + 0.5f;\n\n\t\tfloat prevZ = sampleTransDepthTex(UV).r;\n\t\tfloat opaqZ = sampleOpaqueDepthTex(UV).r;\n\t\tfloat bias = 0.00002f;\n\t\tif (currZ < prevZ * (1.0f + bias) || currZ > opaqZ * (1.0f - bias))\n\t\t{\n\t\t\tdiscard;\n\t\t}\n\n\t\tfloat ld = abs( mul( float4(worldPos, 1.0f), view ).z );\n\t\tOUT.LinearDepth = float4(ld, ld, ld, ld);\n#endif\n\t#endif\n\n\tOUT.Peel = 1.0f;\n\n\treturn OUT; \n} \n
+	group=63
+	ISC=5
+		SVT=5001 5011 1 0 0 
+		SVT=5001 5013 2 0 0 
+		SVT=5001 3002 99 0 0 worldPos
+		SVT=5001 4900 100 0 0 view
+		SVT=5001 4900 101 0 0 viewPrj
+	OSC=2
+		SVT=5001 3003 999 LinearDepth
+		CC=1
+			C=80 0 999 68 0 1 1
+			CPC=0
+		SVT=5001 2003 1000 Peel
+		CC=1
+			C=80 1 1000 81 0 1 0
+			CPC=0
+#NT=20016 0
+	PC=3
+	note=1 v=5000 Hack - make transPeelAvg pass do Peel function to discard
+	posx=1 v=2003 -622.047
+	posy=1 v=2003 437.008
+	group=63
+	ISC=2
+		SVT=5001 2003 1 0 0 
+		SVT=5001 3003 2 0 0 
+	OSC=1
+		SVT=5001 3003 3 
+		CC=1
+			C=81 0 3 69 0 1 1
+			CPC=0

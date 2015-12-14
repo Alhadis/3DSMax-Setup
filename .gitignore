@@ -25,3 +25,11 @@ $RECYCLE.BIN/
 error_log
 node_modules
 components
+
+
+## Project-specific
+3DSMAX*_USRegInfo.html
+20*_en-US_adlm.log
+InfoCenter.*
+maxscrpt.dsk
+MXS_SciTE.recent

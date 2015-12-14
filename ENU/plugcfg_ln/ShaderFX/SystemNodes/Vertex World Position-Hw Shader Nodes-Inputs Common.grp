@@ -1,0 +1,179 @@
+SFX_WIN
+Version=24
+GroupVersion=1.61
+Advanced=0
+HelpID=27
+NumberOfNodes=11
+#NT=10100 0
+	PC=11
+	name=1 v=5000 _VertexWorldPos
+	version=1 v=2003 1.61
+	posx=1 v=2003 29.6827
+	posy=1 v=2003 14.3197
+	classname=1 v=5000 Vertex World Position
+	submenuname=1 v=5000 Inputs Common
+	bitmapnodeindex=1 v=2002 66
+	helpid=1 v=2002 27
+	grpnodecolor=1 v=5012 5
+	grpPosX=1 v=2003 -1050.37
+	grpPosY=1 v=2003 -104.478
+	group=-1
+	ISC=0
+	OSC=0
+#NT=20012 0
+	PC=3
+	posx=1 v=2003 -831.226
+	posy=1 v=2003 -124.99
+	collapsed=1 v=2001 1
+	group=0
+	ISC=0
+	OSC=2
+		SVT=5001 3003 1 
+		CC=1
+			C=1 0 1 4 1 2 0
+			CPC=0
+		SVT=5001 3002 2 
+		CC=0
+#NT=20016 0
+	PC=4
+	name=1 v=5000 WorldPos
+	posx=1 v=2003 -56.7603
+	posy=1 v=2003 -154.62
+	flipglsl=1 v=2001 1
+	group=0
+	ISC=2
+		SVT=5001 3003 1 
+		SVT=5001 4900 2 
+	OSC=1
+		SVT=5001 3003 3 
+		CC=1
+			C=2 0 3 5 1 2 0
+			CPC=0
+#NT=20061 0
+	PC=3
+	posx=1 v=2003 -252.264
+	posy=1 v=2003 -75.18
+	collapsed=1 v=2001 1
+	group=0
+	ISC=0
+	OSC=2
+		SVT=5001 4900 1 
+		CC=1
+			C=3 0 1 2 1 2 0
+			CPC=0
+		SVT=5001 4600 2 
+		CC=0
+#NT=20015 0
+	PC=6
+	note=1 v=5000 Input object space vertices and store in Data struct
+	posx=1 v=2003 -625.897
+	posy=1 v=2003 -188.61
+	texcoordname=1 v=5000 Position
+	semantic=1 v=5000 SV_Position
+	semantictype=1 v=5012 2
+	group=0
+	ISC=2
+		SVT=5001 5000 1 
+		SVT=5001 3003 2 
+	OSC=1
+		SVT=5001 3003 3 
+		CC=2
+			C=4 0 3 2 0 1 0
+			CPC=0
+			C=4 0 3 8 2 3 0
+			CPC=0
+#NT=20015 0
+	PC=5
+	note=1 v=5000 Store world space vertex pos in Data struct
+	posx=1 v=2003 141.778
+	posy=1 v=2003 -133.382
+	texcoordname=1 v=5000 WorldPosition
+	semantictype=1 v=5012 7
+	group=0
+	ISC=2
+		SVT=5001 5000 1 
+		SVT=5001 3003 2 
+	OSC=1
+		SVT=5001 3003 3 
+		CC=1
+			C=5 0 3 8 1 2 0
+			CPC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 920.347
+	posy=1 v=2003 -41.4488
+	group=0
+	ISC=3
+		SVT=5001 3003 0 _VertexWorldPosition
+		SVT=5001 3002 0 
+		SVT=5001 1002 0 
+	OSC=3
+		SVT=5001 3003 0 _VertexWorldPosition
+		CC=0
+		SVT=5001 3002 0 
+		CC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20114 0
+	PC=2
+	posx=1 v=2003 -381.356
+	posy=1 v=2003 -257.534
+	group=0
+	ISC=0
+	OSC=2
+		SVT=2001 2001 1 
+		CC=0
+		SVT=2001 2001 2 
+		CC=1
+			C=7 1 2 8 0 1 0
+			CPC=0
+#NT=20093 0
+	PC=4
+	name=1 v=5000 IftruethenAelseB
+	note=1 v=5000 Add WorldPosition texcoord if used in Pixel Shader
+	posx=1 v=2003 362.142
+	posy=1 v=2003 -78.209
+	group=0
+	ISC=3
+		SVT=2001 2001 1 
+		SVT=5001 3003 2 
+		SVT=5001 3003 3 
+	OSC=1
+		SVT=5001 3003 4 
+		CC=2
+			C=8 0 4 6 0 0 0
+			CPC=0
+			C=8 0 4 9 0 1 0
+			CPC=0
+#NT=20108 0
+	PC=4
+	note=1 v=5000 Added because usually you want to leave the .w component alone
+	posx=1 v=2003 602.292
+	posy=1 v=2003 49.3296
+	collapsed=1 v=2001 1
+	group=0
+	ISC=1
+		SVT=5001 3003 1 
+	OSC=6
+		SVT=5001 2003 2 
+		CC=0
+		SVT=5001 2003 3 
+		CC=0
+		SVT=5001 3001 4 
+		CC=0
+		SVT=5001 2003 5 
+		CC=0
+		SVT=5001 3002 6 
+		CC=1
+			C=9 4 6 6 1 0 0
+			CPC=0
+		SVT=5001 2003 7 
+		CC=0
+#NT=20175 0
+	PC=3
+	posx=1 v=2003 -93.75
+	posy=1 v=2003 -303.75
+	text=1 v=5000 color(P)
+	group=0
+	ISC=0
+	OSC=0

@@ -1,0 +1,425 @@
+SFX_WIN
+Version=26
+GroupVersion=1.08
+Advanced=0
+HelpID=77
+NumberOfNodes=22
+#NT=10100 0
+	PC=22
+	name=1 v=5000 WavyLines
+	version=1 v=2003 1.08
+	posx=1 v=2003 -641.316
+	posy=1 v=2003 71.9
+	previewswatch=1 v=2002 1
+	classname=1 v=5000 WavyLines
+	submenuname=1 v=5000 Patterns
+	helpid=1 v=2002 77
+	grpnodecolor=1 v=5012 3
+	grpPosX=1 v=2003 -922.881
+	grpPosY=1 v=2003 -100.622
+	uvindex_UVs=2 e=2 v=2002 0
+	uvsetname_UVs=2 e=3 v=5000 
+	perinstanceunshared_UVs=2 e=4 v=2001 0
+	valueX_Resolution=2 e=4 v=2003 1.0
+	valueY_Resolution=2 e=5 v=2003 1.0
+	value_Lines=2 e=6 v=2002 2
+	value_SubLines=2 e=7 v=2002 3
+	value_Brightness=2 e=8 v=2003 0.2
+	color_ColorA=2 e=9 v=3003 0.0,0.0,1.0,1.0
+	color_ColorB=2 e=10 v=3003 0.0,1.0,0.0,1.0
+	color_ColorC=2 e=11 v=3003 1.0,0.0,0.0,1.0
+	group=-1
+	ISC=10
+		SVT=5001 3001 0 0 0 _UV
+		SVT=5001 3001 0 0 0 Resolution
+		SVT=5001 2003 0 0 0 _Time
+		SVT=5001 2002 0 0 0 Lines
+		SVT=5001 2002 0 0 0 SubLines
+		SVT=5001 2003 0 0 0 Brightness
+		SVT=5001 3002 0 0 0 ColorA
+		SVT=5001 3002 0 0 0 ColorB
+		SVT=5001 3002 0 0 0 ColorC
+		SVT=1001 1002 0 0 0 
+	OSC=10
+		SVT=5001 3001 0 _UV
+		CC=1
+			C=0 0 0 12 1 2 0
+			CPC=0
+		SVT=5001 3001 0 Resolution
+		CC=1
+			C=0 1 0 13 1 2 0
+			CPC=0
+		SVT=5001 2003 0 _Time
+		CC=1
+			C=0 2 0 14 1 2 0
+			CPC=0
+		SVT=5001 2002 0 Lines
+		CC=1
+			C=0 3 0 15 1 2 0
+			CPC=0
+		SVT=5001 2002 0 SubLines
+		CC=1
+			C=0 4 0 16 1 2 0
+			CPC=0
+		SVT=5001 2003 0 Brightness
+		CC=1
+			C=0 5 0 17 1 2 0
+			CPC=0
+		SVT=5001 3002 0 ColorA
+		CC=1
+			C=0 6 0 18 1 2 0
+			CPC=0
+		SVT=5001 3002 0 ColorB
+		CC=1
+			C=0 7 0 19 1 2 0
+			CPC=0
+		SVT=5001 3002 0 ColorC
+		CC=1
+			C=0 8 0 20 1 2 0
+			CPC=0
+		SVT=1001 1002 0 
+		CC=0
+#NT=10101 0
+	PC=2
+	posx=1 v=2003 475.594
+	posy=1 v=2003 19.8796
+	group=0
+	ISC=2
+		SVT=5001 3002 0 0 0 _DiffuseColor
+		SVT=1001 1002 0 0 0 
+	OSC=2
+		SVT=5001 3002 0 _DiffuseColor
+		CC=0
+		SVT=1001 1002 0 
+		CC=0
+#NT=10100 1 UV Set-Hw Shader Nodes-Inputs Common
+	PC=15
+	name=1 v=5000 _UVSet
+	version=1 v=2003 1.69
+	posx=1 v=2003 -504.54
+	posy=1 v=2003 -512.679
+	collapsed=1 v=2001 1
+	classname=1 v=5000 UV Set
+	submenuname=1 v=5000 Inputs Common
+	bitmapnodeindex=1 v=2002 65
+	helpid=1 v=2002 23
+	grpnodecolor=1 v=5012 5
+	grpPosX=1 v=2003 -450.0
+	grpPosY=1 v=2003 -221.667
+	uvindex_UVs=2 e=2 v=2002 0
+	uvsetname_UVs=2 e=3 v=5000 
+	perinstanceunshared_UVs=2 e=4 v=2001 0
+	group=0
+	ISC=4
+		SVT=2002 2002 0 0 0 
+		SVT=5000 5000 0 0 0 
+		SVT=2001 2001 0 0 0 
+		SVT=1001 1002 0 0 0 
+	OSC=3
+		SVT=5001 3003 0 _UVWZ
+		CC=0
+		SVT=5001 3001 0 _UV
+		CC=1
+			C=2 1 0 12 0 1 0
+			CPC=0
+		SVT=5001 1002 0 
+		CC=0
+#NT=20139 0
+	PC=6
+	name=1 v=5000 Resolution
+	posx=1 v=2003 -510.344
+	posy=1 v=2003 -396.955
+	collapsed=1 v=2001 1
+	valueX=2 e=4 v=2003 1.0
+	valueY=2 e=5 v=2003 1.0
+	group=0
+	ISC=0
+	OSC=1
+		SVT=5001 3001 1 
+		CC=1
+			C=3 0 1 13 0 1 0
+			CPC=0
+#NT=20086 0
+	PC=3
+	posx=1 v=2003 -509.331
+	posy=1 v=2003 -296.156
+	collapsed=1 v=2001 1
+	group=0
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=4 0 1 14 0 1 0
+			CPC=0
+#NT=20096 0
+	PC=5
+	name=1 v=5000 Lines
+	posx=1 v=2003 -505.267
+	posy=1 v=2003 -178.023
+	collapsed=1 v=2001 1
+	value=2 e=6 v=2002 2
+	group=0
+	ISC=0
+	OSC=1
+		SVT=5001 2002 1 
+		CC=1
+			C=5 0 1 15 0 1 0
+			CPC=0
+#NT=20161 0
+	PC=4
+	posx=1 v=2003 148.195
+	posy=1 v=2003 -149.134
+	funcname=1 v=5000 CustomCode1178
+	text=1 v=5000 // Original from GLSL Sandbox.\n\n#if ( defined(SFX_HLSL_5) || defined(SFX_HLSL_3) || defined(SFX_CGFX_3) )\n   #define mix lerp\n#endif\n\nstruct CustomCode1178Output \n{ \n\tfloat3 color; \n}; \n\nCustomCode1178Output CustomCode1178Func( float2 UV, float2 resolution, float time, int lines, int sublines, float brightness, float3 colorA, float3 colorB, float3 colorC ) \n{ \n    float x, y, xpos, ypos;\n    float t = time*30.0;\n    float3 c = float3(0,0,0);\n\n    #if defined(_3DSMAX_) && !defined(SFX_SWATCH)\n          resolution.y *= -1;\n   #endif\n\n    xpos = (UV.x / resolution.x/2.0);\n    ypos = (UV.y / (resolution.y/1.5));\n    \n    x = xpos;\n    for (float i = 0.0; i < lines; i += 1.0) {\n        for(float j = 0.0; j < sublines; j += 1.0){\n            y = ypos\n            + (0.30 * sin(x * 5.000 +( i * 1.5 + j) * 0.2 + t * 0.040)\n               + 0.300 * cos(x * 6.350 + (i  + j) * 0.2 + t * 0.050 * j)\n               + 0.024 * sin(x * 12.35 + ( i + j * 4.0 ) * 0.8 + t * 0.034 * (8.0 *  j))\n               + 0.5);\n            \n           float v = 1.0 - pow(clamp(abs(1.4 - y) * 5.0, 0.0,1.0), 0.25);\n            c += float3(v,v,v);\n        }\n    }\n    \n    c *= mix(\n             mix(colorC, colorA, ypos)\n             , mix(colorB, colorC, xpos)\n             ,(sin(t * 0.02) + 1.0) * 0.45\n             ) * brightness * clamp(t, 2.0, 2.5);\n    \n\tCustomCode1178Output OUT; \n\tOUT.color = c;\n\treturn OUT; \n} \n
+	group=0
+	ISC=11
+		SVT=5001 5011 1 0 0 
+		SVT=5001 5013 2 0 0 
+		SVT=5001 3001 99 0 0 UV
+		SVT=5001 3001 100 0 0 resolution
+		SVT=5001 2003 101 0 0 time
+		SVT=5001 2002 102 0 0 lines
+		SVT=5001 2002 103 0 0 sublines
+		SVT=5001 2003 104 0 0 brightness
+		SVT=5001 3002 105 0 0 colorA
+		SVT=5001 3002 106 0 0 colorB
+		SVT=5001 3002 107 0 0 colorC
+	OSC=1
+		SVT=5001 3002 999 color
+		CC=1
+			C=6 0 999 1 0 0 0
+			CPC=0
+#NT=20096 0
+	PC=5
+	name=1 v=5000 SubLines
+	posx=1 v=2003 -504.029
+	posy=1 v=2003 -78.1412
+	collapsed=1 v=2001 1
+	value=2 e=7 v=2002 3
+	group=0
+	ISC=0
+	OSC=1
+		SVT=5001 2002 1 
+		CC=1
+			C=7 0 1 16 0 1 0
+			CPC=0
+#NT=20017 0
+	PC=5
+	name=1 v=5000 Brightness
+	posx=1 v=2003 -510.853
+	posy=1 v=2003 27.9512
+	collapsed=1 v=2001 1
+	value=2 e=8 v=2003 0.2
+	group=0
+	ISC=0
+	OSC=1
+		SVT=5001 2003 1 
+		CC=1
+			C=8 0 1 17 0 1 0
+			CPC=0
+#NT=20011 0
+	PC=5
+	name=1 v=5000 ColorA
+	posx=1 v=2003 -508.271
+	posy=1 v=2003 138.883
+	collapsed=1 v=2001 1
+	color=2 e=9 v=3003 0.0,0.0,1.0,1.0
+	group=0
+	ISC=0
+	OSC=6
+		SVT=5001 3003 1 
+		CC=0
+		SVT=5001 3002 2 
+		CC=1
+			C=9 1 2 18 0 1 0
+			CPC=0
+		SVT=5001 2003 3 
+		CC=0
+		SVT=5001 2003 4 
+		CC=0
+		SVT=5001 2003 5 
+		CC=0
+		SVT=5001 2003 6 
+		CC=0
+#NT=20011 0
+	PC=5
+	name=1 v=5000 ColorB
+	posx=1 v=2003 -505.967
+	posy=1 v=2003 241.081
+	collapsed=1 v=2001 1
+	color=2 e=10 v=3003 0.0,1.0,0.0,1.0
+	group=0
+	ISC=0
+	OSC=6
+		SVT=5001 3003 1 
+		CC=0
+		SVT=5001 3002 2 
+		CC=1
+			C=10 1 2 19 0 1 0
+			CPC=0
+		SVT=5001 2003 3 
+		CC=0
+		SVT=5001 2003 4 
+		CC=0
+		SVT=5001 2003 5 
+		CC=0
+		SVT=5001 2003 6 
+		CC=0
+#NT=20011 0
+	PC=5
+	name=1 v=5000 ColorC
+	posx=1 v=2003 -510.552
+	posy=1 v=2003 330.406
+	collapsed=1 v=2001 1
+	color=2 e=11 v=3003 1.0,0.0,0.0,1.0
+	group=0
+	ISC=0
+	OSC=6
+		SVT=5001 3003 1 
+		CC=0
+		SVT=5001 3002 2 
+		CC=1
+			C=11 1 2 20 0 1 0
+			CPC=0
+		SVT=5001 2003 3 
+		CC=0
+		SVT=5001 2003 4 
+		CC=0
+		SVT=5001 2003 5 
+		CC=0
+		SVT=5001 2003 6 
+		CC=0
+#NT=20109 0
+	PC=3
+	posx=1 v=2003 -274.555
+	posy=1 v=2003 -496.251
+	collapsed=1 v=2001 1
+	group=0
+	ISC=2
+		SVT=5001 3001 1 0 0 
+		SVT=5001 3001 2 0 0 
+	OSC=1
+		SVT=5001 3001 3 
+		CC=1
+			C=12 0 3 6 2 99 0
+			CPC=0
+#NT=20109 0
+	PC=3
+	posx=1 v=2003 -272.358
+	posy=1 v=2003 -391.599
+	collapsed=1 v=2001 1
+	group=0
+	ISC=2
+		SVT=5001 3001 1 0 0 
+		SVT=5001 3001 2 0 0 
+	OSC=1
+		SVT=5001 3001 3 
+		CC=1
+			C=13 0 3 6 3 100 0
+			CPC=0
+#NT=20109 0
+	PC=3
+	posx=1 v=2003 -268.293
+	posy=1 v=2003 -280.488
+	collapsed=1 v=2001 1
+	group=0
+	ISC=2
+		SVT=5001 2003 1 0 0 
+		SVT=5001 2003 2 0 0 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=14 0 3 6 4 101 0
+			CPC=0
+#NT=20109 0
+	PC=3
+	posx=1 v=2003 -264.228
+	posy=1 v=2003 -173.442
+	collapsed=1 v=2001 1
+	group=0
+	ISC=2
+		SVT=5001 2002 1 0 0 
+		SVT=5001 2002 2 0 0 
+	OSC=1
+		SVT=5001 2002 3 
+		CC=1
+			C=15 0 3 6 5 102 0
+			CPC=0
+#NT=20109 0
+	PC=3
+	posx=1 v=2003 -258.808
+	posy=1 v=2003 -69.1057
+	collapsed=1 v=2001 1
+	group=0
+	ISC=2
+		SVT=5001 2002 1 0 0 
+		SVT=5001 2002 2 0 0 
+	OSC=1
+		SVT=5001 2002 3 
+		CC=1
+			C=16 0 3 6 6 103 0
+			CPC=0
+#NT=20109 0
+	PC=3
+	posx=1 v=2003 -264.228
+	posy=1 v=2003 36.5854
+	collapsed=1 v=2001 1
+	group=0
+	ISC=2
+		SVT=5001 2003 1 0 0 
+		SVT=5001 2003 2 0 0 
+	OSC=1
+		SVT=5001 2003 3 
+		CC=1
+			C=17 0 3 6 7 104 0
+			CPC=0
+#NT=20109 0
+	PC=3
+	posx=1 v=2003 -264.228
+	posy=1 v=2003 136.856
+	collapsed=1 v=2001 1
+	group=0
+	ISC=2
+		SVT=5001 3002 1 0 0 
+		SVT=5001 3002 2 0 0 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=18 0 3 6 8 105 0
+			CPC=0
+#NT=20109 0
+	PC=3
+	posx=1 v=2003 -265.583
+	posy=1 v=2003 237.127
+	collapsed=1 v=2001 1
+	group=0
+	ISC=2
+		SVT=5001 3002 1 0 0 
+		SVT=5001 3002 2 0 0 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=19 0 3 6 9 106 0
+			CPC=0
+#NT=20109 0
+	PC=3
+	posx=1 v=2003 -269.648
+	posy=1 v=2003 337.398
+	collapsed=1 v=2001 1
+	group=0
+	ISC=2
+		SVT=5001 3002 1 0 0 
+		SVT=5001 3002 2 0 0 
+	OSC=1
+		SVT=5001 3002 3 
+		CC=1
+			C=20 0 3 6 10 107 0
+			CPC=0
+#NT=20175 0
+	PC=3
+	posx=1 v=2003 -700.0
+	posy=1 v=2003 167.5
+	text=1 v=5000 color WavyLines( color UV, color resolution, int lines, int sublines, float brightness, color colorA, color colorB, color colorC )\n{\n\tfloat time = 0;\n    float x, y, xpos, ypos;\n    float t = time*30.0;\n    color c = color(0,0,0);\n    \n    xpos = (UV[0] / resolution[0]/2.0);\n    ypos = (UV[1] / (resolution[1]/1.5));\n    \n    x = xpos;\n    for (float i = 0.0; i < lines; i += 1.0) {\n        for(float j = 0.0; j < sublines; j += 1.0){\n            y = ypos\n            + (0.30 * sin(x * 5.000 +( i * 1.5 + j) * 0.2 + t * 0.040)\n               + 0.300 * cos(x * 6.350 + (i  + j) * 0.2 + t * 0.050 * j)\n               + 0.024 * sin(x * 12.35 + ( i + j * 4.0 ) * 0.8 + t * 0.034 * (8.0 *  j))\n               + 0.5);\n            \n           float v = 1.0 - pow(clamp(abs(1.4 - y) * 5.0, 0.0,1.0), 0.25);\n            c += color(v,v,v);\n        }\n    }\n    \n    c *= mix(\n             mix(colorC, colorA, ypos)\n             , mix(colorB, colorC, xpos)\n             ,(sin(t * 0.02) + 1.0) * 0.45\n             ) * brightness * clamp(t, 2.0, 2.5);\n\n    return Gamma(c);\n}\n\nWavyLines([[ INPUT = UV ? color(u,-v+1,0) ]], [[ INPUT = Resolution ? color([[PROP=valueX_Resolution]], [[PROP=valueY_Resolution]],0) ]], [[ INPUT = Lines ? [[PROP=value_Lines]] ]], [[ INPUT = SubLines ? [[PROP=value_SubLines]] ]], [[ INPUT = Brightness ? [[PROP=value_Brightness]] ]], [[ INPUT = ColorA ? color([[PROP=color_ColorA]]) ]], [[ INPUT = ColorB ? color([[PROP=color_ColorB]]) ]], [[ INPUT = ColorC ?color( [[PROP=color_ColorC]]) ]])
+	group=0
+	ISC=0
+	OSC=0
